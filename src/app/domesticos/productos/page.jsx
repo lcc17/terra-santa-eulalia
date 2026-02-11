@@ -1,8 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
 import { useApp } from "@/lib/context";
-import ProductCard from "../ProductCard";
-import FAQSlider from "../FAQSlider";
+// Importaciones absolutas para evitar errores de ruta
+import ProductCard from "@/components/domesticos/ProductCard";
+import FAQSlider from "@/components/domesticos/FAQSlider";
 
 export default function ProductsPage() {
   // 1. EL HOOK DEBE IR AQUÍ ADENTRO, SIEMPRE.
@@ -20,7 +21,7 @@ export default function ProductsPage() {
           animate={{ opacity: 1, y: 0 }}
           className="text-5xl md:text-6xl font-serif text-earth-brown mb-6"
         >
-          {t.domestic.productsTitle} {/* "Nuestra Selección" */}
+          {t.domestic.productsTitle}
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}

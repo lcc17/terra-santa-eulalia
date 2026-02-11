@@ -8,7 +8,7 @@ const ReactPlayer = dynamic(() => import("react-player"), {
   loading: () => (
     <div className="w-full h-full bg-sand-light/20 animate-pulse" />
   ), // Skeleton mientras carga
-});
+}); 
 
 export default function VideoEmbed({ url, title }) {
   return (

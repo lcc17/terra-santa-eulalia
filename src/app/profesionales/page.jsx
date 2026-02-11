@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import Button from "@/components/ui/Button";
 
 export default function ProfessionalDashboard() {
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [password, setPassword] = useState("");
   const router = useRouter();
 
