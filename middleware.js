@@ -8,21 +8,11 @@ const SECRET = new TextEncoder().encode(
 export async function middleware(req) {
   const { pathname } = req.nextUrl;
 
-  // i18n: Detect locale and redirect if needed
-  const localePrefixes = ["/ca", "/es", "/en"];
   const isApiOrNextRoute = pathname.startsWith("/api") || pathname.startsWith("/_next");
-  const hasLocalePrefix = localePrefixes.some((prefix) => pathname.startsWith(prefix));
 
-  // Redirect root and paths without locale prefix to /ca
-  if (!hasLocalePrefix && !isApiOrNextRoute && pathname !== "/favicon.ico") {
-    const url = req.nextUrl.clone();
-    url.pathname = `/ca${pathname === "/" ? "" : pathname}`;
-    const response = NextResponse.redirect(url);
-    // Netlify Edge Functions: set locale header for downstream reads
-    response.headers.set("x-next-locale", "ca");
-    response.headers.set("x-locale-detected", "true");
-    return response;
-  }
+  // Default locale (Catalan) at root: pass through without redirect
+  // Catalan content is served from src/app/page.jsx at the root path
+  // Only /es/* and /en/* have locale prefixes - they pass through as-is
 
   // Protect /profesionales routes
   if (pathname.startsWith("/profesionales")) {

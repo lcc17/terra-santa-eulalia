@@ -17,7 +17,7 @@ export default function Home() {
   const { scrollY } = useScroll();
 
   // Obtener productos para "Best Sellers"
-  const bestSellers = translations[lang]?.productsList?.slice(0, 3) || [];
+  const bestSellers = t?.productsList?.slice(0, 3) || [];
 
   // Función para manejar el clic en WhatsApp
   const handleWhatsAppClick = () => {
