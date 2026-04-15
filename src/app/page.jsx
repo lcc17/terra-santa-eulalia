@@ -10,23 +10,18 @@ import { ArrowRight, Star, MessageCircle, ArrowUpRight } from "lucide-react";
 
 // Assets
 const WHOWEARE_IMG = "/images/who-we-are.png";
-const HERO_VIDEO = "/videos/hero-video.MP4";
+const HERO_VIDEO = "/videos/hero-video.mp4";
 
 export default function Home() {
   const { t, lang } = useApp();
   const { scrollY } = useScroll();
 
   // Obtener productos para "Best Sellers"
-  const bestSellers =
-    (lang === "es"
-      ? translations.es.productsList
-      : translations.en.productsList
-    )?.slice(0, 3) || [];
+  const bestSellers = translations[lang]?.productsList?.slice(0, 3) || [];
 
   // Función para manejar el clic en WhatsApp
   const handleWhatsAppClick = () => {
-    console.log("WhatsApp Click Tracked");
-    const phoneNumber = "34600000000";
+    const phoneNumber = "34602468686";
     const message = "Hola, me gustaría información sobre Terra Santa Eulalia.";
     window.open(
       `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,
@@ -35,7 +30,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col w-full overflow-x-hidden bg-cream">
+    <div className="flex flex-col w-full overflow-x-hidden bg-cream pt-24">
       {/* --- 1. HERO SECTION (ATMOSFÉRICO / SIN TEXTO) --- */}
       <section className="relative h-[85vh] w-full overflow-hidden flex flex-col justify-end pb-12 md:pb-20">
         {/* VIDEO DE FONDO */}
@@ -93,7 +88,7 @@ export default function Home() {
                   />
                 </div>
                 <p className="text-sand-light/60 text-[10px] uppercase tracking-widest font-bold group-hover:text-sand-light transition-colors">
-                  La Botica Natural
+                  {t?.domestic?.productsTitle || "La Botica Natural"}
                 </p>
                 {/* Decoración Hover */}
                 <div className="absolute bottom-0 left-0 h-1 w-0 bg-sand-light group-hover:w-full transition-all duration-700 ease-out"></div>
@@ -150,17 +145,17 @@ export default function Home() {
         <div className="flex items-end justify-between mb-12 px-2 border-b border-earth-brown/10 pb-4">
           <div>
             <span className="text-olive-green text-xs uppercase tracking-widest font-bold block mb-2">
-              La Botica
+              {t?.domestic?.title || "La Botica"}
             </span>
             <h2 className="text-earth-brown text-3xl font-serif">
-              Favoritos de la Botica
+              {t?.domestic?.productsTitle || "Favoritos de la Botica"}
             </h2>
           </div>
           <Link
             href="/domesticos/productos"
             className="text-earth-brown/70 text-xs uppercase tracking-wider hover:text-olive-green flex items-center gap-1 transition-colors"
           >
-            Ver colección <ArrowRight size={14} />
+            {t?.domestic?.viewMore || "Ver colección"} <ArrowRight size={14} />
           </Link>
         </div>
 

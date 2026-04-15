@@ -5,7 +5,7 @@ import { MapPin, Phone, Clock, Send, MessageCircle } from "lucide-react";
 export default function ContactPage() {
   // Función para redirigir a WhatsApp
   const handleWhatsApp = () => {
-    const phone = "34600000000"; // Tu número real
+    const phone = "34602468686"; // Terra Santa Eulalia
     const text =
       "Hola, me gustaría reservar una cita o solicitar información sobre productos Terra.";
     window.open(

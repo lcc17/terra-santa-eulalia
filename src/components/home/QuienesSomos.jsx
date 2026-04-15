@@ -8,10 +8,10 @@ import { ArrowRight } from "lucide-react";
 // Assets (Asegúrate de tener estas imágenes o cámbialas por las tuyas)
 // FOTO 1: Retrato de la fundadora o alguien trabajando con plantas (Vertical)
 const FOUNDER_IMG =
-  "https://images.unsplash.com/photo-1599695669260-16167c13a30c?auto=format&fit=crop&w=800&q=80";
+  "/images/laia-salomon.png";
 // FOTO 2: Detalle de textura (Barro, manos, planta) (Cuadrada/Pequeña)
 const TEXTURE_IMG =
-  "https://images.unsplash.com/photo-1616353957088-251f28b4c277?auto=format&fit=crop&w=500&q=80";
+  "https://cdn.pixabay.com/photo/2018/03/27/19/42/people-3267084_1280.jpg";
 
 export default function QuienesSomos() {
   const { t } = useApp();

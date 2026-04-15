@@ -118,6 +118,9 @@ export default function Navbar() {
             <Link href="/domesticos/tratamientos" className="hover:text-olive-green transition-colors">
               {t.nav.treatments}
             </Link>
+            <Link href="/rituales" className="hover:text-olive-green transition-colors">
+              {t.nav.rituales}
+            </Link>
             <Link href="/profesionales" className="hover:text-olive-green transition-colors relative group">
               {t.nav.proAccess}
               <span className="absolute -top-1 -right-2 w-1.5 h-1.5 bg-olive-green rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
@@ -151,13 +154,13 @@ export default function Navbar() {
           >
              {/* ... (MISMO CONTENIDO DEL MEGA MENU ANTERIOR) ... */}
              <div className="max-w-screen-2xl mx-auto px-6 py-12 grid grid-cols-12 gap-10">
-              <div className="col-span-3 border-r border-sand-light/30 pr-8">
-                <h3 className="font-serif text-2xl text-earth-brown mb-4 italic">La Botica</h3>
+               <div className="col-span-3 border-r border-sand-light/30 pr-8">
+                <h3 className="font-serif text-2xl text-earth-brown mb-4 italic">{t.domestic?.title || "La Botica"}</h3>
                 <p className="text-sm text-earth-brown/70 mb-6 leading-relaxed font-sans normal-case">
-                  Fórmulas vivas que respiran. Selecciona tu ritual según la necesidad de tu cabello.
+                  {t.domestic?.productsDesc || "Fórmulas vivas que respiran. Selecciona tu ritual según la necesidad de tu cabello."}
                 </p>
                 <Link href="/domesticos/productos" className="text-olive-green text-xs font-bold uppercase tracking-widest hover:underline" onClick={() => setIsSelectionHover(false)}>
-                  Ver todo el catálogo →
+                  {t.domestic?.viewMore || "Ver todo el catálogo"} →
                 </Link>
               </div>
               <div className="col-span-9 grid grid-cols-4 gap-6">
@@ -165,7 +168,7 @@ export default function Navbar() {
                   <Link key={idx} href={`/domesticos/productos`} className="group" onClick={() => setIsSelectionHover(false)}>
                     <div className="h-full p-4 hover:bg-white/50 rounded-sm transition-all border border-transparent hover:border-sand-light/30">
                       <span className="text-earth-brown font-serif text-lg group-hover:text-olive-green transition-colors block mb-1">{cat}</span>
-                      <span className="text-[10px] uppercase tracking-wider text-earth-brown/40 group-hover:text-earth-brown/60">Explorar</span>
+                      <span className="text-[10px] uppercase tracking-wider text-earth-brown/40 group-hover:text-earth-brown/60">{t.domestic?.readMore || "Explorar"}</span>
                     </div>
                   </Link>
                 )) : (<p className="text-sm opacity-50 col-span-4">Cargando categorías...</p>)}
@@ -190,6 +193,7 @@ export default function Navbar() {
               <Link href="/domesticos/productos" onClick={() => setIsOpen(false)} className="text-xl tracking-widest uppercase hover:text-olive-green">{t.nav.selection}</Link>
               <Link href="/filosofia" onClick={() => setIsOpen(false)} className="text-xl tracking-widest uppercase hover:text-olive-green">{t.nav.aboutTerra}</Link>
               <Link href="/domesticos/tratamientos" onClick={() => setIsOpen(false)} className="text-xl tracking-widest uppercase hover:text-olive-green">{t.nav.treatments}</Link>
+              <Link href="/rituales" onClick={() => setIsOpen(false)} className="text-xl tracking-widest uppercase hover:text-olive-green">{t.nav.rituales}</Link>
               <div className="h-px w-10 mx-auto bg-earth-brown/20 my-2"></div>
               <Link href="/profesionales" onClick={() => setIsOpen(false)} className="text-lg font-bold text-olive-green uppercase tracking-widest">{t.nav.proAccess}</Link>
               <button onClick={() => { toggleLang(); setIsOpen(false); }} className="mt-6 mx-auto border border-earth-brown rounded-full w-10 h-10 flex items-center justify-center text-xs font-bold hover:bg-earth-brown hover:text-cream uppercase">{lang}</button>

@@ -2,13 +2,16 @@ export const translations = {
   es: {
     nav: {
       home: "Inicio",
-      domestic: "Quienes Somos Terra", // Antes "Doméstico" (Más inspiracional)
-      selection: "Nuestra Selección", // Antes "Productos"
-      aboutTerra: "Quiénes Somos Terra", // Nuevo
-      treatments: "Tratamientos", // Nuevo en el menú principal
-      proAccess: "Acceso Salones", // Nombre más profesional para el nicho
+      domestic: "Quiénes Somos Terra",
+      selection: "Nuestra Selección",
+      aboutTerra: "Quiénes Somos Terra",
+      treatments: "Tratamientos",
+      rituales: "Rituales",
+      filosofia: "Filosofía",
+      contacto: "Contacto",
+      proAccess: "Acceso Salones",
       pro: "Área Profesional",
-      products: "Nuestra Selección", // Antes "Productos" (Más valor)"
+      products: "Nuestra Selección",
       faq: "Dudas Frecuentes",
     },
     hero: {
@@ -27,14 +30,17 @@ export const translations = {
       visitUs: "Visítanos en C/ Provença 213",
       faqTitle: "Preguntas Recurrentes",
     },
+    cards: {
+      productsTitle: "NUESTROS\nPRODUCTOS",
+      productsSub: "La Botica Natural",
+      treatmentsTitle: "NUESTROS\nTRATAMIENTOS",
+      treatmentsSub: "Spa Orgánico",
+      therapyTitle: "TERAPIA\nCAPILAR",
+      therapySub: "Green Zone",
+    },
     about: {
       title: "Quiénes Somos",
       desc: "Un santuario de pureza, tierra y rituales. Creemos en el bienestar orgánico y el minimalismo cálido.",
-    },
-    services: {
-      title: "High Ticket Therapies",
-      spa: "Spa Orgánico",
-      capillary: "Terapia Capilar Oxitocina",
     },
     pro: {
       welcome: "Bienvenido al Área Profesional",
@@ -50,6 +56,10 @@ export const translations = {
       subtitle: "Salud Capilar y Facial Orgánica",
       desc: "Tratamientos botánicos diseñados para recuperar el equilibrio. Sin prisas, con plantas medicinales y técnicas ancestrales.",
       cta: "Reservar Cita",
+      whatsappMessage: "Hola, me interesa reservar un ritual de Terra Santa Eulalia",
+      floatingCta: "Reservar Cita",
+      extrasTitle: "Añade a tu Ritual",
+      extrasSubtitle: "Expres Express",
 
       // Categoría 1: Rituales Capilares (La base)
       hairRituals: {
@@ -89,7 +99,7 @@ export const translations = {
               "Equilibrio físico y mental. Incluye masaje craneal y lavado.",
             duration: "75 min",
             price: "150€",
-            isHighlight: true, // Para destacarlo visualmente
+            isHighlight: true,
           },
         ],
       },
@@ -164,18 +174,23 @@ export const translations = {
         },
       ],
     },
-    // 1. Actualizar textos de la Home (Services)
     services: {
-      title: "High Ticket Therapies",
-      // Actualizamos para mencionar Facial/Corporal y Pindas
+      title: "Terapias de Alta Gamma",
       spa: "Rituales Faciales & Pindas",
       spaDesc:
         "Experiencia Signature (150€). Pindas herbales, lifting facial y desconexión absoluta.",
       capillary: "Terapia de Oxitocina",
       capillaryDesc: "Diagnóstico profundo y recuperación molecular.",
     },
+    cta: {
+      helpTitle: "¿Necesitas ayuda para elegir?",
+      ritualWaiting: "Tu ritual te está esperando",
+      helpDesc:
+        "Nuestro equipo te ayudará a encontrar el tratamiento perfecto según las necesidades de tu cabello y piel. La primera consulta es gratuita.",
+      bookFree: "Reservar Consulta Gratuita",
+      filosofiaLink: "Conocer nuestra filosofía",
+    },
 
-    // 2. Actualizar página Capilar con las Soluciones Terapéuticas
     capillaryPage: {
       title: "Terapia de Oxitocina",
       subtitle: "Ingeniería Natural para el Cabello",
@@ -197,7 +212,6 @@ export const translations = {
           desc: "Cierre de cutícula con aceites ozonizados y luz LED.",
         },
       ],
-      // NUEVA SECCIÓN: Soluciones Específicas
       solutionsTitle: "Soluciones Terapéuticas",
       solutionsDesc:
         "Protocolos específicos para patologías del cuero cabelludo.",
@@ -236,7 +250,6 @@ export const translations = {
       cta: "Ven a Sentirlo",
     },
 
-    // LISTA COMPLETA DE PRODUCTOS CON PRECIOS Y VIDEOS
     productsList: [
       // --- LÍNEA PLANTAS (TINTES Y TRATAMIENTOS) ---
       {
@@ -448,7 +461,7 @@ export const translations = {
         category: "Hidratación y Cuerpo",
         type: "Calmante",
         price: 28.0,
-        desc: "Sérum calmante para cueros cabelludos sensibles, con picores o descamación.",
+        desc: "Sérum calmante para cueros cabelludo sensibles, con picores o descamación.",
         ingredients: "Aloe Vera puro, Caléndula.",
         usage: "Aplicar pipeta en el cuero cabelludo y masajear. No aclarar.",
         precautions: "Sensación frescor inmediata.",
@@ -503,13 +516,18 @@ export const translations = {
   },
 
   en: {
-    // (Estructura idéntica para evitar errores, textos pueden quedarse en ES por ahora)
     nav: {
       home: "Home",
       domestic: "Terra Universe",
-      pro: "Pro Area",
-      products: "Our Rituals",
+      selection: "Our Selection",
+      aboutTerra: "Who is Terra",
       treatments: "Experiences",
+      rituales: "Rituals",
+      filosofia: "Philosophy",
+      contacto: "Contact",
+      proAccess: "Professional Access",
+      pro: "Pro Area",
+      products: "Our Selection",
       faq: "FAQ",
     },
     hero: {
@@ -528,16 +546,490 @@ export const translations = {
       visitUs: "Visit us at C/ Provença 213",
       faqTitle: "Frequent Questions",
     },
+    about: {
+      title: "Who We Are",
+      desc: "A sanctuary of purity, earth, and rituals. We believe in organic wellness and warm minimalism.",
+    },
+    pro: {
+      welcome: "Welcome to the Professional Area",
+      courses: "Training & Philosophy",
+      budget: "Budgets",
+    },
     footer: {
       rights: "All rights reserved.",
       location: "Carrer de Provença, 213, Barcelona",
     },
+    treatmentsPage: {
+      title: "Terra Rituals",
+      subtitle: "Organic Hair & Facial Health",
+      desc: "Botanical treatments designed to restore balance. No rush, with medicinal plants and ancestral techniques.",
+      cta: "Book Appointment",
+      whatsappMessage: "Hello, I'm interested in booking a ritual at Terra Santa Eulalia",
+      floatingCta: "Book Appointment",
+      extrasTitle: "Add to Your Ritual",
+      extrasSubtitle: "Express Express",
+
+      hairRituals: {
+        title: "Organic Hair Rituals",
+        desc: "Recover your hair's strength and health with clays and plants.",
+        list: [
+          {
+            id: "ritual-detox",
+            title: "Detox Ritual",
+            desc: "Deep cleansing with medicinal plants. Specific for dermatitis, flaking, dandruff, or excess oil.",
+            extra: "Includes facial or foot massage during exposure.",
+            duration: "50 min",
+            price: "85€",
+          },
+          {
+            id: "ritual-fuerte",
+            title: "Always Strong & Vital Ritual",
+            desc: "Strength and vitality with Ayurvedic plants. For weak, lifeless hair lacking body.",
+            extra: "Connect with peace and harmony. Includes facial or foot massage.",
+            duration: "60 min",
+            price: "95€",
+          },
+          {
+            id: "ritual-rizos",
+            title: "Perfect Curls Ritual",
+            desc: "Recover curl structure and flexibility through specific herbs that restore life to hair.",
+            extra: "Includes facial or foot massage.",
+            duration: "50 min",
+            price: "85€",
+          },
+          {
+            id: "ritual-pindas",
+            title: "Herbal Ritual with Pindas (Signature)",
+            desc: "The ultimate disconnection experience. Body massage with sesame oil and hot herbal pindas on marma points.",
+            extra: "Physical and mental balance. Includes scalp massage and washing.",
+            duration: "75 min",
+            price: "150€",
+            isHighlight: true,
+          },
+        ],
+      },
+
+      facialRituals: {
+        title: "Facial Light Rituals",
+        desc: "Holistic treatments to restore youth and elasticity to the skin.",
+        list: [
+          {
+            id: "luz-otono",
+            title: "Autumn Light Ritual (Lifting)",
+            desc: "Natural facial lifting with acupuncture. Restores lost light and youthful appearance.",
+            options: [
+              { name: "Facial Only", time: "75 min", price: "85€" },
+              {
+                name: "With Wash + Scalp Massage",
+                time: "90 min",
+                price: "125€",
+              },
+            ],
+          },
+          {
+            id: "luz-manana",
+            title: "Morning Light Ritual",
+            desc: "Deep facial hygiene. Healthy skin always begins with proper cleansing.",
+            options: [
+              { name: "Facial Only", time: "75 min", price: "75€" },
+              {
+                name: "With Wash + Scalp Massage",
+                time: "90 min",
+                price: "115€",
+              },
+            ],
+          },
+          {
+            id: "luz-interior",
+            title: "Inner Light Ritual (Kobido)",
+            desc: "Kobido facial massage to restore elasticity and improve skin quality.",
+            options: [
+              { name: "Facial Only", time: "60 min", price: "70€" },
+              {
+                name: "With Wash + Scalp Massage",
+                time: "75 min",
+                price: "110€",
+              },
+            ],
+          },
+          {
+            id: "luz-mar",
+            title: "Sea Light Ritual",
+            desc: "Hydration and vitality for sensitive or dehydrated skin.",
+            options: [
+              { name: "Facial Only", time: "60 min", price: "65€" },
+              {
+                name: "With Wash + Scalp Massage",
+                time: "75 min",
+                price: "105€",
+              },
+            ],
+          },
+        ],
+      },
+
+      extras: [
+        { title: "Spa Wash", duration: "15 min", price: "35€" },
+        {
+          title: "Facial Massage + Spa Wash",
+          duration: "45 min",
+          price: "50€",
+        },
+      ],
+    },
+    services: {
+      title: "High Ticket Therapies",
+      spa: "Facial Rituals & Pindas",
+      spaDesc:
+        "Signature Experience (150€). Herbal pindas, facial lifting, and absolute disconnection.",
+      capillary: "Oxytocin Capillary Therapy",
+      capillaryDesc: "Deep diagnosis and molecular recovery.",
+    },
+    cta: {
+      helpTitle: "Need help choosing?",
+      ritualWaiting: "Your ritual awaits",
+      helpDesc:
+        "Our team will help you find the perfect treatment for your hair and skin needs. The first consultation is free.",
+      bookFree: "Book Free Consultation",
+      filosofiaLink: "Know our philosophy",
+    },
+    capillaryPage: {
+      title: "Oxytocin Therapy",
+      subtitle: "Natural Engineering for Hair",
+      desc: "Our flagship High Ticket service. A clinical-organic protocol to recover damaged hair, alopecia, or scalp imbalances.",
+      diagnosisTitle: "The Diagnosis",
+      diagnosisDesc:
+        "We analyze your hair bulb with a microcamera to design your personalized recipe.",
+      steps: [
+        {
+          title: "Cleansing",
+          desc: "Detoxification of the follicle with volcanic clays.",
+        },
+        {
+          title: "Nutrition",
+          desc: "Injection of botanical actives and plant proteins.",
+        },
+        {
+          title: "Sealing",
+          desc: "Cuticle closure with ozonated oils and LED light.",
+        },
+      ],
+      solutionsTitle: "Therapeutic Solutions",
+      solutionsDesc:
+        "Specific protocols for scalp pathologies.",
+      solutions: [
+        {
+          title: "Detox Ritual",
+          problem: "Dandruff · Oil · Dermatitis",
+          desc: "Deep cleansing with detoxifying medicinal plants.",
+          price: "85€",
+        },
+        {
+          title: "Always Strong Ritual",
+          problem: "Hair Loss · Weakness · Thinning",
+          desc: "Strength and vitality with Ayurvedic plants. Stops hair loss.",
+          price: "95€",
+        },
+      ],
+      cta: "Request Diagnosis",
+    },
+    philosophy: {
+      heroTitle: "The Origin",
+      heroSubtitle: "Where alchemy meets silence.",
+      manifesto:
+        "We don't believe in manufactured beauty. We believe in beauty revealed. Terra Santa Eulalia is not a brand, it's a return to the memory of the earth.",
+      founderTitle: "Hands that listen",
+      founderDesc:
+        "Manolo Díaz doesn't cut hair, he sculpts energy. After years of watching chemistry extinguish the soul of hair, he decided to return to clay, to the root, to water.",
+      values: [
+        { title: "Earth", desc: "Living clays that purify without aggression." },
+        { title: "Water", desc: "Real hydration that flows from within." },
+        { title: "Time", desc: "The most luxurious ingredient: patience." },
+      ],
+      processTitle: "The Living Apothecary",
+      processDesc:
+        "Our blends are prepared on the spot. No preservatives that put the plant to sleep. It's living cosmetics for living people.",
+      cta: "Come Experience It",
+    },
     productsList: [],
     faqList: [
-      { q: "How do I pick up?", a: "Pick up at C/ Provença 213, Barcelona." },
+      {
+        q: "How do I pick up my order?",
+        a: "At checkout, select 'Store Pickup'. We are at C/ Provença 213, Barcelona.",
+      },
+      {
+        q: "Do the products expire?",
+        a: "Being organic without harsh preservatives, we recommend using them within 6-12 months after opening.",
+      },
+      {
+        q: "Do I need a diagnosis?",
+        a: "For High Ticket treatments (Oxytocin Therapy), yes. You can book an appointment on our website.",
+      },
+      {
+        q: "Are they safe for pregnant women?",
+        a: "Most are, but consult the technical sheet of each plant or contact us.",
+      },
+    ],
+  },
+
+  ca: {
+    nav: {
+      home: "Inici",
+      domestic: "Qui Som Terra",
+      selection: "La Nostra Selecció",
+      aboutTerra: "Qui Som Terra",
+      treatments: "Tractaments",
+      rituales: "Rituals",
+      filosofia: "Filosofia",
+      contacto: "Contacte",
+      proAccess: "Accés Centres",
+      pro: "Àrea Professional",
+      products: "La Nostra Selecció",
+      faq: "Dubtes Frequients",
+    },
+    hero: {
+      title: "Terra Santa Eulalia",
+      subtitle: "Des de les Indies, a casa teva",
+      cta: "Descobreix els Nostres Productes",
+    },
+    domestic: {
+      title: "Productes Naturals",
+      subtitle: "L'alquimia de la terra a casa teva",
+      productsTitle: "Selecció Natural & Orgànica",
+      productsDesc: "Benestar per al cos, ànima i cor.",
+      readMore: "Saber més",
+      viewMore: "Veure Catàleg Complet",
+      diyTitle: "Fes-ho Tu Mateix",
+      visitUs: "Visita'ns a C/ Provença 213",
+      faqTitle: "Preguntes Recurrents",
+    },
+    about: {
+      title: "Qui Som",
+      desc: "Un santuari de puresa, terra i rituals. Creiem en el benestar orgànic i el minimalisme càlid.",
+    },
+    pro: {
+      welcome: "Benvingut a l'Àrea Professional",
+      courses: "Formació i Filosofia",
+      budget: "Pressupostos",
+    },
+    footer: {
+      rights: "Tots els drets reservats.",
+      location: "Carrer de Provença, 213, Barcelona",
+    },
+    treatmentsPage: {
+      title: "Rituals Terra",
+      subtitle: "Salut Capil·lar i Facial Orgànica",
+      desc: "Tractaments botànics dissenyats per recuperar l'equilibri. Sense presses, amb plantes medicinals i tècniques ancestrals.",
+      cta: "Reservar Cita",
+      whatsappMessage: "Hola, m'interessa reservar un ritual de Terra Santa Eulalia",
+      floatingCta: "Reservar Cita",
+      extrasTitle: "Afegeix al teu Ritual",
+      extrasSubtitle: "Express Express",
+
+      hairRituals: {
+        title: "Rituals Capil·lars Orgànics",
+        desc: "Recupera la força i salut del teu cabell amb barrets i plantes.",
+        list: [
+          {
+            id: "ritual-detox",
+            title: "Ritual Detox",
+            desc: "Neteja profunda amb plantes medicinals. Específic per a dermatitis, descamació, caspa o excés de greix.",
+            extra: "Inclou massatge facial o de peus durant l'exposició.",
+            duration: "50 min",
+            price: "85€",
+          },
+          {
+            id: "ritual-fuerte",
+            title: "Ritual Sempre Fort i Vital",
+            desc: "Força i vitalitat amb plantes ayurvèdiques. Per a cabells febles, sense cos i mancats de vida.",
+            extra: "Connecta amb la pau i harmonia. Inclou massatge facial o de peus.",
+            duration: "60 min",
+            price: "95€",
+          },
+          {
+            id: "ritual-rizos",
+            title: "Ritual Rissos Perfectes",
+            desc: "Recupera l'estructura i flexibilitat del rís mitjançant herbes específiques que retornen la vida al cabell.",
+            extra: "Inclou massatge facial o de peus.",
+            duration: "50 min",
+            price: "85€",
+          },
+          {
+            id: "ritual-pindas",
+            title: "Ritual Herbal amb Pindes (Signature)",
+            desc: "L'experiència suprema de desconnexió. Massatge corporal amb oli de sèsam i pindes herbals calentes en punts marma.",
+            extra: "Equilibri física i mental. Inclou massatge cranial i rentat.",
+            duration: "75 min",
+            price: "150€",
+            isHighlight: true,
+          },
+        ],
+      },
+
+      facialRituals: {
+        title: "Rituals Facials de Llum",
+        desc: "Tractaments holístics per retornar la joventut i elasticitat a la pell.",
+        list: [
+          {
+            id: "luz-otono",
+            title: "Ritual Llum de Tardor (Lifting)",
+            desc: "Lifting facial natural amb acupuntura. Retorna la llum i aparença juvenil perduda.",
+            options: [
+              { name: "Nom Facial", time: "75 min", price: "85€" },
+              {
+                name: "Amb Rentat + Massatge Capil·lar",
+                time: "90 min",
+                price: "125€",
+              },
+            ],
+          },
+          {
+            id: "luz-manana",
+            title: "Ritual Llum del Matí",
+            desc: "Higiene facial profunda. Una pell saludable sempre comença amb una bona neteja.",
+            options: [
+              { name: "Nom Facial", time: "75 min", price: "75€" },
+              {
+                name: "Amb Rentat + Massatge Capil·lar",
+                time: "90 min",
+                price: "115€",
+              },
+            ],
+          },
+          {
+            id: "luz-interior",
+            title: "Ritual Llum Interior (Kobido)",
+            desc: "Massatge facial Kobido per retornar l'elasticitat i millorar la qualitat de la pell.",
+            options: [
+              { name: "Nom Facial", time: "60 min", price: "70€" },
+              {
+                name: "Amb Rentat + Massatge Capil·lar",
+                time: "75 min",
+                price: "110€",
+              },
+            ],
+          },
+          {
+            id: "luz-mar",
+            title: "Ritual Llum del Mar",
+            desc: "Hidratació i vitalitat per a pells sensibles o deshidratades.",
+            options: [
+              { name: "Nom Facial", time: "60 min", price: "65€" },
+              {
+                name: "Amb Rentat + Massatge Capil·lar",
+                time: "75 min",
+                price: "105€",
+              },
+            ],
+          },
+        ],
+      },
+
+      extras: [
+        { title: "Rentat Spa", duration: "15 min", price: "35€" },
+        {
+          title: "Massatge Facial + Rentat Spa",
+          duration: "45 min",
+          price: "50€",
+        },
+      ],
+    },
+    services: {
+      title: "Terapies d'Alta Gamma",
+      spa: "Rituals Facials & Pindes",
+      spaDesc:
+        "Experiència Signature (150€). Pindes herbals, lifting facial i desconnexió absoluta.",
+      capillary: "Teràpia Capil·lar d'Oxitocina",
+      capillaryDesc: "Diagnòstic profund i recuperació molecular.",
+    },
+    cta: {
+      helpTitle: "Necessites ajuda per triar?",
+      ritualWaiting: "El teu ritual t'espera",
+      helpDesc:
+        "El nostre equip t'ajudarà a trobar el tractament perfecte segons les necessitats del teu cabell i pell. La primera consulta és gratuïta.",
+      bookFree: "Reservar Consultes Gratuïta",
+      filosofiaLink: "Conèixer la nostra filosofia",
+    },
+    capillaryPage: {
+      title: "Teràpia d'Oxitocina",
+      subtitle: "Enginyeria Natural per al Cabell",
+      desc: "El nostre servei High Ticket per excel·lència. Un protocol clínic-orgànic per recuperar cabells danyats, alopècies o dessequilibris del cuir ciliat.",
+      diagnosisTitle: "El Diagnòstic",
+      diagnosisDesc:
+        "Analitzem el teu bulb capil·lar amb microcàmera per dissenyar la teva recepta personalitzada.",
+      steps: [
+        {
+          title: "Neteja",
+          desc: "Dessintoxicació del fol·licle amb barrets volcànics.",
+        },
+        {
+          title: "Nutrició",
+          desc: "Injecció d'actius botànics i proteïnes vegetals.",
+        },
+        {
+          title: "Segellat",
+          desc: "Tancament de cutícula amb olis ozonitzats i llum LED.",
+        },
+      ],
+      solutionsTitle: "Solucions Terapèutiques",
+      solutionsDesc:
+        "Protocols específics per a patologies del cuir ciliat.",
+      solutions: [
+        {
+          title: "Ritual Detox",
+          problem: "Caspa · Greix · Dermatitis",
+          desc: "Neteja profunda amb plantes medicinals dessintoxicants.",
+          price: "85€",
+        },
+        {
+          title: "Ritual Sempre Fort",
+          problem: "Caiguda · Feblesa · Afinament",
+          desc: "Força i vitalitat amb plantes ayurvèdiques. Frena la caiguda.",
+          price: "95€",
+        },
+      ],
+      cta: "Sol·licitar Diagnòstic",
+    },
+    philosophy: {
+      heroTitle: "L'Origen",
+      heroSubtitle: "On l'alquimia troba el silenci.",
+      manifesto:
+        "No creiem en la bellesa fabricades. Creiem en la bellesa revelada. Terra Santa Eulalia no és una marca, és un retorn a la memòria de la terra.",
+      founderTitle: "Mans que escolten",
+      founderDesc:
+        "Manolo Díaz no tallar cabell, escup energia. Després d'anys observant com la química apagava l'ànima del cabell, va decidir tornar al barret, a l'arrel, a l'aigua.",
+      values: [
+        { title: "Terra", desc: "Argiles vives que purifiquen sense agreujar." },
+        { title: "Aigua", desc: "La hidratació real que flueix des de dins." },
+        { title: "Temps", desc: "L'ingredient més luxós: l'espera." },
+      ],
+      processTitle: "La Botiga Viva",
+      processDesc:
+        "Les nostres barreges es preparen al moment. Sense conservants que dormin la planta. És cosmètica viva per a gent viva.",
+      cta: "Vine a Sentir-ho",
+    },
+    productsList: [],
+    faqList: [
+      {
+        q: "Com recullo la meva comanda?",
+        a: "En finalitzar la compra, selecciona 'Recollida a la Botiga'. Estem a C/ Provença 213, Barcelona.",
+      },
+      {
+        q: "Els productes caduquen?",
+        a: "En ser orgànics i sense conservants agressius, recomanem usar-los en 6-12 mesos desprès de l'obertura.",
+      },
+      {
+        q: "Necessito diagnòstic?",
+        a: "Per a tractaments High Ticket (Teràpia Oxitocina), sí. Pots reservar cita a la nostra web.",
+      },
+      {
+        q: "Són aptes per a embarassades?",
+        a: "La majoria sí, però consulta la fitxa tècnica de cada planta o consulta'ns.",
+      },
     ],
   },
 };
 
-// Fallback para rellenar la lista en EN si está vacía, para que no rompa la app
+// Fallback para productos en EN y CA (compartimos la lista completa de ES)
 translations.en.productsList = translations.es.productsList;
+translations.ca.productsList = translations.es.productsList;

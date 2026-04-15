@@ -10,17 +10,17 @@ import { ArrowDown, ArrowRight } from "lucide-react";
 const IMG_HERO =
   "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=1200"; // Textura agua/tierra
 const IMG_FOUNDER =
-  "https://images.unsplash.com/photo-1599695669260-16167c13a30c?q=80&w=800"; // Retrato Manolo
+  "/images/manolo-retrato.png"; // Retrato Manolo // not working-cambiar img
 const IMG_HANDS =
-  "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600"; // Manos mezclando
+  "/images/retrato-terra-santa-eulalia.png"; // Manos mezclando
 const IMG_CLAY =
-  "https://images.unsplash.com/photo-1616353957088-251f28b4c277?q=80&w=600"; // Textura Arcilla
+  "https://cdn.pixabay.com/photo/2020/06/26/08/28/soil-5342049_1280.jpg"; // Textura Arcilla
 const IMG_SALON =
   "https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1000"; // Espacio interior
 const IMG_PLANT =
-  "https://images.unsplash.com/photo-1509966774948-4389426f04c6?q=80&w=600"; // Planta detalle
+  "https://cdn.pixabay.com/photo/2019/08/26/10/10/leaves-4431306_1280.jpg"; // Planta detalle
 const IMG_TEXTURE =
-  "https://images.unsplash.com/photo-1542601906990-b4d3fb7d5c73?q=80&w=800"; // Textura final
+  "https://cdn.pixabay.com/photo/2016/05/03/16/10/morning-1369446_1280.jpg"; // Textura final
 
 export default function FilosofiaPage() {
   const { t } = useApp();
