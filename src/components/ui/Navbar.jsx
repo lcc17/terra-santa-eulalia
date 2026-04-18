@@ -40,9 +40,9 @@ export default function Navbar() {
           y: isScrolled ? -50 : 0
         }}
         transition={{ duration: 0.5, ease: [0.76, 0, 0.24, 1] }} // Curva Bezier suave
-        className="bg-cream w-full flex justify-center overflow-hidden relative z-50"
+        className="bg-cream w-full flex justify-center items-center overflow-hidden relative z-50"
       >
-        <div className="py-4"> {/* Padding interno para animar height correctamente */}
+        <div className="py-8 md:py-12"> {/* Padding interno aumentado para santuario del logo */}
           <Link href="/" className="block hover:opacity-80 transition-opacity">
             <Image
               src="/logo-terra-santa-eulalia-cosmetica.png"
@@ -72,12 +72,12 @@ export default function Navbar() {
           backgroundColor: isScrolled ? "rgba(248, 245, 242, 0.9)" : "rgba(248, 245, 242, 0.95)", // Cream con opacidad
           backdropFilter: isScrolled ? "blur(12px)" : "blur(0px)",
           borderBottomColor: isScrolled ? "rgba(139, 115, 85, 0.1)" : "rgba(139, 115, 85, 0.3)",
-          boxShadow: isScrolled ? "0 4px 20px -2px rgba(0, 0, 0, 0.05)" : "none"
+          boxShadow: isScrolled ? "0 4px 20px -2px rgba(0, 0, 0, 0.05)" : "inset 0 2px 8px rgba(139, 115, 85, 0.04)"
         }}
         transition={{ duration: 0.5 }}
-        className="w-full px-6 py-3 relative z-40 border-y border-sand-light/30 flex items-center justify-between"
+        className="w-full px-6 py-5 md:py-6 relative z-40 border-y border-sand-light/30 flex items-end justify-between"
       >
-        <div className="max-w-screen-2xl mx-auto w-full flex justify-between items-center text-xs tracking-[0.15em] uppercase font-medium text-earth-brown">
+        <div className="max-w-screen-2xl mx-auto w-full flex justify-between items-end text-sm md:text-base tracking-[0.2em] uppercase font-medium text-earth-brown">
           
           {/* Si hay scroll, mostramos un mini-logo a la izquierda para mantener branding */}
           <AnimatePresence>
@@ -94,38 +94,38 @@ export default function Navbar() {
           </AnimatePresence>
 
           {/* LADO IZQUIERDO (Links) */}
-          <div className="hidden md:flex items-center gap-12">
+          <div className="hidden md:flex items-end gap-16">
             <div 
               className="relative h-full flex items-center cursor-pointer group"
               onMouseEnter={() => setIsSelectionHover(true)}
             >
               <Link
                 href="/domesticos/productos"
-                className="flex items-center gap-2 hover:text-olive-green transition-colors py-2"
+                className="flex items-center gap-2 hover:text-olive-green hover:-translate-y-0.5 transition-all duration-600 ease-out py-2"
                 onClick={() => setIsSelectionHover(false)}
               >
                 {t.nav.selection}
-                <ChevronDown size={12} className={`transition-transform duration-300 ${isSelectionHover ? 'rotate-180 text-olive-green' : 'opacity-40'}`} />
+                <ChevronDown size={12} className={`transition-transform duration-600 ${isSelectionHover ? 'rotate-180 text-olive-green' : 'opacity-40'}`} />
               </Link>
             </div>
-            <Link href="/filosofia" className="hover:text-olive-green transition-colors">
+            <Link href="/filosofia" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-600 ease-out">
               {t.nav.aboutTerra}
             </Link>
           </div>
 
           {/* LADO DERECHO (Links) */}
-          <div className="hidden md:flex items-center gap-12 ml-auto">
-            <Link href="/domesticos/tratamientos" className="hover:text-olive-green transition-colors">
+          <div className="hidden md:flex items-end gap-16 ml-auto">
+            <Link href="/domesticos/tratamientos" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-600 ease-out">
               {t.nav.treatments}
             </Link>
-            <Link href="/rituales" className="hover:text-olive-green transition-colors">
+            <Link href="/rituales" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-600 ease-out">
               {t.nav.rituales}
             </Link>
-            <Link href="/profesionales" className="hover:text-olive-green transition-colors relative group">
+            <Link href="/profesionales" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-600 ease-out relative group">
               {t.nav.proAccess}
               <span className="absolute -top-1 -right-2 w-1.5 h-1.5 bg-olive-green rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
             </Link>
-            <button onClick={toggleLang} className="border border-earth-brown/30 rounded-full w-8 h-8 flex items-center justify-center hover:bg-earth-brown hover:text-cream transition-all text-[10px] font-bold">
+            <button onClick={toggleLang} className="border border-earth-brown/30 rounded-full w-9 h-9 flex items-center justify-center hover:bg-earth-brown hover:text-cream transition-all duration-600 ease-out text-[11px] font-bold">
               {lang}
             </button>
           </div>
