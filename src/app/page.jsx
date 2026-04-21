@@ -11,6 +11,13 @@ import { ArrowRight, Star, MessageCircle, ArrowUpRight } from "lucide-react";
 const WHOWEARE_IMG = "/images/who-we-are.png";
 const HERO_VIDEO = "/videos/hero-video.mp4";
 
+// Hero card images — each tells a different brand story
+const CARD_IMGS = {
+  products: "/images/products/terra_santa_planta_indigo.PNG",
+  treatments: "/images/retrato-terra-santa-eulalia.png",
+  therapy: "/images/who-we-are.png",
+};
+
 export default function Home() {
   const { t, lang } = useApp();
   const { scrollY } = useScroll();
@@ -62,98 +69,123 @@ export default function Home() {
 
         {/* --- STAGGERED MASONRY CARDS --- */}
         <div className="relative z-20 w-full px-6 md:px-12 max-w-[1600px] mx-auto">
-          
-          {/* ORGANIC BLOB BEHIND CARD 2 */}
-          <div 
-            className="absolute hidden md:block z-0 pointer-events-none"
+
+          {/* ATMOSPHERIC GHOST BLOB — repositioned as grid child */}
+          <div
+            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
             style={{
-              width: "500px",
-              height: "500px",
-              right: "28%",
-              top: "50%",
-              transform: "translateY(-50%)",
+              width: "1000px",
+              height: "1000px",
               borderRadius: "60% 40% 30% 70% / 60% 30% 70% 40%",
-              background: "rgba(139, 115, 85, 0.05)",
-              filter: "blur(80px)"
+              background: "rgba(74, 58, 36, 0.05)",
+              filter: "blur(120px)",
             }}
           />
 
+          {/* GRID: 3-col asymmetric masonry with staggered vertical offsets */}
           <motion.div
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 60 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 1, ease: [0.76, 0, 0.24, 1] }}
-            className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 relative z-10"
+            transition={{ delay: 0.3, duration: 1.2, ease: [0.76, 0, 0.24, 1] }}
+            className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 relative z-10 items-end"
           >
-            {/* CARD 1: PRODUCTOS - Left Position, Height 380px */}
-            <Link href="/domesticos/productos" className="group md:mt-0">
-              <div 
-                className="relative h-[380px] bg-earth-brown/95 backdrop-blur-sm overflow-hidden shadow-2xl hover:-translate-y-8 transition-transform duration-1000 ease-out flex flex-col justify-between p-8"
-                style={{
-                  borderRadius: "40% 60% 70% 30% / 50%",
-                }}
+            {/* CARD 1: PRODUCTOS — Left, standard position, min-h 450px */}
+            <Link href="/domesticos/productos" className="group md:mt-0 block">
+              <motion.div
+                initial={{ opacity: 0, x: -30 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.5, duration: 1, ease: [0.76, 0, 0.24, 1] }}
+                className="relative min-h-[450px] md:h-[60vh] overflow-hidden shadow-2xl group-hover:-translate-y-4 transition-transform duration-1000 ease-out"
+                style={{ borderRadius: "40% 60% 70% 30% / 50%" }}
               >
-                <div className="flex justify-between items-start">
-                  <h3 className="text-cream font-serif text-2xl md:text-3xl tracking-wide whitespace-pre-line">
+                {/* Background image */}
+                <Image
+                  src={CARD_IMGS.products}
+                  alt={t?.cards?.productsTitle || "Productos"}
+                  fill
+                  className="object-cover scale-105 group-hover:scale-110 transition-transform duration-1000 ease-out"
+                />
+                {/* Gradient overlay for text legibility */}
+                <div className="absolute inset-0 bg-gradient-to-t from-earth-brown/80 via-earth-brown/20 to-transparent" />
+                {/* Text at absolute bottom */}
+                <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
+                  <h3 className="text-cream font-serif text-3xl md:text-5xl tracking-[0.1em] whitespace-pre-line mb-3">
                     {t?.cards?.productsTitle || "NUESTROS\nPRODUCTOS"}
                   </h3>
-                  <ArrowUpRight
-                    className="text-sand-light opacity-50 group-hover:opacity-100 group-hover:rotate-45 transition-all duration-1000"
-                    size={20}
-                  />
+                  <p className="text-sand-light/70 text-[10px] uppercase tracking-widest font-bold">
+                    {t?.cards?.productsSub || "La Botica Natural"}
+                  </p>
+                  <div className="mt-6 w-8 h-px bg-sand-light/50 group-hover:w-20 transition-all duration-1000 ease-out" />
                 </div>
-                <p className="text-sand-light/60 text-[10px] uppercase tracking-widest font-bold group-hover:text-sand-light transition-colors duration-1000">
-                  {t?.cards?.productsSub || "La Botica Natural"}
-                </p>
-                <div className="absolute bottom-0 left-0 h-1 w-0 bg-sand-light group-hover:w-full transition-all duration-1000 ease-out"></div>
-              </div>
+              </motion.div>
             </Link>
 
-            {/* CARD 2: TRATAMIENTOS - Center-Right, Height 420px, Offset mt-10 */}
-            <Link href="/domesticos/tratamientos" className="group md:mt-10">
-              <div 
-                className="relative h-[420px] bg-cream/95 backdrop-blur-sm overflow-hidden shadow-2xl hover:-translate-y-8 transition-transform duration-1000 ease-out flex flex-col justify-between p-8"
-                style={{
-                  borderRadius: "40% 60% 70% 30% / 50%",
+            {/* CARD 2: TRATAMIENTOS — Center, translate-y-12, floating animation */}
+            <Link href="/domesticos/tratamientos" className="group md:translate-y-12 block">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: [0, -15, 0] }}
+                transition={{
+                  delay: 0.7,
+                  duration: 1,
+                  ease: [0.76, 0, 0.24, 1],
+                  repeat: Infinity,
+                  repeatType: "loop",
                 }}
+                className="relative min-h-[450px] md:h-[60vh] overflow-hidden shadow-2xl group-hover:-translate-y-4 transition-transform duration-1000 ease-out"
+                style={{ borderRadius: "60% 40% 30% 70% / 60%" }}
               >
-                <div className="flex justify-between items-start">
-                  <h3 className="text-earth-brown font-serif text-2xl md:text-3xl tracking-wide whitespace-pre-line">
+                {/* Background image */}
+                <Image
+                  src={CARD_IMGS.treatments}
+                  alt={t?.cards?.treatmentsTitle || "Tratamientos"}
+                  fill
+                  className="object-cover scale-105 group-hover:scale-110 transition-transform duration-1000 ease-out"
+                />
+                {/* Gradient overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-earth-brown/80 via-earth-brown/20 to-transparent" />
+                {/* Text */}
+                <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
+                  <h3 className="text-cream font-serif text-3xl md:text-5xl tracking-[0.1em] whitespace-pre-line mb-3">
                     {t?.cards?.treatmentsTitle || "NUESTROS\nTRATAMIENTOS"}
                   </h3>
-                  <ArrowUpRight
-                    className="text-earth-brown opacity-50 group-hover:opacity-100 group-hover:rotate-45 transition-all duration-1000"
-                    size={20}
-                  />
+                  <p className="text-sand-light/70 text-[10px] uppercase tracking-widest font-bold">
+                    {t?.cards?.treatmentsSub || "Spa Orgánico"}
+                  </p>
+                  <div className="mt-6 w-8 h-px bg-sand-light/50 group-hover:w-20 transition-all duration-1000 ease-out" />
                 </div>
-                <p className="text-earth-brown/60 text-[10px] uppercase tracking-widest font-bold group-hover:text-earth-brown transition-colors duration-1000">
-                  {t?.cards?.treatmentsSub || "Spa Orgánico"}
-                </p>
-                <div className="absolute bottom-0 left-0 h-1 w-0 bg-earth-brown group-hover:w-full transition-all duration-1000 ease-out"></div>
-              </div>
+              </motion.div>
             </Link>
 
-            {/* CARD 3: TERAPIA CAPILAR - Right, Height 350px, Offset mt-[-20px] */}
-            <Link href="/domesticos/terapia-capilar" className="group md:-mt-5">
-              <div 
-                className="relative h-[350px] bg-olive-green/95 backdrop-blur-sm overflow-hidden shadow-2xl hover:-translate-y-8 transition-transform duration-1000 ease-out flex flex-col justify-between p-8"
-                style={{
-                  borderRadius: "40% 60% 70% 30% / 50%",
-                }}
+            {/* CARD 3: TERAPIA CAPILAR — Right, -translate-y-8, slight horizontal offset */}
+            <Link href="/domesticos/terapia-capilar" className="group md:-translate-y-8 md:ml-auto block">
+              <motion.div
+                initial={{ opacity: 0, x: 30 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.9, duration: 1, ease: [0.76, 0, 0.24, 1] }}
+                className="relative min-h-[450px] md:h-[60vh] overflow-hidden shadow-2xl group-hover:-translate-y-4 transition-transform duration-1000 ease-out"
+                style={{ borderRadius: "50% 50% 70% 30% / 40%" }}
               >
-                <div className="flex justify-between items-start">
-                  <h3 className="text-white font-serif text-2xl md:text-3xl tracking-wide whitespace-pre-line">
+                {/* Background image */}
+                <Image
+                  src={CARD_IMGS.therapy}
+                  alt={t?.cards?.therapyTitle || "Terapia Capilar"}
+                  fill
+                  className="object-cover scale-105 group-hover:scale-110 transition-transform duration-1000 ease-out"
+                />
+                {/* Gradient overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-earth-brown/80 via-earth-brown/20 to-transparent" />
+                {/* Text */}
+                <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
+                  <h3 className="text-cream font-serif text-3xl md:text-5xl tracking-[0.1em] whitespace-pre-line mb-3">
                     {t?.cards?.therapyTitle || "TERAPIA\nCAPILAR"}
                   </h3>
-                  <ArrowUpRight
-                    className="text-white opacity-50 group-hover:opacity-100 group-hover:rotate-45 transition-all duration-1000"
-                    size={20}
-                  />
+                  <p className="text-sand-light/70 text-[10px] uppercase tracking-widest font-bold">
+                    {t?.cards?.therapySub || "Green Zone"}
+                  </p>
+                  <div className="mt-6 w-8 h-px bg-sand-light/50 group-hover:w-20 transition-all duration-1000 ease-out" />
                 </div>
-                <p className="text-white/60 text-[10px] uppercase tracking-widest font-bold group-hover:text-white transition-colors duration-1000">
-                  {t?.cards?.therapySub || "Green Zone"}
-                </p>
-                <div className="absolute bottom-0 left-0 h-1 w-0 bg-white group-hover:w-full transition-all duration-1000 ease-out"></div>
-              </div>
+              </motion.div>
             </Link>
           </motion.div>
         </div>
