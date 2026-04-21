@@ -19,31 +19,21 @@ export async function middleware(req) {
     const token = req.cookies.get("auth_token")?.value;
 
     if (!token) {
-      return NextResponse.redirect(new URL("/login", req.url));
+      return NextResponse.redirect(new URL("/contact", req.url));
     }
 
     try {
       await jwtVerify(token, SECRET);
       const response = NextResponse.next();
-      response.headers.set("x-next-locale", "ca");
       response.headers.set("x-locale-detected", "true");
       return response;
     } catch (error) {
-      return NextResponse.redirect(new URL("/login", req.url));
+      return NextResponse.redirect(new URL("/contact", req.url));
     }
   }
 
-  // Successful locale detection response
   const response = NextResponse.next();
   response.headers.set("x-locale-detected", "true");
-  // Also set x-next-locale based on detected prefix
-  if (pathname.startsWith("/ca")) {
-    response.headers.set("x-next-locale", "ca");
-  } else if (pathname.startsWith("/es")) {
-    response.headers.set("x-next-locale", "es");
-  } else if (pathname.startsWith("/en")) {
-    response.headers.set("x-next-locale", "en");
-  }
   return response;
 }
 

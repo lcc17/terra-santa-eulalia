@@ -230,6 +230,10 @@ export const translations = {
         },
       ],
       cta: "Solicitar Diagnóstico",
+      ctaRecoveryTitle: "Recupera la memoria vital de tu cabello",
+      ctaRecoveryDesc: "Este tratamiento requiere cita previa y valoración de nuestros especialistas en C/ Provença 213.",
+      ctaRecoveryBtn: "Reservar Valoración",
+      scheduleRitual: "Agendar este ritual",
     },
     philosophy: {
       heroTitle: "El Origen",
@@ -546,6 +550,14 @@ export const translations = {
       visitUs: "Visit us at C/ Provença 213",
       faqTitle: "Frequent Questions",
     },
+    cards: {
+      productsTitle: "OUR\nPRODUCTS",
+      productsSub: "The Natural Apothecary",
+      treatmentsTitle: "OUR\nTREATMENTS",
+      treatmentsSub: "Organic Spa",
+      therapyTitle: "CAPILLARY\nTHERAPY",
+      therapySub: "Green Zone",
+    },
     about: {
       title: "Who We Are",
       desc: "A sanctuary of purity, earth, and rituals. We believe in organic wellness and warm minimalism.",
@@ -732,6 +744,10 @@ export const translations = {
         },
       ],
       cta: "Request Diagnosis",
+      ctaRecoveryTitle: "Restore the vital memory of your hair",
+      ctaRecoveryDesc: "This treatment requires a prior appointment and evaluation by our specialists at C/ Provença 213.",
+      ctaRecoveryBtn: "Book Evaluation",
+      scheduleRitual: "Schedule this ritual",
     },
     philosophy: {
       heroTitle: "The Origin",
@@ -802,6 +818,14 @@ export const translations = {
       diyTitle: "Fes-ho Tu Mateix",
       visitUs: "Visita'ns a C/ Provença 213",
       faqTitle: "Preguntes Recurrents",
+    },
+    cards: {
+      productsTitle: "ELS NOSTRES\nPRODUCTES",
+      productsSub: "La Botiga Natural",
+      treatmentsTitle: "ELS NOSTRES\nTRACTAMENTS",
+      treatmentsSub: "Spa Orgànic",
+      therapyTitle: "TERÀPIA\nCAPIL·LAR",
+      therapySub: "Green Zone",
     },
     about: {
       title: "Qui Som",
@@ -989,6 +1013,10 @@ export const translations = {
         },
       ],
       cta: "Sol·licitar Diagnòstic",
+      ctaRecoveryTitle: "Recupera la memòria vital del teu cabell",
+      ctaRecoveryDesc: "Aquest tractament requereix cita prèvia i valoració dels nostres especialistes a C/ Provença 213.",
+      ctaRecoveryBtn: "Reservar Valoració",
+      scheduleRitual: "Agendar aquest ritual",
     },
     philosophy: {
       heroTitle: "L'Origen",

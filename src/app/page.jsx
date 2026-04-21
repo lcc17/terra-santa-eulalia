@@ -8,7 +8,6 @@ import ProductCard from "@/components/domesticos/ProductCard";
 import QuienesSomos from "@/components/home/QuienesSomos";
 import { ArrowRight, Star, MessageCircle, ArrowUpRight } from "lucide-react";
 
-// Assets
 const WHOWEARE_IMG = "/images/who-we-are.png";
 const HERO_VIDEO = "/videos/hero-video.mp4";
 
@@ -16,10 +15,8 @@ export default function Home() {
   const { t, lang } = useApp();
   const { scrollY } = useScroll();
 
-  // Obtener productos para "Best Sellers"
   const bestSellers = t?.productsList?.slice(0, 3) || [];
 
-  // Función para manejar el clic en WhatsApp
   const handleWhatsAppClick = () => {
     const phoneNumber = "34602468686";
     const message = "Hola, me gustaría información sobre Terra Santa Eulalia.";
@@ -30,10 +27,9 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col w-full overflow-x-hidden bg-cream pt-24">
+    <div className="flex flex-col w-full overflow-x-hidden bg-cream pt-32">
       {/* --- 1. HERO SECTION (ATMOSFÉRICO / SIN TEXTO) --- */}
       <section className="relative h-[85vh] w-full overflow-hidden flex flex-col justify-end pb-12 md:pb-20">
-        {/* VIDEO DE FONDO */}
         <div className="absolute inset-0 z-0">
           <video
             autoPlay
@@ -44,103 +40,126 @@ export default function Home() {
           >
             <source src={HERO_VIDEO} type="video/mp4" />
           </video>
-          {/* Overlay sutil para unificar tonos */}
           <div className="absolute inset-0 bg-earth-brown/10 mix-blend-multiply" />
           <div className="absolute inset-0 bg-black/10" />
         </div>
 
-        {/* CTA WHATSAPP (Flotante Superior Derecha) */}
+        {/* CTA WHATSAPP */}
         <motion.button
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 1 }}
+          transition={{ delay: 1, duration: 1 }}
           onClick={handleWhatsAppClick}
           className="absolute top-28 right-6 md:top-32 md:right-10 z-30 group flex items-center gap-3"
         >
-          <span className="hidden md:block text-xs font-bold text-white uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-sm">
+          <span className="hidden md:block text-xs font-bold text-white uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
             Reservar Cita
           </span>
-          <div className="w-12 h-12 md:w-14 md:h-14 bg-white/10 backdrop-blur-md border border-white/30 rounded-full flex items-center justify-center hover:bg-green-600 hover:border-green-600 hover:scale-110 transition-all duration-300 shadow-xl">
+          <div className="w-12 h-12 md:w-14 md:h-14 bg-white/10 backdrop-blur-md border border-white/30 rounded-full flex items-center justify-center hover:bg-green-600 hover:border-green-600 hover:scale-110 transition-all duration-1000 ease-out shadow-xl">
             <MessageCircle size={24} className="text-white" />
           </div>
         </motion.button>
 
-        {/* --- CARDS FLOTANTES DE NAVEGACIÓN --- */}
+        {/* --- STAGGERED MASONRY CARDS --- */}
         <div className="relative z-20 w-full px-6 md:px-12 max-w-[1600px] mx-auto">
+          
+          {/* ORGANIC BLOB BEHIND CARD 2 */}
+          <div 
+            className="absolute hidden md:block z-0 pointer-events-none"
+            style={{
+              width: "500px",
+              height: "500px",
+              right: "28%",
+              top: "50%",
+              transform: "translateY(-50%)",
+              borderRadius: "60% 40% 30% 70% / 60% 30% 70% 40%",
+              background: "rgba(139, 115, 85, 0.05)",
+              filter: "blur(80px)"
+            }}
+          />
+
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.8 }}
-            className="grid grid-cols-1 md:grid-cols-3 gap-6"
+            transition={{ delay: 0.5, duration: 1, ease: [0.76, 0, 0.24, 1] }}
+            className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 relative z-10"
           >
-            {/* CARD 1: PRODUCTOS (Tierra) */}
-            <Link href="/domesticos/productos" className="group">
-              <div className="relative h-32 md:h-40 bg-earth-brown/95 backdrop-blur-sm rounded-xl overflow-hidden shadow-2xl hover:-translate-y-2 transition-transform duration-500 border border-white/5 flex flex-col justify-between p-6">
+            {/* CARD 1: PRODUCTOS - Left Position, Height 380px */}
+            <Link href="/domesticos/productos" className="group md:mt-0">
+              <div 
+                className="relative h-[380px] bg-earth-brown/95 backdrop-blur-sm overflow-hidden shadow-2xl hover:-translate-y-8 transition-transform duration-1000 ease-out flex flex-col justify-between p-8"
+                style={{
+                  borderRadius: "40% 60% 70% 30% / 50%",
+                }}
+              >
                 <div className="flex justify-between items-start">
-                  <h3 className="text-cream font-serif text-xl md:text-2xl tracking-wide">
-                    NUESTROS
-                    <br />
-                    PRODUCTOS
+                  <h3 className="text-cream font-serif text-2xl md:text-3xl tracking-wide whitespace-pre-line">
+                    {t?.cards?.productsTitle || "NUESTROS\nPRODUCTOS"}
                   </h3>
                   <ArrowUpRight
-                    className="text-sand-light opacity-50 group-hover:opacity-100 group-hover:rotate-45 transition-all"
+                    className="text-sand-light opacity-50 group-hover:opacity-100 group-hover:rotate-45 transition-all duration-1000"
                     size={20}
                   />
                 </div>
-                <p className="text-sand-light/60 text-[10px] uppercase tracking-widest font-bold group-hover:text-sand-light transition-colors">
-                  {t?.domestic?.productsTitle || "La Botica Natural"}
+                <p className="text-sand-light/60 text-[10px] uppercase tracking-widest font-bold group-hover:text-sand-light transition-colors duration-1000">
+                  {t?.cards?.productsSub || "La Botica Natural"}
                 </p>
-                {/* Decoración Hover */}
-                <div className="absolute bottom-0 left-0 h-1 w-0 bg-sand-light group-hover:w-full transition-all duration-700 ease-out"></div>
+                <div className="absolute bottom-0 left-0 h-1 w-0 bg-sand-light group-hover:w-full transition-all duration-1000 ease-out"></div>
               </div>
             </Link>
 
-            {/* CARD 2: TRATAMIENTOS (Crema/Luz) */}
-            <Link href="/domesticos/tratamientos" className="group">
-              <div className="relative h-32 md:h-40 bg-cream/95 backdrop-blur-sm rounded-xl overflow-hidden shadow-2xl hover:-translate-y-2 transition-transform duration-500 border border-white/40 flex flex-col justify-between p-6">
+            {/* CARD 2: TRATAMIENTOS - Center-Right, Height 420px, Offset mt-10 */}
+            <Link href="/domesticos/tratamientos" className="group md:mt-10">
+              <div 
+                className="relative h-[420px] bg-cream/95 backdrop-blur-sm overflow-hidden shadow-2xl hover:-translate-y-8 transition-transform duration-1000 ease-out flex flex-col justify-between p-8"
+                style={{
+                  borderRadius: "40% 60% 70% 30% / 50%",
+                }}
+              >
                 <div className="flex justify-between items-start">
-                  <h3 className="text-earth-brown font-serif text-xl md:text-2xl tracking-wide">
-                    NUESTROS
-                    <br />
-                    TRATAMIENTOS
+                  <h3 className="text-earth-brown font-serif text-2xl md:text-3xl tracking-wide whitespace-pre-line">
+                    {t?.cards?.treatmentsTitle || "NUESTROS\nTRATAMIENTOS"}
                   </h3>
                   <ArrowUpRight
-                    className="text-earth-brown opacity-50 group-hover:opacity-100 group-hover:rotate-45 transition-all"
+                    className="text-earth-brown opacity-50 group-hover:opacity-100 group-hover:rotate-45 transition-all duration-1000"
                     size={20}
                   />
                 </div>
-                <p className="text-earth-brown/60 text-[10px] uppercase tracking-widest font-bold group-hover:text-earth-brown transition-colors">
-                  Spa Orgánico
+                <p className="text-earth-brown/60 text-[10px] uppercase tracking-widest font-bold group-hover:text-earth-brown transition-colors duration-1000">
+                  {t?.cards?.treatmentsSub || "Spa Orgánico"}
                 </p>
-                <div className="absolute bottom-0 left-0 h-1 w-0 bg-earth-brown group-hover:w-full transition-all duration-700 ease-out"></div>
+                <div className="absolute bottom-0 left-0 h-1 w-0 bg-earth-brown group-hover:w-full transition-all duration-1000 ease-out"></div>
               </div>
             </Link>
 
-            {/* CARD 3: TERAPIA CAPILAR (Verde/Clínico) */}
-            <Link href="/domesticos/terapia-capilar" className="group">
-              <div className="relative h-32 md:h-40 bg-olive-green/95 backdrop-blur-sm rounded-xl overflow-hidden shadow-2xl hover:-translate-y-2 transition-transform duration-500 border border-white/10 flex flex-col justify-between p-6">
+            {/* CARD 3: TERAPIA CAPILAR - Right, Height 350px, Offset mt-[-20px] */}
+            <Link href="/domesticos/terapia-capilar" className="group md:-mt-5">
+              <div 
+                className="relative h-[350px] bg-olive-green/95 backdrop-blur-sm overflow-hidden shadow-2xl hover:-translate-y-8 transition-transform duration-1000 ease-out flex flex-col justify-between p-8"
+                style={{
+                  borderRadius: "40% 60% 70% 30% / 50%",
+                }}
+              >
                 <div className="flex justify-between items-start">
-                  <h3 className="text-white font-serif text-xl md:text-2xl tracking-wide">
-                    TERAPIA
-                    <br />
-                    CAPILAR
+                  <h3 className="text-white font-serif text-2xl md:text-3xl tracking-wide whitespace-pre-line">
+                    {t?.cards?.therapyTitle || "TERAPIA\nCAPILAR"}
                   </h3>
                   <ArrowUpRight
-                    className="text-white opacity-50 group-hover:opacity-100 group-hover:rotate-45 transition-all"
+                    className="text-white opacity-50 group-hover:opacity-100 group-hover:rotate-45 transition-all duration-1000"
                     size={20}
                   />
                 </div>
-                <p className="text-white/60 text-[10px] uppercase tracking-widest font-bold group-hover:text-white transition-colors">
-                  Green Zone
+                <p className="text-white/60 text-[10px] uppercase tracking-widest font-bold group-hover:text-white transition-colors duration-1000">
+                  {t?.cards?.therapySub || "Green Zone"}
                 </p>
-                <div className="absolute bottom-0 left-0 h-1 w-0 bg-white group-hover:w-full transition-all duration-700 ease-out"></div>
+                <div className="absolute bottom-0 left-0 h-1 w-0 bg-white group-hover:w-full transition-all duration-1000 ease-out"></div>
               </div>
             </Link>
           </motion.div>
         </div>
       </section>
 
-      {/* --- 2. BEST SELLERS (Continuidad fluida) --- */}
+      {/* --- 2. BEST SELLERS --- */}
       <section className="py-24 px-6 max-w-7xl mx-auto">
         <div className="flex items-end justify-between mb-12 px-2 border-b border-earth-brown/10 pb-4">
           <div>
@@ -153,7 +172,7 @@ export default function Home() {
           </div>
           <Link
             href="/domesticos/productos"
-            className="text-earth-brown/70 text-xs uppercase tracking-wider hover:text-olive-green flex items-center gap-1 transition-colors"
+            className="text-earth-brown/70 text-xs uppercase tracking-wider hover:text-olive-green flex items-center gap-1 transition-colors duration-1000"
           >
             {t?.domestic?.viewMore || "Ver colección"} <ArrowRight size={14} />
           </Link>
@@ -165,7 +184,7 @@ export default function Home() {
               key={prod.id}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.2 }}
+              transition={{ delay: index * 0.2, duration: 1, ease: [0.76, 0, 0.24, 1] }}
               viewport={{ once: true }}
             >
               <ProductCard product={prod} />
@@ -177,7 +196,7 @@ export default function Home() {
       {/* --- 3. QUIENES SOMOS (FILOSOFÍA) --- */}
       <QuienesSomos />
 
-      {/* --- 4. HIGH TICKET SERVICES (Re-enfoque Visual) --- */}
+      {/* --- 4. HIGH TICKET SERVICES --- */}
       <section className="py-32 bg-earth-brown text-sand-light relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-20">
@@ -190,7 +209,6 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Card 1: Terapia Capilar (Igual) */}
             <ServiceCard
               title={t.services.capillary}
               desc={
@@ -201,16 +219,15 @@ export default function Home() {
               href="/domesticos/terapia-capilar"
             />
 
-            {/* Card 2: Faciales & Pindas (ACTUALIZADA) */}
             <ServiceCard
-              title={t.services.spa} // Ahora dice "Rituales Faciales & Pindas"
+              title={t.services.spa}
               desc={
                 t.services.spaDesc ||
                 "Descubre nuestro Ritual Signature con Pindas (150€) y Lifting Facial."
               }
               img="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800"
               href="/domesticos/tratamientos"
-              badge="Signature Experience" // Prop opcional si quieres añadir una etiqueta visual
+              badge="Signature Experience"
             />
           </div>
         </div>
@@ -237,7 +254,6 @@ export default function Home() {
   );
 }
 
-// Subcomponente: Card de Servicios High Ticket (Consistente)
 function ServiceCard({ title, desc, img, href }) {
   return (
     <Link
@@ -252,11 +268,11 @@ function ServiceCard({ title, desc, img, href }) {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
       <div className="absolute bottom-0 left-0 p-10 w-full">
-        <h3 className="text-3xl font-serif text-cream mb-2 group-hover:translate-x-2 transition-transform">
+        <h3 className="text-3xl font-serif text-cream mb-2 group-hover:translate-x-2 transition-transform duration-1000">
           {title}
         </h3>
         <p className="text-sand-light/80 font-light text-sm max-w-xs">{desc}</p>
-        <div className="mt-6 w-12 h-px bg-olive-green group-hover:w-24 transition-all duration-500" />
+        <div className="mt-6 w-12 h-px bg-olive-green group-hover:w-24 transition-all duration-1000" />
       </div>
     </Link>
   );

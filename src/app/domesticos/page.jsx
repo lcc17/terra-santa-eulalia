@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useApp } from "@/lib/context";
-import { translations } from "@/lib/translations";
 // Importaciones absolutas
 import ProductCard from "@/components/domesticos/ProductCard";
 import FAQSlider from "@/components/domesticos/FAQSlider";
@@ -15,12 +14,7 @@ import { Play, ArrowRight, MapPin } from "lucide-react";
 export default function DomesticPage() {
   const { t, lang } = useApp();
 
-  // Fallback seguro. Mostramos los 3 primeros como "Destacados"
-  const products = (
-    lang === "es"
-      ? translations?.es?.productsList
-      : translations?.en?.productsList
-  )?.slice(0, 3) || [];
+  const products = t?.productsList?.slice(0, 3) || [];
 
   return (
     <div className="bg-cream min-h-screen pb-20">

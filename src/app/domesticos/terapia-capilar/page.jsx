@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useApp } from "@/lib/context";
-import { translations } from "@/lib/translations";
 import {
   Microscope,
   Activity,
@@ -20,12 +19,9 @@ const CAPILLARY_VIDEO =
   "https://videos.pexels.com/video-files/3756003/3756003-hd_1920_1080_25fps.mp4";
 
 export default function TerapiaCapilarPage() {
-  const { t, lang } = useApp();
+  const { t } = useApp();
 
-  const data =
-    lang === "es"
-      ? translations.es.capillaryPage
-      : translations.en.capillaryPage;
+  const data = t?.capillaryPage;
   const steps = data?.steps || [];
   const solutions = data?.solutions || []; // Cargamos las nuevas soluciones
 
@@ -130,7 +126,7 @@ export default function TerapiaCapilarPage() {
       <section className="py-24 px-6 max-w-5xl mx-auto">
         <div className="text-center mb-16">
           <span className="text-olive-green text-xs uppercase tracking-widest font-bold">
-            Green Zone
+            {t?.cards?.therapySub || "Green Zone"}
           </span>
           <h2 className="text-4xl font-serif text-earth-brown mt-2">
             {data?.solutionsTitle || "Soluciones Terapéuticas"}
@@ -172,7 +168,7 @@ export default function TerapiaCapilarPage() {
                 href="/contact"
                 className="flex items-center gap-2 text-earth-brown text-sm font-bold uppercase tracking-wider hover:text-olive-green transition-colors"
               >
-                Agendar este ritual <ArrowRight size={16} />
+                {data?.scheduleRitual || "Agendar este ritual"} <ArrowRight size={16} />
               </Link>
             </motion.div>
           ))}
@@ -183,15 +179,14 @@ export default function TerapiaCapilarPage() {
       <section className="bg-sand-light/20 py-20 px-6 text-center">
         <div className="max-w-2xl mx-auto">
           <h3 className="text-3xl font-serif text-earth-brown mb-6">
-            Recupera la memoria vital de tu cabello
+            {data?.ctaRecoveryTitle || "Recupera la memoria vital de tu cabello"}
           </h3>
           <p className="mb-8 opacity-80">
-            Este tratamiento requiere cita previa y valoración de nuestros
-            especialistas en C/ Provença 213.
+            {data?.ctaRecoveryDesc || "Este tratamiento requiere cita previa y valoración de nuestros especialistas en C/ Provença 213."}
           </p>
           <Link href="/contact">
             <button className="bg-olive-green text-white px-12 py-4 rounded-full uppercase tracking-widest text-sm font-bold shadow-xl hover:bg-earth-brown transition-colors">
-              Reservar Valoración
+              {data?.ctaRecoveryBtn || "Reservar Valoración"}
             </button>
           </Link>
         </div>

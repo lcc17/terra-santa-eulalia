@@ -8,10 +8,9 @@ import { useState } from "react";
 
 export default function Navbar() {
   const { t, lang, toggleLang } = useApp();
-  const [isOpen, setIsOpen] = useState(false); // Móvil
-  const [isSelectionHover, setIsSelectionHover] = useState(false); // Hover Desktop
+  const [isOpen, setIsOpen] = useState(false);
+  const [isSelectionHover, setIsSelectionHover] = useState(false);
   
-  // --- LÓGICA DE SCROLL ---
   const [isScrolled, setIsScrolled] = useState(false);
   const { scrollY } = useScroll();
 
@@ -22,139 +21,121 @@ export default function Navbar() {
       setIsScrolled(false);
     }
   });
-  // ------------------------
 
-  // Extraer categorías únicas
   const productList = t.productsList || [];
   const categories = [...new Set(productList.map((p) => p.category))];
 
   return (
     <nav className="fixed w-full z-50 top-0 left-0 font-serif" onMouseLeave={() => setIsSelectionHover(false)}>
       
-      {/* --- PISO 1: LOGOTIPO (COLAPSABLE) --- */}
-      {/* Se oculta (height: 0, opacity: 0) cuando haces scroll */}
+      {/* UNIFIED BAR: Logo Centered + Split Navigation + Language Toggle */}
       <motion.div 
         animate={{ 
-          height: isScrolled ? 0 : "auto",
-          opacity: isScrolled ? 0 : 1,
-          y: isScrolled ? -50 : 0
+          backgroundColor: isScrolled ? "rgba(248, 245, 242, 0.92)" : "rgba(248, 245, 242, 0.95)",
+          backdropFilter: isScrolled ? "blur(16px)" : "blur(8px)",
         }}
-        transition={{ duration: 0.5, ease: [0.76, 0, 0.24, 1] }} // Curva Bezier suave
-        className="bg-cream w-full flex justify-center items-center overflow-hidden relative z-50"
-      >
-        <div className="py-8 md:py-12"> {/* Padding interno aumentado para santuario del logo */}
-          <Link href="/" className="block hover:opacity-80 transition-opacity">
-            <Image
-              src="/logo-terra-santa-eulalia-cosmetica.png"
-              alt="Terra Santa Eulalia Logo"
-              width={200}
-              height={70}
-              className="h-16 md:h-20 w-auto object-contain"
-              priority
-            />
-          </Link>
-        </div>
-        
-        {/* Botón Móvil (Hamburguesa) - Solo visible cuando NO hay scroll aquí, luego pasa al piso 2 */}
-        {!isScrolled && (
-          <div className="absolute right-6 top-1/2 -translate-y-1/2 md:hidden">
-            <button className="text-earth-brown p-1" onClick={() => setIsOpen(!isOpen)}>
-              {isOpen ? <X size={28} /> : <Menu size={28} />}
-            </button>
-          </div>
-        )}
-      </motion.div>
-
-      {/* --- PISO 2: NAVEGACIÓN (STICKY) --- */}
-      {/* Cambia de apariencia al hacer scroll */}
-      <motion.div 
-        animate={{ 
-          backgroundColor: isScrolled ? "rgba(248, 245, 242, 0.9)" : "rgba(248, 245, 242, 0.95)", // Cream con opacidad
-          backdropFilter: isScrolled ? "blur(12px)" : "blur(0px)",
-          borderBottomColor: isScrolled ? "rgba(139, 115, 85, 0.1)" : "rgba(139, 115, 85, 0.3)",
-          boxShadow: isScrolled ? "0 4px 20px -2px rgba(0, 0, 0, 0.05)" : "inset 0 2px 8px rgba(139, 115, 85, 0.04)"
+        transition={{ duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
+        className="w-full relative z-40 flex items-center justify-center"
+        style={{
+          borderBottom: "1px solid rgba(139, 115, 85, 0.15)",
+          boxShadow: "inset 0 2px 8px rgba(139, 115, 85, 0.04), 0 1px 0 rgba(255,255,255,0.5)"
         }}
-        transition={{ duration: 0.5 }}
-        className="w-full px-6 py-5 md:py-6 relative z-40 border-y border-sand-light/30 flex items-end justify-between"
       >
-        <div className="max-w-screen-2xl mx-auto w-full flex justify-between items-end text-sm md:text-base tracking-[0.2em] uppercase font-medium text-earth-brown">
+        <div className="max-w-screen-2xl mx-auto w-full flex items-center justify-between px-6 md:px-12">
           
-          {/* Si hay scroll, mostramos un mini-logo a la izquierda para mantener branding */}
-          <AnimatePresence>
-            {isScrolled && (
-              <motion.div 
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                className="mr-8 hidden md:block font-bold text-lg font-serif"
-              >
-                <Link href="/">TERRA</Link>
-              </motion.div>
-            )}
-          </AnimatePresence>
-
-          {/* LADO IZQUIERDO (Links) */}
-          <div className="hidden md:flex items-end gap-16">
+          {/* LEFT NAV */}
+          <div className="hidden md:flex items-center gap-12 lg:gap-16">
             <div 
               className="relative h-full flex items-center cursor-pointer group"
               onMouseEnter={() => setIsSelectionHover(true)}
             >
               <Link
                 href="/domesticos/productos"
-                className="flex items-center gap-2 hover:text-olive-green hover:-translate-y-0.5 transition-all duration-600 ease-out py-2"
+                className="flex items-center gap-2 hover:text-olive-green hover:-translate-y-0.5 transition-all duration-1000 ease-out py-6"
                 onClick={() => setIsSelectionHover(false)}
               >
-                {t.nav.selection}
-                <ChevronDown size={12} className={`transition-transform duration-600 ${isSelectionHover ? 'rotate-180 text-olive-green' : 'opacity-40'}`} />
+                <span className="text-base md:text-lg tracking-[0.15em] uppercase font-medium text-earth-brown">
+                  {t.nav.selection}
+                </span>
+                <ChevronDown size={12} className={`transition-transform duration-1000 ${isSelectionHover ? 'rotate-180 text-olive-green' : 'opacity-40'}`} />
               </Link>
             </div>
-            <Link href="/filosofia" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-600 ease-out">
-              {t.nav.aboutTerra}
+            <Link href="/filosofia" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-1000 ease-out py-6">
+              <span className="text-base md:text-lg tracking-[0.15em] uppercase font-medium text-earth-brown">
+                {t.nav.aboutTerra}
+              </span>
             </Link>
           </div>
 
-          {/* LADO DERECHO (Links) */}
-          <div className="hidden md:flex items-end gap-16 ml-auto">
-            <Link href="/domesticos/tratamientos" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-600 ease-out">
-              {t.nav.treatments}
+          {/* LOGO (Absolute Center) */}
+          <motion.div 
+            animate={{ 
+              scale: isScrolled ? 0.75 : 1,
+            }}
+            transition={{ duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
+            className="absolute left-1/2 -translate-x-1/2 z-10"
+          >
+            <Link href="/" className="block hover:opacity-80 transition-opacity duration-1000">
+              <Image
+                src="/logo-terra-santa-eulalia-cosmetica.png"
+                alt="Terra Santa Eulalia Logo"
+                width={200}
+                height={70}
+                className={`${isScrolled ? 'h-12 md:h-14' : 'h-16 md:h-20'} w-auto object-contain transition-all duration-1000`}
+                priority
+              />
             </Link>
-            <Link href="/rituales" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-600 ease-out">
-              {t.nav.rituales}
+          </motion.div>
+
+          {/* RIGHT NAV */}
+          <div className="hidden md:flex items-center gap-12 lg:gap-16 ml-auto">
+            <Link href="/domesticos/tratamientos" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-1000 ease-out py-6">
+              <span className="text-base md:text-lg tracking-[0.15em] uppercase font-medium text-earth-brown">
+                {t.nav.treatments}
+              </span>
             </Link>
-            <Link href="/profesionales" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-600 ease-out relative group">
-              {t.nav.proAccess}
-              <span className="absolute -top-1 -right-2 w-1.5 h-1.5 bg-olive-green rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
+            <Link href="/rituales" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-1000 ease-out py-6">
+              <span className="text-base md:text-lg tracking-[0.15em] uppercase font-medium text-earth-brown">
+                {t.nav.rituales}
+              </span>
             </Link>
-            <button onClick={toggleLang} className="border border-earth-brown/30 rounded-full w-9 h-9 flex items-center justify-center hover:bg-earth-brown hover:text-cream transition-all duration-600 ease-out text-[11px] font-bold">
+            <Link href="/profesionales" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-1000 ease-out py-6 relative group">
+              <span className="text-base md:text-lg tracking-[0.15em] uppercase font-medium text-earth-brown">
+                {t.nav.proAccess}
+              </span>
+              <span className="absolute -top-1 -right-2 w-1.5 h-1.5 bg-olive-green rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-1000"></span>
+            </Link>
+            <button onClick={toggleLang} className="border border-earth-brown/30 rounded-full w-9 h-9 flex items-center justify-center hover:bg-earth-brown hover:text-cream transition-all duration-1000 ease-out text-[11px] font-bold ml-4">
               {lang}
             </button>
           </div>
 
-          {/* Botón Móvil en Scroll (Aparece aquí cuando el logo grande desaparece) */}
+          {/* MOBILE MENU BUTTON */}
           <div className="md:hidden ml-auto">
-             <button className="text-earth-brown p-1" onClick={() => setIsOpen(!isOpen)}>
-              {isOpen ? <X size={24} /> : <Menu size={24} />}
+            <button className="text-earth-brown p-1" onClick={() => setIsOpen(!isOpen)}>
+              {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
           </div>
-
         </div>
       </motion.div>
 
-      {/* --- MEGA MENU DESKTOP --- */}
+      {/* MEGA MENU DESKTOP */}
       <AnimatePresence>
         {isSelectionHover && (
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.2 }}
-            className="hidden md:block absolute top-[100%] left-0 w-full bg-cream border-b border-sand-light shadow-xl z-30"
+            transition={{ duration: 0.5, ease: [0.76, 0, 0.24, 1] }}
+            className="hidden md:block absolute top-[100%] left-0 w-full bg-cream border-b border-sand-light z-30"
+            style={{
+              boxShadow: "inset 0 2px 8px rgba(139, 115, 85, 0.04), 0 1px 0 rgba(255,255,255,0.5)"
+            }}
             onMouseEnter={() => setIsSelectionHover(true)}
             onMouseLeave={() => setIsSelectionHover(false)}
           >
-             {/* ... (MISMO CONTENIDO DEL MEGA MENU ANTERIOR) ... */}
-             <div className="max-w-screen-2xl mx-auto px-6 py-12 grid grid-cols-12 gap-10">
-               <div className="col-span-3 border-r border-sand-light/30 pr-8">
+            <div className="max-w-screen-2xl mx-auto px-6 py-12 grid grid-cols-12 gap-10">
+              <div className="col-span-3 border-r border-sand-light/30 pr-8">
                 <h3 className="font-serif text-2xl text-earth-brown mb-4 italic">{t.domestic?.title || "La Botica"}</h3>
                 <p className="text-sm text-earth-brown/70 mb-6 leading-relaxed font-sans normal-case">
                   {t.domestic?.productsDesc || "Fórmulas vivas que respiran. Selecciona tu ritual según la necesidad de tu cabello."}
@@ -178,18 +159,17 @@ export default function Navbar() {
         )}
       </AnimatePresence>
 
-      {/* --- MENU MÓVIL (Full Screen) --- */}
+      {/* MOBILE MENU (Full Screen) */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            // Ajustamos el top dinámicamente o fijo seguro
-            className="fixed inset-0 top-[60px] bg-cream z-40 md:hidden overflow-y-auto border-t border-sand-light/20 pt-10"
+            transition={{ duration: 0.5, ease: [0.76, 0, 0.24, 1] }}
+            className="fixed inset-0 top-[70px] bg-cream z-40 md:hidden overflow-y-auto border-t border-sand-light/20 pt-10"
           >
-             {/* ... (MISMO CONTENIDO MOVIL ANTERIOR) ... */}
-             <div className="flex flex-col p-8 gap-8 text-center text-earth-brown font-serif">
+            <div className="flex flex-col p-8 gap-8 text-center text-earth-brown font-serif">
               <Link href="/domesticos/productos" onClick={() => setIsOpen(false)} className="text-xl tracking-widest uppercase hover:text-olive-green">{t.nav.selection}</Link>
               <Link href="/filosofia" onClick={() => setIsOpen(false)} className="text-xl tracking-widest uppercase hover:text-olive-green">{t.nav.aboutTerra}</Link>
               <Link href="/domesticos/tratamientos" onClick={() => setIsOpen(false)} className="text-xl tracking-widest uppercase hover:text-olive-green">{t.nav.treatments}</Link>

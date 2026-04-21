@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useApp } from "@/lib/context";
-import { translations } from "@/lib/translations";
 import { ArrowRight, Clock, Sparkles, Star, Plus } from "lucide-react";
 
 // Assets
@@ -12,13 +11,9 @@ const HERO_IMG =
   "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200";
 
 export default function TratamientosPage() {
-  const { t, lang } = useApp();
+  const { t } = useApp();
 
-  // Acceso seguro a los datos
-  const data =
-    lang === "es"
-      ? translations.es.treatmentsPage
-      : translations.en.treatmentsPage;
+  const data = t?.treatmentsPage;
   const hairRituals = data?.hairRituals?.list || [];
   const facialRituals = data?.facialRituals?.list || [];
   const extras = data?.extras || [];

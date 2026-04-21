@@ -8,9 +8,8 @@ const nextConfig = {
         protocol: "https",
         hostname: "images.unsplash.com",
         port: "",
-        pathname: "**", // Permite cualquier ruta dentro de ese hostname
+        pathname: "**",
       },
-      { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "cdn.pixabay.com" },
       { protocol: "https", hostname: "plus.unsplash.com" }, // A veces unsplash usa este subdominio
     ],
