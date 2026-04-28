@@ -3,8 +3,25 @@ import Link from "next/link";
 import Image from "next/image";
 import { useApp } from "@/lib/context";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { X } from "lucide-react";
 import { useState } from "react";
+
+// Custom 2-line hamburger icon for Quiet Luxury aesthetic
+const HamburgerIcon = ({ className }) => (
+  <svg
+    className={className}
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.5"
+    strokeLinecap="round"
+  >
+    <line x1="4" y1="8" x2="20" y2="8" />
+    <line x1="4" y1="16" x2="20" y2="16" />
+  </svg>
+);
 
 export default function Navbar() {
   const { t, lang, toggleLang } = useApp();
@@ -15,106 +32,119 @@ export default function Navbar() {
   const { scrollY } = useScroll();
 
   useMotionValueEvent(scrollY, "change", (latest) => {
-    if (latest > 1) {
-      setIsScrolled(true);
-    } else {
-      setIsScrolled(false);
-    }
+    setIsScrolled(latest > 1);
   });
 
   const productList = t.productsList || [];
   const categories = [...new Set(productList.map((p) => p.category))];
 
+  // Mobile logo: 25% larger than desktop base, with expansive padding
+  const mobileLogoHeight = isScrolled ? 'h-14' : 'h-20';
+  const desktopLogoHeight = isScrolled ? 'h-16 md:h-20' : 'h-20 md:h-28';
+
   return (
     <nav className="fixed w-full z-50 top-0 left-0 font-serif" onMouseLeave={() => setIsSelectionHover(false)}>
       
-      {/* UNIFIED BAR: Logo Centered + Split Navigation + Language Toggle */}
+      {/* UNIFIED BAR: Clean, borderless, embossed paper effect */}
       <motion.div 
         animate={{ 
-          backgroundColor: isScrolled ? "rgba(248, 245, 242, 0.92)" : "rgba(248, 245, 242, 0.95)",
+          backgroundColor: isScrolled ? "rgba(245, 245, 241, 0.95)" : "rgba(245, 245, 241, 0.98)",
           backdropFilter: isScrolled ? "blur(16px)" : "blur(8px)",
         }}
         transition={{ duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
-        className="w-full relative z-40 flex items-center justify-center"
+        className="w-full relative z-40"
         style={{
-          borderBottom: "1px solid rgba(139, 115, 85, 0.15)",
-          boxShadow: "inset 0 2px 8px rgba(139, 115, 85, 0.04), 0 1px 0 rgba(255,255,255,0.5)"
+          boxShadow: isScrolled 
+            ? "0 2px 12px rgba(139, 115, 85, 0.08)" 
+            : "0 1px 4px rgba(139, 115, 85, 0.04)"
         }}
       >
-        <div className="max-w-screen-2xl mx-auto w-full flex items-center justify-between px-6 md:px-12">
+        {/* Mobile Layout */}
+        <div className="md:hidden relative w-full flex items-center justify-center px-6 py-5">
           
-          {/* LEFT NAV */}
-          <div className="hidden md:flex items-center gap-12 lg:gap-16">
-            <div 
-              className="relative h-full flex items-center cursor-pointer group"
-              onMouseEnter={() => setIsSelectionHover(true)}
-            >
-              <Link
-                href="/domesticos/productos"
-                className="flex items-center gap-2 hover:text-olive-green hover:-translate-y-0.5 transition-all duration-1000 ease-out py-6"
-                onClick={() => setIsSelectionHover(false)}
-              >
-                <span className="text-base md:text-lg tracking-[0.15em] uppercase font-medium text-earth-brown">
-                  {t.nav.selection}
-                </span>
-                <ChevronDown size={12} className={`transition-transform duration-1000 ${isSelectionHover ? 'rotate-180 text-olive-green' : 'opacity-40'}`} />
-              </Link>
-            </div>
-            <Link href="/filosofia" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-1000 ease-out py-6">
-              <span className="text-base md:text-lg tracking-[0.15em] uppercase font-medium text-earth-brown">
-                {t.nav.aboutTerra}
-              </span>
-            </Link>
-          </div>
-
-          {/* LOGO (Absolute Center) */}
+          {/* LOGO: Perfectly centered, 25% larger on mobile */}
           <motion.div 
-            animate={{ 
-              scale: isScrolled ? 0.75 : 1,
-            }}
-            transition={{ duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
-            className="absolute left-1/2 -translate-x-1/2 z-10"
+            animate={{ scale: isScrolled ? 0.95 : 1 }}
+            transition={{ duration: 0.6, ease: [0.76, 0, 0.24, 1] }}
+            className="relative z-10"
           >
-            <Link href="/" className="block hover:opacity-80 transition-opacity duration-1000">
+            <Link href="/" className="block">
               <Image
                 src="/logo-terra-santa-eulalia-cosmetica.png"
                 alt="Terra Santa Eulalia Logo"
-                width={200}
-                height={70}
-                className={`${isScrolled ? 'h-12 md:h-14' : 'h-16 md:h-20'} w-auto object-contain transition-all duration-1000`}
+                width={350}
+                height={125}
+                className={`${mobileLogoHeight} w-auto object-contain transition-all duration-700`}
                 priority
+                sizes="(max-width: 768px) 280px, 350px"
               />
             </Link>
           </motion.div>
 
-          {/* RIGHT NAV */}
-          <div className="hidden md:flex items-center gap-12 lg:gap-16 ml-auto">
-            <Link href="/domesticos/tratamientos" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-1000 ease-out py-6">
-              <span className="text-base md:text-lg tracking-[0.15em] uppercase font-medium text-earth-brown">
-                {t.nav.treatments}
-              </span>
-            </Link>
-            <Link href="/rituales" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-1000 ease-out py-6">
-              <span className="text-base md:text-lg tracking-[0.15em] uppercase font-medium text-earth-brown">
-                {t.nav.rituales}
-              </span>
-            </Link>
-            <Link href="/profesionales" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-1000 ease-out py-6 relative group">
-              <span className="text-base md:text-lg tracking-[0.15em] uppercase font-medium text-earth-brown">
-                {t.nav.proAccess}
-              </span>
-              <span className="absolute -top-1 -right-2 w-1.5 h-1.5 bg-olive-green rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-1000"></span>
-            </Link>
-            <button onClick={toggleLang} className="border border-earth-brown/30 rounded-full w-9 h-9 flex items-center justify-center hover:bg-earth-brown hover:text-cream transition-all duration-1000 ease-out text-[11px] font-bold ml-4">
-              {lang}
-            </button>
-          </div>
+          {/* HAMBURGER MENU: Absolute right, 44x44px touch target */}
+          <motion.button
+            initial={false}
+            animate={{ rotate: isOpen ? 90 : 0 }}
+            transition={{ duration: 0.3 }}
+            onClick={() => setIsOpen(!isOpen)}
+            className="absolute right-6 z-20 w-11 h-11 flex items-center justify-center rounded-full hover:bg-earth-brown/5 active:bg-earth-brown/10 transition-colors duration-300"
+            aria-label="Menu"
+            aria-expanded={isOpen}
+          >
+            {isOpen ? (
+              <X className="w-6 h-6 text-earth-brown" strokeWidth={1.5} />
+            ) : (
+              <HamburgerIcon className="w-6 h-6 text-earth-brown" />
+            )}
+          </motion.button>
+        </div>
 
-          {/* MOBILE MENU BUTTON */}
-          <div className="md:hidden ml-auto">
-            <button className="text-earth-brown p-1" onClick={() => setIsOpen(!isOpen)}>
-              {isOpen ? <X size={28} /> : <Menu size={28} />}
-            </button>
+        {/* Desktop Layout */}
+        <div className="hidden md:block max-w-screen-2xl mx-auto w-full px-12 py-6">
+          <div className="relative flex items-center justify-between">
+            
+            {/* LEFT: Qui Som + Accés */}
+            <div className="flex items-center gap-12 lg:gap-16">
+              <Link href="/filosofia" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-1000 ease-out py-2">
+                <span className="text-base tracking-[0.15em] uppercase font-medium text-earth-brown">
+                  {t.nav.aboutTerra}
+                </span>
+              </Link>
+              <Link href="/profesionales" className="hover:text-olive-green hover:-translate-y-0.5 transition-all duration-1000 ease-out py-2">
+                <span className="text-base tracking-[0.15em] uppercase font-medium text-earth-brown">
+                  {t.nav.proAccess}
+                </span>
+              </Link>
+            </div>
+
+            {/* LOGO (Centered) */}
+            <motion.div 
+              animate={{ scale: isScrolled ? 0.95 : 1 }}
+              transition={{ duration: 0.6, ease: [0.76, 0, 0.24, 1] }}
+              className="absolute left-1/2 -translate-x-1/2 z-10"
+            >
+              <Link href="/" className="block">
+                <Image
+                  src="/logo-terra-santa-eulalia-cosmetica.png"
+                  alt="Terra Santa Eulalia Logo"
+                  width={280}
+                  height={100}
+                  className={`${desktopLogoHeight} w-auto object-contain transition-all duration-700`}
+                  priority
+                />
+              </Link>
+            </motion.div>
+
+            {/* RIGHT: Language Toggle */}
+            <div className="flex items-center gap-4">
+              <button 
+                onClick={toggleLang} 
+                className="w-10 h-10 flex items-center justify-center rounded-full border border-earth-brown/20 hover:bg-earth-brown hover:text-cream hover:border-earth-brown transition-all duration-700 ease-out text-[11px] font-bold"
+                aria-label="Toggle language"
+              >
+                {lang}
+              </button>
+            </div>
           </div>
         </div>
       </motion.div>
@@ -159,24 +189,81 @@ export default function Navbar() {
         )}
       </AnimatePresence>
 
-      {/* MOBILE MENU (Full Screen) */}
+      {/* MOBILE MENU DRAWER (Premium, Full-Height) */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
+            initial={{ opacity: 0, x: '100%' }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: '100%' }}
             transition={{ duration: 0.5, ease: [0.76, 0, 0.24, 1] }}
-            className="fixed inset-0 top-[70px] bg-cream z-40 md:hidden overflow-y-auto border-t border-sand-light/20 pt-10"
+            className="fixed inset-0 top-0 right-0 z-40 md:hidden bg-cream overflow-y-auto"
           >
-            <div className="flex flex-col p-8 gap-8 text-center text-earth-brown font-serif">
-              <Link href="/domesticos/productos" onClick={() => setIsOpen(false)} className="text-xl tracking-widest uppercase hover:text-olive-green">{t.nav.selection}</Link>
-              <Link href="/filosofia" onClick={() => setIsOpen(false)} className="text-xl tracking-widest uppercase hover:text-olive-green">{t.nav.aboutTerra}</Link>
-              <Link href="/domesticos/tratamientos" onClick={() => setIsOpen(false)} className="text-xl tracking-widest uppercase hover:text-olive-green">{t.nav.treatments}</Link>
-              <Link href="/rituales" onClick={() => setIsOpen(false)} className="text-xl tracking-widest uppercase hover:text-olive-green">{t.nav.rituales}</Link>
-              <div className="h-px w-10 mx-auto bg-earth-brown/20 my-2"></div>
-              <Link href="/profesionales" onClick={() => setIsOpen(false)} className="text-lg font-bold text-olive-green uppercase tracking-widest">{t.nav.proAccess}</Link>
-              <button onClick={() => { toggleLang(); setIsOpen(false); }} className="mt-6 mx-auto border border-earth-brown rounded-full w-10 h-10 flex items-center justify-center text-xs font-bold hover:bg-earth-brown hover:text-cream uppercase">{lang}</button>
+            {/* Close button overlay area */}
+            <div className="absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-cream to-transparent pointer-events-none" />
+            
+            {/* Menu Content */}
+            <div className="flex flex-col items-center justify-center min-h-screen px-8 py-20">
+              <div className="flex flex-col items-center gap-8 text-center w-full max-w-sm">
+
+                {/* 1. Qui Som Terra — Primary */}
+                <Link
+                  href="/filosofia"
+                  onClick={() => setIsOpen(false)}
+                  className="text-2xl md:text-3xl font-serif tracking-[0.2em] uppercase text-earth-brown hover:text-olive-green transition-colors duration-500 py-2"
+                >
+                  {t.nav.aboutTerra}
+                </Link>
+
+                <div className="w-px h-12 bg-earth-brown/20" />
+
+                {/* 2. Secondary nav links — uniform hierarchy */}
+                <div className="flex flex-col items-center gap-8">
+                  <Link
+                    href="/domesticos/tratamientos"
+                    onClick={() => setIsOpen(false)}
+                    className="text-lg font-serif tracking-[0.15em] uppercase text-earth-brown/80 hover:text-olive-green transition-colors duration-500"
+                  >
+                    {t.nav.treatments}
+                  </Link>
+
+                  <Link
+                    href="/domesticos/productos"
+                    onClick={() => setIsOpen(false)}
+                    className="text-lg font-serif tracking-[0.15em] uppercase text-earth-brown/80 hover:text-olive-green transition-colors duration-500"
+                  >
+                    {t.nav.products}
+                  </Link>
+
+                  <Link
+                    href="/contact"
+                    onClick={() => setIsOpen(false)}
+                    className="text-lg font-serif tracking-[0.15em] uppercase text-earth-brown/80 hover:text-olive-green transition-colors duration-500"
+                  >
+                    {t.nav.contacto}
+                  </Link>
+                </div>
+
+                <div className="w-16 h-px bg-earth-brown/20" />
+
+                {/* 3. Pro Access — Tertiary */}
+                <Link
+                  href="/profesionales"
+                  onClick={() => setIsOpen(false)}
+                  className="text-sm font-serif tracking-[0.15em] uppercase text-olive-green hover:text-earth-brown transition-colors duration-500"
+                >
+                  {t.nav.proAccess}
+                </Link>
+
+                {/* Language Toggle */}
+                <button
+                  onClick={() => { toggleLang(); setIsOpen(false); }}
+                  className="mt-6 mx-auto w-12 h-12 flex items-center justify-center rounded-full border border-earth-brown/30 hover:bg-earth-brown hover:text-cream hover:border-earth-brown transition-all duration-700 text-xs font-bold uppercase tracking-wider"
+                  aria-label="Toggle language"
+                >
+                  {lang}
+                </button>
+              </div>
             </div>
           </motion.div>
         )}

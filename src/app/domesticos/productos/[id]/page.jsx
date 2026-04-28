@@ -70,6 +70,7 @@ export default function ProductDetail() {
               fill
               priority
               className={`object-cover ${!hasStock ? "grayscale opacity-90" : ""}`}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
             {/* Badge de estado si no hay stock */}
             {!hasStock && (

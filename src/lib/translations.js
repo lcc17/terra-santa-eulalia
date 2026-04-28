@@ -32,11 +32,11 @@ export const translations = {
     },
     cards: {
       productsTitle: "NUESTROS\nPRODUCTOS",
-      productsSub: "La Botica Natural",
+      productsSub: "SELECCIÓ NATURAL & ORGÀNICA",
       treatmentsTitle: "NUESTROS\nTRATAMIENTOS",
-      treatmentsSub: "Spa Orgánico",
-      therapyTitle: "TERAPIA\nCAPILAR",
-      therapySub: "Green Zone",
+      treatmentsSub: "ESPACIO BOTÁNICO",
+      therapyTitle: "TERAPIA CAPILAR\nAVANZADA",
+      therapySub: "CLÍNICA CAPILAR",
     },
     about: {
       title: "Quiénes Somos",
@@ -50,6 +50,8 @@ export const translations = {
     footer: {
       rights: "Todos los derechos reservados.",
       location: "Carrer de Provença, 213, Barcelona",
+      email: "hola@terrasantaeulalia.com",
+      phone: "+34 93 518 42 36",
     },
     treatmentsPage: {
       title: "Rituales Terra",
@@ -166,9 +168,9 @@ export const translations = {
 
       // Extras Express
       extras: [
-        { title: "Lavado Spa", duration: "15 min", price: "35€" },
+        { title: "Lavado Botánico", duration: "15 min", price: "35€" },
         {
-          title: "Masaje Facial + Lavado Spa",
+          title: "Masaje Facial + Lavado Botánico",
           duration: "45 min",
           price: "50€",
         },
@@ -178,9 +180,18 @@ export const translations = {
       title: "Terapias de Alta Gamma",
       spa: "Rituales Faciales & Pindas",
       spaDesc:
-        "Experiencia Signature (150€). Pindas herbales, lifting facial y desconexión absoluta.",
-      capillary: "Terapia de Oxitocina",
-      capillaryDesc: "Diagnóstico profundo y recuperación molecular.",
+        "Experiencia Signature (150€). Pindas herbales, lifting facial y déconexión absoluta.",
+      capillary: "Terapia Capilar Avanzada",
+      capillaryDesc: "Diagnóstico botànico y recuperación molecular.",
+      badge: "Signature Experience",
+    },
+    socialProof: {
+      testimonial: "Un antes y un después para mi cabello. La terapia de oxitocina no es solo estética, es salud real.",
+      author: "Laura G., Cliente Verificada",
+    },
+    whatsapp: {
+      reserveButton: "Reservar Cita",
+      defaultMessage: "Hola, me gustaría información sobre Terra Santa Eulalia — Terapia Capilar Avanzada y Bienestar Orgánico.",
     },
     cta: {
       helpTitle: "¿Necesitas ayuda para elegir?",
@@ -192,12 +203,27 @@ export const translations = {
     },
 
     capillaryPage: {
-      title: "Terapia de Oxitocina",
-      subtitle: "Ingeniería Natural para el Cabello",
-      desc: "Nuestro servicio High Ticket por excelencia. Un protocolo clínico-orgánico para recuperar cabellos dañados, alopecias o desequilibrios del cuero cabelludo.",
-      diagnosisTitle: "El Diagnóstico",
+      badge: "Servicio High Ticket",
+      title: "Terapia Capilar Avanzada",
+      subtitle: "Diagnóstico Botánico & Recuperación Molecular",
+      desc: "Protocolo clínico-orgánico para recuperar cabellos dañados, alopecias o desequilibrios del cuero cabelludo. Un enfoque científico y completamente natural.",
+      diagnosisTitle: "Estudio Dermatológico Capilar",
       diagnosisDesc:
         "Analizamos tu bulbo capilar con microcámara para diseñar tu receta personalizada.",
+      vipServicesTitle: "Diagnóstico Profesional",
+      vipServicesDesc: "Tecnología avanzada meets botànica:",
+      vipServices: [
+        {
+          title: "Estudio Dermatológico con Microcámara",
+          desc: "Observación ampliada del cuero cabelludo y bulbo capilar. Identificamos dermatitis, descamación, exceso de sebo, folliculitis y desequilibrios microscópicos.",
+          icon: "Microscope",
+        },
+        {
+          title: "Escáner Bioeléctrico Capilar",
+          desc: "Medición de los niveles de hidratación, sebo y densidad capilar mediante tecnología bioeléctrica. Informe completo en 15 minutos.",
+          icon: "Activity",
+        },
+      ],
       steps: [
         {
           title: "Limpieza",
@@ -210,6 +236,31 @@ export const translations = {
         {
           title: "Sellado",
           desc: "Cierre de cutícula con aceites ozonizados y luz LED.",
+        },
+      ],
+      ritualsTitle: "Rituales Capilares Orgánicos",
+      ritualsDesc: "Tratamientos específicos para cada necesidad. Protocolos botânicos de alta eficacia.",
+      ritualsList: [
+        {
+          id: "ritual-detox",
+          title: "Ritual Detox",
+          desc: "Limpieza profunda con plantas medicinales. Específico para dermatitis, descamación, caspa o exceso de grasa.",
+          duration: "50 min",
+          price: "85€",
+        },
+        {
+          id: "ritual-fuerte",
+          title: "Ritual Siempre Fuerte",
+          desc: "Fuerza y vitalidad con plantas ayurvédicas. Para cabellos débiles, sin cuerpo y faltos de vida.",
+          duration: "60 min",
+          price: "95€",
+        },
+        {
+          id: "ritual-rizos",
+          title: "Ritual Rizos Perfectos",
+          desc: "Recupera la estructura y flexibilidad del rizo mediante hierbas específicas que devuelven la vida al cabello.",
+          duration: "50 min",
+          price: "85€",
         },
       ],
       solutionsTitle: "Soluciones Terapéuticas",
@@ -232,8 +283,10 @@ export const translations = {
       cta: "Solicitar Diagnóstico",
       ctaRecoveryTitle: "Recupera la memoria vital de tu cabello",
       ctaRecoveryDesc: "Este tratamiento requiere cita previa y valoración de nuestros especialistas en C/ Provença 213.",
-      ctaRecoveryBtn: "Reservar Valoración",
+      ctaRecoveryBtn: "Reservar Diagnóstico",
       scheduleRitual: "Agendar este ritual",
+      whatsappCta: "Reservar Diagnóstico vía WhatsApp",
+      whatsappMessage: "Hola, me interesa reservar un diagnóstico de Terapia Capilar Avanzada en Terra Santa Eulalia.",
     },
     philosophy: {
       heroTitle: "El Origen",
@@ -244,14 +297,26 @@ export const translations = {
       founderDesc:
         "Manolo Díaz no corta cabello, esculpe energía. Tras años observando cómo la química apagaba el alma del cabello, decidió volver al barro, a la raíz, al agua.",
       values: [
-        { title: "Tierra", desc: "Arcillas vivas que purifican sin agredir." },
+        { title: "Tierra", desc: "Arcillas vivas que purifican sin agresir." },
         { title: "Agua", desc: "La hidratación real que fluye desde dentro." },
-        { title: "Tiempo", desc: "El ingrediente más lujoso: la espera." },
+        { title: "Tiempo", desc: "El ingrediente más luxoso: la espera." },
       ],
       processTitle: "La Botica Viva",
       processDesc:
         "Nuestras mezclas se preparan al momento. Sin conservantes que duerman la planta. Es cosmética viva para gente viva.",
       cta: "Ven a Sentirlo",
+      laiaBio: {
+        title: "Laia Salomó",
+        role: "Fundadora & Director Creativo",
+        inspiration:
+          "Me inspiró observar cómo muchas personas buscan verse bien, pero también necesitan sentirse en paz, recuperar su energía y reconectar consigo mismas. Comprendí que la belleza verdadera aparece cuando una persona se siente cuidada, escuchada y en armonía con su esencia.",
+        nature:
+          "También me inspiró la naturaleza, su sabiduría, sus ritmos y su capacidad constante de renovarse. La tierra nos enseña que todo florece cuando recibe el cuidado adecuado. Desde esa visión nace Terra Santa Eulalia: como un lugar donde cada persona pueda renovarse desde dentro hacia fuera.",
+        vision:
+          "Quise crear un espacio diferente, donde la peluquería y el bienestar caminaran juntos, donde cada gesto tuviera intención, donde el respeto por la salud y por el entorno fueran fundamentales, y donde la energía que se transmite fuera tan importante como el resultado final.",
+        mission:
+          "Terra Santa Eulalia es el reflejo de mi misión de vida: ayudar a las personas a descubrir su belleza natural, elevate su energía vital y recordar que cuidarse también es una forma de amor propio. Aquí no solo transformamos imagen, acompañamos procesos, despertamos confianza y sembramos bienestar.",
+      },
     },
 
     productsList: [
@@ -552,11 +617,11 @@ export const translations = {
     },
     cards: {
       productsTitle: "OUR\nPRODUCTS",
-      productsSub: "The Natural Apothecary",
+      productsSub: "NATURAL & ORGANIC SELECTION",
       treatmentsTitle: "OUR\nTREATMENTS",
-      treatmentsSub: "Organic Spa",
-      therapyTitle: "CAPILLARY\nTHERAPY",
-      therapySub: "Green Zone",
+      treatmentsSub: "BOTANICAL SPACE",
+      therapyTitle: "ADVANCED\nCAPILLARY THERAPY",
+      therapySub: "HAIR CLINIC",
     },
     about: {
       title: "Who We Are",
@@ -570,6 +635,8 @@ export const translations = {
     footer: {
       rights: "All rights reserved.",
       location: "Carrer de Provença, 213, Barcelona",
+      email: "hola@terrasantaeulalia.com",
+      phone: "+34 93 518 42 36",
     },
     treatmentsPage: {
       title: "Terra Rituals",
@@ -681,9 +748,9 @@ export const translations = {
       },
 
       extras: [
-        { title: "Spa Wash", duration: "15 min", price: "35€" },
+        { title: "Botanical Wash", duration: "15 min", price: "35€" },
         {
-          title: "Facial Massage + Spa Wash",
+          title: "Facial Massage + Botanical Wash",
           duration: "45 min",
           price: "50€",
         },
@@ -694,8 +761,17 @@ export const translations = {
       spa: "Facial Rituals & Pindas",
       spaDesc:
         "Signature Experience (150€). Herbal pindas, facial lifting, and absolute disconnection.",
-      capillary: "Oxytocin Capillary Therapy",
-      capillaryDesc: "Deep diagnosis and molecular recovery.",
+      capillary: "Advanced Capillary Therapy",
+      capillaryDesc: "Botanical diagnosis and molecular recovery.",
+      badge: "Signature Experience",
+    },
+    socialProof: {
+      testimonial: "A before and after for my hair. Oxytocin therapy is not just aesthetics, it's real health.",
+      author: "Laura G., Verified Client",
+    },
+    whatsapp: {
+      reserveButton: "Book Appointment",
+      defaultMessage: "Hello, I would like information about Terra Santa Eulalia — Advanced Capillary Therapy & Organic Wellness.",
     },
     cta: {
       helpTitle: "Need help choosing?",
@@ -706,12 +782,27 @@ export const translations = {
       filosofiaLink: "Know our philosophy",
     },
     capillaryPage: {
-      title: "Oxytocin Therapy",
-      subtitle: "Natural Engineering for Hair",
-      desc: "Our flagship High Ticket service. A clinical-organic protocol to recover damaged hair, alopecia, or scalp imbalances.",
-      diagnosisTitle: "The Diagnosis",
+      badge: "High Ticket Service",
+      title: "Advanced Capillary Therapy",
+      subtitle: "Botanical Diagnosis & Molecular Recovery",
+      desc: "Clinical-organic protocol to recover damaged hair, alopecia, or scalp imbalances. A scientific and completely natural approach.",
+      diagnosisTitle: "Dermatological Hair Study",
       diagnosisDesc:
         "We analyze your hair bulb with a microcamera to design your personalized recipe.",
+      vipServicesTitle: "Professional Diagnosis",
+      vipServicesDesc: "Advanced technology meets botany:",
+      vipServices: [
+        {
+          title: "Dermatological Study with Microcamera",
+          desc: "Magnified observation of the scalp and hair bulb. We identify dermatitis, flaking, excess sebum, folliculitis, and microscopic imbalances.",
+          icon: "Microscope",
+        },
+        {
+          title: "Bioelectric Hair Scanner",
+          desc: "Measurement of hydration levels, sebum, and hair density using bioelectric technology. Complete report in 15 minutes.",
+          icon: "Activity",
+        },
+      ],
       steps: [
         {
           title: "Cleansing",
@@ -724,6 +815,31 @@ export const translations = {
         {
           title: "Sealing",
           desc: "Cuticle closure with ozonated oils and LED light.",
+        },
+      ],
+      ritualsTitle: "Organic Hair Rituals",
+      ritualsDesc: "Specific treatments for each need. High-efficacy botanical protocols.",
+      ritualsList: [
+        {
+          id: "ritual-detox",
+          title: "Detox Ritual",
+          desc: "Deep cleansing with medicinal plants. Specific for dermatitis, flaking, dandruff, or excess oil.",
+          duration: "50 min",
+          price: "85€",
+        },
+        {
+          id: "ritual-fuerte",
+          title: "Always Strong Ritual",
+          desc: "Strength and vitality with Ayurvedic plants. For weak, lifeless hair lacking body.",
+          duration: "60 min",
+          price: "95€",
+        },
+        {
+          id: "ritual-rizos",
+          title: "Perfect Curls Ritual",
+          desc: "Recover curl structure and flexibility through specific herbs that restore life to hair.",
+          duration: "50 min",
+          price: "85€",
         },
       ],
       solutionsTitle: "Therapeutic Solutions",
@@ -746,8 +862,10 @@ export const translations = {
       cta: "Request Diagnosis",
       ctaRecoveryTitle: "Restore the vital memory of your hair",
       ctaRecoveryDesc: "This treatment requires a prior appointment and evaluation by our specialists at C/ Provença 213.",
-      ctaRecoveryBtn: "Book Evaluation",
+      ctaRecoveryBtn: "Book Diagnosis",
       scheduleRitual: "Schedule this ritual",
+      whatsappCta: "Book Diagnosis via WhatsApp",
+      whatsappMessage: "Hello, I'm interested in booking an Advanced Capillary Therapy diagnosis at Terra Santa Eulalia.",
     },
     philosophy: {
       heroTitle: "The Origin",
@@ -766,6 +884,18 @@ export const translations = {
       processDesc:
         "Our blends are prepared on the spot. No preservatives that put the plant to sleep. It's living cosmetics for living people.",
       cta: "Come Experience It",
+      laiaBio: {
+        title: "Laia Salomó",
+        role: "Founder & Creative Director",
+        inspiration:
+          "I was inspired by observing how many people seek to look good, but also need to feel at peace, recover their energy, and reconnect with themselves. I understood that true beauty appears when a person feels cared for, heard, and in harmony with their essence.",
+        nature:
+          "I was also inspired by nature, its wisdom, its rhythms, and its constant capacity to renew itself. The earth teaches us that everything flourishes when it receives the right care. From this vision Terra Santa Eulalia was born: as a place where each person can renew themselves from the inside out.",
+        vision:
+          "I wanted to create a different space, where hairdressing and well-being walked together, where every gesture had intention, where respect for health and for the environment were fundamental, and where the energy transmitted was as important as the final result.",
+        mission:
+          "Terra Santa Eulalia is the reflection of my life mission: to help people discover their natural beauty, elevate their vital energy, and remember that self-care is also a form of self-love. Here we don't just transform image, we accompany processes, awaken confidence, and sow well-being.",
+      },
     },
     productsList: [],
     faqList: [
@@ -821,11 +951,11 @@ export const translations = {
     },
     cards: {
       productsTitle: "ELS NOSTRES\nPRODUCTES",
-      productsSub: "La Botiga Natural",
+      productsSub: "SELECCIÓ NATURAL & ORGÀNICA",
       treatmentsTitle: "ELS NOSTRES\nTRACTAMENTS",
-      treatmentsSub: "Spa Orgànic",
-      therapyTitle: "TERÀPIA\nCAPIL·LAR",
-      therapySub: "Green Zone",
+      treatmentsSub: "ESPAI BOTÀNIC",
+      therapyTitle: "TERÀPIA CAPIL·LAR\nAVANÇADA",
+      therapySub: "CLÍNICA CAPIL·LAR",
     },
     about: {
       title: "Qui Som",
@@ -839,6 +969,8 @@ export const translations = {
     footer: {
       rights: "Tots els drets reservats.",
       location: "Carrer de Provença, 213, Barcelona",
+      email: "hola@terrasantaeulalia.com",
+      phone: "+34 93 518 42 36",
     },
     treatmentsPage: {
       title: "Rituals Terra",
@@ -950,9 +1082,9 @@ export const translations = {
       },
 
       extras: [
-        { title: "Rentat Spa", duration: "15 min", price: "35€" },
+        { title: "Rentat Botànic", duration: "15 min", price: "35€" },
         {
-          title: "Massatge Facial + Rentat Spa",
+          title: "Massatge Facial + Rentat Botànic",
           duration: "45 min",
           price: "50€",
         },
@@ -963,8 +1095,17 @@ export const translations = {
       spa: "Rituals Facials & Pindes",
       spaDesc:
         "Experiència Signature (150€). Pindes herbals, lifting facial i desconnexió absoluta.",
-      capillary: "Teràpia Capil·lar d'Oxitocina",
-      capillaryDesc: "Diagnòstic profund i recuperació molecular.",
+      capillary: "Teràpia Capil·lar Avançada",
+      capillaryDesc: "Diagnòstic botànic i recuperació molecular.",
+      badge: "Signature Experience",
+    },
+    socialProof: {
+      testimonial: "Un abans i un després per al meu cabell. La teràpia d'oxitocina no és només estètica, és salut real.",
+      author: "Laura G., Client Verificat",
+    },
+    whatsapp: {
+      reserveButton: "Reservar Cita",
+      defaultMessage: "Hola, m'agradaria informació sobre Terra Santa Eulalia — Teràpia Capil·lar Avançada i Benestar Orgànic.",
     },
     cta: {
       helpTitle: "Necessites ajuda per triar?",
@@ -975,12 +1116,27 @@ export const translations = {
       filosofiaLink: "Conèixer la nostra filosofia",
     },
     capillaryPage: {
-      title: "Teràpia d'Oxitocina",
-      subtitle: "Enginyeria Natural per al Cabell",
-      desc: "El nostre servei High Ticket per excel·lència. Un protocol clínic-orgànic per recuperar cabells danyats, alopècies o dessequilibris del cuir ciliat.",
-      diagnosisTitle: "El Diagnòstic",
+      badge: "Servei High Ticket",
+      title: "Teràpia Capil·lar Avançada",
+      subtitle: "Diagnòstic Botànic & Recuperació Molecular",
+      desc: "Protocol clínic-orgànic per recuperar cabells danyats, alopècies o dessequilibris del cuir ciliat. Un enfocament científic i completament natural.",
+      diagnosisTitle: "Estudi Dermatològic Capil·lar",
       diagnosisDesc:
         "Analitzem el teu bulb capil·lar amb microcàmera per dissenyar la teva recepta personalitzada.",
+      vipServicesTitle: "Diagnòstic Professional",
+      vipServicesDesc: "Tecnologia avançada meet botànica:",
+      vipServices: [
+        {
+          title: "Estudi Dermatològic amb Microcàmera",
+          desc: "Observació ampliada del cuir ciliat i bulb capil·lar. Identifiquem dermatitis, descamació, excés de greix, folliculitis i dessequilibris microscòpics.",
+          icon: "Microscope",
+        },
+        {
+          title: "Escàner Bioelèctric Capil·lar",
+          desc: "Mesura dels nivells d'hidratació, greix i densitat capil·lar mitjançant tecnologia bioelèctrica. Informe complet en 15 minuts.",
+          icon: "Activity",
+        },
+      ],
       steps: [
         {
           title: "Neteja",
@@ -993,6 +1149,31 @@ export const translations = {
         {
           title: "Segellat",
           desc: "Tancament de cutícula amb olis ozonitzats i llum LED.",
+        },
+      ],
+      ritualsTitle: "Rituals Capil·lars Orgànics",
+      ritualsDesc: "Tractaments específics per a cada necessitat. Protocols botànics d'alta eficàcia.",
+      ritualsList: [
+        {
+          id: "ritual-detox",
+          title: "Ritual Detox",
+          desc: "Neteja profunda amb plantes medicinals. Específic per a dermatitis, descamació, caspa o excés de greix.",
+          duration: "50 min",
+          price: "85€",
+        },
+        {
+          id: "ritual-fuerte",
+          title: "Ritual Sempre Fort",
+          desc: "Força i vitalitat amb plantes ayurvèdiques. Per a cabells febles, sense cos i mancats de vida.",
+          duration: "60 min",
+          price: "95€",
+        },
+        {
+          id: "ritual-rizos",
+          title: "Ritual Rissos Perfectes",
+          desc: "Recupera l'estructura i flexibilitat del rís mitjançant herbes específiques que retornen la vida al cabell.",
+          duration: "50 min",
+          price: "85€",
         },
       ],
       solutionsTitle: "Solucions Terapèutiques",
@@ -1015,8 +1196,10 @@ export const translations = {
       cta: "Sol·licitar Diagnòstic",
       ctaRecoveryTitle: "Recupera la memòria vital del teu cabell",
       ctaRecoveryDesc: "Aquest tractament requereix cita prèvia i valoració dels nostres especialistes a C/ Provença 213.",
-      ctaRecoveryBtn: "Reservar Valoració",
+      ctaRecoveryBtn: "Reservar Diagnòstic",
       scheduleRitual: "Agendar aquest ritual",
+      whatsappCta: "Reservar Diagnòstic vía WhatsApp",
+      whatsappMessage: "Hola, m'interessa reservar un diagnòstic de Teràpia Capil·lar Avançada a Terra Santa Eulalia.",
     },
     philosophy: {
       heroTitle: "L'Origen",
@@ -1035,6 +1218,18 @@ export const translations = {
       processDesc:
         "Les nostres barreges es preparen al moment. Sense conservants que dormin la planta. És cosmètica viva per a gent viva.",
       cta: "Vine a Sentir-ho",
+      laiaBio: {
+        title: "Laia Salomó",
+        role: "Fundadora & Director Creatiu",
+        inspiration:
+          "Em va inspirar observar com moltes persones busquen veure's bé, però també necessiten sentir-se en pau, recuperar la seva energia i reconnectar amb elles mateixes. Compress que la bellesa vertadera apareix quan una persona se sent cuidada, escoltada i en harmonia amb la seva essència.",
+        nature:
+          "També em va inspirar la natura, la seva saviesa, els seus ritmes i la seva capacitat constant de renvar-se. La terra ens ensenya que tot floreix quan rep la cura adequada. Des d'aquesta visió neix Terra Santa Eulalia: com un lloc on cada persona pugui renewar-se des de dins cap a fora.",
+        vision:
+          "Vaig voler crear un espai diferent, on la perruqueria i el benestar caminessin junts, on cada gest tingués intenció, on el respecte per la salut i per l'entorn fossin fonamentals, i on l'energia que es transmetés fos tan important com el resultat final.",
+        mission:
+          "Terra Santa Eulalia és el reflex de la meva missió de vida: ajudar les persones a descobrir la seva bellesa natural, elevar la seva energia vital i recordar que cuidar-se també és una forma d'amor propi. Aquí no només transformem imatge, acompanyem processos, despertem confiança i sembrem benestar.",
+      },
     },
     productsList: [],
     faqList: [

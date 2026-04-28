@@ -40,6 +40,7 @@ export default function RitualesPage() {
             fill
             className="object-cover scale-110"
             priority
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-earth-brown/40" />
           <div className="absolute inset-0 bg-gradient-to-t from-cream via-cream/20 to-transparent" />
@@ -55,7 +56,7 @@ export default function RitualesPage() {
           <button
             onClick={() => {
               window.open(
-                `https://wa.me/34602468686?text=${encodeURIComponent(t?.treatmentsPage?.whatsappMessage || 'Hola, me interesa reservar un ritual de Terra Santa Eulalia')}`,
+                `https://wa.me/34631994318?text=${encodeURIComponent(t?.treatmentsPage?.whatsappMessage || 'Hola, me interesa reservar un ritual de Terra Santa Eulalia')}`,
                 "_blank"
               );
             }}

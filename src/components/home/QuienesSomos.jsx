@@ -44,6 +44,7 @@ export default function QuienesSomos() {
                 alt="Fundadora Terra Santa Eulalia"
                 fill
                 className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
               {/* Overlay sutil */}
               <div className="absolute inset-0 bg-earth-brown/10 mix-blend-multiply" />
@@ -59,6 +60,7 @@ export default function QuienesSomos() {
                 alt="Detalle Textura Orgánica"
                 fill
                 className="object-cover"
+                sizes="(max-width: 768px) 50vw, 25vw"
               />
             </motion.div>
 
@@ -93,6 +95,7 @@ export default function QuienesSomos() {
               alt="Fundadora"
               fill
               className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
 
@@ -113,7 +116,7 @@ export default function QuienesSomos() {
               "Terra no nació en un laboratorio, nació de la necesidad de volver
               al origen. Soy{" "}
               <span className="font-semibold text-olive-green">
-                Laia Salomon
+                Laia Salomó
               </span>
               , y creo firmemente que la verdadera belleza es el resultado de la
               salud, el silencio y el respeto por los tiempos de la naturaleza."
@@ -126,7 +129,7 @@ export default function QuienesSomos() {
                 </p>
                 {/* Aquí iría la firma si tienes la imagen .png */}
                 <h3 className="text-3xl font-handwriting text-earth-brown font-light">
-                  Laia Salomon
+                  Laia Salomó
                 </h3>
               </div>
 

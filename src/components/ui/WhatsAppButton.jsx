@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import { useSchedule } from "@/lib/useSchedule";
 
-const PHONE_NUMBER = "34602468686";
+const PHONE_NUMBER = "34631994318";
 
 /**
  * Reusable WhatsApp CTA button for booking

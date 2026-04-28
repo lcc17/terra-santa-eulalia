@@ -195,7 +195,39 @@ export default function FilosofiaPage() {
         </div>
       </section>
 
-      {/* --- 4. LOS VALORES (Scroll Horizontal Simulado / Grid Irregular) --- */}
+      {/* --- 4. LA FUNDADORA (Laia Salomó — Bio Statement) --- */}
+      <section className="py-40 px-6 md:px-20 max-w-[1200px] mx-auto relative z-10">
+        <article className="flex flex-col gap-12">
+          {/* Título y rol */}
+          <div className="mb-8">
+            <span className="text-olive-green uppercase tracking-widest text-xs font-bold mb-4 block">
+              {t.philosophy.laiaBio.role}
+            </span>
+            <h2 className="text-6xl md:text-8xl font-serif text-earth-brown font-light">
+              {t.philosophy.laiaBio.title}
+            </h2>
+            <div className="h-px w-20 bg-olive-green mt-6"></div>
+          </div>
+
+          {/* Cuerpo de texto en bloques */}
+          <div className="space-y-8 max-w-3xl">
+            <p className="text-xl md:text-2xl font-serif text-earth-brown/90 leading-relaxed">
+              {t.philosophy.laiaBio.inspiration}
+            </p>
+            <p className="text-lg text-earth-brown/70 leading-relaxed">
+              {t.philosophy.laiaBio.nature}
+            </p>
+            <p className="text-lg text-earth-brown/70 leading-relaxed">
+              {t.philosophy.laiaBio.vision}
+            </p>
+            <p className="text-lg text-earth-brown/70 leading-relaxed font-medium italic">
+              {t.philosophy.laiaBio.mission}
+            </p>
+          </div>
+        </article>
+      </section>
+
+      {/* --- 5. LOS VALORES (Scroll Horizontal Simulado / Grid Irregular) --- */}
       <section className="py-32 px-6 max-w-[1600px] mx-auto z-10 relative">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4">
           {/* Card 1: TIERRA */}
@@ -266,7 +298,7 @@ function ParallaxImage({ src, alt, className, speed = 100 }) {
       style={{ y }}
       className={`overflow-hidden ${className}`}
     >
-      <Image src={src} alt={alt} fill className="object-cover" />
+      <Image src={src} alt={alt} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
     </motion.div>
   );
 }
@@ -283,7 +315,7 @@ function ParallaxImageBackground({ src }) {
 
   return (
     <motion.div ref={ref} style={{ y, scale }} className="absolute inset-0 z-0">
-      <Image src={src} alt="Background" fill className="object-cover" />
+      <Image src={src} alt="Background" fill className="object-cover" sizes="100vw" />
     </motion.div>
   );
 }

@@ -1,13 +1,13 @@
 "use client";
 import { motion } from "framer-motion";
 import { MapPin, Phone, Clock, Send, MessageCircle } from "lucide-react";
+import { useApp } from "@/lib/context";
 
 export default function ContactPage() {
-  // Función para redirigir a WhatsApp
+  const { t } = useApp();
   const handleWhatsApp = () => {
-    const phone = "34602468686"; // Terra Santa Eulalia
-    const text =
-      "Hola, me gustaría reservar una cita o solicitar información sobre productos Terra.";
+    const phone = "34631994318";
+    const text = t?.whatsapp?.defaultMessage || "Hola, me gustaría reservar una cita o solicitar información sobre Terra Santa Eulalia.";
     window.open(
       `https://wa.me/${phone}?text=${encodeURIComponent(text)}`,
       "_blank",
@@ -96,7 +96,9 @@ export default function ContactPage() {
                   <span className="text-[10px] uppercase tracking-widest opacity-60 block mb-1">
                     Teléfono
                   </span>
-                  <p className="text-lg">+34 930 000 000</p>
+                  <a href="tel:+34935184236" className="text-lg hover:text-olive-green transition-colors">
+                    +34 93 518 42 36
+                  </a>
                 </div>
               </div>
             </div>

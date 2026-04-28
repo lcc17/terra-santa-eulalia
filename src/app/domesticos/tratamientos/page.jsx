@@ -28,6 +28,7 @@ export default function TratamientosPage() {
             alt="Rituales Terra"
             fill
             className="object-cover opacity-90"
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-earth-brown/50 mix-blend-multiply" />
         </div>

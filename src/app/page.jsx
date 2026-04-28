@@ -1,32 +1,23 @@
 "use client";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { useApp } from "../lib/context";
 import { translations } from "@/lib/translations";
 import ProductCard from "@/components/domesticos/ProductCard";
 import QuienesSomos from "@/components/home/QuienesSomos";
-import { ArrowRight, Star, MessageCircle, ArrowUpRight } from "lucide-react";
+import { ArrowRight, Star, MessageCircle } from "lucide-react";
 
-const WHOWEARE_IMG = "/images/who-we-are.png";
 const HERO_VIDEO = "/videos/hero-video.mp4";
-
-// Hero card images — each tells a different brand story
-const CARD_IMGS = {
-  products: "/images/products/terra_santa_planta_indigo.PNG",
-  treatments: "/images/retrato-terra-santa-eulalia.png",
-  therapy: "/images/who-we-are.png",
-};
 
 export default function Home() {
   const { t, lang } = useApp();
-  const { scrollY } = useScroll();
 
   const bestSellers = t?.productsList?.slice(0, 3) || [];
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "34602468686";
-    const message = "Hola, me gustaría información sobre Terra Santa Eulalia.";
+    const phoneNumber = "34631994318";
+    const message = t?.whatsapp?.defaultMessage || "Hola, me gustaría información sobre Terra Santa Eulalia.";
     window.open(
       `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,
       "_blank",
@@ -35,20 +26,20 @@ export default function Home() {
 
   return (
     <div className="flex flex-col w-full overflow-x-hidden bg-cream pt-32">
-      {/* --- 1. HERO SECTION (ATMOSFÉRICO / SIN TEXTO) --- */}
-      <section className="relative h-[85vh] w-full overflow-hidden flex flex-col justify-end pb-12 md:pb-20">
+      {/* --- 1. HERO SECTION --- */}
+      <section className="relative h-[85vh] w-full overflow-hidden flex flex-col justify-end">
+        {/* Fullscreen video background */}
         <div className="absolute inset-0 z-0">
           <video
             autoPlay
             loop
             muted
             playsInline
-            className="w-full h-full object-cover scale-105"
+            className="w-full h-full object-cover"
           >
             <source src={HERO_VIDEO} type="video/mp4" />
           </video>
-          <div className="absolute inset-0 bg-earth-brown/10 mix-blend-multiply" />
-          <div className="absolute inset-0 bg-black/10" />
+          <div className="absolute inset-0 bg-black/20" />
         </div>
 
         {/* CTA WHATSAPP */}
@@ -58,132 +49,92 @@ export default function Home() {
           transition={{ delay: 1, duration: 1 }}
           onClick={handleWhatsAppClick}
           className="absolute top-28 right-6 md:top-32 md:right-10 z-30 group flex items-center gap-3"
+          aria-label={t?.whatsapp?.reserveButton || "Reservar Cita"}
         >
           <span className="hidden md:block text-xs font-bold text-white uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
-            Reservar Cita
+            {t?.whatsapp?.reserveButton || "Reservar Cita"}
           </span>
           <div className="w-12 h-12 md:w-14 md:h-14 bg-white/10 backdrop-blur-md border border-white/30 rounded-full flex items-center justify-center hover:bg-green-600 hover:border-green-600 hover:scale-110 transition-all duration-1000 ease-out shadow-xl">
             <MessageCircle size={24} className="text-white" />
           </div>
         </motion.button>
 
-        {/* --- STAGGERED MASONRY CARDS --- */}
-        <div className="relative z-20 w-full px-6 md:px-12 max-w-[1600px] mx-auto">
-
-          {/* ATMOSPHERIC GHOST BLOB — repositioned as grid child */}
-          <div
-            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none"
-            style={{
-              width: "1000px",
-              height: "1000px",
-              borderRadius: "60% 40% 30% 70% / 60% 30% 70% 40%",
-              background: "rgba(74, 58, 36, 0.05)",
-              filter: "blur(120px)",
-            }}
-          />
-
-          {/* GRID: 3-col asymmetric masonry with staggered vertical offsets */}
+        {/* --- CLEAN 3-CARD GRID --- */}
+        <div className="relative z-20 w-full px-4 md:px-8 max-w-[1600px] mx-auto pb-8 md:pb-12">
           <motion.div
-            initial={{ opacity: 0, y: 60 }}
+            initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3, duration: 1.2, ease: [0.76, 0, 0.24, 1] }}
-            className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 relative z-10 items-end"
+            transition={{ delay: 0.3, duration: 1, ease: [0.76, 0, 0.24, 1] }}
+            className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6"
           >
-            {/* CARD 1: PRODUCTOS — Left, standard position, min-h 450px */}
-            <Link href="/domesticos/productos" className="group md:mt-0 block">
+            {/* CARD 1: PRODUCTOS — Earth Brown */}
+            <Link href="/domesticos/productos" className="group block">
               <motion.div
-                initial={{ opacity: 0, x: -30 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.5, duration: 1, ease: [0.76, 0, 0.24, 1] }}
-                className="relative min-h-[450px] md:h-[60vh] overflow-hidden shadow-2xl group-hover:-translate-y-4 transition-transform duration-1000 ease-out"
-                style={{ borderRadius: "40% 60% 70% 30% / 50%" }}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5, duration: 0.8 }}
+                className="relative h-48 md:h-56 bg-earth-brown rounded-xl overflow-hidden shadow-xl group-hover:-translate-y-2 transition-transform duration-500 ease-out"
               >
-                {/* Background image */}
-                <Image
-                  src={CARD_IMGS.products}
-                  alt={t?.cards?.productsTitle || "Productos"}
-                  fill
-                  className="object-cover scale-105 group-hover:scale-110 transition-transform duration-1000 ease-out"
-                />
-                {/* Gradient overlay for text legibility */}
-                <div className="absolute inset-0 bg-gradient-to-t from-earth-brown/80 via-earth-brown/20 to-transparent" />
-                {/* Text at absolute bottom */}
-                <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
-                  <h3 className="text-cream font-serif text-3xl md:text-5xl tracking-[0.1em] whitespace-pre-line mb-3">
+                {/* Arrow icon top-right */}
+                <div className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center">
+                  <ArrowRight className="w-5 h-5 text-cream/70 group-hover:text-cream group-hover:translate-x-1 transition-all duration-300" />
+                </div>
+                {/* Text content */}
+                <div className="absolute bottom-0 left-0 right-0 p-5 md:p-6">
+                  <h3 className="text-cream font-serif text-xl md:text-2xl tracking-[0.15em] whitespace-pre-line mb-1">
                     {t?.cards?.productsTitle || "NUESTROS\nPRODUCTOS"}
                   </h3>
-                  <p className="text-sand-light/70 text-[10px] uppercase tracking-widest font-bold">
-                    {t?.cards?.productsSub || "La Botica Natural"}
+                  <p className="text-cream/60 text-[9px] uppercase tracking-widest font-bold">
+                    {t?.cards?.productsSub || "SELECCIÓ NATURAL & ORGÀNICA"}
                   </p>
-                  <div className="mt-6 w-8 h-px bg-sand-light/50 group-hover:w-20 transition-all duration-1000 ease-out" />
                 </div>
               </motion.div>
             </Link>
 
-            {/* CARD 2: TRATAMIENTOS — Center, translate-y-12, floating animation */}
-            <Link href="/domesticos/tratamientos" className="group md:translate-y-12 block">
+            {/* CARD 2: TRATAMIENTOS — Cream */}
+            <Link href="/domesticos/tratamientos" className="group block">
               <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: [0, -15, 0] }}
-                transition={{
-                  delay: 0.7,
-                  duration: 1,
-                  ease: [0.76, 0, 0.24, 1],
-                  repeat: Infinity,
-                  repeatType: "loop",
-                }}
-                className="relative min-h-[450px] md:h-[60vh] overflow-hidden shadow-2xl group-hover:-translate-y-4 transition-transform duration-1000 ease-out"
-                style={{ borderRadius: "60% 40% 30% 70% / 60%" }}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.6, duration: 0.8 }}
+                className="relative h-48 md:h-56 bg-cream rounded-xl overflow-hidden shadow-xl group-hover:-translate-y-2 transition-transform duration-500 ease-out"
               >
-                {/* Background image */}
-                <Image
-                  src={CARD_IMGS.treatments}
-                  alt={t?.cards?.treatmentsTitle || "Tratamientos"}
-                  fill
-                  className="object-cover scale-105 group-hover:scale-110 transition-transform duration-1000 ease-out"
-                />
-                {/* Gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-earth-brown/80 via-earth-brown/20 to-transparent" />
-                {/* Text */}
-                <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
-                  <h3 className="text-cream font-serif text-3xl md:text-5xl tracking-[0.1em] whitespace-pre-line mb-3">
+                {/* Arrow icon top-right */}
+                <div className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center">
+                  <ArrowRight className="w-5 h-5 text-earth-brown/70 group-hover:text-earth-brown group-hover:translate-x-1 transition-all duration-300" />
+                </div>
+                {/* Text content */}
+                <div className="absolute bottom-0 left-0 right-0 p-5 md:p-6">
+                  <h3 className="text-earth-brown font-serif text-xl md:text-2xl tracking-[0.15em] whitespace-pre-line mb-1">
                     {t?.cards?.treatmentsTitle || "NUESTROS\nTRATAMIENTOS"}
                   </h3>
-                  <p className="text-sand-light/70 text-[10px] uppercase tracking-widest font-bold">
-                    {t?.cards?.treatmentsSub || "Spa Orgánico"}
+                  <p className="text-earth-brown/60 text-[9px] uppercase tracking-widest font-bold">
+                    {t?.cards?.treatmentsSub || "SPA ORGÀNICO"}
                   </p>
-                  <div className="mt-6 w-8 h-px bg-sand-light/50 group-hover:w-20 transition-all duration-1000 ease-out" />
                 </div>
               </motion.div>
             </Link>
 
-            {/* CARD 3: TERAPIA CAPILAR — Right, -translate-y-8, slight horizontal offset */}
-            <Link href="/domesticos/terapia-capilar" className="group md:-translate-y-8 md:ml-auto block">
+            {/* CARD 3: TERAPIA CAPILAR — Olive Green */}
+            <Link href="/domesticos/terapia-capilar" className="group block">
               <motion.div
-                initial={{ opacity: 0, x: 30 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.9, duration: 1, ease: [0.76, 0, 0.24, 1] }}
-                className="relative min-h-[450px] md:h-[60vh] overflow-hidden shadow-2xl group-hover:-translate-y-4 transition-transform duration-1000 ease-out"
-                style={{ borderRadius: "50% 50% 70% 30% / 40%" }}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.7, duration: 0.8 }}
+                className="relative h-48 md:h-56 bg-olive-green rounded-xl overflow-hidden shadow-xl group-hover:-translate-y-2 transition-transform duration-500 ease-out"
               >
-                {/* Background image */}
-                <Image
-                  src={CARD_IMGS.therapy}
-                  alt={t?.cards?.therapyTitle || "Terapia Capilar"}
-                  fill
-                  className="object-cover scale-105 group-hover:scale-110 transition-transform duration-1000 ease-out"
-                />
-                {/* Gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-earth-brown/80 via-earth-brown/20 to-transparent" />
-                {/* Text */}
-                <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
-                  <h3 className="text-cream font-serif text-3xl md:text-5xl tracking-[0.1em] whitespace-pre-line mb-3">
+                {/* Arrow icon top-right */}
+                <div className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center">
+                  <ArrowRight className="w-5 h-5 text-cream/70 group-hover:text-cream group-hover:translate-x-1 transition-all duration-300" />
+                </div>
+                {/* Text content */}
+                <div className="absolute bottom-0 left-0 right-0 p-5 md:p-6">
+                  <h3 className="text-cream font-serif text-xl md:text-2xl tracking-[0.15em] whitespace-pre-line mb-1">
                     {t?.cards?.therapyTitle || "TERAPIA\nCAPILAR"}
                   </h3>
-                  <p className="text-sand-light/70 text-[10px] uppercase tracking-widest font-bold">
-                    {t?.cards?.therapySub || "Green Zone"}
+                  <p className="text-cream/60 text-[9px] uppercase tracking-widest font-bold">
+                    {t?.cards?.therapySub || "GREEN ZONE"}
                   </p>
-                  <div className="mt-6 w-8 h-px bg-sand-light/50 group-hover:w-20 transition-all duration-1000 ease-out" />
                 </div>
               </motion.div>
             </Link>
@@ -233,7 +184,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-20">
             <span className="text-olive-green text-xs tracking-[0.3em] uppercase block mb-4">
-              Experiencias Exclusivas
+              {t.services.badge || "Signature Experience"}
             </span>
             <h2 className="text-4xl md:text-5xl font-serif text-cream">
               {t.services.title}
@@ -243,23 +194,17 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             <ServiceCard
               title={t.services.capillary}
-              desc={
-                t.services.capillaryDesc ||
-                "Diagnóstico profundo y recuperación molecular con oxitocina."
-              }
+              desc={t.services.capillaryDesc}
               img="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800"
               href="/domesticos/terapia-capilar"
             />
 
             <ServiceCard
               title={t.services.spa}
-              desc={
-                t.services.spaDesc ||
-                "Descubre nuestro Ritual Signature con Pindas (150€) y Lifting Facial."
-              }
+              desc={t.services.spaDesc}
               img="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800"
               href="/domesticos/tratamientos"
-              badge="Signature Experience"
+              badge={t.services.badge}
             />
           </div>
         </div>
@@ -297,6 +242,7 @@ function ServiceCard({ title, desc, img, href }) {
         alt={title}
         fill
         className="object-cover transition-transform duration-1000 group-hover:scale-110 opacity-70 group-hover:opacity-60"
+        sizes="(max-width: 768px) 100vw, 50vw"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
       <div className="absolute bottom-0 left-0 p-10 w-full">
