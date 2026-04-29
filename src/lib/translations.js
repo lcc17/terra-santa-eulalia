@@ -315,7 +315,7 @@ export const translations = {
         vision:
           "Quise crear un espacio diferente, donde la peluquería y el bienestar caminaran juntos, donde cada gesto tuviera intención, donde el respeto por la salud y por el entorno fueran fundamentales, y donde la energía que se transmite fuera tan importante como el resultado final.",
         mission:
-          "Terra Santa Eulalia es el reflejo de mi misión de vida: ayudar a las personas a descubrir su belleza natural, elevate su energía vital y recordar que cuidarse también es una forma de amor propio. Aquí no solo transformamos imagen, acompañamos procesos, despertamos confianza y sembramos bienestar.",
+          "Terra Santa Eulalia es el reflejo de mi misión de vida: ayudar a las personas a descubrir su belleza natural, elevar su energía vital y recordar que cuidarse también es una forma de amor propio. Aquí no solo transformamos imagen, acompañamos procesos, despertamos confianza y sembramos bienestar.",
       },
     },
 
