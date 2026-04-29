@@ -8,6 +8,8 @@ import ProductCard from "@/components/domesticos/ProductCard";
 import QuienesSomos from "@/components/home/QuienesSomos";
 import { ArrowRight, Star, MessageCircle } from "lucide-react";
 
+// estoy ansioso que esto funcione :D
+
 const HERO_VIDEO = "/videos/hero-video.mp4";
 
 export default function Home() {
