@@ -36,6 +36,7 @@ export default function Home() {
             muted
             playsInline
             className="w-full h-full object-cover"
+            suppressHydrationWarning={true}
           >
             <source src={HERO_VIDEO} type="video/mp4" />
           </video>
