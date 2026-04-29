@@ -1,18 +1,20 @@
-"use client";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useParams } from "next/navigation";
-import { useApp } from "@/lib/context";
-import Button from "@/components/ui/Button";
+import { translations } from "@/lib/translations";
 import { ChevronRight } from "lucide-react";
+import Button from "@/components/ui/Button";
 
-export default function ProductDetail() {
-  const { id } = useParams();
-  const { t } = useApp();
+export function generateStaticParams() {
+  const products = translations.es?.productsList || [];
+  return products.map((product) => ({
+    id: product.id,
+  }));
+}
 
-  // Obtener producto de la lista global
-  const products = t.productsList || [];
+export default async function ProductDetail({ params }) {
+  const { id } = await params;
+  const products = translations.es?.productsList || [];
   const product = products.find((p) => p.id === id);
 
   if (!product) {
