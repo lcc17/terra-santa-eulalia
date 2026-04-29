@@ -42,6 +42,9 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: sftp
+          port: 22
           local-dir: ./out/
-          server-dir: /terrasantaeulalia/public_html/
+          server-dir: public_html/
           log-level: verbose
+          dangerous-clean-slate: false
