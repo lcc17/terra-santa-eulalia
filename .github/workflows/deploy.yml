@@ -45,6 +45,6 @@ jobs:
           protocol: sftp
           port: 22
           local-dir: ./out/
-          server-dir: public_html/
+          server-dir: terrasantaeulalia/public_html/
           log-level: verbose
           dangerous-clean-slate: false
