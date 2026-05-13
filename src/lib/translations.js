@@ -1048,7 +1048,7 @@ export const translations = {
 
       hairRituals: {
         title: "Rituals Capil·lars Orgànics",
-        desc: "Recupera la força i salut del teu cabell amb barrets i plantes.",
+        desc: "Recupera la força i salut del teu cabell amb fangs i plantes.",
         list: [
           {
             id: "ritual-detox",
@@ -1095,7 +1095,7 @@ export const translations = {
             title: "Ritual Llum de Tardor (Lifting)",
             desc: "Lifting facial natural amb acupuntura. Retorna la llum i aparença juvenil perduda.",
             options: [
-              { name: "Nom Facial", time: "75 min", price: "85€" },
+              { name: "Sols Facial", time: "75 min", price: "85€" },
               {
                 name: "Amb Rentat + Massatge Capil·lar",
                 time: "90 min",
@@ -1108,7 +1108,7 @@ export const translations = {
             title: "Ritual Llum del Matí",
             desc: "Higiene facial profunda. Una pell saludable sempre comença amb una bona neteja.",
             options: [
-              { name: "Nom Facial", time: "75 min", price: "75€" },
+              { name: "Sols Facial", time: "75 min", price: "75€" },
               {
                 name: "Amb Rentat + Massatge Capil·lar",
                 time: "90 min",
@@ -1121,7 +1121,7 @@ export const translations = {
             title: "Ritual Llum Interior (Kobido)",
             desc: "Massatge facial Kobido per retornar l'elasticitat i millorar la qualitat de la pell.",
             options: [
-              { name: "Nom Facial", time: "60 min", price: "70€" },
+              { name: "Sols Facial", time: "60 min", price: "70€" },
               {
                 name: "Amb Rentat + Massatge Capil·lar",
                 time: "75 min",
@@ -1134,7 +1134,7 @@ export const translations = {
             title: "Ritual Llum del Mar",
             desc: "Hidratació i vitalitat per a pells sensibles o deshidratades.",
             options: [
-              { name: "Nom Facial", time: "60 min", price: "65€" },
+              { name: "Sols Facial", time: "60 min", price: "65€" },
               {
                 name: "Amb Rentat + Massatge Capil·lar",
                 time: "75 min",
@@ -1204,7 +1204,7 @@ export const translations = {
       steps: [
         {
           title: "Neteja",
-          desc: "Dessintoxicació del fol·licle amb barrets volcànics.",
+          desc: "Desintoxicació del fol·licle amb fangs volcànics.",
         },
         {
           title: "Nutrició",
@@ -1272,7 +1272,7 @@ export const translations = {
         "No creiem en la bellesa fabricades. Creiem en la bellesa revelada. Terra Santa Eulalia no és una marca, és un retorn a la memòria de la terra.",
       founderTitle: "Mans que escolten",
       founderDesc:
-        "Manolo Díaz no tallar cabell, escup energia. Després d'anys observant com la química apagava l'ànima del cabell, va decidir tornar al barret, a l'arrel, a l'aigua.",
+        "Manolo Díaz no talla cabell, esculpeix energia. Després d'anys observant com la química apagava l'ànima del cabell, va decidir tornar al fang, a l'arrel, a l'aigua.",
       values: [
         { title: "Terra", desc: "Argiles vives que purifiquen sense agreujar." },
         { title: "Aigua", desc: "La hidratació real que flueix des de dins." },
@@ -1288,7 +1288,7 @@ export const translations = {
         inspiration:
           "Em va inspirar observar com moltes persones busquen veure's bé, però també necessiten sentir-se en pau, recuperar la seva energia i reconnectar amb elles mateixes. Compress que la bellesa vertadera apareix quan una persona se sent cuidada, escoltada i en harmonia amb la seva essència.",
         nature:
-          "També em va inspirar la natura, la seva saviesa, els seus ritmes i la seva capacitat constant de renvar-se. La terra ens ensenya que tot floreix quan rep la cura adequada. Des d'aquesta visió neix Terra Santa Eulalia: com un lloc on cada persona pugui renewar-se des de dins cap a fora.",
+          "També em va inspirar la natura, la seva saviesa, els seus ritmes i la seva capacitat constant de renovar-se. La terra ens ensenya que tot floreix quan rep la cura adequada. Des d'aquesta visió neix Terra Santa Eulalia: com un lloc on cada persona pugui renovar-se des de dins cap a fora.",
         vision:
           "Vaig voler crear un espai diferent, on la perruqueria i el benestar caminessin junts, on cada gest tingués intenció, on el respecte per la salut i per l'entorn fossin fonamentals, i on l'energia que es transmetés fos tan important com el resultat final.",
         mission:
@@ -1337,7 +1337,7 @@ export const translations = {
       loginButton: "Entrar",
       passwordError: "Contrasenya incorrecta",
       dashboardTitle: "Panel Professional",
-      loginRequired: "S'requereix login",
+      loginRequired: "Es requereix autenticació",
       logout: "Tancar sessió",
     },
     whatsapp: {

@@ -16,7 +16,7 @@
   - Despliegue: Netlify (plugin-nextjs 5.15.8)
   - Node: v18+ (implied by Next.js 16)
 - **Estado:** 🟢 Producción (en IONOS desde abril 2026)
-- **Última actualización:** 2026-05-13 | Commits recientes: Correcciones IONOS, despliegue completado
+- **Última actualización:** 2026-05-13 | Traducciones 100% completas (Fase 1-2-3 completadas)
 
 ---
 
@@ -347,6 +347,19 @@ src/
 
 ---
 
+## 🌍 Localización & Traducciones
+
+- **Estado:** ✅ 100% completo (CA / ES / EN)
+- **Fuente de verdad:** `src/lib/translations.js` (1,300+ líneas)
+- **Validación:** `npm run validate:i18n` → 0 errores, 0 advertencias
+- **Secciones:** 19 secciones traducidas en los 3 idiomas
+- **Productos:** 17 en catálogo, disponibles en los 3 idiomas
+- **Textos hardcodeados:** Eliminados (0 pendientes)
+- **Errores CA corregidos:** 6 (barrets→fangs, Nom Facial→Sols Facial, typos gramaticales)
+- **Referencia:** Ver `TRANSLATION_AUDIT.md` para detalle completo
+
+---
+
 ## 📝 Notas Técnicas Importantes
 
 ### Decisiones Arquitectónicas
@@ -356,6 +369,7 @@ src/
 4. **Tailwind con colores semánticos:** cream, earth-brown, olive-green, sand-light (no usar colores genéricos)
 5. **Framer Motion para animaciones:** Parallax, fade-ins, scroll-triggered
 6. **Next.js App Router:** Componentes cliente con "use client" solo donde sea necesario (hooks, Framer Motion)
+7. **Traducciones:** Siempre usar `t?.seccion?.clave || "fallback_es"` con optional chaining
 
 ### Limitaciones Actuales
 - No hay persistencia real de usuario (mock con localStorage)
@@ -424,12 +438,14 @@ MONGODB_URI=change-to-production-mongo
 | **Total de componentes React** | 13 |
 | **Total de páginas (rutas)** | 13 |
 | **Total de servicios/integraciones** | 4 (WhatsApp, EmailJS, MongoDB prep, Netlify) |
-| **Líneas de código (src/)** | ~2,500 (estimado) |
-| **Líneas de traducciones** | 1,258 |
-| **Líneas de package.json** | 39 (16 deps, 6 devDeps) |
-| **Breakpoints Tailwind** | 4 (sm, md, lg, xl) |
-| **Idiomas soportados** | 3 (ca, es, en) |
+| **Líneas de código (src/)** | ~2,700 (estimado) |
+| **Líneas de traducciones** | ~1,320 |
+| **Secciones de traducción** | 19 por idioma |
+| **Idiomas soportados** | 3 (ca, es, en) — 100% completos |
+| **Productos en catálogo** | 17 |
 | **Colores personalizados** | 4 semánticos |
+| **Breakpoints Tailwind** | 4 (sm, md, lg, xl) |
+| **Scripts npm** | 5 (dev, build, start, lint, validate:i18n) |
 | **Tamaño de bundle estimado** | ~450KB (gzipped, sin optimización) |
 
 ---
@@ -484,6 +500,7 @@ npm run lint     # Linting con ESLint
 ---
 
 **FECHA DE GENERACIÓN:** 2026-05-13  
+**ÚLTIMA ACTUALIZACIÓN:** 2026-05-13 — Traducciones completas (Fase 1-2-3)  
 **GENERADO POR:** Claude Code Analysis  
 **PRÓXIMA REVISIÓN SUGERIDA:** Después de completar Área Profesional
 
