@@ -19,7 +19,7 @@ export default function Footer() {
           <p className="text-sm opacity-80">{t.hero.subtitle}</p>
         </div>
         <div>
-          <h3 className="font-bold mb-4 text-cream">Contact</h3>
+          <h3 className="font-bold mb-4 text-cream">{t.footer?.contactLabel || "Contacto"}</h3>
           <a href="mailto:hola@terrasantaeulalia.com" className="text-sm opacity-80 hover:opacity-100 transition-opacity block">
             hola@terrasantaeulalia.com
           </a>
@@ -31,7 +31,7 @@ export default function Footer() {
             className="flex items-center gap-2 mt-3 text-sm opacity-80 hover:opacity-100 transition-opacity"
           >
             <MessageCircle size={14} />
-            WhatsApp
+            {t.footer?.whatsappLabel || "WhatsApp"}
           </button>
         </div>
         <div className="flex flex-col gap-2">

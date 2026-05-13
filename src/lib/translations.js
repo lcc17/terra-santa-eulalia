@@ -582,6 +582,38 @@ export const translations = {
         a: "La mayoría sí, pero consulta la ficha técnica de cada planta o consúltanos.",
       },
     ],
+    ui: {
+      loading: "Cargando...",
+      error: "Error",
+      success: "Éxito",
+      close: "Cerrar",
+      goBack: "Volver atrás",
+    },
+    products: {
+      newBadge: "Novedad",
+      comingSoon: "Próximamente",
+      outOfStock: "Agotado",
+      inStock: "Disponible",
+    },
+    footer: {
+      contactLabel: "Contacto",
+      whatsappLabel: "WhatsApp",
+    },
+    pro: {
+      loginTitle: "Acceso Profesional",
+      passwordPlaceholder: "Contraseña...",
+      loginButton: "Entrar",
+      passwordError: "Contraseña incorrecta",
+      dashboardTitle: "Panel Profesional",
+      loginRequired: "Se requiere login",
+      logout: "Cerrar sesión",
+    },
+    whatsapp: {
+      messageTemplate: "Hola, me interesa reservar",
+      ritualSuffix: "de Terra Santa Eulalia",
+      scheduledMessage: "El próximo horario disponible es",
+      buttonLabel: "Reservar por WhatsApp",
+    },
   },
 
   en: {
@@ -916,6 +948,38 @@ export const translations = {
         a: "Most are, but consult the technical sheet of each plant or contact us.",
       },
     ],
+    ui: {
+      loading: "Loading...",
+      error: "Error",
+      success: "Success",
+      close: "Close",
+      goBack: "Go Back",
+    },
+    products: {
+      newBadge: "New",
+      comingSoon: "Coming Soon",
+      outOfStock: "Out of Stock",
+      inStock: "Available",
+    },
+    footer: {
+      contactLabel: "Contact",
+      whatsappLabel: "WhatsApp",
+    },
+    pro: {
+      loginTitle: "Professional Access",
+      passwordPlaceholder: "Password...",
+      loginButton: "Sign In",
+      passwordError: "Incorrect password",
+      dashboardTitle: "Professional Dashboard",
+      loginRequired: "Login required",
+      logout: "Sign Out",
+    },
+    whatsapp: {
+      messageTemplate: "Hi, I'm interested in booking",
+      ritualSuffix: "at Terra Santa Eulalia",
+      scheduledMessage: "Next available time is",
+      buttonLabel: "Book via WhatsApp",
+    },
   },
 
   ca: {
@@ -1250,9 +1314,46 @@ export const translations = {
         a: "La majoria sí, però consulta la fitxa tècnica de cada planta o consulta'ns.",
       },
     ],
+    ui: {
+      loading: "Carregant...",
+      error: "Error",
+      success: "Èxit",
+      close: "Tancar",
+      goBack: "Enrere",
+    },
+    products: {
+      newBadge: "Novetat",
+      comingSoon: "Pròximament",
+      outOfStock: "Esgotat",
+      inStock: "Disponible",
+    },
+    footer: {
+      contactLabel: "Contacte",
+      whatsappLabel: "WhatsApp",
+    },
+    pro: {
+      loginTitle: "Accés Professional",
+      passwordPlaceholder: "Contrasenya...",
+      loginButton: "Entrar",
+      passwordError: "Contrasenya incorrecta",
+      dashboardTitle: "Panel Professional",
+      loginRequired: "S'requereix login",
+      logout: "Tancar sessió",
+    },
+    whatsapp: {
+      messageTemplate: "Hola, m'interessa reservar",
+      ritualSuffix: "a Terra Santa Eulalia",
+      scheduledMessage: "El pròxim horari disponible és",
+      buttonLabel: "Reservar via WhatsApp",
+    },
   },
 };
 
 // Fallback para productos en EN y CA (compartimos la lista completa de ES)
 translations.en.productsList = translations.es.productsList;
 translations.ca.productsList = translations.es.productsList;
+
+// Verificación: confirmar que productsList está disponible en todos los idiomas
+if (!translations.es.productsList || translations.es.productsList.length === 0) {
+  console.warn("⚠️ TRANSLATION WARNING: productsList is empty in ES");
+}

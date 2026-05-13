@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import { useSchedule } from "@/lib/useSchedule";
+import { useApp } from "@/lib/context";
 
 const PHONE_NUMBER = "34631994318";
 
@@ -17,17 +18,18 @@ export default function WhatsAppButton({
   children,
 }) {
   const { isOpen, nextOpenTime } = useSchedule();
+  const { t } = useApp();
 
   const handleWhatsAppClick = () => {
-    let message = "Hola, me interesa reservar";
+    let message = t?.whatsapp?.messageTemplate || "Hola, me interesa reservar";
     if (ritualName) {
       message += ` ${ritualName}`;
     }
-    message += " de Terra Santa Eulalia";
+    message += ` ${t?.whatsapp?.ritualSuffix || "de Terra Santa Eulalia"}`;
 
     // Add next available time if closed
     if (!isOpen && nextOpenTime) {
-      message += `. El próximo horario disponible es ${nextOpenTime}.`;
+      message += `. ${t?.whatsapp?.scheduledMessage || "El próximo horario disponible es"} ${nextOpenTime}.`;
     }
 
     window.open(
@@ -62,7 +64,7 @@ export default function WhatsAppButton({
       className={`px-6 py-3 rounded-full font-serif transition-all duration-300 text-sm tracking-widest uppercase flex items-center gap-2 ${style.container} ${className}`}
     >
       <MessageCircle size={18} className={style.icon} />
-      {children || "Reservar por WhatsApp"}
+      {children || t?.whatsapp?.buttonLabel || "Reservar por WhatsApp"}
     </motion.button>
   );
 }
