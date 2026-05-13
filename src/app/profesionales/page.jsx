@@ -2,11 +2,13 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Button from "@/components/ui/Button";
+import { useApp } from "@/lib/context";
 
 export default function ProfessionalDashboard() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [password, setPassword] = useState("");
   const router = useRouter();
+  const { t } = useApp();
 
   // Basic client check
   useEffect(() => {
@@ -24,7 +26,7 @@ export default function ProfessionalDashboard() {
       setIsLoggedIn(true);
       window.location.reload(); // Refresh to pass middleware check cleanly
     } else {
-      alert("Contraseña incorrecta (Try: terra2025)");
+      alert(t?.pro?.passwordError || "Contraseña incorrecta");
     }
   };
 
@@ -38,15 +40,15 @@ export default function ProfessionalDashboard() {
           onSubmit={handleLogin}
           className="bg-cream p-12 rounded-[40px] shadow-xl text-center"
         >
-          <h2 className="text-2xl font-serif mb-6">Acceso Profesional</h2>
+          <h2 className="text-2xl font-serif mb-6">{t?.pro?.loginTitle || "Acceso Profesional"}</h2>
           <input
             type="password"
-            placeholder="Contraseña..."
+            placeholder={t?.pro?.passwordPlaceholder || "Contraseña..."}
             className="w-full p-3 rounded-xl border border-sand-dark mb-4 bg-transparent"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <Button>Entrar</Button>
+          <Button>{t?.pro?.loginButton || "Entrar"}</Button>
         </form>
       </div>
     );
@@ -55,7 +57,7 @@ export default function ProfessionalDashboard() {
   return (
     <div className="pt-32 px-6 max-w-7xl mx-auto">
       <h1 className="text-4xl font-serif text-olive-green mb-8">
-        Panel Profesional
+        {t?.pro?.dashboardTitle || "Panel Profesional"}
       </h1>
       <div className="grid md:grid-cols-3 gap-6">
         <div className="bg-cream p-8 rounded-3xl border border-sand-dark">

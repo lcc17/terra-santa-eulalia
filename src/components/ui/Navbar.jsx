@@ -182,7 +182,7 @@ export default function Navbar() {
                       <span className="text-[10px] uppercase tracking-wider text-earth-brown/40 group-hover:text-earth-brown/60">{t.domestic?.readMore || "Explorar"}</span>
                     </div>
                   </Link>
-                )) : (<p className="text-sm opacity-50 col-span-4">Cargando categorías...</p>)}
+                )) : (<p className="text-sm opacity-50 col-span-4">{t?.ui?.loading || "Cargando..."}</p>)}
               </div>
             </div>
           </motion.div>

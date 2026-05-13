@@ -33,13 +33,13 @@ export default function ProductCard({ product }) {
               : "bg-sand-light/90 text-earth-brown border border-earth-brown/20"
           }`}
         >
-          {hasStock ? `${product.price.toFixed(2)}€` : "PRÓXIMAMENTE"}
+          {hasStock ? `${product.price.toFixed(2)}€` : (t?.products?.comingSoon || "PRÓXIMAMENTE")}
         </div>
 
         {/* 2. Etiqueta de Novedad (Solo si aplica) */}
         {isNew && (
           <div className="bg-olive-green text-white text-[10px] uppercase font-bold px-2 py-1 tracking-widest shadow-sm">
-            Novedad
+            {t?.products?.newBadge || "Novedad"}
           </div>
         )}
       </div>
