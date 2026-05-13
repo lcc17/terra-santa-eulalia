@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useApp } from "@/lib/context";
 import { MessageCircle } from "lucide-react";
 
@@ -11,7 +12,7 @@ export default function Footer() {
   };
   return (
     <footer className="bg-earth-brown text-sand-light py-12 rounded-t-[50px] mt-10">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8">
         <div>
           <h2 className="font-serif text-2xl mb-4 text-cream">
             Terra Santa Eulalia
@@ -34,7 +35,24 @@ export default function Footer() {
             {t.footer?.whatsappLabel || "WhatsApp"}
           </button>
         </div>
-        <div className="flex flex-col gap-2">
+        <div>
+          <h3 className="font-bold mb-4 text-cream">{t?.legal?.indexTitle || "Legal"}</h3>
+          <nav className="flex flex-col gap-2 text-sm opacity-80">
+            <Link href="/legal/politica-privacidad" className="hover:opacity-100 transition-opacity">
+              {t?.legal?.privacyTitle || "Política de Privacidad"}
+            </Link>
+            <Link href="/legal/politica-cookies" className="hover:opacity-100 transition-opacity">
+              {t?.legal?.cookiesTitle || "Política de Cookies"}
+            </Link>
+            <Link href="/legal/terminos-condiciones" className="hover:opacity-100 transition-opacity">
+              {t?.legal?.termsTitle || "Términos y Condiciones"}
+            </Link>
+            <Link href="/legal/aviso-legal" className="hover:opacity-100 transition-opacity">
+              {t?.legal?.noticeTitle || "Aviso Legal"}
+            </Link>
+          </nav>
+        </div>
+        <div className="flex flex-col gap-2 justify-end">
           <p className="text-xs opacity-50">
             &copy; {new Date().getFullYear()} {t.footer.rights}
           </p>

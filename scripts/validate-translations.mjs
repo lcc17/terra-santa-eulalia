@@ -107,6 +107,8 @@ function checkUntranslated() {
     // Frases que son válidas en CA igual que en ES
     "treatmentsPage.cta",
     "treatmentsPage.floatingCta",
+    "legal.cookiesPolicyLink",
+    "legal.cookiesTitle",
   ];
 
   let found = false;
