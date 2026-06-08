@@ -47,5 +47,11 @@ next-env.d.ts
 .env
 .DS_Store
 
+
+.claude/
+.next/
+
+MULTIMEDIA_INVENTORY.pdf
+
 # Generated documentation (regenerable via npm run multimedia:pdf)
 MULTIMEDIA_INVENTORY.pdf.claude/
