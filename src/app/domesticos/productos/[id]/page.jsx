@@ -4,6 +4,7 @@ import Image from "next/image";
 import { translations } from "@/lib/translations";
 import { ChevronRight } from "lucide-react";
 import Button from "@/components/ui/Button";
+import ProductContact from "@/components/productos/ProductContact";
 
 export function generateStaticParams() {
   const products = translations.es?.productsList || [];
@@ -127,6 +128,11 @@ export default async function ProductDetail({ params }) {
                 ? "Al hacer clic, contactarás con tienda para confirmar recogida en C/ Provença 213."
                 : "Te contactaremos cuando recibamos nuevo stock artesanal."}
             </p>
+            <ProductContact
+              productId={product.id}
+              productName={product.name}
+              hasStock={hasStock}
+            />
           </div>
         </div>
       </div>
