@@ -118,7 +118,7 @@ export default async function ProductDetail({ params }) {
                   ${hasStock ? "hover:bg-earth-brown" : "bg-sand-light text-earth-brown cursor-not-allowed opacity-70"}`}
               >
                 {hasStock
-                  ? "Solicitar información / Reservar"
+                  ? "Solicitar información / Diagnóstico"
                   : "Avísame cuando esté disponible"}
               </Button>
             </Link>

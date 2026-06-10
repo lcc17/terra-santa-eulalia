@@ -9,10 +9,8 @@ import { ArrowDown, ArrowRight } from "lucide-react";
 // --- ASSETS (Reemplaza con tus fotos reales de Manolo y el Salón) ---
 const IMG_HERO =
   "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=1200"; // Textura agua/tierra
-const IMG_FOUNDER =
-  "/images/manolo-retrato.png"; // Retrato Manolo // not working-cambiar img
-const IMG_HANDS =
-  "/images/retrato-terra-santa-eulalia.png"; // Manos mezclando
+const IMG_FOUNDER = "/images/manolo-retrato.png"; // Retrato Manolo // not working-cambiar img
+const IMG_HANDS = "/images/retrato-terra-santa-eulalia.png"; // Manos mezclando
 const IMG_CLAY =
   "https://cdn.pixabay.com/photo/2020/06/26/08/28/soil-5342049_1280.jpg"; // Textura Arcilla
 const IMG_SALON =
@@ -78,9 +76,9 @@ export default function FilosofiaPage() {
           </motion.span>
 
           <h1 className="text-6xl md:text-9xl font-serif text-earth-brown leading-[0.8] mix-blend-multiply">
-            Terra
+            Terra Santa Eulalia
             <br />
-            <span className="italic font-light opacity-60">Memory</span>
+            <span className="italic font-light opacity-60">& Su Historia</span>
           </h1>
         </motion.div>
 
@@ -109,18 +107,51 @@ export default function FilosofiaPage() {
         </motion.div>
       </section>
 
-      {/* --- 2. MANIFIESTO (Texto Gigante Scroll) --- */}
-      <section className="py-32 px-6 md:px-20 max-w-[1600px] mx-auto relative z-10">
-        <div className="grid md:grid-cols-12 gap-12 items-center">
-          <div className="md:col-span-8 md:col-start-3">
-            <motion.p
-              style={{ y: yText1 }}
-              className="text-3xl md:text-6xl font-serif text-earth-brown leading-tight indent-20"
-            >
-              "{t.philosophy.manifesto}"
-            </motion.p>
+      {/* --- 2. LA FUNDADORA (Laia Salomó — Bio Statement) --- */}
+      <section className="py-40 px-6 md:px-20 max-w-[1200px] mx-auto relative z-10">
+        <article className="flex flex-col gap-12">
+          {/* Título y rol */}
+          <div className="mb-8">
+            <span className="text-olive-green uppercase tracking-widest text-xs font-bold mb-4 block">
+              {t.philosophy.laiaBio.role}
+            </span>
+            <h2 className="text-6xl md:text-8xl font-serif text-earth-brown font-light">
+              {t.philosophy.laiaBio.title}
+            </h2>
+            <div className="h-px w-20 bg-olive-green"></div>
+            {/* Columna Imágenes (Collage) */}
+            <div className="relative h-[800px] w-full">
+              {/* Foto Laia Principal */}
+              <motion.div
+                style={{ rotate: rotateSlight }}
+                className="absolute top-20 left-0 md:left-20 w-[80%] h-[70%] bg-earth-brown overflow-hidden shadow-2xl z-10"
+              >
+                <Image
+                  src={IMG_FOUNDER}
+                  alt="Fundador"
+                  fill
+                  className="object-cover"
+                />
+              </motion.div>
+            </div>
           </div>
-        </div>
+
+          {/* Cuerpo de texto en bloques */}
+          <div className="space-y-8 max-w-3xl">
+            <p className="text-xl md:text-2xl font-serif text-earth-brown/90 leading-relaxed">
+              {t.philosophy.laiaBio.inspiration}
+            </p>
+            <p className="text-lg text-earth-brown/70 leading-relaxed">
+              {t.philosophy.laiaBio.nature}
+            </p>
+            <p className="text-lg text-earth-brown/70 leading-relaxed">
+              {t.philosophy.laiaBio.vision}
+            </p>
+            <p className="text-lg text-earth-brown/70 leading-relaxed font-medium italic">
+              {t.philosophy.laiaBio.mission}
+            </p>
+          </div>
+        </article>
       </section>
 
       {/* --- 3. EL ALQUIMISTA (Layout Asimétrico / Founder) --- */}
@@ -140,14 +171,6 @@ export default function FilosofiaPage() {
                 className="object-cover"
               />
             </motion.div>
-
-            {/* Foto Manos Detalle (Parallax rápido) */}
-            <ParallaxImage
-              src={IMG_HANDS}
-              alt="Manos trabajando"
-              className="absolute bottom-20 right-0 md:right-20 w-[50%] h-[40%] border-8 border-cream shadow-xl z-20 grayscale hover:grayscale-0 transition-all duration-700"
-              speed={-150}
-            />
 
             {/* Elemento Decorativo SVG */}
             <div className="absolute -left-10 bottom-[20%] z-30">
@@ -180,12 +203,12 @@ export default function FilosofiaPage() {
               {t.philosophy.founderTitle}
             </span>
             <h2 className="text-6xl md:text-8xl font-serif text-earth-brown mb-8 font-light">
-              Manolo
+              Manolo Díaz
               <br />
-              Díaz
+              & Laia
             </h2>
             <div className="h-px w-20 bg-earth-brown mb-8"></div>
-            <p className="text-xl leading-relaxed text-earth-brown/80 font-light mb-10">
+            <p className="text-xl leading-relaxed text-earth-brown/80 font-light mb-10 whitespace-pre-line">
               {t.philosophy.founderDesc}
             </p>
             <p className="font-serif italic text-2xl text-earth-brown/60">
@@ -193,38 +216,6 @@ export default function FilosofiaPage() {
             </p>
           </div>
         </div>
-      </section>
-
-      {/* --- 4. LA FUNDADORA (Laia Salomó — Bio Statement) --- */}
-      <section className="py-40 px-6 md:px-20 max-w-[1200px] mx-auto relative z-10">
-        <article className="flex flex-col gap-12">
-          {/* Título y rol */}
-          <div className="mb-8">
-            <span className="text-olive-green uppercase tracking-widest text-xs font-bold mb-4 block">
-              {t.philosophy.laiaBio.role}
-            </span>
-            <h2 className="text-6xl md:text-8xl font-serif text-earth-brown font-light">
-              {t.philosophy.laiaBio.title}
-            </h2>
-            <div className="h-px w-20 bg-olive-green mt-6"></div>
-          </div>
-
-          {/* Cuerpo de texto en bloques */}
-          <div className="space-y-8 max-w-3xl">
-            <p className="text-xl md:text-2xl font-serif text-earth-brown/90 leading-relaxed">
-              {t.philosophy.laiaBio.inspiration}
-            </p>
-            <p className="text-lg text-earth-brown/70 leading-relaxed">
-              {t.philosophy.laiaBio.nature}
-            </p>
-            <p className="text-lg text-earth-brown/70 leading-relaxed">
-              {t.philosophy.laiaBio.vision}
-            </p>
-            <p className="text-lg text-earth-brown/70 leading-relaxed font-medium italic">
-              {t.philosophy.laiaBio.mission}
-            </p>
-          </div>
-        </article>
       </section>
 
       {/* --- 5. LOS VALORES (Scroll Horizontal Simulado / Grid Irregular) --- */}
@@ -255,7 +246,19 @@ export default function FilosofiaPage() {
           />
         </div>
       </section>
-
+      {/* --- 2. MANIFIESTO (Texto Gigante Scroll) --- */}
+      <section className="py-32 px-6 md:px-20 max-w-[1600px] mx-auto relative z-10">
+        <div className="grid md:grid-cols-12 gap-12 items-center">
+          <div className="md:col-span-8 md:col-start-3">
+            <motion.p
+              style={{ y: yText1 }}
+              className="text-3xl md:text-6xl font-serif text-earth-brown leading-tight indent-20"
+            >
+              "{t.philosophy.manifesto}"
+            </motion.p>
+          </div>
+        </div>
+      </section>
       {/* --- 5. EL ESPACIO (Imagen Full Width con CTA) --- */}
       <section className="relative h-[80vh] w-full mt-20 overflow-hidden flex items-center justify-center">
         <ParallaxImageBackground src={IMG_SALON} />
@@ -298,7 +301,13 @@ function ParallaxImage({ src, alt, className, speed = 100 }) {
       style={{ y }}
       className={`overflow-hidden ${className}`}
     >
-      <Image src={src} alt={alt} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+      <Image
+        src={src}
+        alt={alt}
+        fill
+        className="object-cover"
+        sizes="(max-width: 768px) 100vw, 50vw"
+      />
     </motion.div>
   );
 }
@@ -315,7 +324,13 @@ function ParallaxImageBackground({ src }) {
 
   return (
     <motion.div ref={ref} style={{ y, scale }} className="absolute inset-0 z-0">
-      <Image src={src} alt="Background" fill className="object-cover" sizes="100vw" />
+      <Image
+        src={src}
+        alt="Background"
+        fill
+        className="object-cover"
+        sizes="100vw"
+      />
     </motion.div>
   );
 }

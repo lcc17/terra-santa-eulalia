@@ -24,7 +24,7 @@ export const translations = {
       subtitle: "La alquimia de la tierra en tu hogar",
       productsTitle: "Selección Natural & Orgánica",
       productsDesc: "Bienestar para el cuerpo, alma y corazón.",
-      readMore: "Saber más",
+      readMore: "Solicitar información",
       viewMore: "Ver Catálogo Completo",
       diyTitle: "Hazlo tú mismo",
       visitUs: "Visítanos en C/ Provença 213",
@@ -58,7 +58,8 @@ export const translations = {
       subtitle: "Salud Capilar y Facial Orgánica",
       desc: "Tratamientos botánicos diseñados para recuperar el equilibrio. Sin prisas, con plantas medicinales y técnicas ancestrales.",
       cta: "Reservar Cita",
-      whatsappMessage: "Hola, me interesa reservar un ritual de Terra Santa Eulalia",
+      whatsappMessage:
+        "Hola, me interesa reservar un ritual de Terra Santa Eulalia",
       floatingCta: "Reservar Cita",
       extrasTitle: "Añade a tu Ritual",
       extrasSubtitle: "Expres Express",
@@ -186,12 +187,14 @@ export const translations = {
       badge: "Signature Experience",
     },
     socialProof: {
-      testimonial: "Un antes y un después para mi cabello. La terapia de oxitocina no es solo estética, es salud real.",
+      testimonial:
+        "Un antes y un después para mi cabello. La terapia de oxitocina no es solo estética, es salud real.",
       author: "Laura G., Cliente Verificada",
     },
     whatsapp: {
       reserveButton: "Reservar Cita",
-      defaultMessage: "Hola, me gustaría información sobre Terra Santa Eulalia — Terapia Capilar Avanzada y Bienestar Orgánico.",
+      defaultMessage:
+        "Hola, me gustaría información sobre Terra Santa Eulalia — Terapia Capilar Avanzada y Bienestar Orgánico.",
     },
     cta: {
       helpTitle: "¿Necesitas ayuda para elegir?",
@@ -239,7 +242,8 @@ export const translations = {
         },
       ],
       ritualsTitle: "Rituales Capilares Orgánicos",
-      ritualsDesc: "Tratamientos específicos para cada necesidad. Protocolos botânicos de alta eficacia.",
+      ritualsDesc:
+        "Tratamientos específicos para cada necesidad. Protocolos botânicos de alta eficacia.",
       ritualsList: [
         {
           id: "ritual-detox",
@@ -282,11 +286,13 @@ export const translations = {
       ],
       cta: "Solicitar Diagnóstico",
       ctaRecoveryTitle: "Recupera la memoria vital de tu cabello",
-      ctaRecoveryDesc: "Este tratamiento requiere cita previa y valoración de nuestros especialistas en C/ Provença 213.",
+      ctaRecoveryDesc:
+        "Este tratamiento requiere cita previa y valoración de nuestros especialistas en C/ Provença 213.",
       ctaRecoveryBtn: "Reservar Diagnóstico",
       scheduleRitual: "Agendar este ritual",
       whatsappCta: "Reservar Diagnóstico vía WhatsApp",
-      whatsappMessage: "Hola, me interesa reservar un diagnóstico de Terapia Capilar Avanzada en Terra Santa Eulalia.",
+      whatsappMessage:
+        "Hola, me interesa reservar un diagnóstico de Terapia Capilar Avanzada en Terra Santa Eulalia.",
     },
     philosophy: {
       heroTitle: "El Origen",
@@ -295,7 +301,7 @@ export const translations = {
         "No creemos en la belleza fabricada. Creemos en la belleza revelada. Terra Santa Eulalia no es una marca, es un retorno a la memoria de la tierra.",
       founderTitle: "Manos que escuchan",
       founderDesc:
-        "Manolo Díaz no corta cabello, esculpe energía. Tras años observando cómo la química apagaba el alma del cabello, decidió volver al barro, a la raíz, al agua.",
+        "Después de muchos años dedicados a la peluquería consciente, en Manolo Días Green Zone y Manolo Días Healthy Salón creamos nuestra propia marca, Terra Santa Eulàlia, enfocada en la terapia capilar natural, saludable y energética, creada desde la experiencia, el respeto por la naturaleza y el bienestar profundo del cabello y el cuero cabelludo.\n\nEn Terra Santa Eulàlia cada tratamiento es único y totalmente personalizado, porque entendemos que cada cabello, cada cuero cabelludo y cada persona necesitan un cuidado diferente.\n\nPor eso, invitamos a cada cliente a ponerse en contacto co nosotros para poder valorar de forma consciente qué tratamiento necesita realmente y acompañarle desde una atención cercana y personalizada.",
       values: [
         { title: "Tierra", desc: "Arcillas vivas que purifican sin agresir." },
         { title: "Agua", desc: "La hidratación real que fluye desde dentro." },
@@ -313,7 +319,7 @@ export const translations = {
         nature:
           "También me inspiró la naturaleza, su sabiduría, sus ritmos y su capacidad constante de renovarse. La tierra nos enseña que todo florece cuando recibe el cuidado adecuado. Desde esa visión nace Terra Santa Eulalia: como un lugar donde cada persona pueda renovarse desde dentro hacia fuera.",
         vision:
-          "Quise crear un espacio diferente, donde la peluquería y el bienestar caminaran juntos, donde cada gesto tuviera intención, donde el respeto por la salud y por el entorno fueran fundamentales, y donde la energía que se transmite fuera tan importante como el resultado final.",
+          "Quise crear un espacio diferente, donde la peluquería y el bienestar caminaran juntos, donde cada gesto tuviera intención, donde el respeto por la salud y por el entorno fueran fundamentales, y donde la energía que se transmite fuera tan importante como el resultado final. La terapia Organica Capilar en Terra Santa Eulalia es el reflejo.",
         mission:
           "Terra Santa Eulalia es el reflejo de mi misión de vida: ayudar a las personas a descubrir su belleza natural, elevar su energía vital y recordar que cuidarse también es una forma de amor propio. Aquí no solo transformamos imagen, acompañamos procesos, despertamos confianza y sembramos bienestar.",
       },
@@ -322,32 +328,17 @@ export const translations = {
     productsList: [
       // --- LÍNEA PLANTAS (TINTES Y TRATAMIENTOS) ---
       {
-        id: "planta-indigo",
-        name: "Planta Índigo",
-        category: "Coloración Vegetal",
-        type: "100% Orgánico",
-        price: 18.5,
-        desc: "Pigmento puro vegetal para conseguir tonos oscuros profundos y negros azulados en combinación con otras plantas.",
-        ingredients: "Indigofera Tinctoria Leaf Powder (Índigo puro).",
+        id: "planta-fortalecedora",
+        name: "Planta Fortalecedora",
+        category: "Tratamiento en Polvo",
+        type: "Cassia Obovata",
+        price: 28,
+        desc: "Conocida como 'Henna Neutra'. No tiñe, pero engrosa la fibra capilar y aporta brillo espejo.",
+        ingredients: "Cassia Obovata Leaf Powder 100%.",
         usage:
-          "Mezclar con agua a 50ºC. Usar solo o en dos pasos (primero henna, luego índigo) para cobertura de canas en negro. Tiempo: 60-90 min.",
-        precautions: "No aplicar aceites antes. Uso externo.",
-        img: "/images/products/terra_santa_planta_indigo.PNG",
-        video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
-        isNew: false,
-      },
-      {
-        id: "planta-puro-cobre",
-        name: "Planta Puro Cobre",
-        category: "Coloración Vegetal",
-        type: "100% Orgánico",
-        price: 18.5,
-        desc: "Henna pura de alta calidad. Aporta un color cobrizo intenso, fuerza y un brillo espectacular.",
-        ingredients: "Lawsonia Inermis Leaf Powder.",
-        usage:
-          "Mezclar con agua caliente (70-80ºC) y un ácido (limón). Reposar la mezcla. Aplicar 2-3 horas.",
-        precautions: "Mancha la piel y ropa. Usar guantes.",
-        img: "/images/products/terra_santa_planta_puro_cobre.PNG",
+          "Mezclar con agua tibia hasta formar barro. Aplicar 45 min. Ideal entre tintes.",
+        precautions: "Apta para todo tipo de cabellos.",
+        img: "/images/products/terra_santa_planta_fortalecedora_brillante.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
       {
@@ -355,7 +346,7 @@ export const translations = {
         name: "Planta Rubio Luminoso",
         category: "Coloración Vegetal",
         type: "Mezcla Ayurvédica",
-        price: 22.0,
+        price: 28,
         desc: "Mezcla de plantas para avivar reflejos dorados en cabellos claros y aportar tratamiento.",
         ingredients: "Cassia Obovata, Chamomilla Recutita, Rheum Officinale.",
         usage:
@@ -369,7 +360,7 @@ export const translations = {
         name: "Planta Rubio Miel",
         category: "Coloración Vegetal",
         type: "Mezcla Ayurvédica",
-        price: 22.0,
+        price: 28,
         desc: "Matiz cálido y dulce para cabellos rubios o castaños claros que buscan calidez.",
         ingredients: "Cassia, Lawsonia (baja proporción), Curcuma.",
         usage: "Mezclar con agua tibia. Tiempo de exposición: 30-60 min.",
@@ -378,11 +369,26 @@ export const translations = {
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
       {
+        id: "planta-puro-cobre",
+        name: "Planta Puro Cobre",
+        category: "Coloración Vegetal",
+        type: "100% Orgánico",
+        price: 28,
+        desc: "Henna pura de alta calidad. Aporta un color cobrizo intenso, fuerza y un brillo espectacular.",
+        ingredients: "Lawsonia Inermis Leaf Powder.",
+        usage:
+          "Mezclar con agua caliente (70-80ºC) y un ácido (limón). Reposar la mezcla. Aplicar 2-3 horas.",
+        precautions: "Mancha la piel y ropa. Usar guantes.",
+        img: "/images/products/terra_santa_planta_puro_cobre.PNG",
+        video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
+      },
+
+      {
         id: "planta-castana",
         name: "Planta Castaña",
         category: "Coloración Vegetal",
         type: "Mezcla Ayurvédica",
-        price: 22.0,
+        price: 28,
         desc: "Tono marrón medio natural. Ideal para unificar tonos y cubrir primeras canas con efecto barniz.",
         ingredients:
           "Indigofera Tinctoria, Lawsonia Inermis, Emblica Officinalis (Amla).",
@@ -398,7 +404,7 @@ export const translations = {
         name: "Planta Castaño Oscuro",
         category: "Coloración Vegetal",
         type: "Mezcla Ayurvédica",
-        price: 22.0,
+        price: 28,
         desc: "Profundidad y cobertura para cabellos castaños. Aporta cuerpo y oscurece tonos claros.",
         ingredients:
           "Indigofera Tinctoria (alta proporción), Lawsonia Inermis, Juglans Regia.",
@@ -409,50 +415,20 @@ export const translations = {
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
       {
-        id: "planta-fortalecedora",
-        name: "Planta Fortalecedora",
-        category: "Tratamiento en Polvo",
-        type: "Cassia Obovata",
-        price: 18.0,
-        desc: "Conocida como 'Henna Neutra'. No tiñe, pero engrosa la fibra capilar y aporta brillo espejo.",
-        ingredients: "Cassia Obovata Leaf Powder 100%.",
+        id: "planta-indigo",
+        name: "Planta Índigo",
+        category: "Coloración Vegetal",
+        type: "100% Orgánico",
+        price: 28,
+        desc: "Pigmento puro vegetal para conseguir tonos oscuros profundos y negros azulados en combinación con otras plantas.",
+        ingredients: "Indigofera Tinctoria Leaf Powder (Índigo puro).",
         usage:
-          "Mezclar con agua tibia hasta formar barro. Aplicar 45 min. Ideal entre tintes.",
-        precautions: "Apta para todo tipo de cabellos.",
-        img: "/images/products/terra_santa_planta_fortalecedora_brillante.PNG",
+          "Mezclar con agua a 50ºC. Usar solo o en dos pasos (primero henna, luego índigo) para cobertura de canas en negro. Tiempo: 60-90 min.",
+        precautions: "No aplicar aceites antes. Uso externo.",
+        img: "/images/products/terra_santa_planta_indigo.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        isNew: false,
       },
-
-      // --- LÍNEA CHAMPÚS Y LAVADO ---
-      {
-        id: "shampoo-gratitud",
-        name: "Champú Gratitud",
-        category: "Higiene Capilar",
-        type: "Uso Frecuente",
-        price: 24.0,
-        desc: "Equilibrante para todo tipo de cabellos. Limpia suavemente respetando el manto hidrolipídico.",
-        ingredients: "Lavanda, Aloe Vera, Tensioactivos de Coco.",
-        usage:
-          "Emulsionar en manos, aplicar en cuero cabelludo mojado. Aclarar.",
-        precautions: "Evitar contacto con ojos.",
-        img: "/images/products/terra_santa_shampo_gratitud_cabello_todo_tipo.PNG",
-        video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
-      },
-      {
-        id: "shampoo-abundancia",
-        name: "Champú Abundancia",
-        category: "Higiene Capilar",
-        type: "Volumen y Fuerza",
-        price: 26.0,
-        desc: "Formulado para cabellos finos o con caída. Estimula la raíz y aporta densidad.",
-        ingredients: "Romero, Ortiga, Proteína de Trigo.",
-        usage:
-          "Masajear vigorosamente la raíz para activar circulación. Dejar actuar 2 min.",
-        precautions: "Uso externo.",
-        img: "/images/products/terra_santa_shampoo_abundancia_todo_tipo_cabello.PNG",
-        video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
-      },
-
       // --- LÍNEA TRATAMIENTOS GREEN (ESPECÍFICOS) ---
       {
         id: "green-detox",
@@ -508,6 +484,36 @@ export const translations = {
         img: "/images/products/terra_santa_tratamiento_capilar_magical_green_curly.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
         isNew: true,
+      },
+
+      // --- LÍNEA CHAMPÚS Y LAVADO ---
+      {
+        id: "shampoo-gratitud",
+        name: "Champú Gratitud",
+        category: "Higiene Capilar",
+        type: "Uso Frecuente",
+        price: 24.0,
+        desc: "Equilibrante para todo tipo de cabellos. Limpia suavemente respetando el manto hidrolipídico.",
+        ingredients: "Lavanda, Aloe Vera, Tensioactivos de Coco.",
+        usage:
+          "Emulsionar en manos, aplicar en cuero cabelludo mojado. Aclarar.",
+        precautions: "Evitar contacto con ojos.",
+        img: "/images/products/terra_santa_shampo_gratitud_cabello_todo_tipo.PNG",
+        video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
+      },
+      {
+        id: "shampoo-abundancia",
+        name: "Champú Abundancia",
+        category: "Higiene Capilar",
+        type: "Volumen y Fuerza",
+        price: 26.0,
+        desc: "Formulado para cabellos finos o con caída. Estimula la raíz y aporta densidad.",
+        ingredients: "Romero, Ortiga, Proteína de Trigo.",
+        usage:
+          "Masajear vigorosamente la raíz para activar circulación. Dejar actuar 2 min.",
+        precautions: "Uso externo.",
+        img: "/images/products/terra_santa_shampoo_abundancia_todo_tipo_cabello.PNG",
+        video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
 
       // --- LÍNEA FINALIZADO Y CUERPO ---
@@ -617,16 +623,19 @@ export const translations = {
     legal: {
       // Cookies banner
       bannerTitle: "Tu privacidad importa",
-      bannerText: "Usamos cookies para mejorar tu experiencia, analizar el tráfico y personalizar el contenido. Consulta nuestra",
+      bannerText:
+        "Usamos cookies para mejorar tu experiencia, analizar el tráfico y personalizar el contenido. Consulta nuestra",
       cookiesPolicyLink: "Política de Cookies",
       acceptAll: "Aceptar todo",
       rejectAll: "Rechazar",
       configure: "Configurar",
       // Cookies modal
       modalTitle: "Configuración de Cookies",
-      modalDesc: "Elige qué tipo de cookies aceptas. Las cookies técnicas son imprescindibles para el funcionamiento del sitio.",
+      modalDesc:
+        "Elige qué tipo de cookies aceptas. Las cookies técnicas son imprescindibles para el funcionamiento del sitio.",
       technicalLabel: "Técnicas",
-      technicalDesc: "Necesarias para el funcionamiento básico (idioma, sesión).",
+      technicalDesc:
+        "Necesarias para el funcionamiento básico (idioma, sesión).",
       analyticsLabel: "Analíticas",
       analyticsDesc: "Google Analytics — para entender cómo se usa el sitio.",
       marketingLabel: "Marketing",
@@ -678,7 +687,7 @@ export const translations = {
       subtitle: "Earth alchemy in your home",
       productsTitle: "Natural & Organic Selection",
       productsDesc: "Well-being for body, soul, and heart.",
-      readMore: "Read more",
+      readMore: "Request information",
       viewMore: "View Full Catalog",
       diyTitle: "Do It Yourself",
       visitUs: "Visit us at C/ Provença 213",
@@ -712,7 +721,8 @@ export const translations = {
       subtitle: "Organic Hair & Facial Health",
       desc: "Botanical treatments designed to restore balance. No rush, with medicinal plants and ancestral techniques.",
       cta: "Book Appointment",
-      whatsappMessage: "Hello, I'm interested in booking a ritual at Terra Santa Eulalia",
+      whatsappMessage:
+        "Hello, I'm interested in booking a ritual at Terra Santa Eulalia",
       floatingCta: "Book Appointment",
       extrasTitle: "Add to Your Ritual",
       extrasSubtitle: "Express Express",
@@ -733,7 +743,8 @@ export const translations = {
             id: "ritual-fuerte",
             title: "Always Strong & Vital Ritual",
             desc: "Strength and vitality with Ayurvedic plants. For weak, lifeless hair lacking body.",
-            extra: "Connect with peace and harmony. Includes facial or foot massage.",
+            extra:
+              "Connect with peace and harmony. Includes facial or foot massage.",
             duration: "60 min",
             price: "95€",
           },
@@ -749,7 +760,8 @@ export const translations = {
             id: "ritual-pindas",
             title: "Herbal Ritual with Pindas (Signature)",
             desc: "The ultimate disconnection experience. Body massage with sesame oil and hot herbal pindas on marma points.",
-            extra: "Physical and mental balance. Includes scalp massage and washing.",
+            extra:
+              "Physical and mental balance. Includes scalp massage and washing.",
             duration: "75 min",
             price: "150€",
             isHighlight: true,
@@ -835,12 +847,14 @@ export const translations = {
       badge: "Signature Experience",
     },
     socialProof: {
-      testimonial: "A before and after for my hair. Oxytocin therapy is not just aesthetics, it's real health.",
+      testimonial:
+        "A before and after for my hair. Oxytocin therapy is not just aesthetics, it's real health.",
       author: "Laura G., Verified Client",
     },
     whatsapp: {
       reserveButton: "Book Appointment",
-      defaultMessage: "Hello, I would like information about Terra Santa Eulalia — Advanced Capillary Therapy & Organic Wellness.",
+      defaultMessage:
+        "Hello, I would like information about Terra Santa Eulalia — Advanced Capillary Therapy & Organic Wellness.",
     },
     cta: {
       helpTitle: "Need help choosing?",
@@ -887,7 +901,8 @@ export const translations = {
         },
       ],
       ritualsTitle: "Organic Hair Rituals",
-      ritualsDesc: "Specific treatments for each need. High-efficacy botanical protocols.",
+      ritualsDesc:
+        "Specific treatments for each need. High-efficacy botanical protocols.",
       ritualsList: [
         {
           id: "ritual-detox",
@@ -912,8 +927,7 @@ export const translations = {
         },
       ],
       solutionsTitle: "Therapeutic Solutions",
-      solutionsDesc:
-        "Specific protocols for scalp pathologies.",
+      solutionsDesc: "Specific protocols for scalp pathologies.",
       solutions: [
         {
           title: "Detox Ritual",
@@ -930,11 +944,13 @@ export const translations = {
       ],
       cta: "Request Diagnosis",
       ctaRecoveryTitle: "Restore the vital memory of your hair",
-      ctaRecoveryDesc: "This treatment requires a prior appointment and evaluation by our specialists at C/ Provença 213.",
+      ctaRecoveryDesc:
+        "This treatment requires a prior appointment and evaluation by our specialists at C/ Provença 213.",
       ctaRecoveryBtn: "Book Diagnosis",
       scheduleRitual: "Schedule this ritual",
       whatsappCta: "Book Diagnosis via WhatsApp",
-      whatsappMessage: "Hello, I'm interested in booking an Advanced Capillary Therapy diagnosis at Terra Santa Eulalia.",
+      whatsappMessage:
+        "Hello, I'm interested in booking an Advanced Capillary Therapy diagnosis at Terra Santa Eulalia.",
     },
     philosophy: {
       heroTitle: "The Origin",
@@ -943,9 +959,12 @@ export const translations = {
         "We don't believe in manufactured beauty. We believe in beauty revealed. Terra Santa Eulalia is not a brand, it's a return to the memory of the earth.",
       founderTitle: "Hands that listen",
       founderDesc:
-        "Manolo Díaz doesn't cut hair, he sculpts energy. After years of watching chemistry extinguish the soul of hair, he decided to return to clay, to the root, to water.",
+        "After many years dedicated to conscious hairdressing, at Manolo Días Green Zone and Manolo Días Healthy Salon we created our own brand, Terra Santa Eulàlia, focused on natural, healthy, and energetic hair therapy, born from experience, respect for nature, and the profound well-being of the hair and scalp.\n\nAt Terra Santa Eulàlia, each treatment is unique and completely personalized because we understand that every hair type, every scalp, and every person needs different care.\n\nThat's why we invite each client to contact us so we can consciously assess which treatment they truly need and support them with attentive and personalized care.",
       values: [
-        { title: "Earth", desc: "Living clays that purify without aggression." },
+        {
+          title: "Earth",
+          desc: "Living clays that purify without aggression.",
+        },
         { title: "Water", desc: "Real hydration that flows from within." },
         { title: "Time", desc: "The most luxurious ingredient: patience." },
       ],
@@ -961,7 +980,7 @@ export const translations = {
         nature:
           "I was also inspired by nature, its wisdom, its rhythms, and its constant capacity to renew itself. The earth teaches us that everything flourishes when it receives the right care. From this vision Terra Santa Eulalia was born: as a place where each person can renew themselves from the inside out.",
         vision:
-          "I wanted to create a different space, where hairdressing and well-being walked together, where every gesture had intention, where respect for health and for the environment were fundamental, and where the energy transmitted was as important as the final result.",
+          "I wanted to create a different space, where hairdressing and well-being walked together, where every gesture had intention, where respect for health and for the environment were fundamental, and where the energy transmitted was as important as the final result. Organic Hair Therapy at Terra Santa Eulalia is a reflection.",
         mission:
           "Terra Santa Eulalia is the reflection of my life mission: to help people discover their natural beauty, elevate their vital energy, and remember that self-care is also a form of self-love. Here we don't just transform image, we accompany processes, awaken confidence, and sow well-being.",
       },
@@ -1019,15 +1038,18 @@ export const translations = {
     },
     legal: {
       bannerTitle: "Your privacy matters",
-      bannerText: "We use cookies to improve your experience, analyse traffic and personalise content. See our",
+      bannerText:
+        "We use cookies to improve your experience, analyse traffic and personalise content. See our",
       cookiesPolicyLink: "Cookie Policy",
       acceptAll: "Accept all",
       rejectAll: "Reject",
       configure: "Configure",
       modalTitle: "Cookie Settings",
-      modalDesc: "Choose which cookies you accept. Technical cookies are essential for the site to work.",
+      modalDesc:
+        "Choose which cookies you accept. Technical cookies are essential for the site to work.",
       technicalLabel: "Technical",
-      technicalDesc: "Required for basic site functionality (language, session).",
+      technicalDesc:
+        "Required for basic site functionality (language, session).",
       analyticsLabel: "Analytics",
       analyticsDesc: "Google Analytics — to understand how the site is used.",
       marketingLabel: "Marketing",
@@ -1077,7 +1099,7 @@ export const translations = {
       subtitle: "L'alquimia de la terra a casa teva",
       productsTitle: "Selecció Natural & Orgànica",
       productsDesc: "Benestar per al cos, ànima i cor.",
-      readMore: "Saber més",
+      readMore: "Sol·licitar informació",
       viewMore: "Veure Catàleg Complet",
       diyTitle: "Fes-ho Tu Mateix",
       visitUs: "Visita'ns a C/ Provença 213",
@@ -1111,7 +1133,8 @@ export const translations = {
       subtitle: "Salut Capil·lar i Facial Orgànica",
       desc: "Tractaments botànics dissenyats per recuperar l'equilibri. Sense presses, amb plantes medicinals i tècniques ancestrals.",
       cta: "Reservar Cita",
-      whatsappMessage: "Hola, m'interessa reservar un ritual de Terra Santa Eulalia",
+      whatsappMessage:
+        "Hola, m'interessa reservar un ritual de Terra Santa Eulalia",
       floatingCta: "Reservar Cita",
       extrasTitle: "Afegeix al teu Ritual",
       extrasSubtitle: "Express Express",
@@ -1132,7 +1155,8 @@ export const translations = {
             id: "ritual-fuerte",
             title: "Ritual Sempre Fort i Vital",
             desc: "Força i vitalitat amb plantes ayurvèdiques. Per a cabells febles, sense cos i mancats de vida.",
-            extra: "Connecta amb la pau i harmonia. Inclou massatge facial o de peus.",
+            extra:
+              "Connecta amb la pau i harmonia. Inclou massatge facial o de peus.",
             duration: "60 min",
             price: "95€",
           },
@@ -1148,7 +1172,8 @@ export const translations = {
             id: "ritual-pindas",
             title: "Ritual Herbal amb Pindes (Signature)",
             desc: "L'experiència suprema de desconnexió. Massatge corporal amb oli de sèsam i pindes herbals calentes en punts marma.",
-            extra: "Equilibri física i mental. Inclou massatge cranial i rentat.",
+            extra:
+              "Equilibri física i mental. Inclou massatge cranial i rentat.",
             duration: "75 min",
             price: "150€",
             isHighlight: true,
@@ -1234,12 +1259,14 @@ export const translations = {
       badge: "Signature Experience",
     },
     socialProof: {
-      testimonial: "Un abans i un després per al meu cabell. La teràpia d'oxitocina no és només estètica, és salut real.",
+      testimonial:
+        "Un abans i un després per al meu cabell. La teràpia d'oxitocina no és només estètica, és salut real.",
       author: "Laura G., Client Verificat",
     },
     whatsapp: {
       reserveButton: "Reservar Cita",
-      defaultMessage: "Hola, m'agradaria informació sobre Terra Santa Eulalia — Teràpia Capil·lar Avançada i Benestar Orgànic.",
+      defaultMessage:
+        "Hola, m'agradaria informació sobre Terra Santa Eulalia — Teràpia Capil·lar Avançada i Benestar Orgànic.",
     },
     cta: {
       helpTitle: "Necessites ajuda per triar?",
@@ -1286,7 +1313,8 @@ export const translations = {
         },
       ],
       ritualsTitle: "Rituals Capil·lars Orgànics",
-      ritualsDesc: "Tractaments específics per a cada necessitat. Protocols botànics d'alta eficàcia.",
+      ritualsDesc:
+        "Tractaments específics per a cada necessitat. Protocols botànics d'alta eficàcia.",
       ritualsList: [
         {
           id: "ritual-detox",
@@ -1311,8 +1339,7 @@ export const translations = {
         },
       ],
       solutionsTitle: "Solucions Terapèutiques",
-      solutionsDesc:
-        "Protocols específics per a patologies del cuir ciliat.",
+      solutionsDesc: "Protocols específics per a patologies del cuir ciliat.",
       solutions: [
         {
           title: "Ritual Detox",
@@ -1329,11 +1356,13 @@ export const translations = {
       ],
       cta: "Sol·licitar Diagnòstic",
       ctaRecoveryTitle: "Recupera la memòria vital del teu cabell",
-      ctaRecoveryDesc: "Aquest tractament requereix cita prèvia i valoració dels nostres especialistes a C/ Provença 213.",
+      ctaRecoveryDesc:
+        "Aquest tractament requereix cita prèvia i valoració dels nostres especialistes a C/ Provença 213.",
       ctaRecoveryBtn: "Reservar Diagnòstic",
       scheduleRitual: "Agendar aquest ritual",
       whatsappCta: "Reservar Diagnòstic vía WhatsApp",
-      whatsappMessage: "Hola, m'interessa reservar un diagnòstic de Teràpia Capil·lar Avançada a Terra Santa Eulalia.",
+      whatsappMessage:
+        "Hola, m'interessa reservar un diagnòstic de Teràpia Capil·lar Avançada a Terra Santa Eulalia.",
     },
     philosophy: {
       heroTitle: "L'Origen",
@@ -1342,9 +1371,12 @@ export const translations = {
         "No creiem en la bellesa fabricades. Creiem en la bellesa revelada. Terra Santa Eulalia no és una marca, és un retorn a la memòria de la terra.",
       founderTitle: "Mans que escolten",
       founderDesc:
-        "Manolo Díaz no talla cabell, esculpeix energia. Després d'anys observant com la química apagava l'ànima del cabell, va decidir tornar al fang, a l'arrel, a l'aigua.",
+        "Després de molts anys dedicats a la perruqueria conscient, a Manolo Dies Green Zone i Manolo Dies Healthy Salón vam crear la nostra pròpia marca, Terra Santa Eulàlia, enfocada a la teràpia capil·lar natural, saludable i energètica, creada des de l'experiència, el respecte per la natura i el benestar profund del cabell i el cuir.\n\nA Terra Santa Eulàlia cada tractament és únic i totalment personalitzat, perquè entenem que cada cabell, cada cuir cabellut i cada persona necessiten una cura diferent.\n\nPer això, convidem a cada client a posar-se en contacte amb nosaltres per poder valorar de forma conscient quin tractament necessita realment i acompanyar-lo des d'una atenció propera i personalitzada.",
       values: [
-        { title: "Terra", desc: "Argiles vives que purifiquen sense agreujar." },
+        {
+          title: "Terra",
+          desc: "Argiles vives que purifiquen sense agreujar.",
+        },
         { title: "Aigua", desc: "La hidratació real que flueix des de dins." },
         { title: "Temps", desc: "L'ingredient més luxós: l'espera." },
       ],
@@ -1360,7 +1392,7 @@ export const translations = {
         nature:
           "També em va inspirar la natura, la seva saviesa, els seus ritmes i la seva capacitat constant de renovar-se. La terra ens ensenya que tot floreix quan rep la cura adequada. Des d'aquesta visió neix Terra Santa Eulalia: com un lloc on cada persona pugui renovar-se des de dins cap a fora.",
         vision:
-          "Vaig voler crear un espai diferent, on la perruqueria i el benestar caminessin junts, on cada gest tingués intenció, on el respecte per la salut i per l'entorn fossin fonamentals, i on l'energia que es transmetés fos tan important com el resultat final.",
+          "Vaig voler crear un espai diferent, on la perruqueria i el benestar caminessin junts, on cada gest tingués intenció, on el respecte per la salut i per l'entorn fossin fonamentals, i on l'energia que es transmetés fos tan important com el resultat final. La teràpia Organica Capilar a Terra Santa Eulàlia és el reflex.",
         mission:
           "Terra Santa Eulalia és el reflex de la meva missió de vida: ajudar les persones a descobrir la seva bellesa natural, elevar la seva energia vital i recordar que cuidar-se també és una forma d'amor propi. Aquí no només transformem imatge, acompanyem processos, despertem confiança i sembrem benestar.",
       },
@@ -1418,13 +1450,15 @@ export const translations = {
     },
     legal: {
       bannerTitle: "La teva privacitat importa",
-      bannerText: "Utilitzem cookies per millorar la teva experiència, analitzar el trànsit i personalitzar el contingut. Consulta la nostra",
+      bannerText:
+        "Utilitzem cookies per millorar la teva experiència, analitzar el trànsit i personalitzar el contingut. Consulta la nostra",
       cookiesPolicyLink: "Política de Cookies",
       acceptAll: "Acceptar tot",
       rejectAll: "Rebutjar",
       configure: "Configurar",
       modalTitle: "Configuració de Cookies",
-      modalDesc: "Tria quines cookies acceptes. Les cookies tècniques són imprescindibles pel funcionament del lloc.",
+      modalDesc:
+        "Tria quines cookies acceptes. Les cookies tècniques són imprescindibles pel funcionament del lloc.",
       technicalLabel: "Tècniques",
       technicalDesc: "Necessàries pel funcionament bàsic (idioma, sessió).",
       analyticsLabel: "Analítiques",
@@ -1457,6 +1491,9 @@ translations.en.productsList = translations.es.productsList;
 translations.ca.productsList = translations.es.productsList;
 
 // Verificación: confirmar que productsList está disponible en todos los idiomas
-if (!translations.es.productsList || translations.es.productsList.length === 0) {
+if (
+  !translations.es.productsList ||
+  translations.es.productsList.length === 0
+) {
   console.warn("⚠️ TRANSLATION WARNING: productsList is empty in ES");
 }
