@@ -35,7 +35,7 @@ export const translations = {
       productsSub: "SELECCIÓ NATURAL & ORGÀNICA",
       treatmentsTitle: "NUESTROS\nTRATAMIENTOS",
       treatmentsSub: "ESPACIO BOTÁNICO",
-      therapyTitle: "TERAPIA CAPILAR\nAVANZADA",
+      therapyTitle: "TERAPIA CAPILAR\nORGÁNICA",
       therapySub: "CLÍNICA CAPILAR",
     },
     about: {
@@ -72,7 +72,7 @@ export const translations = {
           {
             id: "ritual-detox",
             title: "Ritual Detox",
-            desc: "Limpieza profunda con plantas medicinales. Específico para dermatitis, descamación, caspa o exceso de grasa.",
+            desc: "Este es un tratamiento capilar en polvo de la marca Terra Santa Eulàlia, formulado con una mezcla de plantas de la medicina tradicional ayurvédica. Es un producto de cosmética natural, libre de sulfratos, siliconas, perfumes sintéticos, colorantes artificiales, derivados del petróleo. Ingredientes de origen animal y conservantes irritantes..",
             extra: "Incluye masaje facial o de pies durante la exposición.",
             duration: "50 min",
             price: "85€",
@@ -207,7 +207,7 @@ export const translations = {
 
     capillaryPage: {
       badge: "Servicio High Ticket",
-      title: "Terapia Capilar Avanzada",
+      title: "Terapia Capilar Orgánica",
       subtitle: "Diagnóstico Botánico & Recuperación Molecular",
       desc: "Protocolo clínico-orgánico para recuperar cabellos dañados, alopecias o desequilibrios del cuero cabelludo. Un enfoque científico y completamente natural.",
       diagnosisTitle: "Estudio Dermatológico Capilar",
@@ -329,15 +329,16 @@ export const translations = {
       // --- LÍNEA PLANTAS (TINTES Y TRATAMIENTOS) ---
       {
         id: "planta-fortalecedora",
-        name: "Planta Fortalecedora",
+        name: "Planta Fortalecedora y Brillante",
         category: "Tratamiento en Polvo",
         type: "Cassia Obovata",
         price: 28,
-        desc: "Conocida como 'Henna Neutra'. No tiñe, pero engrosa la fibra capilar y aporta brillo espejo.",
-        ingredients: "Cassia Obovata Leaf Powder 100%.",
+        desc: "Conocida como 'Henna Neutra'. No tiñe, pero aporta brillo y ayuda a fortalecer la fibra capilar.",
+        ingredients: "Cassia Obovata Leaf Powder.",
         usage:
-          "Mezclar con agua tibia hasta formar barro. Aplicar 45 min. Ideal entre tintes.",
-        precautions: "Apta para todo tipo de cabellos.",
+          "Mezclar 2 o 3 cucharadas de la planta con agua tibia hasta formar una pasta cremosa. Opcionalmente, añadir 3-4 cucharaditas de un aceite vegetal prensado en frío para nutrir el cabello con más vitaminas. Dejarlo enfriar y aplicarlo desde el cuero cabelludo hasta la punta del cabello. Se recomienda dejarlo actuar durante aproximadamente 1 hora antes de lavar con un champú suave.",
+        precautions:
+          "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar.",
         img: "/images/products/terra_santa_planta_fortalecedora_brillante.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
@@ -348,10 +349,12 @@ export const translations = {
         type: "Mezcla Ayurvédica",
         price: 28,
         desc: "Mezcla de plantas para avivar reflejos dorados en cabellos claros y aportar tratamiento.",
-        ingredients: "Cassia Obovata, Chamomilla Recutita, Rheum Officinale.",
+        ingredients:
+          "Cassia Italica Leaf Powder, Lawsonia Inermis Powder, Chamomilla Recutita Flower Powder, Curcuma Longa Root Powder.",
         usage:
-          "Mezclar con agua tibia o infusión de manzanilla. Aplicar 30-45 min para brillo.",
-        precautions: "No aclara el cabello oscuro, solo aporta reflejo.",
+          "En un bol grande, mezclar el polvo gradualmente con agua tibia (aproximadamente a 30 °C) hasta obtener una consistencia similar a la del yogur. Aplicar inmediatamente sobre el cabello limpio, seco y perfectamente desenredado, desde la raíz hasta las puntas. Dejar actuar entre 20 y 40 minutos, según la intensidad de color deseada. A continuación, aclarar y lavar con un champú suave.",
+        precautions:
+          "Solo para uso externo. Evitar el contacto directo con los ojos. Este producto no aclara el cabello, ya que no contiene oxidantes ni agentes blanqueadores químicos. Se recomienda realizar una prueba de sensibilidad sobre la piel antes de su uso para descartar posibles reacciones alérgicas. El resultado puede variar según el color base y la textura de cada cabello. Conservar en un lugar fresco y seco, protegido de la luz solar.",
         img: "/images/products/terra_santa_planta_rubio_luminoso.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
@@ -362,9 +365,12 @@ export const translations = {
         type: "Mezcla Ayurvédica",
         price: 28,
         desc: "Matiz cálido y dulce para cabellos rubios o castaños claros que buscan calidez.",
-        ingredients: "Cassia, Lawsonia (baja proporción), Curcuma.",
-        usage: "Mezclar con agua tibia. Tiempo de exposición: 30-60 min.",
-        precautions: "Prueba de mechón recomendada.",
+        ingredients:
+          "Cassia Italica Leaf Powder, Lawsonia Inermis Powder, Indigofera Tinctoria Leaf Powder, Aloe Barbadensis Leaf Powder, Emblica Officinalis Fruit Powder, Ziziphus Jujuba Powder.",
+        usage:
+          "En un bol grande mezclar las plantas con agua tibia a unos 30ºC poco a poco hasta que la mezcla tenga la consistencia del yogur. Aplicar inmediatamente sobre el cabello limpio, seco y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 40–50 minutos (dependiendo de la intensidad de color que se desee) antes de lavar con agua.",
+        precautions:
+          "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar.",
         img: "/images/products/terra_santa_planta_rubio_miel.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
@@ -377,12 +383,28 @@ export const translations = {
         desc: "Henna pura de alta calidad. Aporta un color cobrizo intenso, fuerza y un brillo espectacular.",
         ingredients: "Lawsonia Inermis Leaf Powder.",
         usage:
-          "Mezclar con agua caliente (70-80ºC) y un ácido (limón). Reposar la mezcla. Aplicar 2-3 horas.",
-        precautions: "Mancha la piel y ropa. Usar guantes.",
+          "En un bol grande mezclar las plantas con agua tibia a unos 50–70ºC poco a poco hasta que la mezcla tenga la consistencia del yogur. Aplicar sobre el cabello limpio, seco y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 60–90 minutos (dependiendo de la intensidad de color que se desee) antes de lavar solo con un champú suave.",
+        precautions:
+          "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar.",
         img: "/images/products/terra_santa_planta_puro_cobre.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
-
+      {
+        id: "planta-marron-dorado",
+        name: "Planta Marrón Dorado",
+        category: "Coloración Vegetal",
+        type: "Mezcla Ayurvédica",
+        price: 28,
+        desc: "Mezcla vegetal para conseguir tonos marrón dorado cálidos y naturales. Aporta matices de color, brillo y cuerpo al cabello.",
+        ingredients:
+          "Lawsonia Intermis Powder, Indigofera Tinctoria Leaf Powder, Juglans Regia Shell Powder, Emblica Officinalis Fruit Powder, Ziziphus Jujuba Powder, Aloe Barbadenis Leaf Powder, Curcuma Longa Root Powder.",
+        usage:
+          "En un bol grande mezclar las plantas con agua tibia a unos 50–70ºC poco a poco hasta que la mezcla tenga la consistencia del yogur. Aplicar sobre el cabello limpio, seco y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 60–90 minutos (dependiendo de la intensidad de color que se desee) antes de lavar solo con agua. Para retener el color, es importante esperar un mínimo de 24 horas antes de lavar el cabello con un champú suave.",
+        precautions:
+          "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar.",
+        img: "/images/products/terra_santa_planta_marron_dorado.PNG",
+        video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
+      },
       {
         id: "planta-castana",
         name: "Planta Castaña",
@@ -407,10 +429,11 @@ export const translations = {
         price: 28,
         desc: "Profundidad y cobertura para cabellos castaños. Aporta cuerpo y oscurece tonos claros.",
         ingredients:
-          "Indigofera Tinctoria (alta proporción), Lawsonia Inermis, Juglans Regia.",
+          "Indigofera Tinctoria Leaf Powder, Lawsonia Inermis Powder, Emblica Officinalis Fruit Powder.",
         usage:
-          "Mezclar con agua a 50ºC. Aplicar generosamente. Tiempo: 90 min.",
-        precautions: "Evitar utensilios metálicos.",
+          "En un bol grande mezclar las plantas con agua tibia a unos 50–70ºC poco a poco hasta que la mezcla tenga la consistencia del yogur. Aplicar sobre el cabello limpio, seco y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 60–90 minutos (dependiendo de la intensidad de color que se desee) antes de lavar solo con agua. Para retener el color, es importante esperar un mínimo de 24 horas antes de lavar el cabello con un champú suave.",
+        precautions:
+          "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar.",
         img: "/images/products/terra_santa_planta_castaña_oscuro.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
@@ -423,8 +446,9 @@ export const translations = {
         desc: "Pigmento puro vegetal para conseguir tonos oscuros profundos y negros azulados en combinación con otras plantas.",
         ingredients: "Indigofera Tinctoria Leaf Powder (Índigo puro).",
         usage:
-          "Mezclar con agua a 50ºC. Usar solo o en dos pasos (primero henna, luego índigo) para cobertura de canas en negro. Tiempo: 60-90 min.",
-        precautions: "No aplicar aceites antes. Uso externo.",
+          "En un bol grande mezclar las plantas con agua tibia a unos 50 – 70ºC poco a poco hasta que la mezcla tenga la consistencia del yogur. Aplicar sobre el cabello limpio, seco y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 60 – 90 minutos (dependiendo de la intensidad de color que se desee) antes de lavar solo con agua. Para retener el color, es importante esperar un mínimo de 12 horas antes de lavar el cabello con un champú suave. Mezclar con agua a 50ºC. Usar solo o en dos pasos (primero henna, luego índigo) para cobertura de canas en negro. Tiempo: 60-90 min.",
+        precautions:
+          "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar.",
         img: "/images/products/terra_santa_planta_indigo.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
         isNew: false,
@@ -436,10 +460,13 @@ export const translations = {
         category: "Tratamiento Específico",
         type: "Purificante",
         price: 32.0,
-        desc: "Mascarilla de arcillas y plantas para limpiar toxinas del cuero cabelludo graso o con caspa.",
-        ingredients: "Arcilla Verde, Neem, Árbol de Té.",
-        usage: "Aplicar en raíz antes del lavado (pre-poo). Dejar 20 min.",
-        precautions: "No aplicar en puntas secas.",
+        desc: "Tratamiento capilar natural y orgánico a base de plantas para purificar y cuidar el cabello y cuero cabelludo.",
+        ingredients:
+          "Vigna Radiata Seed Powder, Ziziphus Jujuba Leaf Powder, Emblica Officinalis Fruit Powder, Azadirachta Indica Leaf Powder, Rubia Cordifolia Root Powder, Glycyrrhiza Glabra Root Powder.",
+        usage:
+          "Mezclar con agua tibia hasta formar una pasta cremosa. Opcionalmente, añadir 2-3 cucharaditas de un aceite capilar orgánico para aportar hidratación al cabello. Aplicar sobre el cabello limpio y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 30–45 minutos antes de lavar solo con agua.",
+        precautions:
+          "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar.",
         img: "/images/products/terra_santa_tratamiento_capilar_green_detox.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
         isNew: true,
@@ -450,10 +477,13 @@ export const translations = {
         category: "Tratamiento Específico",
         type: "Revitalizante",
         price: 34.0,
-        desc: "Bomba de vitaminas para cabellos apagados. Recupera la elasticidad y juventud.",
-        ingredients: "Amla, Brahmi, Moringa.",
-        usage: "Mezclar con agua o yogur. Aplicar de raíz a puntas 30 min.",
-        precautions: "Apto para método curly.",
+        desc: "Tratamiento capilar natural y orgánico para revitalizar el cabello, aportando nutrición, brillo y vitalidad.",
+        ingredients:
+          "Emblica Officinalis Fruit Powder, Bacopa Monnieri Leaf Powder, Trigonella Foenum-Graecum Seed Powder, Cassia Italica Leaf Powder, Acacia Concinna Fruit Powder, Citrus Sinensis Fruit Powder, Rose Damascena Flower Powder.",
+        usage:
+          "Mezclar con agua tibia hasta formar una pasta cremosa. Opcionalmente, añadir 2-3 cucharaditas de un aceite capilar orgánico para aportar hidratación al cabello. Aplicar sobre el cabello limpio y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 30–45 minutos antes de lavar solo con agua.",
+        precautions:
+          "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar.",
         img: "/images/products/terra_santa_tratamiento_capilar_green_vitality.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
@@ -463,11 +493,13 @@ export const translations = {
         category: "Tratamiento Específico",
         type: "Rizos Definidos",
         price: 34.0,
-        desc: "Hidratación y definición para el método curly. Evita el frizz sin apelmazar.",
-        ingredients: "Linaza, Malvavisco, Aloe Vera.",
+        desc: "Tratamiento capilar natural y orgánico para cuidar y definir los rizos, aportando hidratación, suavidad y vitalidad al cabello.",
+        ingredients:
+          "Bacopa Monnieri Leaf Powder, Emblica Officinalis Fruit Powder, Moringa Oleifera Leaf Powder, Acacia Concinna Fruit Powder, Nymphaea Lotus Root Powder, Aloe Barbadensis Leaf Powder, Astragalus Gummifer Gum Powder.",
         usage:
-          "Aplicar en cabello húmedo como leave-in o mascarilla con aclarado.",
-        precautions: "Sin siliconas.",
+          "Mezclar con agua tibia hasta formar una pasta cremosa. Opcionalmente, añadir 2-3 cucharaditas de un aceite capilar orgánico para aportar hidratación al cabello. Aplicar sobre el cabello limpio y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 30–45 minutos antes de lavar solo con agua.",
+        precautions:
+          "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar.",
         img: "/images/products/terra_santa_tratamiento_capilar_green_curly.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
@@ -477,10 +509,12 @@ export const translations = {
         category: "Tratamiento Específico",
         type: "Rizos Pro",
         price: 38.0,
-        desc: "Versión intensiva para rizos muy secos o afro. Nutrición extrema.",
-        ingredients: "Manteca de Karité, Aceite de Aguacate, Espirulina.",
-        usage: "Mascarilla nocturna o pre-lavado intenso.",
-        precautions: "Textura densa.",
+        desc: "Tratamiento capilar natural y orgánico para definir y cuidar los rizos, aportando hidratación y una textura más manejable.",
+        ingredients: "Astragalus Gummifer Gum Powder.",
+        usage:
+          "Mezclar 5 gr de producto con unos 200 ml de agua tibia hasta formar una pasta cremosa. Aplicar sobre el cabello limpio y mojado, y distribuir bien. Secar con secador o al aire.",
+        precautions:
+          "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar.",
         img: "/images/products/terra_santa_tratamiento_capilar_magical_green_curly.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
         isNew: true,
@@ -493,11 +527,13 @@ export const translations = {
         category: "Higiene Capilar",
         type: "Uso Frecuente",
         price: 24.0,
-        desc: "Equilibrante para todo tipo de cabellos. Limpia suavemente respetando el manto hidrolipídico.",
-        ingredients: "Lavanda, Aloe Vera, Tensioactivos de Coco.",
+        desc: "Champú natural y orgánico para todo tipo de cabello. Limpia suavemente mientras hidrata y ayuda a equilibrar el cuero cabelludo.",
+        ingredients:
+          "Aqua, Decyl Glucoside, Lauryl Glucoside, Disodium Cocoamphoacetate, Lavandula Hybrida Grosso Herb Oil*, Argania Spinosa Kernel Oil*, Erythritol, Inulin, Aloe Barbadensis Leaf Juice*, Sodium Cocoyl Hydrolyzed Wheat Protein, Glycerin, Xanthan Gum, Benzyl Alcohol, Coco-Glucoside, Glyceryl Oleate, Potassium Sorbate, Sodium Benzoate, Panthenol, Citric Acid, Tocopherol, Alcohol, Limonene**, Linalool**, Malus Pumila Bach Flower Extract, Scleranthus Annus Bach Flower Extract, Juglans Regia Bach Flower Extract. (*Orgánico / **De aceites esenciales puros)",
         usage:
-          "Emulsionar en manos, aplicar en cuero cabelludo mojado. Aclarar.",
-        precautions: "Evitar contacto con ojos.",
+          "Masajear suavemente sobre el cabello húmedo. Dejar actuar unos instantes y aclarar. Si es necesario, repetir una segunda aplicación con menos cantidad.",
+        precautions:
+          "Uso externo. No ingerir. Evitar el contacto con los ojos.",
         img: "/images/products/terra_santa_shampo_gratitud_cabello_todo_tipo.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
@@ -507,11 +543,13 @@ export const translations = {
         category: "Higiene Capilar",
         type: "Volumen y Fuerza",
         price: 26.0,
-        desc: "Formulado para cabellos finos o con caída. Estimula la raíz y aporta densidad.",
-        ingredients: "Romero, Ortiga, Proteína de Trigo.",
+        desc: "Champú natural y orgánico para fortalecer y cuidar el cabello. Aporta fuerza, nutrición y ayuda a mejorar la apariencia de densidad capilar.",
+        ingredients:
+          "Aqua, Decyl Glucoside, Lauryl Glucoside, Disodium Cocoamphoacetate, Limonene, Citrus Sinensis Peel Oil Expressed*, Glycerin, Erythritol, Inulin, Helianthus Annuus Seed Oil, Sodium Cocoyl Hydrolyzed Wheat Protein, Alcohol, Xanthan Gum, Benzyl Alcohol, Coco-Glucoside, Emblica Officinalis Fruit Powder*, Glyceryl Oleate, Citrus Paradisii Peel Oil, Eucalyptus Globulus Leaf Oil*, Panthenol, Potassium Sorbate, Sodium Benzoate, Equisetum Arvense Extract*, Lepidium Meyenii Root Extract, Rosmarinus Officinalis Extract*, Salvia Officinalis Leaf Extract*, Urtica Dioica Leaf Extract*, Citric Acid, Citral, Citronellol, Linalool, Tocopherol, Carpinus Betulus Flower Extract, Larix Decidua Flower Extract, Malus Sylvestris Flower Extract, Olea Europaea Flower Extract. (*Orgánico / ^De aceites esenciales puros)",
         usage:
-          "Masajear vigorosamente la raíz para activar circulación. Dejar actuar 2 min.",
-        precautions: "Uso externo.",
+          "Masajear suavemente sobre el cabello húmedo. Dejar actuar unos instantes y aclarar. Si es necesario, repetir una segunda aplicación con menos cantidad.",
+        precautions:
+          "Uso externo. No ingerir. Evitar el contacto con los ojos.",
         img: "/images/products/terra_santa_shampoo_abundancia_todo_tipo_cabello.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
@@ -519,15 +557,34 @@ export const translations = {
       // --- LÍNEA FINALIZADO Y CUERPO ---
       {
         id: "acondicionador-sin-aclarado",
-        name: "Acondicionador Spray",
+        name: "Acondicionador sin aclarado",
         category: "Hidratación y Cuerpo",
         type: "Leave-In",
         price: 25.0,
-        desc: "Bruma ligera que desenreda al instante y protege del calor y sol.",
-        ingredients: "Hidrolatos florales, Aceite de Jojoba ligero.",
-        usage: "Pulverizar sobre cabello húmedo o seco para reactivar peinado.",
-        precautions: "Agitar antes de usar.",
+        desc: "Acondicionador natural y orgánico sin aclarado que hidrata, facilita el peinado y ayuda a minimizar el encrespamiento.",
+        ingredients:
+          "Aqua, Urtica Dioica Leaf Extract*, Helianthus Annuus Seed Oil, Cocos Nucifera Oil*, Inulin, Glycerin, Citrus Sinensis Peel Oil Expressed*, Lavandula Hybrida Grosso Herb Oil*, Limonene^, Behenamidopropyldimethylamine, Benzyl Alcohol, Emblica Officinalis Fruit Powder, Potassium Sorbate, Sodium Benzoate, Litsea Cubeba Fruit Oil*, Biosaccharide Gum-1, Porphyra Umbilicalis Extract, Sodium Levulinate, Caesalpinia Spinosa Gum, Glyceryl Caprylate, Sodium Anisate, Citral^, Citronellol^, Linalool^, Farnesol^, Geraniol^, Alcohol, Leuconostoc/Radish Root Ferment Filtrate, Carpinus Betulus Flower Extract, Ilex Aquifolium Flower Extract, Olea Europaea Flower Extract, Scleranthus Annuus Flower Extract, Gentiana Amarella Flower Extract, Juglans Regia Flower Extract, Prunus Cerasifera Flower Extract. (*Orgánico / ^De aceites esenciales puros)",
+        usage:
+          "Sobre el cabello húmedo recién lavado, aplicar el acondicionador con el spray por todo el cabello y distribuir con las manos para cubrir toda la superficie. Se puede secar el cabello después si se desea.",
+        precautions:
+          "Uso externo. No ingerir. Evitar el contacto con los ojos.",
         img: "/images/products/terra_santa_acondicionador_sin_aclarado.PNG",
+        video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
+      },
+      {
+        id: "serum-en-aceite",
+        name: "Serum en Aceite",
+        category: "Tratamiento Capilar",
+        type: "Nutrición y Reparación",
+        price: 32.0,
+        desc: "Mezcla de aceites vegetales vírgenes y orgánicos que nutre, aporta brillo y ayuda a fortalecer el cabello desde la raíz hasta las puntas. Ideal para cabellos secos, encrespados y rizos.",
+        ingredients:
+          "Cocos Nucifera Oil*, Ricinus Communis Seed Oil*, Helianthus Annuus Seed Oil*, Sesamum Indicum Seed Oil*, Argania Spinosa Kernel Oil*, Emblica Officinalis Powder, Rosmarinus Officinalis Leaf Oil*, Lavandula Hybrida Grosso Herb Oil*, Linalool^, Eucalyptus Globulus Leaf/Stem Oil*, Mentha Arvensis Herb Oil*, Thymus Zygis Herb Oil*, Cupressus Sempervirens Leaf/Nut/Stem Oil, Limonene^, Geraniol^, Coumarin^, Eugenol^, Citral^, Alcohol, Olea Europaea Flower Extract, Centaurium Umbellatum Flower Extract, Carpinus Betulus Flower Extract, Scleranthus Annus Flower Extract. (*Orgánico / ^De aceites esenciales puros)",
+        usage:
+          "Puntas secas o abiertas: aplicar 2 o 3 gotas en las puntas, masajear y dejar actuar unos 20 minutos. Se puede lavar después o no. Cabello seco o encrespado: aplicar 3-4 gotas en las manos, frotar para calentar el serum y aplicar suavemente sobre todo el cabello hasta 2 veces al día. Cuero cabelludo seco y caída capilar: masajear unas gotas sobre el cuero cabelludo con movimientos circulares, dejar actuar mínimo 30 minutos o tantas horas como se desee y lavar después. Rizos: aplicar unas gotas en las manos, frotar y presionar los rizos de abajo hacia arriba para definirlos suavemente. No aclarar.",
+        precautions:
+          "Uso externo. No ingerir. Evitar el contacto con los ojos.",
+        img: "/images/products/terra_santa_serum_en_aceite.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
       {
@@ -536,10 +593,13 @@ export const translations = {
         category: "Hidratación y Cuerpo",
         type: "Calmante",
         price: 28.0,
-        desc: "Sérum calmante para cueros cabelludo sensibles, con picores o descamación.",
-        ingredients: "Aloe Vera puro, Caléndula.",
-        usage: "Aplicar pipeta en el cuero cabelludo y masajear. No aclarar.",
-        precautions: "Sensación frescor inmediata.",
+        desc: "Loción capilar para todo tipo de cabellos. Fortalece, hidrata y ayuda a eliminar impurezas del cabello y cuero cabelludo.",
+        ingredients:
+          "Aloe Barbadensis Leaf Juice*, Cannabis Sativa Seed Oil*, Benzyl Alcohol, Simmondsia Chinesis Seed Oil*, Xanthan Gum, Rosmarinus Officinalis Leaf Oil*, Thymus Zygis Oil*, Ascorbic Acid, Dehydroacetic Acid, Sodium Metabisulfite, Limonene**, Linalool**, Pinene*, Beta Caryophyllene**, Camphor**, Alfa Terpineol*. (*Ingrediente ecológico certificado / **Ingrediente natural contenido en los aceites esenciales)",
+        usage:
+          "Aplicar una pequeña cantidad en la palma de la mano, frotar en ambas manos y aplicar en el cuero cabelludo, dando un suave y penetrante masaje. Se puede añadir más cantidad y aplicar por el resto del cabello. Dejar actuar unos veinte minutos y después lavar.",
+        precautions:
+          "Para todo tipo de cabellos. Evitar el contacto con los ojos. Uso externo.",
         img: "/images/products/terra_santa_locion_capilar_aloe.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
@@ -549,23 +609,28 @@ export const translations = {
         category: "Hidratación y Cuerpo",
         type: "Multiusos",
         price: 20.0,
-        desc: "Gel puro regenerador. Sirve para piel, cabello, after-sun o post-depilación.",
-        ingredients: "Aloe Barbadensis 99%.",
-        usage: "Aplicar generosamente en la zona a tratar.",
-        precautions: "Conservar en frío para mayor efecto.",
+        desc: "Loción de Aloe Vera elaborada con hojas frescas de Aloe de Almería. Hidratante y regeneradora, ayuda a aumentar la elasticidad y firmeza de la piel.",
+        ingredients:
+          "Aloe Barbadensis Leaf Juice*, Xanthan Gum, Benzyl Alcohol, Ascorbic Acid, Dehydroacetic Acid, Sodium Metabisulfite. (*Ingrediente ecológico certificado)",
+        usage: "Aplicar sobre la piel seca dando un suave masaje.",
+        precautions:
+          "Una vez abierto mantener en lugar fresco y oscuro. Indicado para todo tipo de pieles.",
         img: "/images/products/terra_santa_locion_aloe_vera_puro.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
       {
         id: "leche-corporal",
-        name: "Leche Regeneradora",
+        name: "Leche Corporal Regeneradora",
         category: "Hidratación y Cuerpo",
         type: "Body Milk",
         price: 29.0,
-        desc: "Hidratación corporal profunda con absorción rápida. Piel de seda.",
-        ingredients: "Rosa Mosqueta, Aceite de Almendras, Vitamina E.",
-        usage: "Masaje corporal diario tras la ducha.",
-        precautions: "Uso externo.",
+        desc: "Leche corporal regeneradora con Aloe de Almería, Rosa Mosqueta y aceites vegetales ecológicos. Hidrata, nutre y ayuda a cuidar las zonas dañadas de la piel.",
+        ingredients:
+          "Aloe Barbadensis Leaf Juice*, Rosa Canina Seed Oil*, Lavandula Angustifolia Flower Water*, Glycine Max Oil*, Cannabis Sativa Seed Oil*, Glyceryl Stearate Citrate, Benzyl Alcohol, Lavandula Angustifolia Oil*, Xanthan Gum, Ascorbic Acid, Dehydroacetic Acid, Linalyl Acetate**, Linalool**, Terpineol**, Geraniol**, Limonene**. (*Ingrediente ecológico certificado / **Ingrediente natural contenido en los aceites esenciales)",
+        usage:
+          "Aplicar sobre la piel seca dando un suave masaje. Uso diario como hidratante corporal.",
+        precautions:
+          "Una vez abierto mantener en lugar fresco y oscuro. Indicado para zonas dañadas de la piel. Se puede usar como aftersun y después de la depilación.",
         img: "/images/products/terra_santa_leche_corporal_regeneradora.PNG",
         video: "https://www.youtube.com/watch?v=casXEgFpFRQ",
       },
@@ -698,7 +763,7 @@ export const translations = {
       productsSub: "NATURAL & ORGANIC SELECTION",
       treatmentsTitle: "OUR\nTREATMENTS",
       treatmentsSub: "BOTANICAL SPACE",
-      therapyTitle: "ADVANCED\nCAPILLARY THERAPY",
+      therapyTitle: "ORGANIC\nCAPILLARY THERAPY",
       therapySub: "HAIR CLINIC",
     },
     about: {
@@ -866,7 +931,7 @@ export const translations = {
     },
     capillaryPage: {
       badge: "High Ticket Service",
-      title: "Advanced Capillary Therapy",
+      title: "Organic Capillary Therapy",
       subtitle: "Botanical Diagnosis & Molecular Recovery",
       desc: "Clinical-organic protocol to recover damaged hair, alopecia, or scalp imbalances. A scientific and completely natural approach.",
       diagnosisTitle: "Dermatological Hair Study",
@@ -1110,7 +1175,7 @@ export const translations = {
       productsSub: "SELECCIÓ NATURAL & ORGÀNICA",
       treatmentsTitle: "ELS NOSTRES\nTRACTAMENTS",
       treatmentsSub: "ESPAI BOTÀNIC",
-      therapyTitle: "TERÀPIA CAPIL·LAR\nAVANÇADA",
+      therapyTitle: "TERÀPIA CAPIL·LAR\nORGÀNICA",
       therapySub: "CLÍNICA CAPIL·LAR",
     },
     about: {
@@ -1254,7 +1319,7 @@ export const translations = {
       spa: "Rituals Facials & Pindes",
       spaDesc:
         "Experiència Signature (150€). Pindes herbals, lifting facial i desconnexió absoluta.",
-      capillary: "Teràpia Capil·lar Avançada",
+      capillary: "Teràpia Capil·lar Orgànica",
       capillaryDesc: "Diagnòstic botànic i recuperació molecular.",
       badge: "Signature Experience",
     },
@@ -1278,7 +1343,7 @@ export const translations = {
     },
     capillaryPage: {
       badge: "Servei High Ticket",
-      title: "Teràpia Capil·lar Avançada",
+      title: "Teràpia Capil·lar Orgànica",
       subtitle: "Diagnòstic Botànic & Recuperació Molecular",
       desc: "Protocol clínic-orgànic per recuperar cabells danyats, alopècies o dessequilibris del cuir ciliat. Un enfocament científic i completament natural.",
       diagnosisTitle: "Estudi Dermatològic Capil·lar",
