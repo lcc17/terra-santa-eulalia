@@ -8,7 +8,7 @@ import { ArrowRight, Clock, Sparkles, Star, Plus } from "lucide-react";
 
 // Assets
 const HERO_IMG =
-  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200";
+  "/images/tratamientos-organicos-naturales.png";
 
 export default function TratamientosPage() {
   const { t } = useApp();
@@ -129,7 +129,7 @@ export default function TratamientosPage() {
       </section>
 
       {/* 3. RITUALES FACIALES DE LUZ (Nuevo Diseño con Opciones) */}
-      <section className="bg-sand-light/20 py-24 px-6 border-t border-earth-brown/10">
+      {/* <section className="bg-sand-light/20 py-24 px-6 border-t border-earth-brown/10">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <Star size={32} className="text-earth-brown mx-auto mb-4" />
@@ -184,10 +184,10 @@ export default function TratamientosPage() {
                 </div>
               </motion.div>
             ))}
-          </div>
+          </div> */}
 
           {/* EXTRAS */}
-          <div className="mt-16 bg-white p-8 rounded-xl border border-sand-light/50 max-w-2xl mx-auto">
+          {/* <div className="mt-16 bg-white p-8 rounded-xl border border-sand-light/50 max-w-2xl mx-auto">
             <h4 className="text-center font-serif text-xl text-earth-brown mb-6">
               Complementos Express
             </h4>
@@ -209,7 +209,7 @@ export default function TratamientosPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Final */}
       <div className="text-center py-20 bg-cream">

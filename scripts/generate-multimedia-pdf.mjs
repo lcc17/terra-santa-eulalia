@@ -133,7 +133,7 @@ const inventory = {
     },
     {
       kind: "external-image",
-      url: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200",
+      url: "/images/tratamientos-organicos-naturales.png",
       provider: "Unsplash",
       where: "Home / + /domesticos/tratamientos + /rituales (3 lugares)",
       role: "Ambiente spa",

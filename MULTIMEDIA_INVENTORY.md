@@ -157,9 +157,9 @@
 | URL | Ubicación | Descripción | Licencia |
 |-----|-----------|-------------|----------|
 | `images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800` | Home `/` — Servicio "Terapia Capilar" ([page.jsx:201](src/app/page.jsx:201)) | Hair / salon | Unsplash free |
-| `images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800` | Home `/` — Servicio "Spa" ([page.jsx:208](src/app/page.jsx:208)) | Spa atmosphere | Unsplash free |
-| `images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200` | `/domesticos/tratamientos` ([page.jsx:11](src/app/domesticos/tratamientos/page.jsx)) | Spa atmosphere (versión grande) | Unsplash free |
-| `images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1920` | `/rituales` ([page.jsx:38](src/app/rituales/page.jsx:38)) | Spa atmosphere (versión hero) | Unsplash free |
+| `/images/tratamientos-organicos-naturales.png` | Home `/` — Servicio "Spa" ([page.jsx:208](src/app/page.jsx:208)) | Spa atmosphere | Unsplash free |
+| `/images/tratamientos-organicos-naturales.png` | `/domesticos/tratamientos` ([page.jsx:11](src/app/domesticos/tratamientos/page.jsx)) | Spa atmosphere (versión grande) | Unsplash free |
+| `/images/tratamientos-organicos-naturales.png` | `/rituales` ([page.jsx:38](src/app/rituales/page.jsx:38)) | Spa atmosphere (versión hero) | Unsplash free |
 | `images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=1200` | `/filosofia` ([page.jsx:11](src/app/filosofia/page.jsx:11)) | Textura agua/tierra | Unsplash free |
 | `images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1000` | `/filosofia` ([page.jsx:19](src/app/filosofia/page.jsx:19)) | Espacio interior | Unsplash free |
 
@@ -234,7 +234,7 @@ Para no depender de CDNs de terceros (que pueden expirar), se recomienda descarg
 | URL externa | Guardar como | Razón |
 |-------------|--------------|-------|
 | `images.unsplash.com/photo-1515377905703-c4788e51af15` | `/public/images/services/capillary-service.jpg` | Aparece en Home hero servicios |
-| `images.unsplash.com/photo-1540555700478-4be289fbecef` | `/public/images/services/spa-service.jpg` | Usada 3 veces (Home, tratamientos, rituales) |
+| `/images/tratamientos-organicos-naturales.png` | `/public/images/services/spa-service.jpg` | Usada 3 veces (Home, tratamientos, rituales) |
 | `images.unsplash.com/photo-1518531933037-91b2f5f229cc` | `/public/images/philosophy/water-earth.jpg` | Filosofía — textura agua |
 | `images.unsplash.com/photo-1560066984-138dadb4c035` | `/public/images/philosophy/space-interior.jpg` | Filosofía — espacio interior |
 | `cdn.pixabay.com/photo/2020/06/26/08/28/soil-5342049_1280.jpg` | `/public/images/philosophy/clay-texture.jpg` | Filosofía — arcilla |

@@ -30,12 +30,9 @@ export default function RitualesPage() {
       {/* --- 1. HERO SECTION --- */}
       <section className="relative h-[70vh] w-full overflow-hidden flex flex-col justify-end pb-16">
         {/* Background Image with Parallax */}
-        <motion.div
-          style={{ y: heroY }}
-          className="absolute inset-0 z-0"
-        >
+        <motion.div style={{ y: heroY }} className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1920"
+            src="/images/tratamientos-organicos-naturales.png"
             alt="Rituales Terra Santa Eulalia"
             fill
             className="object-cover scale-110"
@@ -56,8 +53,8 @@ export default function RitualesPage() {
           <button
             onClick={() => {
               window.open(
-                `https://wa.me/34631994318?text=${encodeURIComponent(t?.treatmentsPage?.whatsappMessage || 'Hola, me interesa reservar un ritual de Terra Santa Eulalia')}`,
-                "_blank"
+                `https://wa.me/34631994318?text=${encodeURIComponent(t?.treatmentsPage?.whatsappMessage || "Hola, me interesa reservar un ritual de Terra Santa Eulalia")}`,
+                "_blank",
               );
             }}
             className="flex items-center gap-3 group"
@@ -89,8 +86,7 @@ export default function RitualesPage() {
               {t?.treatmentsPage?.title || "Rituales Terra"}
             </h1>
             <p className="text-lg text-earth-brown/70 font-light max-w-lg mb-8">
-              {t?.treatmentsPage?.subtitle ||
-                "Salud Capilar y Facial Orgánica"}
+              {t?.treatmentsPage?.subtitle || "Salud Capilar y Facial Orgánica"}
             </p>
             <p className="text-sm text-earth-brown/60 leading-relaxed mb-8 max-w-xl">
               {t?.treatmentsPage?.desc ||
@@ -118,7 +114,7 @@ export default function RitualesPage() {
             </span>
             <h2 className="text-3xl md:text-4xl font-serif text-earth-brown mb-4">
               {t?.treatmentsPage?.hairRituals?.title ||
-                "Rituales Capilares Orgánicos"}
+                "Rituales Orgánicos Capilares"}
             </h2>
             <p className="text-earth-brown/60 max-w-xl mx-auto">
               {t?.treatmentsPage?.hairRituals?.desc ||
@@ -130,17 +126,13 @@ export default function RitualesPage() {
         {/* Hair Rituals Grid - Asymmetric Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {hairRituals.map((ritual, index) => (
-            <RitualCard
-              key={ritual.id}
-              ritual={ritual}
-              index={index}
-            />
+            <RitualCard key={ritual.id} ritual={ritual} index={index} />
           ))}
         </div>
       </section>
 
       {/* --- 3. FACIAL RITUALS SECTION --- */}
-      <section className="py-24 px-6 bg-sand-light/10">
+      <section className="py-24 px-6 bg-red-900">
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
           <div className="mb-16 text-center">
@@ -150,9 +142,9 @@ export default function RitualesPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-            <span className="text-olive-green text-xs tracking-[0.3em] uppercase font-bold block mb-4">
-              {t?.treatmentsPage?.facialRituals?.title || "Rituales Faciales"}
-            </span>
+              <span className="text-olive-green text-xs tracking-[0.3em] uppercase font-bold block mb-4">
+                {t?.treatmentsPage?.facialRituals?.title || "Rituales Faciales"}
+              </span>
               <h2 className="text-3xl md:text-4xl font-serif text-earth-brown mb-4">
                 {t?.treatmentsPage?.facialRituals?.title ||
                   "Rituales Faciales de Luz"}
@@ -167,11 +159,7 @@ export default function RitualesPage() {
           {/* Facial Rituals Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {facialRituals.map((ritual, index) => (
-              <FacialRitualCard
-                key={ritual.id}
-                ritual={ritual}
-                index={index}
-              />
+              <FacialRitualCard key={ritual.id} ritual={ritual} index={index} />
             ))}
           </div>
         </div>

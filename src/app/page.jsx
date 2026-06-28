@@ -19,7 +19,9 @@ export default function Home() {
 
   const handleWhatsAppClick = () => {
     const phoneNumber = "34631994318";
-    const message = t?.whatsapp?.defaultMessage || "Hola, me gustaría información sobre Terra Santa Eulalia.";
+    const message =
+      t?.whatsapp?.defaultMessage ||
+      "Hola, me gustaría información sobre Terra Santa Eulalia.";
     window.open(
       `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,
       "_blank",
@@ -170,7 +172,11 @@ export default function Home() {
               key={prod.id}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.2, duration: 1, ease: [0.76, 0, 0.24, 1] }}
+              transition={{
+                delay: index * 0.2,
+                duration: 1,
+                ease: [0.76, 0, 0.24, 1],
+              }}
               viewport={{ once: true }}
             >
               <ProductCard product={prod} />
@@ -205,7 +211,7 @@ export default function Home() {
             <ServiceCard
               title={t.services.spa}
               desc={t.services.spaDesc}
-              img="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800"
+              img="/images/tratamientos-organicos-naturales.png"
               href="/domesticos/tratamientos"
               badge={t.services.badge}
             />
