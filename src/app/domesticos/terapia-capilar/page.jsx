@@ -15,8 +15,7 @@ import {
 } from "lucide-react";
 
 // Assets
-const CAPILLARY_VIDEO =
-  "https://videos.pexels.com/video-files/3756003/3756003-hd_1920_1080_25fps.mp4";
+const CAPILLARY_IMAGE = "/images/terapia-organica-capilar.png";
 
 export default function TerapiaCapilarPage() {
   const { t } = useApp();
@@ -28,25 +27,28 @@ export default function TerapiaCapilarPage() {
 
   const handleWhatsApp = () => {
     const phone = "34631994318";
-    const msg = data?.whatsappMessage || "Hola, me interesa la Terapia Capilar Avanzada.";
-    window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, "_blank");
+    const msg =
+      data?.whatsappMessage || "Hola, me interesa la Terapia Capilar Avanzada.";
+    window.open(
+      `https://wa.me/${phone}?text=${encodeURIComponent(msg)}`,
+      "_blank",
+    );
   };
 
   return (
     <div className="bg-cream min-h-screen pb-20">
       {/* 1. HERO SPLIT */}
       <section className="relative h-[80vh] flex flex-col md:flex-row overflow-hidden">
-        {/* Lado Video */}
+        {/* Lado Imagen - Cambiado de Video a Image con atributos responsivos */}
         <div className="w-full md:w-1/2 relative bg-black order-2 md:order-1">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover opacity-80"
-          >
-            <source src={CAPILLARY_VIDEO} type="video/mp4" />
-          </video>
+          <Image
+            src={CAPILLARY_IMAGE}
+            alt={data?.title || "Terapia Orgánica Capilar"}
+            fill
+            priority
+            sizes="(max-width: 768px) 100vw, 50vw"
+            className="object-cover opacity-80"
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent" />
         </div>
 
@@ -106,9 +108,17 @@ export default function TerapiaCapilarPage() {
             >
               <div className="w-14 h-14 bg-cream rounded-full flex items-center justify-center mb-6">
                 {svc.icon === "Microscope" ? (
-                  <Microscope className="text-earth-brown" size={24} strokeWidth={1.5} />
+                  <Microscope
+                    className="text-earth-brown"
+                    size={24}
+                    strokeWidth={1.5}
+                  />
                 ) : (
-                  <Activity className="text-earth-brown" size={24} strokeWidth={1.5} />
+                  <Activity
+                    className="text-earth-brown"
+                    size={24}
+                    strokeWidth={1.5}
+                  />
                 )}
               </div>
               <h3 className="text-2xl font-serif text-earth-brown mb-4 leading-tight">
@@ -137,9 +147,15 @@ export default function TerapiaCapilarPage() {
               </span>
               <div className="relative z-10">
                 <div className="w-12 h-12 bg-cream rounded-full flex items-center justify-center mb-6 mx-auto">
-                  {idx === 0 && <Activity className="text-earth-brown" size={20} />}
-                  {idx === 1 && <Droplets className="text-earth-brown" size={20} />}
-                  {idx === 2 && <CheckCircle2 className="text-earth-brown" size={20} />}
+                  {idx === 0 && (
+                    <Activity className="text-earth-brown" size={20} />
+                  )}
+                  {idx === 1 && (
+                    <Droplets className="text-earth-brown" size={20} />
+                  )}
+                  {idx === 2 && (
+                    <CheckCircle2 className="text-earth-brown" size={20} />
+                  )}
                 </div>
                 <h3 className="text-2xl font-serif text-earth-brown mb-3 text-center">
                   {step.title}
@@ -180,8 +196,12 @@ export default function TerapiaCapilarPage() {
               <div className="flex justify-between items-start mb-6">
                 <div className="w-12 h-12 bg-cream rounded-full flex items-center justify-center">
                   {idx === 0 && <Leaf className="text-olive-green" size={20} />}
-                  {idx === 1 && <ShieldCheck className="text-olive-green" size={20} />}
-                  {idx === 2 && <Activity className="text-olive-green" size={20} />}
+                  {idx === 1 && (
+                    <ShieldCheck className="text-olive-green" size={20} />
+                  )}
+                  {idx === 2 && (
+                    <Activity className="text-olive-green" size={20} />
+                  )}
                 </div>
                 <span className="bg-earth-brown text-cream text-sm font-bold px-3 py-1 rounded-full">
                   {ritual.price}
@@ -238,12 +258,15 @@ export default function TerapiaCapilarPage() {
               <p className="text-olive-green text-xs font-bold uppercase tracking-widest mb-4">
                 {sol.problem}
               </p>
-              <p className="text-earth-brown/80 font-light mb-8 leading-relaxed">{sol.desc}</p>
+              <p className="text-earth-brown/80 font-light mb-8 leading-relaxed">
+                {sol.desc}
+              </p>
               <Link
                 href="/contact"
                 className="flex items-center gap-2 text-earth-brown text-sm font-bold uppercase tracking-wider hover:text-olive-green transition-colors"
               >
-                {data?.scheduleRitual || "Agendar este ritual"} <ArrowRight size={16} />
+                {data?.scheduleRitual || "Agendar este ritual"}{" "}
+                <ArrowRight size={16} />
               </Link>
             </motion.div>
           ))}
@@ -254,10 +277,12 @@ export default function TerapiaCapilarPage() {
       <section className="py-20 px-6 text-center mt-16">
         <div className="max-w-2xl mx-auto">
           <h3 className="text-3xl font-serif text-earth-brown mb-6">
-            {data?.ctaRecoveryTitle || "Recupera la memoria vital de tu cabello"}
+            {data?.ctaRecoveryTitle ||
+              "Recupera la memoria vital de tu cabello"}
           </h3>
           <p className="mb-8 opacity-80 leading-relaxed">
-            {data?.ctaRecoveryDesc || "Este tratamiento requiere cita previa y valoración de nuestros especialistas en C/ Provença 213."}
+            {data?.ctaRecoveryDesc ||
+              "Este tratamiento requiere cita previa y valoración de nuestros especialistas en C/ Provença 213."}
           </p>
           <button
             onClick={handleWhatsApp}
