@@ -451,7 +451,7 @@ export const translations = {
         name: "Green Detox",
         category: "Tratamiento Específico",
         type: "Purificante",
-        price: 32.0,
+        price: 29.50,
         desc: "Tratamiento capilar natural y orgánico a base de plantas para purificar y cuidar el cabello y cuero cabelludo.",
         ingredients:
           "Vigna Radiata Seed Powder, Ziziphus Jujuba Leaf Powder, Emblica Officinalis Fruit Powder, Azadirachta Indica Leaf Powder, Rubia Cordifolia Root Powder, Glycyrrhiza Glabra Root Powder.",
@@ -468,7 +468,7 @@ export const translations = {
         name: "Green Vitality",
         category: "Tratamiento Específico",
         type: "Revitalizante",
-        price: 34.0,
+        price: 29.50,
         desc: "Tratamiento capilar natural y orgánico para revitalizar el cabello, aportando nutrición, brillo y vitalidad.",
         ingredients:
           "Emblica Officinalis Fruit Powder, Bacopa Monnieri Leaf Powder, Trigonella Foenum-Graecum Seed Powder, Cassia Italica Leaf Powder, Acacia Concinna Fruit Powder, Citrus Sinensis Fruit Powder, Rose Damascena Flower Powder.",
@@ -484,7 +484,7 @@ export const translations = {
         name: "Green Curly",
         category: "Tratamiento Específico",
         type: "Rizos Definidos",
-        price: 34.0,
+        price: 29.50,
         desc: "Tratamiento capilar natural y orgánico para cuidar y definir los rizos, aportando hidratación, suavidad y vitalidad al cabello.",
         ingredients:
           "Bacopa Monnieri Leaf Powder, Emblica Officinalis Fruit Powder, Moringa Oleifera Leaf Powder, Acacia Concinna Fruit Powder, Nymphaea Lotus Root Powder, Aloe Barbadensis Leaf Powder, Astragalus Gummifer Gum Powder.",
@@ -500,7 +500,7 @@ export const translations = {
         name: "Magical Green Curly",
         category: "Tratamiento Específico",
         type: "Rizos Pro",
-        price: 38.0,
+        price: 28.0,
         desc: "Tratamiento capilar natural y orgánico para definir y cuidar los rizos, aportando hidratación y una textura más manejable.",
         ingredients: "Astragalus Gummifer Gum Powder.",
         usage:
@@ -548,7 +548,7 @@ export const translations = {
         name: "Champú Fidelis",
         category: "Higiene Capilar",
         type: "Limpieza Natural",
-        price: 24.0,
+        price: 15.0,
         desc: "Champú natural para todo tipo de cabellos que buscan una limpieza respetuosa. Ayuda a purificar y aportar equilibrio al cabello y cuero cabelludo.",
         ingredients: "Aceite de Sésamo, Indigofera Tinctoria.",
         usage:
@@ -1167,7 +1167,7 @@ export const translations = {
         name: "Green Detox",
         category: "Specific Treatment",
         type: "Purifying",
-        price: 32.0,
+        price: 29.50,
         desc: "Natural and organic hair treatment based on plants to purify and care for the hair and scalp.",
         ingredients:
           "Vigna Radiata Seed Powder, Ziziphus Jujuba Leaf Powder, Emblica Officinalis Fruit Powder, Azadirachta Indica Leaf Powder, Rubia Cordifolia Root Powder, Glycyrrhiza Glabra Root Powder.",
@@ -1184,7 +1184,7 @@ export const translations = {
         name: "Green Vitality",
         category: "Specific Treatment",
         type: "Revitalizing",
-        price: 34.0,
+        price: 29.50,
         desc: "Natural and organic hair treatment to revitalize the hair, providing nourishment, shine, and vitality.",
         ingredients:
           "Emblica Officinalis Fruit Powder, Bacopa Monnieri Leaf Powder, Trigonella Foenum-Graecum Seed Powder, Cassia Italica Leaf Powder, Acacia Concinna Fruit Powder, Citrus Sinensis Fruit Powder, Rose Damascena Flower Powder.",
@@ -1200,7 +1200,7 @@ export const translations = {
         name: "Green Curly",
         category: "Specific Treatment",
         type: "Defined Curls",
-        price: 34.0,
+        price: 29.50,
         desc: "Natural and organic hair treatment designed to care for and define curls, providing hydration, softness, and vitality.",
         ingredients:
           "Bacopa Monnieri Leaf Powder, Emblica Officinalis Fruit Powder, Moringa Oleifera Leaf Powder, Acacia Concinna Fruit Powder, Nymphaea Lotus Root Powder, Aloe Barbadensis Leaf Powder, Astragalus Gummifer Gum Powder.",
@@ -1216,7 +1216,7 @@ export const translations = {
         name: "Magical Green Curly",
         category: "Specific Treatment",
         type: "Curl Pro",
-        price: 38.0,
+        price: 28.0,
         desc: "Natural and organic hair treatment to define and care for curls, providing hydration and a more manageable texture.",
         ingredients: "Astragalus Gummifer Gum Powder.",
         usage:
@@ -1264,7 +1264,7 @@ export const translations = {
         name: "Fidelis Shampoo",
         category: "Hair Hygiene",
         type: "Natural Cleansing",
-        price: 24.0,
+        price: 15.0,
         desc: "Natural shampoo for all hair types seeking a respectful cleansing experience. Helps purify and promote balance in the hair and scalp.",
         ingredients: "Sesame Oil, Indigofera Tinctoria.",
         usage:
@@ -1865,7 +1865,7 @@ export const translations = {
         name: "Green Detox",
         category: "Tractament Específic",
         type: "Purificant",
-        price: 32.0,
+        price: 29.50,
         desc: "Tractament capil·lar natural i orgànic a base de plantes per purificar i cuidar el cabell i cuir cabellut.",
         ingredients:
           "Vigna Radiata Seed Powder, Ziziphus Jujuba Leaf Powder, Emblica Officinalis Fruit Powder, Azadirachta Indica Leaf Powder, Rubia Cordifolia Root Powder, Glycyrrhiza Glabra Root Powder.",
@@ -1882,7 +1882,7 @@ export const translations = {
         name: "Green Vitality",
         category: "Tractament Específic",
         type: "Revitalitzant",
-        price: 34.0,
+        price: 29.50,
         desc: "Tractament capil·lar natural i orgànic per revitalitzar el cabell, aportant nutrició, brillantor i vitalitat.",
         ingredients:
           "Emblica Officinalis Fruit Powder, Bacopa Monnieri Leaf Powder, Trigonella Foenum-Graecum Seed Powder, Cassia Italica Leaf Powder, Acacia Concinna Fruit Powder, Citrus Sinensis Fruit Powder, Rose Damascena Flower Powder.",
@@ -1898,7 +1898,7 @@ export const translations = {
         name: "Green Curly",
         category: "Tractament Específic",
         type: "Rissos Definits",
-        price: 34.0,
+        price: 29.50,
         desc: "Tractament capil·lar natural i orgànic per cuidar i definir els rissos, aportant hidratació, suavitat i vitalitat al cabell.",
         ingredients:
           "Bacopa Monnieri Leaf Powder, Emblica Officinalis Fruit Powder, Moringa Oleifera Leaf Powder, Acacia Concinna Fruit Powder, Nymphaea Lotus Root Powder, Aloe Barbadensis Leaf Powder, Astragalus Gummifer Gum Powder.",
@@ -1914,7 +1914,7 @@ export const translations = {
         name: "Magical Green Curly",
         category: "Tractament Específic",
         type: "Rissos Pro",
-        price: 38.0,
+        price: 28.0,
         desc: "Tractament capil·lar natural i orgànic per definir i cuidar els rissos, aportant hidratació i una textura més manejable.",
         ingredients: "Astragalus Gummifer Gum Powder.",
         usage:
@@ -1960,7 +1960,7 @@ export const translations = {
         name: "Xampú Fidelis",
         category: "Higiene Capil·lar",
         type: "Neteja Natural",
-        price: 24.0,
+        price: 15.0,
         desc: "Xampú natural per a tot tipus de cabells que busquen una neteja respectuosa. Ajuda a purificar i aportar equilibri al cabell i cuir cabellut.",
         ingredients: "Oli de Sèsam, Indigofera Tinctoria.",
         usage:
