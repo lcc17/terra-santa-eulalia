@@ -1,0 +1,1924 @@
+{
+  "generatedAt": "2026-07-06T20:31:58.195Z",
+  "ca": {
+    "productsList": [
+      {
+        "id": "planta-fortalecedora",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_fortalecedora_brillante.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Coneguda com a 'Henna Neutra'. No tenyeix, però aporta brillantor i ajuda a enfortir la fibra capil·lar.",
+        "name": "Planta Enfortidora i Brillant",
+        "type": "Cassia Obovata",
+        "usage": "Barrejar 2 o 3 cullerades de la planta amb aigua tèbia fins a formar una pasta cremosa. Opcionalment, afegir 3-4 culleradetes d'un oli vegetal premsat en fred per nodrir el cabell amb més vitamines. Deixar-la refredar i aplicar-la des del cuir cabellut fins a les puntes del cabell. Es recomana deixar actuar aproximadament 1 hora abans de rentar amb un xampú suau.",
+        "category": "Tractament en Pols",
+        "ingredients": "Cassia Obovata Leaf Powder.",
+        "precautions": "Només per a ús extern. Evitar el contacte directe amb els ulls. El producte no aclareix el cabell ja que no conté oxidants ni químics blanquejadors. Es recomana realitzar una prova sobre la pell per assegurar-se que no existeixen al·lèrgies a aquest producte. El resultat pot variar d'un cabell a un altre depenent del color base i la textura de cada cabell. Guardar en un lloc sec i fresc, protegit de la llum solar."
+      },
+      {
+        "id": "planta-rubio-luminoso",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_rubio_luminoso.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Barreja de plantes per activar reflexos daurats en cabells clars i aportar tractament.",
+        "name": "Planta Ros Daurat Lluminós",
+        "type": "Barreja Ayurvèdica",
+        "usage": "En un bol gran, barrejar la pols gradualment amb aigua tèbia (aproximadament a 30 °C) fins obtenir una consistència similar a la del iogurt. Aplicar immediatament sobre el cabell net, sec i perfectament desenredat, des de l'arrel fins a les puntes. Deixar actuar entre 20 i 40 minuts, segons la intensitat de color desitjada. A continuació, aclarir i rentar amb un xampú suau.",
+        "category": "Coloració Vegetal",
+        "ingredients": "Cassia Italica Leaf Powder, Lawsonia Inermis Powder, Chamomilla Recutita Flower Powder, Curcuma Longa Root Powder.",
+        "precautions": "Només per a ús extern. Evitar el contacte directe amb els ulls. Aquest producte no aclareix el cabell, ja que no conté oxidants ni agents blanquejadors químics. Es recomana realitzar una prova de sensibilitat sobre la pell abans del seu ús per descartar possibles reaccions al·lèrgiques. El resultat pot variar segons el color base i la textura de cada cabell. Conservar en un lloc fresc i sec, protegit de la llum solar."
+      },
+      {
+        "id": "planta-rubio-miel",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_rubio_miel.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Matís càlid i dolç per a cabells rossos o castanys clars que busquen calidesa.",
+        "name": "Planta Ros Mel",
+        "type": "Barreja Ayurvèdica",
+        "usage": "En un bol gran barrejar les plantes amb aigua tèbia a uns 30ºC poc a poc fins que la barreja tingui la consistència del iogurt. Aplicar immediatament sobre el cabell net, sec i ben desenredat, des de l'arrel fins a la punta del cabell, i esperar entre 40–50 minuts (depenent de la intensitat de color que es desitgi) abans de rentar amb aigua.",
+        "category": "Coloració Vegetal",
+        "ingredients": "Cassia Italica Leaf Powder, Lawsonia Inermis Powder, Indigofera Tinctoria Leaf Powder, Aloe Barbadensis Leaf Powder, Emblica Officinalis Fruit Powder, Ziziphus Jujuba Powder.",
+        "precautions": "Només per a ús extern. Evitar el contacte directe amb els ulls. El producte no aclareix el cabell ja que no conté oxidants ni químics blanquejadors. Es recomana realitzar una prova sobre la pell per assegurar-se que no existeixen al·lèrgies a aquest producte. El resultat pot variar d'un cabell a un altre depenent del color base i la textura de cada cabell. Guardar en un lloc sec i fresc, protegit de la llum solar."
+      },
+      {
+        "id": "planta-puro-cobre",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_puro_cobre.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Henna pura d'alta qualitat. Aporta un color rogenc intens, força i una brillantor espectacular.",
+        "name": "Planta Pur Coure",
+        "type": "100% Orgànic",
+        "usage": "En un bol gran barrejar les plantes amb aigua tèbia a uns 50–70ºC poc a poc fins que la barreja tingui la consistència del iogurt. Aplicar sobre el cabell net, sec i ben desenredat, des de l'arrel fins a la punta del cabell, i esperar entre 60–90 minuts (depenent de la intensitat de color que es desitgi) abans de rentar només amb un xampú suau.",
+        "category": "Coloració Vegetal",
+        "ingredients": "Lawsonia Inermis Leaf Powder.",
+        "precautions": "Només per a ús extern. Evitar el contacte directe amb els ulls. El producte no aclareix el cabell ja que no conté oxidants ni químics blanquejadors. Es recomana realitzar una prova sobre la pell per assegurar-se que no existeixen al·lèrgies a aquest producte. El resultat pot variar d'un cabell a un altre depenent del color base i la textura de cada cabell. Guardar en un lloc sec i fresc, protegit de la llum solar."
+      },
+      {
+        "id": "planta-marron-dorado",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_marron_dorado.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Barreja vegetal per aconseguir tons marró daurat càlids i naturals. Aporta matisos de color, brillantor i cos al cabell.",
+        "name": "Planta Marró Daurat",
+        "type": "Barreja Ayurvèdica",
+        "usage": "En un bol gran barrejar les plantes amb aigua tèbia a uns 50–70ºC poc a poc fins que la barreja tingui la consistència del iogurt. Aplicar sobre el cabell net, sec i ben desenredat, des de l'arrel fins a la punta del cabell, i esperar entre 60–90 minuts (depenent de la intensitat de color que es desitgi) abans de rentar només amb aigua. Per retenir el color, és important esperar un mínim de 24 hores abans de rentar el cabell amb un xampú suau.",
+        "category": "Coloració Vegetal",
+        "ingredients": "Lawsonia Intermis Powder, Indigofera Tinctoria Leaf Powder, Juglans Regia Shell Powder, Emblica Officinalis Fruit Powder, Ziziphus Jujuba Powder, Aloe Barbadensis Leaf Powder, Curcuma Longa Root Powder.",
+        "precautions": "Només per a ús extern. Evitar el contacte directe amb els ulls. El producte no aclareix el cabell ja que no conté oxidants ni químics blanquejadors. Es recomana realitzar una prova sobre la pell per assegurar-se que no existeixen al·lèrgies a aquest producte. El resultat pot variar d'un cabell a un altre depenent del color base i la textura de cada cabell. Guardar en un lloc sec i fresc, protegit de la llum solar."
+      },
+      {
+        "id": "planta-castana",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_castanya.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "To marró mitjà natural. Ideal per unificar tons i cobrir primeres canes amb efecte vernís.",
+        "name": "Planta Castanya",
+        "type": "Barreja Ayurvèdica",
+        "usage": "Barrejar amb aigua a 50ºC. Aplicar immediatament. Temps: 60-90 min.",
+        "category": "Coloració Vegetal",
+        "ingredients": "Indigofera Tinctoria, Lawsonia Inermis, Emblica Officinalis (Amla).",
+        "precautions": "No usar xampú les següents 24h perquè el color s'assenti."
+      },
+      {
+        "id": "planta-castana-oscuro",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_castaña_oscuro.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Profunditat i cobertura per a cabells castanys. Aporta cos i enfosqueix tons clars.",
+        "name": "Planta Castany Fosc",
+        "type": "Barreja Ayurvèdica",
+        "usage": "En un bol gran barrejar les plantes amb aigua tèbia a uns 50–70ºC poc a poc fins que la barreja tingui la consistència del iogurt. Aplicar sobre el cabell net, sec i ben desenredat, des de l'arrel fins a la punta del cabell, i esperar entre 60–90 minuts (depenent de la intensitat de color que es desitgi) abans de rentar només amb aigua. Per retenir el color, és important esperar un mínim de 24 hores abans de rentar el cabell amb un xampú suau.",
+        "category": "Coloració Vegetal",
+        "ingredients": "Indigofera Tinctoria Leaf Powder, Lawsonia Inermis Powder, Emblica Officinalis Fruit Powder.",
+        "precautions": "Només per a ús extern. Evitar el contacte directe amb els ulls. El producte no aclareix el cabell ja que no conté oxidants ni químics blanquejadors. Es recomana realitzar una prova sobre la pell per assegurar-se que no existeixen al·lèrgies a aquest producte. El resultat pot variar d'un cabell a un altre depenent del color base i la textura de cada cabell. Guardar en un lloc sec i fresc, protegit de la llum solar."
+      },
+      {
+        "id": "planta-indigo",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_indigo.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Pigment pur vegetal per aconseguir tons foscos profunds i negres blavosos en combinació amb altres plantes.",
+        "name": "Planta Índigo",
+        "type": "100% Orgànic",
+        "usage": "En un bol gran barrejar les plantes amb aigua tèbia a uns 50 – 70ºC poc a poc fins que la barreja tingui la consistència del iogurt. Aplicar sobre el cabell net, sec i ben desenredat, des de l'arrel fins a la punta del cabell, i esperar entre 60 – 90 minuts (depenent de la intensitat de color que es desitgi) abans de rentar només amb aigua. Per retenir el color, és important esperar un mínim de 12 hores abans de rentar el cabell amb un xampú suau. Barrejar amb aigua a 50ºC. Usar sol o en dos passos (primer henna, després índigo) per cobertura de canes en negre. Temps: 60-90 min.",
+        "category": "Coloració Vegetal",
+        "ingredients": "Indigofera Tinctoria Leaf Powder (Índigo puro).",
+        "precautions": "Només per a ús extern. Evitar el contacte directe amb els ulls. El producte no aclareix el cabell ja que no conté oxidants ni químics blanquejadors. Es recomana realitzar una prova sobre la pell per assegurar-se que no existeixen al·lèrgies a aquest producte. El resultat pot variar d'un cabell a un altre depenent del color base i la textura de cada cabell. Guardar en un lloc sec i fresc, protegit de la llum solar."
+      },
+      {
+        "id": "green-detox",
+        "price": 29.5,
+        "img": "/images/products/terra_santa_tratamiento_capilar_green_detox.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Tractament capil·lar natural i orgànic a base de plantes per purificar i cuidar el cabell i cuir cabellut.",
+        "name": "Green Detox",
+        "type": "Purificant",
+        "usage": "Barrejar amb aigua tèbia fins a formar una pasta cremosa. Opcionalment, afegir 2-3 culleradetes d'un oli capil·lar orgànic per aportar hidratació al cabell. Aplicar sobre el cabell net i ben desenredat, des de l'arrel fins a la punta del cabell, i esperar entre 30–45 minuts abans de rentar només amb aigua.",
+        "category": "Tractament Específic",
+        "ingredients": "Vigna Radiata Seed Powder, Ziziphus Jujuba Leaf Powder, Emblica Officinalis Fruit Powder, Azadirachta Indica Leaf Powder, Rubia Cordifolia Root Powder, Glycyrrhiza Glabra Root Powder.",
+        "precautions": "Només per a ús extern. Evitar el contacte directe amb els ulls. El producte no aclareix el cabell ja que no conté oxidants ni químics blanquejadors. Es recomana realitzar una prova sobre la pell per assegurar-se que no existeixen al·lèrgies a aquest producte. El resultat pot variar d'un cabell a un altre depenent del color base i la textura de cada cabell. Guardar en un lloc sec i fresc, protegit de la llum solar."
+      },
+      {
+        "id": "green-vitality",
+        "price": 29.5,
+        "img": "/images/products/terra_santa_tratamiento_capilar_green_vitality.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Tractament capil·lar natural i orgànic per revitalitzar el cabell, aportant nutrició, brillantor i vitalitat.",
+        "name": "Green Vitality",
+        "type": "Revitalitzant",
+        "usage": "Barrejar amb aigua tèbia fins a formar una pasta cremosa. Opcionalment, afegir 2-3 culleradetes d'un oli capil·lar orgànic per aportar hidratació al cabell. Aplicar sobre el cabell net i ben desenredat, des de l'arrel fins a la punta del cabell, i esperar entre 30–45 minuts abans de rentar només amb aigua.",
+        "category": "Tractament Específic",
+        "ingredients": "Emblica Officinalis Fruit Powder, Bacopa Monnieri Leaf Powder, Trigonella Foenum-Graecum Seed Powder, Cassia Italica Leaf Powder, Acacia Concinna Fruit Powder, Citrus Sinensis Fruit Powder, Rose Damascena Flower Powder.",
+        "precautions": "Només per a ús extern. Evitar el contacte directe amb els ulls. El producte no aclareix el cabell ja que no conté oxidants ni químics blanquejadors. Es recomana realitzar una prova sobre la pell per assegurar-se que no existeixen al·lèrgies a aquest producte. El resultat pot variar d'un cabell a un altre depenent del color base i la textura de cada cabell. Guardar en un lloc sec i fresc, protegit de la llum solar."
+      },
+      {
+        "id": "green-curly",
+        "price": 29.5,
+        "img": "/images/products/terra_santa_tratamiento_capilar_green_curly.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Tractament capil·lar natural i orgànic per cuidar i definir els rissos, aportant hidratació, suavitat i vitalitat al cabell.",
+        "name": "Green Curly",
+        "type": "Rissos Definits",
+        "usage": "Barrejar amb aigua tèbia fins a formar una pasta cremosa. Opcionalment, afegir 2-3 culleradetes d'un oli capil·lar orgànic per aportar hidratació al cabell. Aplicar sobre el cabell net i ben desenredat, des de l'arrel fins a la punta del cabell, i esperar entre 30–45 minuts abans de rentar només amb aigua.",
+        "category": "Tractament Específic",
+        "ingredients": "Bacopa Monnieri Leaf Powder, Emblica Officinalis Fruit Powder, Moringa Oleifera Leaf Powder, Acacia Concinna Fruit Powder, Nymphaea Lotus Root Powder, Aloe Barbadensis Leaf Powder, Astragalus Gummifer Gum Powder.",
+        "precautions": "Només per a ús extern. Evitar el contacte directe amb els ulls. El producte no aclareix el cabell ja que no conté oxidants ni químics blanquejadors. Es recomana realitzar una prova sobre la pell per assegurar-se que no existeixen al·lèrgies a aquest producte. El resultat pot variar d'un cabell a un altre depenent del color base i la textura de cada cabell. Guardar en un lloc sec i fresc, protegit de la llum solar."
+      },
+      {
+        "id": "magical-green-curly",
+        "price": 28,
+        "img": "/images/products/terra_santa_tratamiento_capilar_magical_green_curly.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Tractament capil·lar natural i orgànic per definir i cuidar els rissos, aportant hidratació i una textura més manejable.",
+        "name": "Magical Green Curly",
+        "type": "Rissos Pro",
+        "usage": "Barrejar 5 gr de producte amb uns 200 ml d'aigua tèbia fins a formar una pasta cremosa. Aplicar sobre el cabell net i mullat, i distribuir bé. Assecar amb assecador o a l'aire.",
+        "category": "Tractament Específic",
+        "ingredients": "Astragalus Gummifer Gum Powder.",
+        "precautions": "Només per a ús extern. Evitar el contacte directe amb els ulls. El producte no aclareix el cabell ja que no conté oxidants ni químics blanquejadors. Es recomana realitzar una prova sobre la pell per assegurar-se que no existeixen al·lèrgies a aquest producte. El resultat pot variar d'un cabell a un altre depenent del color base i la textura de cada cabell. Guardar en un lloc sec i fresc, protegit de la llum solar."
+      },
+      {
+        "id": "shampoo-gratitud",
+        "price": 33.5,
+        "img": "/images/products/terra_santa_shampo_gratitud_cabello_todo_tipo.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Xampú natural i orgànic per a tot tipus de cabell. Neteja suaument mentre hidrata i ajuda a equilibrar el cuir cabellut.",
+        "name": "Xampú Gratitud",
+        "type": "Ús Freqüent",
+        "usage": "Fer un massatge suau sobre el cabell humit. Deixar actuar uns instants i aclarir. Si és necessari, repetir una segona aplicació amb menys quantitat.",
+        "category": "Higiene Capil·lar",
+        "ingredients": "Aqua, Decyl Glucoside, Lauryl Glucoside, Disodium Cocoamphoacetate, Lavandula Hybrida Grosso Herb Oil*, Argania Spinosa Kernel Oil*, Erythritol, Inulin, Aloe Barbadensis Leaf Juice*, Sodium Cocoyl Hydrolyzed Wheat Protein, Glycerin, Xanthan Gum, Benzyl Alcohol, Coco-Glucoside, Glyceryl Oleate, Potassium Sorbate, Sodium Benzoate, Panthenol, Citric Acid, Tocopherol, Alcohol, Limonene**, Linalool**, Malus Pumila Bach Flower Extract, Scleranthus Annus Bach Flower Extract, Juglans Regia Bach Flower Extract. (*Orgànic / **D'olis essencials purs)",
+        "precautions": "Ús extern. No ingerir. Evitar el contacte amb els ulls."
+      },
+      {
+        "id": "shampoo-abundancia",
+        "price": 33.5,
+        "img": "/images/products/terra_santa_shampoo_abundancia_todo_tipo_cabello.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Xampú natural i orgànic per enfortir i cuidar el cabell. Aporta força, nutrició i ajuda a millorar l'aparença de densitat capil·lar.",
+        "name": "Xampú Abundància",
+        "type": "Volum i Força",
+        "usage": "Fer un massatge suau sobre el cabell humit. Deixar actuar uns instants i aclarir. Si és necessari, repetir una segona aplicació amb menys quantitat.",
+        "category": "Higiene Capil·lar",
+        "ingredients": "Aqua, Decyl Glucoside, Lauryl Glucoside, Disodium Cocoamphoacetate, Limonene, Citrus Sinensis Peel Oil Expressed*, Glycerin, Erythritol, Inulin, Helianthus Annuus Seed Oil, Sodium Cocoyl Hydrolyzed Wheat Protein, Alcohol, Xanthan Gum, Benzyl Alcohol, Coco-Glucoside, Emblica Officinalis Fruit Powder*, Glyceryl Oleate, Citrus Paradisii Peel Oil, Eucalyptus Globulus Leaf Oil*, Panthenol, Potassium Sorbate, Sodium Benzoate, Equisetum Arvense Extract*, Lepidium Meyenii Root Extract, Rosmarinus Officinalis Extract*, Salvia Officinalis Leaf Extract*, Urtica Dioica Leaf Extract*, Citric Acid, Citral, Citronellol, Linalool, Tocopherol, Carpinus Betulus Flower Extract, Larix Decidua Flower Extract, Malus Sylvestris Flower Extract, Olea Europaea Flower Extract. (*Orgànic / ^D'olis essencials purs)",
+        "precautions": "Ús extern. No ingerir. Evitar el contacte amb els ulls."
+      },
+      {
+        "id": "shampoo-fidelis",
+        "price": 15,
+        "img": "/images/products/terra_santa_shampoo_fidelis.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Xampú natural per a tot tipus de cabells que busquen una neteja respectuosa. Ajuda a purificar i aportar equilibri al cabell i cuir cabellut.",
+        "name": "Xampú Fidelis",
+        "type": "Neteja Natural",
+        "usage": "Aplicar sobre el cabell humit, fer un massatge suau al cuir cabellut i el cabell. Aclarir amb abundant aigua.",
+        "category": "Higiene Capil·lar",
+        "ingredients": "Oli de Sèsam, Indigofera Tinctoria.",
+        "precautions": "Ús extern. Evitar el contacte amb els ulls."
+      },
+      {
+        "id": "acondicionador-sin-aclarado",
+        "price": 34.5,
+        "img": "/images/products/terra_santa_acondicionador_sin_aclarado.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Condicionador natural i orgànic sense esbandir que hidrata, facilita la pentinada i ajuda a minimitzar l'encrespament.",
+        "name": "Condicionador sense esbandir",
+        "type": "Leave-In",
+        "usage": "Sobre el cabell humit acabat de rentar, aplicar el condicionador amb l'esprai per tot el cabell i distribuir amb les mans per cobrir tota la superfície. Es pot assecar el cabell després si es desitja.",
+        "category": "Hidratació i Cos",
+        "ingredients": "Aqua, Urtica Dioica Leaf Extract*, Helianthus Annuus Seed Oil, Cocos Nucifera Oil*, Inulin, Glycerin, Citrus Sinensis Peel Oil Expressed*, Lavandula Hybrida Grosso Herb Oil*, Limonene^, Behenamidopropyldimethylamine, Benzyl Alcohol, Emblica Officinalis Fruit Powder, Potassium Sorbate, Sodium Benzoate, Litsea Cubeba Fruit Oil*, Biosaccharide Gum-1, Porphyra Umbilicalis Extract, Sodium Levulinate, Caesalpinia Spinosa Gum, Glyceryl Caprylate, Sodium Anisate, Citral^, Citronellol^, Linalool^, Farnesol^, Geraniol^, Alcohol, Leuconostoc/Radish Root Ferment Filtrate, Carpinus Betulus Flower Extract, Ilex Aquifolium Flower Extract, Olea Europaea Flower Extract, Scleranthus Annuus Flower Extract, Gentiana Amarella Flower Extract, Juglans Regia Flower Extract, Prunus Cerasifera Flower Extract. (*Orgànic / ^D'olis essencials purs)",
+        "precautions": "Ús extern. No ingerir. Evitar el contacte amb els ulls."
+      },
+      {
+        "id": "serum-en-aceite",
+        "price": 35.5,
+        "img": "/images/products/terra_santa_serum_en_aceite.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Barreja d'olis vegetals verges i orgànics que nodreix, aporta brillantor i ajuda a enfortir el cabell des de l'arrel fins a les puntes. Ideal per a cabells secs, encrespats i rissos.",
+        "name": "Sèrum en Oli",
+        "type": "Nutrició i Reparació",
+        "usage": "Puntes seques o obertes: aplicar 2 o 3 gotes a les puntes, fer un massatge i deixar actuar uns 20 minuts. Es pot rentar després o no. Cabell sec o encrespat: aplicar 3-4 gotes a les mans, fregar per escalfar el sèrum i aplicar suaument sobre tot el cabell fins a 2 vegades al dia. Cuir cabellut sec i caiguda capil·lar: fer un massatge amb unes gotes sobre el cuir cabellut amb moviments circulars, deixar actuar mínim 30 minuts o tantes hores com es desitgi i rentar després. Rissos: aplicar unes gotes a les mans, fregar i pressionar els rissos de baix cap a dalt per definir-los suaument. No esbandir.",
+        "category": "Tractament Capil·lar",
+        "ingredients": "Cocos Nucifera Oil*, Ricinus Communis Seed Oil*, Helianthus Annuus Seed Oil*, Sesamum Indicum Seed Oil*, Argania Spinosa Kernel Oil*, Emblica Officinalis Powder, Rosmarinus Officinalis Leaf Oil*, Lavandula Hybrida Grosso Herb Oil*, Linalool^, Eucalyptus Globulus Leaf/Stem Oil*, Mentha Arvensis Herb Oil*, Thymus Zygis Herb Oil*, Cupressus Sempervirens Leaf/Nut/Stem Oil, Limonene^, Geraniol^, Coumarin^, Eugenol^, Citral^, Alcohol, Olea Europaea Flower Extract, Centaurium Umbellatum Flower Extract, Carpinus Betulus Flower Extract, Scleranthus Annus Flower Extract. (*Orgànic / ^D'olis essencials purs)",
+        "precautions": "Ús extern. No ingerir. Evitar el contacte amb els ulls."
+      },
+      {
+        "id": "locion-capilar-aloe",
+        "price": 23.5,
+        "img": "/images/products/terra_santa_locion_capilar_aloe.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Loció capil·lar per a tot tipus de cabells. Enforteix, hidrata i ajuda a eliminar impureses del cabell i cuir cabellut.",
+        "name": "Loció Capil·lar Aloe",
+        "type": "Calmant",
+        "usage": "Aplicar una petita quantitat al palmell de la mà, fregar en ambdues mans i aplicar al cuir cabellut, fent un suau i penetrant massatge. Es pot afegir més quantitat i aplicar per la resta del cabell. Deixar actuar uns vint minuts i després rentar.",
+        "category": "Hidratació i Cos",
+        "ingredients": "Aloe Barbadensis Leaf Juice*, Cannabis Sativa Seed Oil*, Benzyl Alcohol, Simmondsia Chinesis Seed Oil*, Xanthan Gum, Rosmarinus Officinalis Leaf Oil*, Thymus Zygis Oil*, Ascorbic Acid, Dehydroacetic Acid, Sodium Metabisulfite, Limonene**, Linalool**, Pinene*, Beta Caryophyllene**, Camphor**, Alfa Terpineol*. (*Ingredient ecològic certificat / **Ingredient natural contingut en els olis essencials)",
+        "precautions": "Per a tot tipus de cabells. Evitar el contacte amb els ulls. Ús extern."
+      },
+      {
+        "id": "locion-gel-aloe-vera-puro",
+        "price": 16.5,
+        "img": "/images/products/terra_santa_locion_aloe_vera_puro.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Loció d'Aloe Vera elaborada amb fulles fresques d'Aloe d'Almeria. Hidratant i regeneradora, ajuda a augmentar l'elasticitat i fermesa de la pell.",
+        "name": "Loció Gel d'Aloe Vera Pur",
+        "type": "Multiusos",
+        "usage": "Aplicar sobre la pell seca fent un suau massatge.",
+        "category": "Hidratació i Cos",
+        "ingredients": "Aloe Barbadensis Leaf Juice*, Xanthan Gum, Benzyl Alcohol, Ascorbic Acid, Dehydroacetic Acid, Sodium Metabisulfite. (*Ingredient ecològic certificat)",
+        "precautions": "Un cop obert mantenir en un lloc fresc i fosc. Indicat per a tot tipus de pells."
+      },
+      {
+        "id": "leche-corporal",
+        "price": 27.87,
+        "img": "/images/products/terra_santa_leche_corporal_regeneradora.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Llet corporal regeneradora amb Aloe d'Almeria, Rosa Mosqueta i olis vegetals ecològics. Hidrata, nodreix i ajuda a cuidar les zones danyades de la pell.",
+        "name": "Llet Corporal Regeneradora",
+        "type": "Body Milk",
+        "usage": "Aplicar sobre la pell seca fent un suau massatge. Ús diari com a hidratant corporal.",
+        "category": "Hidratació i Cos",
+        "ingredients": "Aloe Barbadensis Leaf Juice*, Rosa Canina Seed Oil*, Lavandula Angustifolia Flower Water*, Glycine Max Oil*, Cannabis Sativa Seed Oil*, Glyceryl Stearate Citrate, Benzyl Alcohol, Lavandula Angustifolia Oil*, Xanthan Gum, Ascorbic Acid, Dehydroacetic Acid, Linalyl Acetate**, Linalool**, Terpineol**, Geraniol**, Limonene**. (*Ingredient ecològic certificat / **Ingredient natural contingut en els olis essencials)",
+        "precautions": "Un cop obert mantenir en un lloc fresc i fosc. Indicat per a zones danyades de la pell. Es pot utilitzar com a aftersun i després de la depilació."
+      }
+    ],
+    "faqList": [
+      {
+        "a": "En finalitzar la compra, selecciona 'Recollida a la Botiga'. Estem a C/ Provença 213, Barcelona.",
+        "q": "Com recullo la meva comanda?"
+      },
+      {
+        "a": "En ser orgànics i sense conservants agressius, recomanem usar-los en 6-12 mesos desprès de l'obertura.",
+        "q": "Els productes caduquen?"
+      },
+      {
+        "a": "Per a tractaments High Ticket (Teràpia Oxitocina), sí. Pots reservar cita a la nostra web.",
+        "q": "Necessito diagnòstic?"
+      },
+      {
+        "a": "La majoria sí, però consulta la fitxa tècnica de cada planta o consulta'ns.",
+        "q": "Són aptes per a embarassades?"
+      }
+    ],
+    "nav": {
+      "faq": "Dubtes Freqüents",
+      "pro": "Àrea Professional",
+      "home": "Inici",
+      "contacto": "Contacte",
+      "domestic": "Qui Som Terra",
+      "products": "La Nostra Selecció",
+      "rituales": "Rituals",
+      "filosofia": "Filosofia",
+      "proAccess": "Accés Centres",
+      "selection": "La Nostra Selecció",
+      "aboutTerra": "Qui Som Terra",
+      "treatments": "Tractaments"
+    },
+    "hero": {
+      "cta": "Descobreix els Nostres Productes",
+      "title": "Terra Santa Eulalia",
+      "subtitle": "Des de les Índies, a casa teva"
+    },
+    "domestic": {
+      "title": "Productes Naturals",
+      "visitUs": "Visita'ns a C/ Provença 213",
+      "diyTitle": "Fes-ho Tu Mateix",
+      "faqTitle": "Preguntes Recurrents",
+      "readMore": "Sol·licitar informació",
+      "subtitle": "L'alquímia de la terra a casa teva",
+      "viewMore": "Veure Catàleg Complet",
+      "productsDesc": "Benestar per al cos, ànima i cor.",
+      "productsTitle": "Selecció Natural & Orgànica"
+    },
+    "cards": {
+      "therapySub": "CLÍNICA CAPIL·LAR",
+      "productsSub": "SELECCIÓ NATURAL & ORGÀNICA",
+      "therapyTitle": "TERÀPIA ORGÀNICANCAPIL·LAR",
+      "productsTitle": "ELS NOSTRES\nPRODUCTES",
+      "treatmentsSub": "ESPAI BOTÀNIC",
+      "treatmentsTitle": "ELS NOSTRES\nTRACTAMENTS"
+    },
+    "about": {
+      "desc": "Un santuari de puresa, terra i rituals. Creiem en el benestar orgànic i el minimalisme càlid.",
+      "title": "Qui Som"
+    },
+    "pro": {
+      "logout": "Tancar sessió",
+      "loginTitle": "Accés Professional",
+      "loginButton": "Entrar",
+      "loginRequired": "Es requereix autenticació",
+      "passwordError": "Contrasenya incorrecta",
+      "dashboardTitle": "Panel Professional",
+      "passwordPlaceholder": "Contrasenya..."
+    },
+    "footer": {
+      "contactLabel": "Contacte",
+      "whatsappLabel": "WhatsApp"
+    },
+    "treatmentsPage": {
+      "cta": "Reservar Cita",
+      "desc": "Tractaments botànics dissenyats per recuperar l'equilibri. Sense presses, amb plantes medicinals i tècniques ancestrals.",
+      "title": "Rituals Terra",
+      "extras": [
+        {
+          "price": "35€",
+          "title": "Rentat Botànic",
+          "duration": "15 min"
+        },
+        {
+          "price": "50€",
+          "title": "Massatge Facial + Rentat Botànic",
+          "duration": "45 min"
+        }
+      ],
+      "subtitle": "Salut Capil·lar i Facial Orgànica",
+      "extrasTitle": "Afegeix al teu Ritual",
+      "floatingCta": "Reservar Cita",
+      "hairRituals": {
+        "desc": "Recupera la força i salut del teu cabell amb fangs i plantes.",
+        "list": [
+          {
+            "id": "ritual-detox",
+            "desc": "Aquest tractament neteja en profunditat el cuir cabellut gràcies a la barreja de plantes medicinals desintoxicants. Indicat de manera especial per a problemes de dermatitis seborreica, descamació, caspa i excés de greix capil·lar.",
+            "extra": "Gaudeix d'un relaxant massatge facial o de peus durant el temps d'exposició, tu tries.",
+            "price": "85€",
+            "title": "Ritual Detox",
+            "duration": "50 min"
+          },
+          {
+            "id": "ritual-fuerte",
+            "desc": "L'objectiu d'aquest ritual és donar al teu cabell la força i vitalitat que necessita. Si sents que el teu cabell està feble, gairebé no té cos i li falta vida, sense dubte aquest és el teu ritual. Sentir l'aroma de les plantes aiurvèdiques al teu cabell et farà connectar amb la pau i l'harmonia que necessites.",
+            "extra": "Inclou un relaxant massatge facial o de peus, tu tries.",
+            "price": "95€",
+            "title": "Ritual Sempre Fort i Vital",
+            "duration": "60 min"
+          },
+          {
+            "id": "ritual-rizos",
+            "desc": "Trobes a faltar la flexibilitat i l'estructura dels teus rínxols? La barreja d'herbes que apliquem en aquest ritual ajudarà el teu cabell a recuperar l'estructura perduda del rínxol. Rínxols sense vida? Ja no, gràcies a l'acció de la nostra barreja de plantes.",
+            "extra": "Gaudeix d'un relaxant massatge facial o de peus durant el temps d'exposició, tu tries.",
+            "price": "85€",
+            "title": "Ritual Rínxols Perfectes",
+            "duration": "50 min"
+          }
+        ],
+        "title": "Rituals Orgànics Capil·lars"
+      },
+      "facialRituals": {
+        "desc": "Tractaments holístics per retornar la joventut i elasticitat a la pell.",
+        "list": [
+          {
+            "id": "luz-otono",
+            "desc": "Lifting facial natural amb acupuntura. Retorna la llum i aparença juvenil perduda.",
+            "title": "Ritual Llum de Tardor (Lifting)",
+            "options": [
+              {
+                "name": "Sols Facial",
+                "time": "75 min",
+                "price": "85€"
+              },
+              {
+                "name": "Amb Rentat + Massatge Capil·lar",
+                "time": "90 min",
+                "price": "125€"
+              }
+            ]
+          },
+          {
+            "id": "luz-manana",
+            "desc": "Higiene facial profunda. Una pell saludable sempre comença amb una bona neteja.",
+            "title": "Ritual Llum del Matí",
+            "options": [
+              {
+                "name": "Sols Facial",
+                "time": "75 min",
+                "price": "75€"
+              },
+              {
+                "name": "Amb Rentat + Massatge Capil·lar",
+                "time": "90 min",
+                "price": "115€"
+              }
+            ]
+          },
+          {
+            "id": "luz-interior",
+            "desc": "Massatge facial Kobido per retornar l'elasticitat i millorar la qualitat de la pell.",
+            "title": "Ritual Llum Interior (Kobido)",
+            "options": [
+              {
+                "name": "Sols Facial",
+                "time": "60 min",
+                "price": "70€"
+              },
+              {
+                "name": "Amb Rentat + Massatge Capil·lar",
+                "time": "75 min",
+                "price": "110€"
+              }
+            ]
+          },
+          {
+            "id": "luz-mar",
+            "desc": "Hidratació i vitalitat per a pells sensibles o deshidratades.",
+            "title": "Ritual Llum del Mar",
+            "options": [
+              {
+                "name": "Sols Facial",
+                "time": "60 min",
+                "price": "65€"
+              },
+              {
+                "name": "Amb Rentat + Massatge Capil·lar",
+                "time": "75 min",
+                "price": "105€"
+              }
+            ]
+          }
+        ],
+        "title": "Rituals Facials de Llum"
+      },
+      "extrasSubtitle": "Express Express",
+      "whatsappMessage": "Hola, m'interessa reservar un ritual de Terra Santa Eulalia"
+    },
+    "services": {
+      "spa": "Rituals Facials & Pindes",
+      "badge": "Signature Experience",
+      "title": "Terapies d'Alta Gamma",
+      "spaDesc": "Experiència Signature (150€). Pindes herbals, lifting facial i desconnexió absoluta.",
+      "capillary": "Teràpia Capil·lar Orgànica",
+      "capillaryDesc": "Diagnòstic botànic i recuperació molecular."
+    },
+    "socialProof": {
+      "author": "Laura G., Client Verificat",
+      "testimonial": "Un abans i un després per al meu cabell. La teràpia d'oxitocina no és només estètica, és salut real."
+    },
+    "whatsapp": {
+      "buttonLabel": "Reservar via WhatsApp",
+      "ritualSuffix": "a Terra Santa Eulalia",
+      "messageTemplate": "Hola, m'interessa reservar",
+      "scheduledMessage": "El pròxim horari disponible és"
+    },
+    "cta": {
+      "bookFree": "Reservar Consultes Gratuïta",
+      "helpDesc": "El nostre equip t'ajudarà a trobar el tractament perfecte segons les necessitats del teu cabell i pell. La primera consulta és gratuïta.",
+      "helpTitle": "Necessites ajuda per triar?",
+      "filosofiaLink": "Conèixer la nostra filosofia",
+      "ritualWaiting": "El teu ritual t'espera"
+    },
+    "capillaryPage": {
+      "cta": "Sol·licitar Diagnòstic",
+      "desc": "Protocol clínic-orgànic per recuperar cabells danyats, alopècies o dessequilibris del cuir ciliat. Un enfocament científic i completament natural.",
+      "badge": "Servei High Ticket",
+      "steps": [
+        {
+          "desc": "Desintoxicació del fol·licle amb fangs volcànics.",
+          "title": "Neteja"
+        },
+        {
+          "desc": "Injecció d'actius botànics i proteïnes vegetals.",
+          "title": "Nutrició"
+        },
+        {
+          "desc": "Tancament de cutícula amb olis ozonitzats i llum LED.",
+          "title": "Segellat"
+        }
+      ],
+      "title": "Teràpia Orgànica Capil·lar",
+      "subtitle": "Diagnòstic Botànic & Recuperació Molecular",
+      "solutions": [
+        {
+          "desc": "Neteja profunda amb plantes medicinals dessintoxicants.",
+          "price": "85€",
+          "title": "Ritual Detox",
+          "problem": "Caspa · Greix · Dermatitis"
+        },
+        {
+          "desc": "Força i vitalitat amb plantes ayurvèdiques. Frena la caiguda.",
+          "price": "95€",
+          "title": "Ritual Sempre Fort",
+          "problem": "Caiguda · Feblesa · Afinament"
+        }
+      ],
+      "ritualsDesc": "Tractaments específics per a cada necessitat. Protocols botànics d'alta eficàcia.",
+      "ritualsList": [
+        {
+          "id": "ritual-detox",
+          "desc": "Neteja profunda amb plantes medicinals. Específic per a dermatitis, descamació, caspa o excés de greix.",
+          "price": "85€",
+          "title": "Ritual Detox",
+          "duration": "50 min"
+        },
+        {
+          "id": "ritual-fuerte",
+          "desc": "Força i vitalitat amb plantes ayurvèdiques. Per a cabells febles, sense cos i mancats de vida.",
+          "price": "95€",
+          "title": "Ritual Sempre Fort",
+          "duration": "60 min"
+        },
+        {
+          "id": "ritual-rizos",
+          "desc": "Recupera l'estructura i flexibilitat del rís mitjançant herbes específiques que retornen la vida al cabell.",
+          "price": "85€",
+          "title": "Ritual Rissos Perfectes",
+          "duration": "50 min"
+        }
+      ],
+      "vipServices": [
+        {
+          "desc": "Observació ampliada del cuir ciliat i bulb capil·lar. Identifiquem dermatitis, descamació, excés de greix, folliculitis i dessequilibris microscòpics.",
+          "icon": "Microscope",
+          "title": "Estudi Dermatològic amb Microcàmera"
+        },
+        {
+          "desc": "Mesura dels nivells d'hidratació, greix i densitat capil·lar mitjançant tecnologia bioelèctrica. Informe complet en 15 minuts.",
+          "icon": "Activity",
+          "title": "Escàner Bioelèctric Capil·lar"
+        }
+      ],
+      "whatsappCta": "Reservar Diagnòstic vía WhatsApp",
+      "ritualsTitle": "Rituals Orgànics Capil·lars",
+      "diagnosisDesc": "Analitzem el teu bulb capil·lar amb microcàmera per dissenyar la teva recepta personalitzada.",
+      "solutionsDesc": "Protocols específics per a patologies del cuir ciliat.",
+      "ctaRecoveryBtn": "Reservar Diagnòstic",
+      "diagnosisTitle": "Estudi Dermatològic Capil·lar",
+      "scheduleRitual": "Agendar aquest ritual",
+      "solutionsTitle": "Solucions Terapèutiques",
+      "ctaRecoveryDesc": "Aquest tractament requereix cita prèvia i valoració dels nostres especialistes a C/ Provença 213.",
+      "vipServicesDesc": "Tecnologia avançada meets botànica:",
+      "whatsappMessage": "Hola, m'interessa reservar un diagnòstic de Teràpia Capil·lar Avançada a Terra Santa Eulalia.",
+      "ctaRecoveryTitle": "Recupera la memòria vital del teu cabell",
+      "vipServicesTitle": "Diagnòstic Professional"
+    },
+    "philosophy": {
+      "cta": "Vine a Sentir-ho",
+      "values": [
+        {
+          "desc": "Argiles vives que purifiquen sense agreujar.",
+          "title": "Terra"
+        },
+        {
+          "desc": "La hidratació real que flueix des de dins.",
+          "title": "Aigua"
+        },
+        {
+          "desc": "L'ingredient més luxós: l'espera.",
+          "title": "Temps"
+        }
+      ],
+      "laiaBio": {
+        "role": "Fundadora & Director Creatiu",
+        "title": "Laia Salomó",
+        "nature": "També em va inspirar la natura, la seva saviesa, els seus ritmes i la seva capacitat constant de renovar-se. La terra ens ensenya que tot floreix quan rep la cura adequada. Des d'aquesta visió neix Terra Santa Eulalia: com un lloc on cada persona pugui renovar-se des de dins cap a fora.",
+        "vision": "Vaig voler crear un espai diferent, on la perruqueria i el benestar caminessin junts, on cada gest tingués intenció, on el respecte per la salut i per l'entorn fossin fonamentals, i on l'energia que es transmetés fos tan important com el resultat final. La teràpia Orgànica Capil·lar a Terra Santa Eulàlia és el reflex.",
+        "mission": "Terra Santa Eulalia és el reflex de la meva missió de vida: ajudar les persones a descobrir la seva bellesa natural, elevar la seva energia vital i recordar que cuidar-se també és una forma d'amor propi. Aquí no només transformem imatge, acompanyem processos, despertem confiança i sembrem benestar.",
+        "inspiration": "Em va inspirar observar com moltes persones busquen veure's bé, però també necessiten sentir-se en pau, recuperar la seva energia i reconnectar amb elles mateixes. Vaig comprendre que la bellesa vertadera apareix quan una persona se sent cuidada, escoltada i en harmonia amb la seva essència."
+      },
+      "heroTitle": "L'Origen",
+      "manifesto": "No creiem en la bellesa fabricada. Creiem en la bellesa revelada. Terra Santa Eulalia no és una marca, és un retorn a la memòria de la terra.",
+      "founderDesc": "Després de molts anys dedicats a la perruqueria conscient, a Manolo Dies Green Zone i Manolo Dies Healthy Salón vam crear la nostra pròpia marca, Terra Santa Eulàlia, enfocada a la teràpia capil·lar natural, saludable i energètica, creada des de l'experiència, el respecte per la natura i el benestar profund del cabell i el cuir.\n\nA Terra Santa Eulàlia cada tractament és únic i totalment personalitzat, perquè entenem que cada cabell, cada cuir cabellut i cada persona necessiten una cura diferent.\n\nPer això, convidem a cada client a posar-se en contacte amb nosaltres per poder valorar de forma conscient quin tractament necessita realment i acompanyar-lo des d'una atenció propera i personalitzada.",
+      "processDesc": "Les nostres barreges es preparen al moment. Sense conservants que dormin la planta. És cosmètica viva per a gent viva.",
+      "founderTitle": "Mans que escolten",
+      "heroSubtitle": "On l'alquimia troba el silenci.",
+      "processTitle": "La Botiga Viva"
+    },
+    "ui": {
+      "close": "Tancar",
+      "error": "Error",
+      "goBack": "Enrere",
+      "loading": "Carregant...",
+      "success": "Èxit"
+    },
+    "products": {
+      "inStock": "Disponible",
+      "newBadge": "Novetat",
+      "comingSoon": "Pròximament",
+      "outOfStock": "Esgotat"
+    },
+    "legal": {
+      "backHome": "Tornar a l'inici",
+      "readMore": "Llegir més",
+      "required": "Obligatòries",
+      "acceptAll": "Acceptar tot",
+      "configure": "Configurar",
+      "modalDesc": "Tria quines cookies acceptes. Les cookies tècniques són imprescindibles pel funcionament del lloc.",
+      "rejectAll": "Rebutjar",
+      "termsDesc": "Condicions d'ús del lloc web.",
+      "bannerText": "Utilitzem cookies per millorar la teva experiència, analitzar el trànsit i personalitzar el contingut. Consulta la nostra",
+      "indexTitle": "Informació Legal",
+      "modalTitle": "Configuració de Cookies",
+      "noticeDesc": "Informació legal segons LSSI-CE.",
+      "termsTitle": "Termes i Condicions",
+      "bannerTitle": "La teva privacitat importa",
+      "cookiesDesc": "Com utilitzem les cookies al nostre web.",
+      "lastUpdated": "Última actualització",
+      "noticeTitle": "Avís Legal",
+      "privacyDesc": "Com tractem les teves dades personals (RGPD).",
+      "cookiesTitle": "Política de Cookies",
+      "privacyTitle": "Política de Privacitat",
+      "saveSettings": "Desar preferències",
+      "analyticsDesc": "Google Analytics — per entendre com s'utilitza el lloc.",
+      "indexSubtitle": "Documentació legal i polítiques de Terra Santa Eulalia",
+      "marketingDesc": "Permeten mostrar contingut rellevant en altres llocs.",
+      "technicalDesc": "Necessàries pel funcionament bàsic (idioma, sessió).",
+      "analyticsLabel": "Analítiques",
+      "functionalDesc": "Recorden les teves preferències (idioma, vistes).",
+      "marketingLabel": "Màrqueting",
+      "technicalLabel": "Tècniques",
+      "functionalLabel": "Funcionals",
+      "cookiesPolicyLink": "Política de Cookies"
+    }
+  },
+  "es": {
+    "productsList": [
+      {
+        "id": "planta-fortalecedora",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_fortalecedora_brillante.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Conocida como 'Henna Neutra'. No tiñe, pero aporta brillo y ayuda a fortalecer la fibra capilar.",
+        "name": "Planta Fortalecedora y Brillante",
+        "type": "Cassia Obovata",
+        "usage": "Mezclar 2 o 3 cucharadas de la planta con agua tibia hasta formar una pasta cremosa. Opcionalmente, añadir 3-4 cucharaditas de un aceite vegetal prensado en frío para nutrir el cabello con más vitaminas. Dejarlo enfriar y aplicarlo desde el cuero cabelludo hasta la punta del cabello. Se recomienda dejarlo actuar durante aproximadamente 1 hora antes de lavar con un champú suave.",
+        "category": "Tratamiento en Polvo",
+        "ingredients": "Cassia Obovata Leaf Powder.",
+        "precautions": "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar."
+      },
+      {
+        "id": "planta-rubio-luminoso",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_rubio_luminoso.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Mezcla de plantas para avivar reflejos dorados en cabellos claros y aportar tratamiento.",
+        "name": "Planta Rubio Luminoso",
+        "type": "Mezcla Ayurvédica",
+        "usage": "En un bol grande, mezclar el polvo gradualmente con agua tibia (aproximadamente a 30 °C) hasta obtener una consistencia similar a la del yogur. Aplicar inmediatamente sobre el cabello limpio, seco y perfectamente desenredado, desde la raíz hasta las puntas. Dejar actuar entre 20 y 40 minutos, según la intensidad de color deseada. A continuación, aclarar y lavar con un champú suave.",
+        "category": "Coloración Vegetal",
+        "ingredients": "Cassia Italica Leaf Powder, Lawsonia Inermis Powder, Chamomilla Recutita Flower Powder, Curcuma Longa Root Powder.",
+        "precautions": "Solo para uso externo. Evitar el contacto directo con los ojos. Este producto no aclara el cabello, ya que no contiene oxidantes ni agentes blanqueadores químicos. Se recomienda realizar una prueba de sensibilidad sobre la piel antes de su uso para descartar posibles reacciones alérgicas. El resultado puede variar según el color base y la textura de cada cabello. Conservar en un lugar fresco y seco, protegido de la luz solar."
+      },
+      {
+        "id": "planta-rubio-miel",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_rubio_miel.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Matiz cálido y dulce para cabellos rubios o castaños claros que buscan calidez.",
+        "name": "Planta Rubio Miel",
+        "type": "Mezcla Ayurvédica",
+        "usage": "En un bol grande mezclar las plantas con agua tibia a unos 30ºC poco a poco hasta que la mezcla tenga la consistencia del yogur. Aplicar inmediatamente sobre el cabello limpio, seco y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 40–50 minutos (dependiendo de la intensidad de color que se desee) antes de lavar con agua.",
+        "category": "Coloración Vegetal",
+        "ingredients": "Cassia Italica Leaf Powder, Lawsonia Inermis Powder, Indigofera Tinctoria Leaf Powder, Aloe Barbadensis Leaf Powder, Emblica Officinalis Fruit Powder, Ziziphus Jujuba Powder.",
+        "precautions": "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar."
+      },
+      {
+        "id": "planta-puro-cobre",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_puro_cobre.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Henna pura de alta calidad. Aporta un color cobrizo intenso, fuerza y un brillo espectacular.",
+        "name": "Planta Puro Cobre",
+        "type": "100% Orgánico",
+        "usage": "En un bol grande mezclar las plantas con agua tibia a unos 50–70ºC poco a poco hasta que la mezcla tenga la consistencia del yogur. Aplicar sobre el cabello limpio, seco y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 60–90 minutos (dependiendo de la intensidad de color que se desee) antes de lavar solo con un champú suave.",
+        "category": "Coloración Vegetal",
+        "ingredients": "Lawsonia Inermis Leaf Powder.",
+        "precautions": "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar."
+      },
+      {
+        "id": "planta-marron-dorado",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_marron_dorado.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Mezcla vegetal para conseguir tonos marrón dorado cálidos y naturales. Aporta matices de color, brillo y cuerpo al cabello.",
+        "name": "Planta Marrón Dorado",
+        "type": "Mezcla Ayurvédica",
+        "usage": "En un bol grande mezclar las plantas con agua tibia a unos 50–70ºC poco a poco hasta que la mezcla tenga la consistencia del yogur. Aplicar sobre el cabello limpio, seco y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 60–90 minutos (dependiendo de la intensidad de color que se desee) antes de lavar solo con agua. Para retener el color, es importante esperar un mínimo de 24 horas antes de lavar el cabello con un champú suave.",
+        "category": "Coloración Vegetal",
+        "ingredients": "Lawsonia Intermis Powder, Indigofera Tinctoria Leaf Powder, Juglans Regia Shell Powder, Emblica Officinalis Fruit Powder, Ziziphus Jujuba Powder, Aloe Barbadenis Leaf Powder, Curcuma Longa Root Powder.",
+        "precautions": "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar."
+      },
+      {
+        "id": "planta-castana",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_castanya.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Tono marrón medio natural. Ideal para unificar tonos y cubrir primeras canas con efecto barniz.",
+        "name": "Planta Castaña",
+        "type": "Mezcla Ayurvédica",
+        "usage": "Mezclar con agua a 50ºC. Aplicar inmediatamente. Tiempo: 60-90 min.",
+        "category": "Coloración Vegetal",
+        "ingredients": "Indigofera Tinctoria, Lawsonia Inermis, Emblica Officinalis (Amla).",
+        "precautions": "No usar champú las siguientes 24h para que el color asiente."
+      },
+      {
+        "id": "planta-castana-oscuro",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_castaña_oscuro.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Profundidad y cobertura para cabellos castaños. Aporta cuerpo y oscurece tonos claros.",
+        "name": "Planta Castaño Oscuro",
+        "type": "Mezcla Ayurvédica",
+        "usage": "En un bol grande mezclar las plantas con agua tibia a unos 50–70ºC poco a poco hasta que la mezcla tenga la consistencia del yogur. Aplicar sobre el cabello limpio, seco y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 60–90 minutos (dependiendo de la intensidad de color que se desee) antes de lavar solo con agua. Para retener el color, es importante esperar un mínimo de 24 horas antes de lavar el cabello con un champú suave.",
+        "category": "Coloración Vegetal",
+        "ingredients": "Indigofera Tinctoria Leaf Powder, Lawsonia Inermis Powder, Emblica Officinalis Fruit Powder.",
+        "precautions": "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar."
+      },
+      {
+        "id": "planta-indigo",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_indigo.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Pigmento puro vegetal para conseguir tonos oscuros profundos y negros azulados en combinación con otras plantas.",
+        "name": "Planta Índigo",
+        "type": "100% Orgánico",
+        "usage": "En un bol grande mezclar las plantas con agua tibia a unos 50 – 70ºC poco a poco hasta que la mezcla tenga la consistencia del yogur. Aplicar sobre el cabello limpio, seco y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 60 – 90 minutos (dependiendo de la intensidad de color que se desee) antes de lavar solo con agua. Para retener el color, es importante esperar un mínimo de 12 horas antes de lavar el cabello con un champú suave. Mezclar con agua a 50ºC. Usar solo o en dos pasos (primero henna, luego índigo) para cobertura de canas en negro. Tiempo: 60-90 min.",
+        "category": "Coloración Vegetal",
+        "ingredients": "Indigofera Tinctoria Leaf Powder (Índigo puro).",
+        "precautions": "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar."
+      },
+      {
+        "id": "green-detox",
+        "price": 29.5,
+        "img": "/images/products/terra_santa_tratamiento_capilar_green_detox.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Tratamiento capilar natural y orgánico a base de plantas para purificar y cuidar el cabello y cuero cabelludo.",
+        "name": "Green Detox",
+        "type": "Purificante",
+        "usage": "Mezclar con agua tibia hasta formar una pasta cremosa. Opcionalmente, añadir 2-3 cucharaditas de un aceite capilar orgánico para aportar hidratación al cabello. Aplicar sobre el cabello limpio y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 30–45 minutos antes de lavar solo con agua.",
+        "category": "Tratamiento Específico",
+        "ingredients": "Vigna Radiata Seed Powder, Ziziphus Jujuba Leaf Powder, Emblica Officinalis Fruit Powder, Azadirachta Indica Leaf Powder, Rubia Cordifolia Root Powder, Glycyrrhiza Glabra Root Powder.",
+        "precautions": "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar."
+      },
+      {
+        "id": "green-vitality",
+        "price": 29.5,
+        "img": "/images/products/terra_santa_tratamiento_capilar_green_vitality.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Tratamiento capilar natural y orgánico para revitalizar el cabello, aportando nutrición, brillo y vitalidad.",
+        "name": "Green Vitality",
+        "type": "Revitalizante",
+        "usage": "Mezclar con agua tibia hasta formar una pasta cremosa. Opcionalmente, añadir 2-3 cucharaditas de un aceite capilar orgánico para aportar hidratación al cabello. Aplicar sobre el cabello limpio y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 30–45 minutos antes de lavar solo con agua.",
+        "category": "Tratamiento Específico",
+        "ingredients": "Emblica Officinalis Fruit Powder, Bacopa Monnieri Leaf Powder, Trigonella Foenum-Graecum Seed Powder, Cassia Italica Leaf Powder, Acacia Concinna Fruit Powder, Citrus Sinensis Fruit Powder, Rose Damascena Flower Powder.",
+        "precautions": "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar."
+      },
+      {
+        "id": "green-curly",
+        "price": 29.5,
+        "img": "/images/products/terra_santa_tratamiento_capilar_green_curly.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Tratamiento capilar natural y orgánico para cuidar y definir los rizos, aportando hidratación, suavidad y vitalidad al cabello.",
+        "name": "Green Curly",
+        "type": "Rizos Definidos",
+        "usage": "Mezclar con agua tibia hasta formar una pasta cremosa. Opcionalmente, añadir 2-3 cucharaditas de un aceite capilar orgánico para aportar hidratación al cabello. Aplicar sobre el cabello limpio y bien desenredado, desde la raíz hasta la punta del cabello, y esperar entre 30–45 minutos antes de lavar solo con agua.",
+        "category": "Tratamiento Específico",
+        "ingredients": "Bacopa Monnieri Leaf Powder, Emblica Officinalis Fruit Powder, Moringa Oleifera Leaf Powder, Acacia Concinna Fruit Powder, Nymphaea Lotus Root Powder, Aloe Barbadensis Leaf Powder, Astragalus Gummifer Gum Powder.",
+        "precautions": "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar."
+      },
+      {
+        "id": "magical-green-curly",
+        "price": 28,
+        "img": "/images/products/terra_santa_tratamiento_capilar_magical_green_curly.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Tratamiento capilar natural y orgánico para definir y cuidar los rizos, aportando hidratación y una textura más manejable.",
+        "name": "Magical Green Curly",
+        "type": "Rizos Pro",
+        "usage": "Mezclar 5 gr de producto con unos 200 ml de agua tibia hasta formar una pasta cremosa. Aplicar sobre el cabello limpio y mojado, y distribuir bien. Secar con secador o al aire.",
+        "category": "Tratamiento Específico",
+        "ingredients": "Astragalus Gummifer Gum Powder.",
+        "precautions": "Sólo para uso externo. Evitar el contacto directo con los ojos. El producto no aclara el cabello ya que no contiene oxidantes ni químicos blanqueadores. Se recomienda realizar una prueba sobre la piel para asegurarse de que no existen alergias a este producto. El resultado puede variar de un cabello a otro dependiendo del color base y textura de cada cabello. Guardar en lugar seco y fresco, protegido de la luz solar."
+      },
+      {
+        "id": "shampoo-gratitud",
+        "price": 33.5,
+        "img": "/images/products/terra_santa_shampo_gratitud_cabello_todo_tipo.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Champú natural y orgánico para todo tipo de cabello. Limpia suavemente mientras hidrata y ayuda a equilibrar el cuero cabelludo.",
+        "name": "Champú Gratitud",
+        "type": "Uso Frecuente",
+        "usage": "Masajear suavemente sobre el cabello húmedo. Dejar actuar unos instantes y aclarar. Si es necesario, repetir una segunda aplicación con menos cantidad.",
+        "category": "Higiene Capilar",
+        "ingredients": "Aqua, Decyl Glucoside, Lauryl Glucoside, Disodium Cocoamphoacetate, Lavandula Hybrida Grosso Herb Oil*, Argania Spinosa Kernel Oil*, Erythritol, Inulin, Aloe Barbadensis Leaf Juice*, Sodium Cocoyl Hydrolyzed Wheat Protein, Glycerin, Xanthan Gum, Benzyl Alcohol, Coco-Glucoside, Glyceryl Oleate, Potassium Sorbate, Sodium Benzoate, Panthenol, Citric Acid, Tocopherol, Alcohol, Limonene**, Linalool**, Malus Pumila Bach Flower Extract, Scleranthus Annus Bach Flower Extract, Juglans Regia Bach Flower Extract. (*Orgánico / **De aceites esenciales puros)",
+        "precautions": "Uso externo. No ingerir. Evitar el contacto con los ojos."
+      },
+      {
+        "id": "shampoo-abundancia",
+        "price": 33.5,
+        "img": "/images/products/terra_santa_shampoo_abundancia_todo_tipo_cabello.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Champú natural y orgánico para fortalecer y cuidar el cabello. Aporta fuerza, nutrición y ayuda a mejorar la apariencia de densidad capilar.",
+        "name": "Champú Abundancia",
+        "type": "Volumen y Fuerza",
+        "usage": "Masajear suavemente sobre el cabello húmedo. Dejar actuar unos instantes y aclarar. Si es necesario, repetir una segunda aplicación con menos cantidad.",
+        "category": "Higiene Capilar",
+        "ingredients": "Aqua, Decyl Glucoside, Lauryl Glucoside, Disodium Cocoamphoacetate, Limonene, Citrus Sinensis Peel Oil Expressed*, Glycerin, Erythritol, Inulin, Helianthus Annuus Seed Oil, Sodium Cocoyl Hydrolyzed Wheat Protein, Alcohol, Xanthan Gum, Benzyl Alcohol, Coco-Glucoside, Emblica Officinalis Fruit Powder*, Glyceryl Oleate, Citrus Paradisii Peel Oil, Eucalyptus Globulus Leaf Oil*, Panthenol, Potassium Sorbate, Sodium Benzoate, Equisetum Arvense Extract*, Lepidium Meyenii Root Extract, Rosmarinus Officinalis Extract*, Salvia Officinalis Leaf Extract*, Urtica Dioica Leaf Extract*, Citric Acid, Citral, Citronellol, Linalool, Tocopherol, Carpinus Betulus Flower Extract, Larix Decidua Flower Extract, Malus Sylvestris Flower Extract, Olea Europaea Flower Extract. (*Orgánico / ^De aceites esenciales puros)",
+        "precautions": "Uso externo. No ingerir. Evitar el contacto con los ojos."
+      },
+      {
+        "id": "shampoo-fidelis",
+        "price": 15,
+        "img": "/images/products/terra_santa_shampoo_fidelis.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Champú natural para todo tipo de cabellos que buscan una limpieza respetuosa. Ayuda a purificar y aportar equilibrio al cabello y cuero cabelludo.",
+        "name": "Champú Fidelis",
+        "type": "Limpieza Natural",
+        "usage": "Aplicar sobre el cabello húmedo, masajear suavemente el cuero cabelludo y el cabello. Aclarar con abundante agua.",
+        "category": "Higiene Capilar",
+        "ingredients": "Aceite de Sésamo, Indigofera Tinctoria.",
+        "precautions": "Uso externo. Evitar el contacto con los ojos."
+      },
+      {
+        "id": "acondicionador-sin-aclarado",
+        "price": 34.5,
+        "img": "/images/products/terra_santa_acondicionador_sin_aclarado.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Acondicionador natural y orgánico sin aclarado que hidrata, facilita el peinado y ayuda a minimizar el encrespamiento.",
+        "name": "Acondicionador sin aclarado",
+        "type": "Leave-In",
+        "usage": "Sobre el cabello húmedo recién lavado, aplicar el acondicionador con el spray por todo el cabello y distribuir con las manos para cubrir toda la superficie. Se puede secar el cabello después si se desea.",
+        "category": "Hidratación y Cuerpo",
+        "ingredients": "Aqua, Urtica Dioica Leaf Extract*, Helianthus Annuus Seed Oil, Cocos Nucifera Oil*, Inulin, Glycerin, Citrus Sinensis Peel Oil Expressed*, Lavandula Hybrida Grosso Herb Oil*, Limonene^, Behenamidopropyldimethylamine, Benzyl Alcohol, Emblica Officinalis Fruit Powder, Potassium Sorbate, Sodium Benzoate, Litsea Cubeba Fruit Oil*, Biosaccharide Gum-1, Porphyra Umbilicalis Extract, Sodium Levulinate, Caesalpinia Spinosa Gum, Glyceryl Caprylate, Sodium Anisate, Citral^, Citronellol^, Linalool^, Farnesol^, Geraniol^, Alcohol, Leuconostoc/Radish Root Ferment Filtrate, Carpinus Betulus Flower Extract, Ilex Aquifolium Flower Extract, Olea Europaea Flower Extract, Scleranthus Annuus Flower Extract, Gentiana Amarella Flower Extract, Juglans Regia Flower Extract, Prunus Cerasifera Flower Extract. (*Orgánico / ^De aceites esenciales puros)",
+        "precautions": "Uso externo. No ingerir. Evitar el contacto con los ojos."
+      },
+      {
+        "id": "serum-en-aceite",
+        "price": 35.5,
+        "img": "/images/products/terra_santa_serum_en_aceite.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Mezcla de aceites vegetales vírgenes y orgánicos que nutre, aporta brillo y ayuda a fortalecer el cabello desde la raíz hasta las puntas. Ideal para cabellos secos, encrespados y rizos.",
+        "name": "Serum en Aceite",
+        "type": "Nutrición y Reparación",
+        "usage": "Puntas secas o abiertas: aplicar 2 o 3 gotas en las puntas, masajear y dejar actuar unos 20 minutos. Se puede lavar después o no. Cabello seco o encrespado: aplicar 3-4 gotas en las manos, frotar para calentar el serum y aplicar suavemente sobre todo el cabello hasta 2 veces al día. Cuero cabelludo seco y caída capilar: masajear unas gotas sobre el cuero cabelludo con movimientos circulares, dejar actuar mínimo 30 minutos o tantas horas como se desee y lavar después. Rizos: aplicar unas gotas en las manos, frotar y presionar los rizos de abajo hacia arriba para definirlos suavemente. No aclarar.",
+        "category": "Tratamiento Capilar",
+        "ingredients": "Cocos Nucifera Oil*, Ricinus Communis Seed Oil*, Helianthus Annuus Seed Oil*, Sesamum Indicum Seed Oil*, Argania Spinosa Kernel Oil*, Emblica Officinalis Powder, Rosmarinus Officinalis Leaf Oil*, Lavandula Hybrida Grosso Herb Oil*, Linalool^, Eucalyptus Globulus Leaf/Stem Oil*, Mentha Arvensis Herb Oil*, Thymus Zygis Herb Oil*, Cupressus Sempervirens Leaf/Nut/Stem Oil, Limonene^, Geraniol^, Coumarin^, Eugenol^, Citral^, Alcohol, Olea Europaea Flower Extract, Centaurium Umbellatum Flower Extract, Carpinus Betulus Flower Extract, Scleranthus Annus Flower Extract. (*Orgánico / ^De aceites esenciales puros)",
+        "precautions": "Uso externo. No ingerir. Evitar el contacto con los ojos."
+      },
+      {
+        "id": "locion-capilar-aloe",
+        "price": 23.5,
+        "img": "/images/products/terra_santa_locion_capilar_aloe.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Loción capilar para todo tipo de cabellos. Fortalece, hidrata y ayuda a eliminar impurezas del cabello y cuero cabelludo.",
+        "name": "Loción Capilar Aloe",
+        "type": "Calmante",
+        "usage": "Aplicar una pequeña cantidad en la palma de la mano, frotar en ambas manos y aplicar en el cuero cabelludo, dando un suave y penetrante masaje. Se puede añadir más cantidad y aplicar por el resto del cabello. Dejar actuar unos veinte minutos y después lavar.",
+        "category": "Hidratación y Cuerpo",
+        "ingredients": "Aloe Barbadensis Leaf Juice*, Cannabis Sativa Seed Oil*, Benzyl Alcohol, Simmondsia Chinesis Seed Oil*, Xanthan Gum, Rosmarinus Officinalis Leaf Oil*, Thymus Zygis Oil*, Ascorbic Acid, Dehydroacetic Acid, Sodium Metabisulfite, Limonene**, Linalool**, Pinene*, Beta Caryophyllene**, Camphor**, Alfa Terpineol*. (*Ingrediente ecológico certificado / **Ingrediente natural contenido en los aceites esenciales)",
+        "precautions": "Para todo tipo de cabellos. Evitar el contacto con los ojos. Uso externo."
+      },
+      {
+        "id": "locion-gel-aloe-vera-puro",
+        "price": 16.5,
+        "img": "/images/products/terra_santa_locion_aloe_vera_puro.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Loción de Aloe Vera elaborada con hojas frescas de Aloe de Almería. Hidratante y regeneradora, ayuda a aumentar la elasticidad y firmeza de la piel.",
+        "name": "Loción Aloe Vera Puro",
+        "type": "Multiusos",
+        "usage": "Aplicar sobre la piel seca dando un suave masaje.",
+        "category": "Hidratación y Cuerpo",
+        "ingredients": "Aloe Barbadensis Leaf Juice*, Xanthan Gum, Benzyl Alcohol, Ascorbic Acid, Dehydroacetic Acid, Sodium Metabisulfite. (*Ingrediente ecológico certificado)",
+        "precautions": "Una vez abierto mantener en lugar fresco y oscuro. Indicado para todo tipo de pieles."
+      },
+      {
+        "id": "leche-corporal",
+        "price": 27.87,
+        "img": "/images/products/terra_santa_leche_corporal_regeneradora.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Leche corporal regeneradora con Aloe de Almería, Rosa Mosqueta y aceites vegetales ecológicos. Hidrata, nutre y ayuda a cuidar las zonas dañadas de la piel.",
+        "name": "Leche Corporal Regeneradora",
+        "type": "Body Milk",
+        "usage": "Aplicar sobre la piel seca dando un suave masaje. Uso diario como hidratante corporal.",
+        "category": "Hidratación y Cuerpo",
+        "ingredients": "Aloe Barbadensis Leaf Juice*, Rosa Canina Seed Oil*, Lavandula Angustifolia Flower Water*, Glycine Max Oil*, Cannabis Sativa Seed Oil*, Glyceryl Stearate Citrate, Benzyl Alcohol, Lavandula Angustifolia Oil*, Xanthan Gum, Ascorbic Acid, Dehydroacetic Acid, Linalyl Acetate**, Linalool**, Terpineol**, Geraniol**, Limonene**. (*Ingrediente ecológico certificado / **Ingrediente natural contenido en los aceites esenciales)",
+        "precautions": "Una vez abierto mantener en lugar fresco y oscuro. Indicado para zonas dañadas de la piel. Se puede usar como aftersun y después de la depilación."
+      }
+    ],
+    "faqList": [
+      {
+        "a": "Al finalizar la compra, selecciona 'Recogida en Tienda'. Estamos en C/ Provença 213, Barcelona.",
+        "q": "¿Cómo recojo mi pedido?"
+      },
+      {
+        "a": "Al ser orgánicos y sin conservantes agresivos, recomendamos usarlos en 6-12 meses tras apertura.",
+        "q": "¿Los productos caducan?"
+      },
+      {
+        "a": "Para tratamientos High Ticket (Terapia Oxitocina), sí. Puedes reservar cita en nuestra web.",
+        "q": "¿Necesito diagnóstico?"
+      },
+      {
+        "a": "La mayoría sí, pero consulta la ficha técnica de cada planta o consúltanos.",
+        "q": "¿Son aptos para embarazadas?"
+      }
+    ],
+    "nav": {
+      "faq": "Dudas Frecuentes",
+      "pro": "Área Profesional",
+      "home": "Inicio",
+      "contacto": "Contacto",
+      "domestic": "Quiénes Somos Terra",
+      "products": "Nuestra Selección",
+      "rituales": "Rituales",
+      "filosofia": "Filosofía",
+      "proAccess": "Acceso Salones",
+      "selection": "Nuestra Selección",
+      "aboutTerra": "Quiénes Somos Terra",
+      "treatments": "Tratamientos"
+    },
+    "hero": {
+      "cta": "Descubre nuestros Productos",
+      "title": "Terra Santa Eulalia",
+      "subtitle": "Desde las Indias, a tu hogar"
+    },
+    "domestic": {
+      "title": "Productos Naturales",
+      "visitUs": "Visítanos en C/ Provença 213",
+      "diyTitle": "Hazlo tú mismo",
+      "faqTitle": "Preguntas Recurrentes",
+      "readMore": "Solicitar información",
+      "subtitle": "La alquimia de la tierra en tu hogar",
+      "viewMore": "Ver Catálogo Completo",
+      "productsDesc": "Bienestar para el cuerpo, alma y corazón.",
+      "productsTitle": "Selección Natural & Orgánica"
+    },
+    "cards": {
+      "therapySub": "CLÍNICA CAPILAR",
+      "productsSub": "SELECCIÓ NATURAL & ORGÀNICA",
+      "therapyTitle": "TERAPIA ORGÁNICA\nCAPILAR",
+      "productsTitle": "NUESTROS\nPRODUCTOS",
+      "treatmentsSub": "ESPACIO BOTÁNICO",
+      "treatmentsTitle": "NUESTROS\nTRATAMIENTOS"
+    },
+    "about": {
+      "desc": "Un santuario de pureza, tierra y rituales. Creemos en el bienestar orgánico y el minimalismo cálido.",
+      "title": "Quiénes Somos"
+    },
+    "pro": {
+      "logout": "Cerrar sesión",
+      "loginTitle": "Acceso Profesional",
+      "loginButton": "Entrar",
+      "loginRequired": "Se requiere login",
+      "passwordError": "Contraseña incorrecta",
+      "dashboardTitle": "Panel Profesional",
+      "passwordPlaceholder": "Contraseña..."
+    },
+    "footer": {
+      "contactLabel": "Contacto",
+      "whatsappLabel": "WhatsApp"
+    },
+    "treatmentsPage": {
+      "cta": "Reservar Cita",
+      "desc": "Tratamientos botánicos diseñados para recuperar el equilibrio. Sin prisas, con plantas medicinales y técnicas ancestrales.",
+      "title": "Rituales Terra",
+      "subtitle": "Salud Capilar y Facial Orgánica",
+      "extrasTitle": "Añade a tu Ritual",
+      "floatingCta": "Reservar Cita",
+      "hairRituals": {
+        "desc": "Recupera la fuerza y salud de tu cabello con barros y plantas.",
+        "list": [
+          {
+            "id": "ritual-detox",
+            "desc": "Este tratamiento limpia en profundidad el cuero cabelludo gracias a la mezcla de plantas medicinales desintoxicantes. Indicado de manera especial para problemas de dermatitis seborreica, descamación, caspa y exceso de grasa capilar.",
+            "extra": "Disfruta durante la exposición de un relajante masaje facial o de pies, tú elijes.",
+            "price": "85€",
+            "title": "Ritual Detox",
+            "duration": "50 min"
+          },
+          {
+            "id": "ritual-fuerte",
+            "desc": "El objetivo de este ritual es dar a tu cabello la fuerza y vitalidad que necesita. Si sientes que tu cabello está débil y apenas tiene cuerpo y le falta vida, sin duda este es tu ritual. Sentir el aroma de las plantas ayurvédicas en tu cabello hará que conectes con la par y armonía que necesitas.",
+            "extra": "Incluye un relajante masaje facial o de pies, tú elijes.",
+            "price": "95€",
+            "title": "Ritual Siempre Fuerte y Vital",
+            "duration": "60 min",
+            "isHighlight": true
+          },
+          {
+            "id": "ritual-rizos",
+            "desc": "¿Echas de menos la flexibilidad y estructura de tus rizos? La mezcla de hierbas que aplicamos en este ritual ayudará a tu cabello a recuperar la estructura perdida del rizo. ¿Rizo sin vida? ya no, gracias a la acción de nuestra mezcla de plantas.",
+            "extra": "Disfruta durante la exposición de un relajante masaje facial o de pies, tú elijes.",
+            "price": "85€",
+            "title": "Ritual Rizos Perfectos",
+            "duration": "50 min"
+          }
+        ],
+        "title": "Rituales Orgánicos Capilares"
+      },
+      "extrasSubtitle": "Expres Express",
+      "whatsappMessage": "Hola, me interesa reservar un ritual de Terra Santa Eulalia"
+    },
+    "services": {
+      "spa": "Rituales Faciales & Pindas",
+      "badge": "Signature Experience",
+      "title": "Terapias de Alta Gamma",
+      "spaDesc": "Experiencia Signature (150€). Pindas herbales, lifting facial y desconexión absoluta.",
+      "capillary": "Terapia Capilar Avanzada",
+      "capillaryDesc": "Diagnóstico botánico y recuperación molecular."
+    },
+    "socialProof": {
+      "author": "Laura G., Cliente Verificada",
+      "testimonial": "Un antes y un después para mi cabello. La terapia de oxitocina no es solo estética, es salud real."
+    },
+    "whatsapp": {
+      "buttonLabel": "Reservar por WhatsApp",
+      "ritualSuffix": "de Terra Santa Eulalia",
+      "messageTemplate": "Hola, me interesa reservar",
+      "scheduledMessage": "El próximo horario disponible es"
+    },
+    "cta": {
+      "bookFree": "Reservar Consulta Gratuita",
+      "helpDesc": "Nuestro equipo te ayudará a encontrar el tratamiento perfecto según las necesidades de tu cabello y piel. La primera consulta es gratuita.",
+      "helpTitle": "¿Necesitas ayuda para elegir?",
+      "filosofiaLink": "Conocer nuestra filosofía",
+      "ritualWaiting": "Tu ritual te está esperando"
+    },
+    "capillaryPage": {
+      "cta": "Solicitar Diagnóstico",
+      "desc": "Protocolo clínico-orgánico para recuperar cabellos dañados, alopecias o desequilibrios del cuero cabelludo. Un enfoque científico y completamente natural.",
+      "badge": "Servicio High Ticket",
+      "steps": [
+        {
+          "desc": "Desintoxicación del folículo con barros volcánicos.",
+          "title": "Limpieza"
+        },
+        {
+          "desc": "Inyección de activos botánicos y proteínas vegetales.",
+          "title": "Nutrición"
+        },
+        {
+          "desc": "Cierre de cutícula con aceites ozonizados y luz LED.",
+          "title": "Sellado"
+        }
+      ],
+      "title": "Terapia Orgánica Capilar",
+      "subtitle": "Diagnóstico Botánico & Recuperación Molecular",
+      "solutions": [
+        {
+          "desc": "Limpieza profunda con plantas medicinales desintoxicantes.",
+          "price": "85€",
+          "title": "Ritual Detox",
+          "problem": "Caspa · Grasa · Dermatitis"
+        },
+        {
+          "desc": "Fuerza y vitalidad con plantas ayurvédicas. Frena la caída.",
+          "price": "95€",
+          "title": "Ritual Siempre Fuerte",
+          "problem": "Caída · Debilidad · Afinamiento"
+        }
+      ],
+      "ritualsDesc": "Tratamientos específicos para cada necesidad. Protocolos botánicos de alta eficacia.",
+      "ritualsList": [
+        {
+          "id": "ritual-detox",
+          "desc": "Este tratamiento limpia en profundidad el cuero cabelludo gracias a la mezcla de plantas medicinales desintoxicantes. Indicado de manera especial para problemas de dermatitis seborreica, descamación, caspa y exceso de grasa capilar. Disfruta durante la exposición de un relajante masaje facial o de pies, tú elijes.",
+          "price": "85€",
+          "title": "Ritual Detox",
+          "duration": "50 min"
+        },
+        {
+          "id": "ritual-fuerte",
+          "desc": "El objetivo de este ritual es dar a tu cabello la fuerza y vitalidad que necesita. Si sientes que tu cabello está débil y apenas tiene cuerpo y le falta vida, sin duda este es tu ritual. Sentir el aroma de las plantas ayurvédicas en tu cabello hará que conectes con la par y armonía que necesitas. Incluye un relajante masaje facial o de pies, tú elijes.",
+          "price": "95€",
+          "title": "Ritual Siempre Fuerte y Vital",
+          "duration": "60 min"
+        },
+        {
+          "id": "ritual-rizos",
+          "desc": "¿Echas de menos la flexibilidad y estructura de tus rizos? La mezcla de hierbas que aplicamos en este ritual ayudará a tu cabello a recuperar la estructura perdida del rizo. ¿Rizo sin vida? ya no, gracias a la acción de nuestra mezcla de plantas. Disfruta durante la exposición de un relajante masaje facial o de pies, tú elijes.",
+          "price": "85€",
+          "title": "Ritual Rizos Perfectos",
+          "duration": "50 min"
+        }
+      ],
+      "vipServices": [
+        {
+          "desc": "Observación ampliada del cuero cabelludo y bulbo capilar. Identificamos dermatitis, descamación, exceso de sebo, folliculitis y desequilibrios microscópicos.",
+          "icon": "Microscope",
+          "title": "Estudio Dermatológico con Microcámara"
+        },
+        {
+          "desc": "Medición de los niveles de hidratación, sebo y densidad capilar mediante tecnología bioeléctrica. Informe completo en 15 minutos.",
+          "icon": "Activity",
+          "title": "Escáner Bioeléctrico Capilar"
+        }
+      ],
+      "whatsappCta": "Reservar Diagnóstico vía WhatsApp",
+      "ritualsTitle": "Rituales Orgánicos Capilares",
+      "diagnosisDesc": "Analizamos tu bulbo capilar con microcámara para diseñar tu receta personalizada.",
+      "solutionsDesc": "Protocolos específicos para patologías del cuero cabelludo.",
+      "ctaRecoveryBtn": "Reservar Diagnóstico",
+      "diagnosisTitle": "Estudio Dermatológico Capilar",
+      "scheduleRitual": "Agendar este ritual",
+      "solutionsTitle": "Soluciones Terapéuticas",
+      "ctaRecoveryDesc": "Este tratamiento requiere cita previa y valoración de nuestros especialistas en C/ Provença 213.",
+      "vipServicesDesc": "Tecnología avanzada meets botànica:",
+      "whatsappMessage": "Hola, me interesa reservar un diagnóstico de Terapia Capilar Avanzada en Terra Santa Eulalia.",
+      "ctaRecoveryTitle": "Recupera la memoria vital de tu cabello",
+      "vipServicesTitle": "Diagnóstico Profesional"
+    },
+    "philosophy": {
+      "cta": "Ven a Sentirlo",
+      "values": [
+        {
+          "desc": "Arcillas vivas que purifican sin agredir.",
+          "title": "Tierra"
+        },
+        {
+          "desc": "La hidratación real que fluye desde dentro.",
+          "title": "Agua"
+        },
+        {
+          "desc": "El ingrediente más lujoso: la espera.",
+          "title": "Tiempo"
+        }
+      ],
+      "laiaBio": {
+        "role": "Fundadora & Director Creativo",
+        "title": "Laia Salomó",
+        "nature": "También me inspiró la naturaleza, su sabiduría, sus ritmos y su capacidad constante de renovarse. La tierra nos enseña que todo florece cuando recibe el cuidado adecuado. Desde esa visión nace Terra Santa Eulalia: como un lugar donde cada persona pueda renovarse desde dentro hacia fuera.",
+        "vision": "Quise crear un espacio diferente, donde la peluquería y el bienestar caminaran juntos, donde cada gesto tuviera intención, donde el respeto por la salud y por el entorno fueran fundamentales, y donde la energía que se transmite fuera tan importante como el resultado final. La terapia Orgánica Capilar en Terra Santa Eulalia es el reflejo.",
+        "mission": "Terra Santa Eulalia es el reflejo de mi misión de vida: ayudar a las personas a descubrir su belleza natural, elevar su energía vital y recordar que cuidarse también es una forma de amor propio. Aquí no solo transformamos imagen, acompañamos procesos, despertamos confianza y sembramos bienestar.",
+        "inspiration": "Me inspiró observar cómo muchas personas buscan verse bien, pero también necesitan sentirse en paz, recuperar su energía y reconectar consigo mismas. Comprendí que la belleza verdadera aparece cuando una persona se siente cuidada, escuchada y en armonía con su esencia."
+      },
+      "heroTitle": "El Origen",
+      "manifesto": "No creemos en la belleza fabricada. Creemos en la belleza revelada. Terra Santa Eulalia no es una marca, es un retorno a la memoria de la tierra.",
+      "founderDesc": "Después de muchos años dedicados a la peluquería consciente, en Manolo Días Green Zone y Manolo Días Healthy Salón creamos nuestra propia marca, Terra Santa Eulàlia, enfocada en la terapia capilar natural, saludable y energética, creada desde la experiencia, el respeto por la naturaleza y el bienestar profundo del cabello y el cuero cabelludo.\n\nEn Terra Santa Eulàlia cada tratamiento es único y totalmente personalizado, porque entendemos que cada cabello, cada cuero cabelludo y cada persona necesitan un cuidado diferente.\n\nPor eso, invitamos a cada cliente a ponerse en contacto con nosotros para poder valorar de forma consciente qué tratamiento necesita realmente y acompañarle desde una atención cercana y personalizada.",
+      "processDesc": "Nuestras mezclas se preparan al momento. Sin conservantes que duerman la planta. Es cosmética viva para gente viva.",
+      "founderTitle": "Manos que escuchan",
+      "heroSubtitle": "Donde la alquimia encuentra el silencio.",
+      "processTitle": "La Botica Viva"
+    },
+    "ui": {
+      "close": "Cerrar",
+      "error": "Error",
+      "goBack": "Volver atrás",
+      "loading": "Cargando...",
+      "success": "Éxito"
+    },
+    "products": {
+      "inStock": "Disponible",
+      "newBadge": "Novedad",
+      "comingSoon": "Próximamente",
+      "outOfStock": "Agotado"
+    },
+    "legal": {
+      "backHome": "Volver al inicio",
+      "readMore": "Leer más",
+      "required": "Obligatorias",
+      "acceptAll": "Aceptar todo",
+      "configure": "Configurar",
+      "modalDesc": "Elige qué tipo de cookies aceptas. Las cookies técnicas son imprescindibles para el funcionamiento del sitio.",
+      "rejectAll": "Rechazar",
+      "termsDesc": "Condiciones de uso del sitio web.",
+      "bannerText": "Usamos cookies para mejorar tu experiencia, analizar el tráfico y personalizar el contenido. Consulta nuestra",
+      "indexTitle": "Información Legal",
+      "modalTitle": "Configuración de Cookies",
+      "noticeDesc": "Información legal según LSSI-CE.",
+      "termsTitle": "Términos y Condiciones",
+      "bannerTitle": "Tu privacidad importa",
+      "cookiesDesc": "Cómo usamos las cookies en nuestra web.",
+      "lastUpdated": "Última actualización",
+      "noticeTitle": "Aviso Legal",
+      "privacyDesc": "Cómo tratamos tus datos personales (RGPD).",
+      "cookiesTitle": "Política de Cookies",
+      "privacyTitle": "Política de Privacidad",
+      "saveSettings": "Guardar preferencias",
+      "analyticsDesc": "Google Analytics — para entender cómo se usa el sitio.",
+      "indexSubtitle": "Documentación legal y políticas de Terra Santa Eulalia",
+      "marketingDesc": "Permiten mostrar contenido relevante en otros sitios.",
+      "technicalDesc": "Necesarias para el funcionamiento básico (idioma, sesión).",
+      "analyticsLabel": "Analíticas",
+      "functionalDesc": "Recuerdan tus preferencias (idioma, vistas).",
+      "marketingLabel": "Marketing",
+      "technicalLabel": "Técnicas",
+      "functionalLabel": "Funcionales",
+      "cookiesPolicyLink": "Política de Cookies"
+    }
+  },
+  "en": {
+    "productsList": [
+      {
+        "id": "planta-fortalecedora",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_fortalecedora_brillante.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Known as 'Neutral Henna'. It does not dye the hair, but helps provide shine and strengthen the hair fiber.",
+        "name": "Strengthening & Shine Plant",
+        "type": "Cassia Obovata",
+        "usage": "Mix 2 or 3 tablespoons of the plant powder with warm water until a creamy paste is formed. Optionally, add 3-4 teaspoons of a cold-pressed vegetable oil to nourish the hair with additional vitamins. Allow it to cool and apply from the scalp to the ends of the hair. Leave it on for approximately 1 hour before washing with a mild shampoo.",
+        "category": "Powder Treatment",
+        "ingredients": "Cassia Obovata Leaf Powder.",
+        "precautions": "For external use only. Avoid direct contact with eyes. This product does not lighten the hair as it contains no oxidizing agents or chemical bleaching agents. A skin sensitivity test is recommended to ensure there are no allergies to this product. Results may vary from one hair type to another depending on the base color and texture of each hair. Store in a cool, dry place away from sunlight."
+      },
+      {
+        "id": "planta-rubio-luminoso",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_rubio_luminoso.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Plant-based blend to enhance golden reflections in light hair while providing a natural treatment.",
+        "name": "Luminous Blonde Plant",
+        "type": "Ayurvedic Blend",
+        "usage": "In a large bowl, gradually mix the powder with warm water (approximately 30°C) until a yogurt-like consistency is achieved. Apply immediately to clean, dry, and thoroughly detangled hair, from roots to ends. Leave on for 20 to 40 minutes depending on the desired color intensity. Then rinse and wash with a mild shampoo.",
+        "category": "Vegetal Coloring",
+        "ingredients": "Cassia Italica Leaf Powder, Lawsonia Inermis Powder, Chamomilla Recutita Flower Powder, Curcuma Longa Root Powder.",
+        "precautions": "For external use only. Avoid direct contact with eyes. This product does not lighten the hair as it contains no oxidizing agents or chemical bleaching agents. A skin sensitivity test is recommended before use to rule out possible allergic reactions. Results may vary depending on the base color and texture of each hair type. Store in a cool, dry place protected from sunlight."
+      },
+      {
+        "id": "planta-rubio-miel",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_rubio_miel.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Warm and sweet shade for blonde or light brown hair looking for natural golden tones.",
+        "name": "Honey Blonde Plant",
+        "type": "Ayurvedic Blend",
+        "usage": "In a large bowl, gradually mix the plants with warm water at approximately 30°C until the mixture reaches a yogurt-like consistency. Apply immediately to clean, dry, and thoroughly detangled hair from roots to ends. Leave on for 40–50 minutes depending on the desired color intensity before rinsing with water.",
+        "category": "Vegetal Coloring",
+        "ingredients": "Cassia Italica Leaf Powder, Lawsonia Inermis Powder, Indigofera Tinctoria Leaf Powder, Aloe Barbadensis Leaf Powder, Emblica Officinalis Fruit Powder, Ziziphus Jujuba Powder.",
+        "precautions": "For external use only. Avoid direct contact with eyes. This product does not lighten the hair as it contains no oxidizing agents or chemical bleaching agents. A skin sensitivity test is recommended to ensure there are no allergies to this product. Results may vary from one hair type to another depending on the base color and texture. Store in a cool, dry place protected from sunlight."
+      },
+      {
+        "id": "planta-puro-cobre",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_puro_cobre.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "High-quality pure henna that provides an intense copper tone, strength, and spectacular shine.",
+        "name": "Pure Copper Plant",
+        "type": "100% Organic",
+        "usage": "In a large bowl, gradually mix the plants with warm water at approximately 50–70°C until the mixture reaches a yogurt-like consistency. Apply to clean, dry, thoroughly detangled hair from roots to ends and leave on for 60–90 minutes depending on the desired color intensity before washing only with a mild shampoo.",
+        "category": "Vegetal Coloring",
+        "ingredients": "Lawsonia Inermis Leaf Powder.",
+        "precautions": "For external use only. Avoid direct contact with eyes. This product does not lighten the hair as it contains no oxidizing agents or chemical bleaching agents. A skin sensitivity test is recommended to ensure there are no allergies to this product. Results may vary from one hair type to another depending on the base color and texture. Store in a cool, dry place protected from sunlight."
+      },
+      {
+        "id": "planta-marron-dorado",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_marron_dorado.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Plant-based blend to achieve warm and natural golden brown tones. Provides color nuances, shine, and body to the hair.",
+        "name": "Golden Brown Plant",
+        "type": "Ayurvedic Blend",
+        "usage": "In a large bowl, gradually mix the plants with warm water at approximately 50–70°C until the mixture reaches a yogurt-like consistency. Apply to clean, dry, thoroughly detangled hair from roots to ends and leave on for 60–90 minutes depending on the desired color intensity before washing only with water. To retain the color, it is important to wait at least 24 hours before washing the hair with a mild shampoo.",
+        "category": "Vegetal Coloring",
+        "ingredients": "Lawsonia Inermis Powder, Indigofera Tinctoria Leaf Powder, Juglans Regia Shell Powder, Emblica Officinalis Fruit Powder, Ziziphus Jujuba Powder, Aloe Barbadensis Leaf Powder, Curcuma Longa Root Powder.",
+        "precautions": "For external use only. Avoid direct contact with eyes. This product does not lighten the hair as it contains no oxidizing agents or chemical bleaching agents. A skin sensitivity test is recommended to ensure there are no allergies to this product. Results may vary from one hair type to another depending on the base color and texture. Store in a cool, dry place protected from sunlight."
+      },
+      {
+        "id": "planta-castana",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_castanya.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Natural medium brown shade. Ideal for blending tones and covering first grey hairs with a glossy effect.",
+        "name": "Chestnut Plant",
+        "type": "Ayurvedic Blend",
+        "usage": "Mix with water at 50°C. Apply immediately. Processing time: 60–90 minutes.",
+        "category": "Vegetal Coloring",
+        "ingredients": "Indigofera Tinctoria, Lawsonia Inermis, Emblica Officinalis (Amla).",
+        "precautions": "Do not use shampoo for the following 24 hours to allow the color to set."
+      },
+      {
+        "id": "planta-castana-oscuro",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_castaña_oscuro.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Depth and coverage for brown hair. Adds body and darkens lighter shades.",
+        "name": "Dark Chestnut Plant",
+        "type": "Ayurvedic Blend",
+        "usage": "In a large bowl, gradually mix the plants with warm water at approximately 50–70°C until the mixture reaches a yogurt-like consistency. Apply to clean, dry, thoroughly detangled hair from roots to ends and leave on for 60–90 minutes depending on the desired color intensity before washing only with water. To retain the color, wait at least 24 hours before washing the hair with a mild shampoo.",
+        "category": "Vegetal Coloring",
+        "ingredients": "Indigofera Tinctoria Leaf Powder, Lawsonia Inermis Powder, Emblica Officinalis Fruit Powder.",
+        "precautions": "For external use only. Avoid direct contact with eyes. This product does not lighten the hair as it contains no oxidizing agents or chemical bleaching agents. A skin sensitivity test is recommended to ensure there are no allergies to this product. Results may vary depending on the base color and texture of each hair type. Store in a cool, dry place protected from sunlight."
+      },
+      {
+        "id": "planta-indigo",
+        "price": 28,
+        "img": "/images/products/terra_santa_planta_indigo.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Pure plant pigment to achieve deep dark shades and blue-black tones when combined with other plants.",
+        "name": "Indigo Plant",
+        "type": "100% Organic",
+        "usage": "In a large bowl, gradually mix the plants with warm water at approximately 50–70°C until the mixture reaches a yogurt-like consistency. Apply to clean, dry, thoroughly detangled hair from roots to ends and leave on for 60–90 minutes depending on the desired color intensity before washing only with water. To retain the color, wait at least 12 hours before washing the hair with a mild shampoo. Use alone or as a two-step process (first henna, then indigo) for grey hair coverage in black tones.",
+        "category": "Vegetal Coloring",
+        "ingredients": "Indigofera Tinctoria Leaf Powder (Pure Indigo).",
+        "precautions": "For external use only. Avoid direct contact with eyes. This product does not lighten the hair as it contains no oxidizing agents or chemical bleaching agents. A skin sensitivity test is recommended to ensure there are no allergies to this product. Results may vary depending on the base color and texture of each hair type. Store in a cool, dry place protected from sunlight."
+      },
+      {
+        "id": "green-detox",
+        "price": 29.5,
+        "img": "/images/products/terra_santa_tratamiento_capilar_green_detox.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Natural and organic hair treatment based on plants to purify and care for the hair and scalp.",
+        "name": "Green Detox",
+        "type": "Purifying",
+        "usage": "Mix with warm water until a creamy paste is formed. Optionally, add 2-3 teaspoons of an organic hair oil to provide additional hydration. Apply to clean and thoroughly detangled hair, from roots to ends, and leave on for 30–45 minutes before rinsing with water only.",
+        "category": "Specific Treatment",
+        "ingredients": "Vigna Radiata Seed Powder, Ziziphus Jujuba Leaf Powder, Emblica Officinalis Fruit Powder, Azadirachta Indica Leaf Powder, Rubia Cordifolia Root Powder, Glycyrrhiza Glabra Root Powder.",
+        "precautions": "For external use only. Avoid direct contact with eyes. This product does not lighten the hair as it contains no oxidizing agents or chemical bleaching agents. A skin sensitivity test is recommended to ensure there are no allergies to this product. Results may vary from one hair type to another depending on the base color and texture of each hair. Store in a cool, dry place protected from sunlight."
+      },
+      {
+        "id": "green-vitality",
+        "price": 29.5,
+        "img": "/images/products/terra_santa_tratamiento_capilar_green_vitality.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Natural and organic hair treatment to revitalize the hair, providing nourishment, shine, and vitality.",
+        "name": "Green Vitality",
+        "type": "Revitalizing",
+        "usage": "Mix with warm water until a creamy paste is formed. Optionally, add 2-3 teaspoons of an organic hair oil to provide additional hydration. Apply to clean and thoroughly detangled hair, from roots to ends, and leave on for 30–45 minutes before rinsing with water only.",
+        "category": "Specific Treatment",
+        "ingredients": "Emblica Officinalis Fruit Powder, Bacopa Monnieri Leaf Powder, Trigonella Foenum-Graecum Seed Powder, Cassia Italica Leaf Powder, Acacia Concinna Fruit Powder, Citrus Sinensis Fruit Powder, Rose Damascena Flower Powder.",
+        "precautions": "For external use only. Avoid direct contact with eyes. This product does not lighten the hair as it contains no oxidizing agents or chemical bleaching agents. A skin sensitivity test is recommended to ensure there are no allergies to this product. Results may vary from one hair type to another depending on the base color and texture of each hair. Store in a cool, dry place protected from sunlight."
+      },
+      {
+        "id": "green-curly",
+        "price": 29.5,
+        "img": "/images/products/terra_santa_tratamiento_capilar_green_curly.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Natural and organic hair treatment designed to care for and define curls, providing hydration, softness, and vitality.",
+        "name": "Green Curly",
+        "type": "Defined Curls",
+        "usage": "Mix with warm water until a creamy paste is formed. Optionally, add 2-3 teaspoons of an organic hair oil to provide additional hydration. Apply to clean and thoroughly detangled hair, from roots to ends, and leave on for 30–45 minutes before rinsing with water only.",
+        "category": "Specific Treatment",
+        "ingredients": "Bacopa Monnieri Leaf Powder, Emblica Officinalis Fruit Powder, Moringa Oleifera Leaf Powder, Acacia Concinna Fruit Powder, Nymphaea Lotus Root Powder, Aloe Barbadensis Leaf Powder, Astragalus Gummifer Gum Powder.",
+        "precautions": "For external use only. Avoid direct contact with eyes. This product does not lighten the hair as it contains no oxidizing agents or chemical bleaching agents. A skin sensitivity test is recommended to ensure there are no allergies to this product. Results may vary from one hair type to another depending on the base color and texture of each hair. Store in a cool, dry place protected from sunlight."
+      },
+      {
+        "id": "magical-green-curly",
+        "price": 28,
+        "img": "/images/products/terra_santa_tratamiento_capilar_magical_green_curly.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Natural and organic hair treatment to define and care for curls, providing hydration and a more manageable texture.",
+        "name": "Magical Green Curly",
+        "type": "Curl Pro",
+        "usage": "Mix 5 g of product with approximately 200 ml of warm water until a creamy paste is formed. Apply to clean, wet hair and distribute evenly. Dry with a hairdryer or allow to air dry.",
+        "category": "Specific Treatment",
+        "ingredients": "Astragalus Gummifer Gum Powder.",
+        "precautions": "For external use only. Avoid direct contact with eyes. This product does not lighten the hair as it contains no oxidizing agents or chemical bleaching agents. A skin sensitivity test is recommended to ensure there are no allergies to this product. Results may vary from one hair type to another depending on the base color and texture of each hair. Store in a cool, dry place protected from sunlight."
+      },
+      {
+        "id": "shampoo-gratitud",
+        "price": 33.5,
+        "img": "/images/products/terra_santa_shampo_gratitud_cabello_todo_tipo.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Natural and organic shampoo for all hair types. Gently cleanses while hydrating and helping to balance the scalp.",
+        "name": "Gratitude Shampoo",
+        "type": "Frequent Use",
+        "usage": "Gently massage onto wet hair. Leave for a few moments and rinse. If necessary, repeat a second application using a smaller amount.",
+        "category": "Hair Hygiene",
+        "ingredients": "Aqua, Decyl Glucoside, Lauryl Glucoside, Disodium Cocoamphoacetate, Lavandula Hybrida Grosso Herb Oil*, Argania Spinosa Kernel Oil*, Erythritol, Inulin, Aloe Barbadensis Leaf Juice*, Sodium Cocoyl Hydrolyzed Wheat Protein, Glycerin, Xanthan Gum, Benzyl Alcohol, Coco-Glucoside, Glyceryl Oleate, Potassium Sorbate, Sodium Benzoate, Panthenol, Citric Acid, Tocopherol, Alcohol, Limonene**, Linalool**, Malus Pumila Bach Flower Extract, Scleranthus Annus Bach Flower Extract, Juglans Regia Bach Flower Extract. (*Organic / **From pure essential oils)",
+        "precautions": "For external use only. Do not ingest. Avoid contact with eyes."
+      },
+      {
+        "id": "shampoo-abundancia",
+        "price": 33.5,
+        "img": "/images/products/terra_santa_shampoo_abundancia_todo_tipo_cabello.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Natural and organic shampoo to strengthen and care for the hair. Provides strength, nourishment, and helps improve the appearance of hair density.",
+        "name": "Abundance Shampoo",
+        "type": "Volume and Strength",
+        "usage": "Gently massage onto wet hair. Leave for a few moments and rinse. If necessary, repeat a second application using a smaller amount.",
+        "category": "Hair Hygiene",
+        "ingredients": "Aqua, Decyl Glucoside, Lauryl Glucoside, Disodium Cocoamphoacetate, Limonene, Citrus Sinensis Peel Oil Expressed*, Glycerin, Erythritol, Inulin, Helianthus Annuus Seed Oil, Sodium Cocoyl Hydrolyzed Wheat Protein, Alcohol, Xanthan Gum, Benzyl Alcohol, Coco-Glucoside, Emblica Officinalis Fruit Powder*, Glyceryl Oleate, Citrus Paradisii Peel Oil, Eucalyptus Globulus Leaf Oil*, Panthenol, Potassium Sorbate, Sodium Benzoate, Equisetum Arvense Extract*, Lepidium Meyenii Root Extract, Rosmarinus Officinalis Extract*, Salvia Officinalis Leaf Extract*, Urtica Dioica Leaf Extract*, Citric Acid, Citral, Citronellol, Linalool, Tocopherol, Carpinus Betulus Flower Extract, Larix Decidua Flower Extract, Malus Sylvestris Flower Extract, Olea Europaea Flower Extract. (*Organic / ^From pure essential oils)",
+        "precautions": "For external use only. Do not ingest. Avoid contact with eyes."
+      },
+      {
+        "id": "shampoo-fidelis",
+        "price": 15,
+        "img": "/images/products/terra_santa_shampoo_fidelis.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Natural shampoo for all hair types seeking a respectful cleansing experience. Helps purify and promote balance in the hair and scalp.",
+        "name": "Fidelis Shampoo",
+        "type": "Natural Cleansing",
+        "usage": "Apply to wet hair, gently massage the scalp and hair. Rinse thoroughly with plenty of water.",
+        "category": "Hair Hygiene",
+        "ingredients": "Sesame Oil, Indigofera Tinctoria.",
+        "precautions": "For external use only. Avoid contact with eyes."
+      },
+      {
+        "id": "acondicionador-sin-aclarado",
+        "price": 34.5,
+        "img": "/images/products/terra_santa_acondicionador_sin_aclarado.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Natural and organic leave-in conditioner that hydrates, makes combing easier, and helps minimize frizz.",
+        "name": "Leave-In Conditioner",
+        "type": "Leave-In",
+        "usage": "On freshly washed damp hair, apply the conditioner with the spray all over the hair and distribute with hands to cover the entire surface. You can dry the hair afterwards if desired.",
+        "category": "Hydration and Body",
+        "ingredients": "Aqua, Urtica Dioica Leaf Extract*, Helianthus Annuus Seed Oil, Cocos Nucifera Oil*, Inulin, Glycerin, Citrus Sinensis Peel Oil Expressed*, Lavandula Hybrida Grosso Herb Oil*, Limonene^, Behenamidopropyldimethylamine, Benzyl Alcohol, Emblica Officinalis Fruit Powder, Potassium Sorbate, Sodium Benzoate, Litsea Cubeba Fruit Oil*, Biosaccharide Gum-1, Porphyra Umbilicalis Extract, Sodium Levulinate, Caesalpinia Spinosa Gum, Glyceryl Caprylate, Sodium Anisate, Citral^, Citronellol^, Linalool^, Farnesol^, Geraniol^, Alcohol, Leuconostoc/Radish Root Ferment Filtrate, Carpinus Betulus Flower Extract, Ilex Aquifolium Flower Extract, Olea Europaea Flower Extract, Scleranthus Annuus Flower Extract, Gentiana Amarella Flower Extract, Juglans Regia Flower Extract, Prunus Cerasifera Flower Extract. (*Organic / ^From pure essential oils)",
+        "precautions": "For external use only. Do not ingest. Avoid contact with eyes."
+      },
+      {
+        "id": "serum-en-aceite",
+        "price": 35.5,
+        "img": "/images/products/terra_santa_serum_en_aceite.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Blend of virgin and organic vegetable oils that nourishes, adds shine, and helps strengthen the hair from roots to ends. Ideal for dry, frizzy hair, and curls.",
+        "name": "Oil Serum",
+        "type": "Nutrition and Repair",
+        "usage": "Dry or split ends: apply 2 or 3 drops to the ends, massage, and leave on for about 20 minutes. It can be washed afterwards or not. Dry or frizzy hair: apply 3-4 drops to the hands, rub to warm the serum, and gently apply all over the hair up to twice a day. Dry scalp and hair loss: massage a few drops onto the scalp with circular motions, leave on for at least 30 minutes or as many hours as desired, and wash afterwards. Curls: apply a few drops to the hands, rub, and press the curls from the bottom up to define them gently. Do not rinse.",
+        "category": "Hair Treatment",
+        "ingredients": "Cocos Nucifera Oil*, Ricinus Communis Seed Oil*, Helianthus Annuus Seed Oil*, Sesamum Indicum Seed Oil*, Argania Spinosa Kernel Oil*, Emblica Officinalis Powder, Rosmarinus Officinalis Leaf Oil*, Lavandula Hybrida Grosso Herb Oil*, Linalool^, Eucalyptus Globulus Leaf/Stem Oil*, Mentha Arvensis Herb Oil*, Thymus Zygis Herb Oil*, Cupressus Sempervirens Leaf/Nut/Stem Oil, Limonene^, Geraniol^, Coumarin^, Eugenol^, Citral^, Alcohol, Olea Europaea Flower Extract, Centaurium Umbellatum Flower Extract, Carpinus Betulus Flower Extract, Scleranthus Annus Flower Extract. (*Organic / ^From pure essential oils)",
+        "precautions": "For external use only. Do not ingest. Avoid contact with eyes."
+      },
+      {
+        "id": "locion-capilar-aloe",
+        "price": 23.5,
+        "img": "/images/products/terra_santa_locion_capilar_aloe.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Hair lotion for all hair types. Strengthens, hydrates, and helps eliminate impurities from the hair and scalp.",
+        "name": "Aloe Hair Lotion",
+        "type": "Calming",
+        "usage": "Apply a small amount to the palm of the hand, rub into both hands, and apply to the scalp with a gentle, penetrating massage. More can be added and applied through the rest of the hair. Leave on for about twenty minutes, then wash.",
+        "category": "Hydration and Body",
+        "ingredients": "Aloe Barbadensis Leaf Juice*, Cannabis Sativa Seed Oil*, Benzyl Alcohol, Simmondsia Chinesis Seed Oil*, Xanthan Gum, Rosmarinus Officinalis Leaf Oil*, Thymus Zygis Oil*, Ascorbic Acid, Dehydroacetic Acid, Sodium Metabisulfite, Limonene**, Linalool**, Pinene*, Beta Caryophyllene**, Camphor**, Alfa Terpineol*. (*Certified organic ingredient / **Natural ingredient contained in essential oils)",
+        "precautions": "For all hair types. Avoid contact with eyes. External use."
+      },
+      {
+        "id": "locion-gel-aloe-vera-puro",
+        "price": 16.5,
+        "img": "/images/products/terra_santa_locion_aloe_vera_puro.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Aloe Vera lotion made with fresh Aloe leaves from Almería. Hydrating and regenerating, it helps increase skin elasticity and firmness.",
+        "name": "Pure Aloe Vera Gel Lotion",
+        "type": "Multipurpose",
+        "usage": "Apply to dry skin with a gentle massage.",
+        "category": "Hydration and Body",
+        "ingredients": "Aloe Barbadensis Leaf Juice*, Xanthan Gum, Benzyl Alcohol, Ascorbic Acid, Dehydroacetic Acid, Sodium Metabisulfite. (*Certified organic ingredient)",
+        "precautions": "Once opened, keep in a cool, dark place. Suitable for all skin types."
+      },
+      {
+        "id": "leche-corporal",
+        "price": 27.87,
+        "img": "/images/products/terra_santa_leche_corporal_regeneradora.PNG",
+        "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
+        "featured": false,
+        "desc": "Regenerating body milk with Aloe from Almería, Rosehip, and organic vegetable oils. Hydrates, nourishes, and helps care for damaged areas of the skin.",
+        "name": "Regenerating Body Milk",
+        "type": "Body Milk",
+        "usage": "Apply to dry skin with a gentle massage. Daily use as a body moisturizer.",
+        "category": "Hydration and Body",
+        "ingredients": "Aloe Barbadensis Leaf Juice*, Rosa Canina Seed Oil*, Lavandula Angustifolia Flower Water*, Glycine Max Oil*, Cannabis Sativa Seed Oil*, Glyceryl Stearate Citrate, Benzyl Alcohol, Lavandula Angustifolia Oil*, Xanthan Gum, Ascorbic Acid, Dehydroacetic Acid, Linalyl Acetate**, Linalool**, Terpineol**, Geraniol**, Limonene**. (*Certified organic ingredient / **Natural ingredient contained in essential oils)",
+        "precautions": "Once opened, keep in a cool, dark place. Suitable for damaged skin areas. Can be used as aftersun and after hair removal."
+      }
+    ],
+    "faqList": [
+      {
+        "a": "At checkout, select 'Store Pickup'. We are at C/ Provença 213, Barcelona.",
+        "q": "How do I pick up my order?"
+      },
+      {
+        "a": "Being organic without harsh preservatives, we recommend using them within 6-12 months after opening.",
+        "q": "Do the products expire?"
+      },
+      {
+        "a": "For High Ticket treatments (Oxytocin Therapy), yes. You can book an appointment on our website.",
+        "q": "Do I need a diagnosis?"
+      },
+      {
+        "a": "Most are, but consult the technical sheet of each plant or contact us.",
+        "q": "Are they safe for pregnant women?"
+      }
+    ],
+    "nav": {
+      "faq": "FAQ",
+      "pro": "Pro Area",
+      "home": "Home",
+      "contacto": "Contact",
+      "domestic": "Terra Universe",
+      "products": "Our Selection",
+      "rituales": "Rituals",
+      "filosofia": "Philosophy",
+      "proAccess": "Professional Access",
+      "selection": "Our Selection",
+      "aboutTerra": "Who is Terra",
+      "treatments": "Experiences"
+    },
+    "hero": {
+      "cta": "Discover the Ritual",
+      "title": "Terra Santa Eulalia",
+      "subtitle": "More than a brand, a way of life"
+    },
+    "domestic": {
+      "title": "Natural Rituals",
+      "visitUs": "Visit us at C/ Provença 213",
+      "diyTitle": "Do It Yourself",
+      "faqTitle": "Frequent Questions",
+      "readMore": "Request information",
+      "subtitle": "Earth alchemy in your home",
+      "viewMore": "View Full Catalog",
+      "productsDesc": "Well-being for body, soul, and heart.",
+      "productsTitle": "Natural & Organic Selection"
+    },
+    "cards": {
+      "therapySub": "HAIR CLINIC",
+      "productsSub": "NATURAL & ORGANIC SELECTION",
+      "therapyTitle": "ORGANICHHAIR THERAPY",
+      "productsTitle": "OUR\nPRODUCTS",
+      "treatmentsSub": "BOTANICAL SPACE",
+      "treatmentsTitle": "OUR\nTREATMENTS"
+    },
+    "about": {
+      "desc": "A sanctuary of purity, earth, and rituals. We believe in organic wellness and warm minimalism.",
+      "title": "Who We Are"
+    },
+    "pro": {
+      "budget": "Budgets",
+      "courses": "Training & Philosophy",
+      "welcome": "Welcome to the Professional Area"
+    },
+    "footer": {
+      "email": "hola@terrasantaeulalia.com",
+      "phone": "+34 93 518 42 36",
+      "rights": "All rights reserved.",
+      "location": "Carrer de Provença, 213, Barcelona"
+    },
+    "treatmentsPage": {
+      "cta": "Book Appointment",
+      "desc": "Botanical treatments designed to restore balance. No rush, with medicinal plants and ancestral techniques.",
+      "title": "Terra Rituals",
+      "extras": [
+        {
+          "price": "35€",
+          "title": "Botanical Wash",
+          "duration": "15 min"
+        },
+        {
+          "price": "50€",
+          "title": "Facial Massage + Botanical Wash",
+          "duration": "45 min"
+        }
+      ],
+      "subtitle": "Organic Hair & Facial Health",
+      "extrasTitle": "Add to Your Ritual",
+      "floatingCta": "Book Appointment",
+      "hairRituals": {
+        "desc": "Recover your hair's strength and health with clays and plants.",
+        "list": [
+          {
+            "id": "ritual-detox",
+            "desc": "This treatment deeply cleanses the scalp thanks to a blend of detoxifying medicinal plants. Specially indicated for problems such as seborrheic dermatitis, flaking, dandruff and excess oil.",
+            "extra": "Enjoy a relaxing facial or foot massage while the treatment works, you choose.",
+            "price": "85€",
+            "title": "Detox Ritual",
+            "duration": "50 min"
+          },
+          {
+            "id": "ritual-fuerte",
+            "desc": "The aim of this ritual is to give your hair the strength and vitality it needs. If you feel your hair is weak, lacks body and feels lifeless, this is undoubtedly the ritual for you. Feeling the aroma of Ayurvedic plants on your hair will connect you with the peace and harmony you need.",
+            "extra": "Includes a relaxing facial or foot massage, you choose.",
+            "price": "95€",
+            "title": "Always Strong & Vital Ritual",
+            "duration": "60 min"
+          },
+          {
+            "id": "ritual-rizos",
+            "desc": "Do you miss the flexibility and structure of your curls? The blend of herbs applied in this ritual will help your hair recover its lost curl structure. Lifeless curls? Not anymore, thanks to the action of our plant blend.",
+            "extra": "Enjoy a relaxing facial or foot massage while the treatment works, you choose.",
+            "price": "85€",
+            "title": "Perfect Curls Ritual",
+            "duration": "50 min"
+          }
+        ],
+        "title": "Organic Hair Rituals"
+      },
+      "facialRituals": {
+        "desc": "Holistic treatments to restore youth and elasticity to the skin.",
+        "list": [
+          {
+            "id": "luz-otono",
+            "desc": "Natural facial lifting with acupuncture. Restores lost light and youthful appearance.",
+            "title": "Autumn Light Ritual (Lifting)",
+            "options": [
+              {
+                "name": "Facial Only",
+                "time": "75 min",
+                "price": "85€"
+              },
+              {
+                "name": "With Wash + Scalp Massage",
+                "time": "90 min",
+                "price": "125€"
+              }
+            ]
+          },
+          {
+            "id": "luz-manana",
+            "desc": "Deep facial hygiene. Healthy skin always begins with proper cleansing.",
+            "title": "Morning Light Ritual",
+            "options": [
+              {
+                "name": "Facial Only",
+                "time": "75 min",
+                "price": "75€"
+              },
+              {
+                "name": "With Wash + Scalp Massage",
+                "time": "90 min",
+                "price": "115€"
+              }
+            ]
+          },
+          {
+            "id": "luz-interior",
+            "desc": "Kobido facial massage to restore elasticity and improve skin quality.",
+            "title": "Inner Light Ritual (Kobido)",
+            "options": [
+              {
+                "name": "Facial Only",
+                "time": "60 min",
+                "price": "70€"
+              },
+              {
+                "name": "With Wash + Scalp Massage",
+                "time": "75 min",
+                "price": "110€"
+              }
+            ]
+          },
+          {
+            "id": "luz-mar",
+            "desc": "Hydration and vitality for sensitive or dehydrated skin.",
+            "title": "Sea Light Ritual",
+            "options": [
+              {
+                "name": "Facial Only",
+                "time": "60 min",
+                "price": "65€"
+              },
+              {
+                "name": "With Wash + Scalp Massage",
+                "time": "75 min",
+                "price": "105€"
+              }
+            ]
+          }
+        ],
+        "title": "Facial Light Rituals"
+      },
+      "extrasSubtitle": "Express Express",
+      "whatsappMessage": "Hello, I'm interested in booking a ritual at Terra Santa Eulalia"
+    },
+    "services": {
+      "spa": "Facial Rituals & Pindas",
+      "badge": "Signature Experience",
+      "title": "High Ticket Therapies",
+      "spaDesc": "Signature Experience (150€). Herbal pindas, facial lifting, and absolute disconnection.",
+      "capillary": "Advanced Capillary Therapy",
+      "capillaryDesc": "Botanical diagnosis and molecular recovery."
+    },
+    "socialProof": {
+      "author": "Laura G., Verified Client",
+      "testimonial": "A before and after for my hair. Oxytocin therapy is not just aesthetics, it's real health."
+    },
+    "whatsapp": {
+      "reserveButton": "Book Appointment",
+      "defaultMessage": "Hello, I would like information about Terra Santa Eulalia — Advanced Capillary Therapy & Organic Wellness."
+    },
+    "cta": {
+      "bookFree": "Book Free Consultation",
+      "helpDesc": "Our team will help you find the perfect treatment for your hair and skin needs. The first consultation is free.",
+      "helpTitle": "Need help choosing?",
+      "filosofiaLink": "Know our philosophy",
+      "ritualWaiting": "Your ritual awaits"
+    },
+    "capillaryPage": {
+      "cta": "Request Diagnosis",
+      "desc": "Clinical-organic protocol to recover damaged hair, alopecia, or scalp imbalances. A scientific and completely natural approach.",
+      "badge": "High Ticket Service",
+      "steps": [
+        {
+          "desc": "Detoxification of the follicle with volcanic clays.",
+          "title": "Cleansing"
+        },
+        {
+          "desc": "Injection of botanical actives and plant proteins.",
+          "title": "Nutrition"
+        },
+        {
+          "desc": "Cuticle closure with ozonated oils and LED light.",
+          "title": "Sealing"
+        }
+      ],
+      "title": "Organic Hair Therapy",
+      "subtitle": "Botanical Diagnosis & Molecular Recovery",
+      "solutions": [
+        {
+          "desc": "Deep cleansing with detoxifying medicinal plants.",
+          "price": "85€",
+          "title": "Detox Ritual",
+          "problem": "Dandruff · Oil · Dermatitis"
+        },
+        {
+          "desc": "Strength and vitality with Ayurvedic plants. Stops hair loss.",
+          "price": "95€",
+          "title": "Always Strong Ritual",
+          "problem": "Hair Loss · Weakness · Thinning"
+        }
+      ],
+      "ritualsDesc": "Specific treatments for each need. High-efficacy botanical protocols.",
+      "ritualsList": [
+        {
+          "id": "ritual-detox",
+          "desc": "Deep cleansing with medicinal plants. Specific for dermatitis, flaking, dandruff, or excess oil.",
+          "price": "85€",
+          "title": "Detox Ritual",
+          "duration": "50 min"
+        },
+        {
+          "id": "ritual-fuerte",
+          "desc": "Strength and vitality with Ayurvedic plants. For weak, lifeless hair lacking body.",
+          "price": "95€",
+          "title": "Always Strong Ritual",
+          "duration": "60 min"
+        },
+        {
+          "id": "ritual-rizos",
+          "desc": "Recover curl structure and flexibility through specific herbs that restore life to hair.",
+          "price": "85€",
+          "title": "Perfect Curls Ritual",
+          "duration": "50 min"
+        }
+      ],
+      "vipServices": [
+        {
+          "desc": "Magnified observation of the scalp and hair bulb. We identify dermatitis, flaking, excess sebum, folliculitis, and microscopic imbalances.",
+          "icon": "Microscope",
+          "title": "Dermatological Study with Microcamera"
+        },
+        {
+          "desc": "Measurement of hydration levels, sebum, and hair density using bioelectric technology. Complete report in 15 minutes.",
+          "icon": "Activity",
+          "title": "Bioelectric Hair Scanner"
+        }
+      ],
+      "whatsappCta": "Book Diagnosis via WhatsApp",
+      "ritualsTitle": "Organic Hair Rituals",
+      "diagnosisDesc": "We analyze your hair bulb with a microcamera to design your personalized recipe.",
+      "solutionsDesc": "Specific protocols for scalp pathologies.",
+      "ctaRecoveryBtn": "Book Diagnosis",
+      "diagnosisTitle": "Dermatological Hair Study",
+      "scheduleRitual": "Schedule this ritual",
+      "solutionsTitle": "Therapeutic Solutions",
+      "ctaRecoveryDesc": "This treatment requires a prior appointment and evaluation by our specialists at C/ Provença 213.",
+      "vipServicesDesc": "Advanced technology meets botany:",
+      "whatsappMessage": "Hello, I'm interested in booking an Advanced Capillary Therapy diagnosis at Terra Santa Eulalia.",
+      "ctaRecoveryTitle": "Restore the vital memory of your hair",
+      "vipServicesTitle": "Professional Diagnosis"
+    },
+    "philosophy": {
+      "cta": "Come Experience It",
+      "values": [
+        {
+          "desc": "Living clays that purify without aggression.",
+          "title": "Earth"
+        },
+        {
+          "desc": "Real hydration that flows from within.",
+          "title": "Water"
+        },
+        {
+          "desc": "The most luxurious ingredient: patience.",
+          "title": "Time"
+        }
+      ],
+      "laiaBio": {
+        "role": "Founder & Creative Director",
+        "title": "Laia Salomó",
+        "nature": "I was also inspired by nature, its wisdom, its rhythms, and its constant capacity to renew itself. The earth teaches us that everything flourishes when it receives the right care. From this vision Terra Santa Eulalia was born: as a place where each person can renew themselves from the inside out.",
+        "vision": "I wanted to create a different space, where hairdressing and well-being walked together, where every gesture had intention, where respect for health and for the environment were fundamental, and where the energy transmitted was as important as the final result. Organic Hair Therapy at Terra Santa Eulalia is a reflection.",
+        "mission": "Terra Santa Eulalia is the reflection of my life mission: to help people discover their natural beauty, elevate their vital energy, and remember that self-care is also a form of self-love. Here we don't just transform image, we accompany processes, awaken confidence, and sow well-being.",
+        "inspiration": "I was inspired by observing how many people seek to look good, but also need to feel at peace, recover their energy, and reconnect with themselves. I understood that true beauty appears when a person feels cared for, heard, and in harmony with their essence."
+      },
+      "heroTitle": "The Origin",
+      "manifesto": "We don't believe in manufactured beauty. We believe in beauty revealed. Terra Santa Eulalia is not a brand, it's a return to the memory of the earth.",
+      "founderDesc": "After many years dedicated to conscious hairdressing, at Manolo Días Green Zone and Manolo Días Healthy Salon we created our own brand, Terra Santa Eulàlia, focused on natural, healthy, and energetic hair therapy, born from experience, respect for nature, and the profound well-being of the hair and scalp.\n\nAt Terra Santa Eulàlia, each treatment is unique and completely personalized because we understand that every hair type, every scalp, and every person needs different care.\n\nThat's why we invite each client to contact us so we can consciously assess which treatment they truly need and support them with attentive and personalized care.",
+      "processDesc": "Our blends are prepared on the spot. No preservatives that put the plant to sleep. It's living cosmetics for living people.",
+      "founderTitle": "Hands that listen",
+      "heroSubtitle": "Where alchemy meets silence.",
+      "processTitle": "The Living Apothecary"
+    },
+    "ui": {
+      "close": "Close",
+      "error": "Error",
+      "goBack": "Go Back",
+      "loading": "Loading...",
+      "success": "Success"
+    },
+    "products": {
+      "inStock": "Available",
+      "newBadge": "New",
+      "comingSoon": "Coming Soon",
+      "outOfStock": "Out of Stock"
+    },
+    "legal": {
+      "backHome": "Back to home",
+      "readMore": "Read more",
+      "required": "Required",
+      "acceptAll": "Accept all",
+      "configure": "Configure",
+      "modalDesc": "Choose which cookies you accept. Technical cookies are essential for the site to work.",
+      "rejectAll": "Reject",
+      "termsDesc": "Conditions for using this website.",
+      "bannerText": "We use cookies to improve your experience, analyse traffic and personalise content. See our",
+      "indexTitle": "Legal Information",
+      "modalTitle": "Cookie Settings",
+      "noticeDesc": "Legal information under Spanish LSSI-CE.",
+      "termsTitle": "Terms & Conditions",
+      "bannerTitle": "Your privacy matters",
+      "cookiesDesc": "How we use cookies on our website.",
+      "lastUpdated": "Last updated",
+      "noticeTitle": "Legal Notice",
+      "privacyDesc": "How we handle your personal data (GDPR).",
+      "cookiesTitle": "Cookie Policy",
+      "privacyTitle": "Privacy Policy",
+      "saveSettings": "Save preferences",
+      "analyticsDesc": "Google Analytics — to understand how the site is used.",
+      "indexSubtitle": "Legal documentation and policies of Terra Santa Eulalia",
+      "marketingDesc": "Allow showing relevant content on other sites.",
+      "technicalDesc": "Required for basic site functionality (language, session).",
+      "analyticsLabel": "Analytics",
+      "functionalDesc": "Remember your preferences (language, views).",
+      "marketingLabel": "Marketing",
+      "technicalLabel": "Technical",
+      "functionalLabel": "Functional",
+      "cookiesPolicyLink": "Cookie Policy"
+    }
+  }
+}

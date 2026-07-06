@@ -1,6 +1,6 @@
 "use client";
 import { createContext, useContext, useState, useEffect, useMemo } from "react";
-import { translations } from "./translations";
+import { getContent } from "./content";
 
 const VALID_LANGUAGES = ["ca", "es", "en"];
 
@@ -11,9 +11,8 @@ export function AppProvider({ children }) {
   const [mounted, setMounted] = useState(false);
   const [user, setUser] = useState(null);
 
-  // Memoizamos el objeto de traducción para evitar renderizados innecesarios
-  // y asegurar que siempre devuelva un objeto válido
-  const t = useMemo(() => translations[lang] || translations["es"], [lang]);
+  // Contenido final: snapshot de Supabase (build-time) sobre translations.js
+  const t = useMemo(() => getContent(lang), [lang]);
 
   useEffect(() => {
     setMounted(true);

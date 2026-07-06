@@ -1,13 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { translations } from "@/lib/translations";
+import { getContent } from "@/lib/content";
 import { ChevronRight } from "lucide-react";
 import Button from "@/components/ui/Button";
 import ProductContact from "@/components/productos/ProductContact";
 
 export function generateStaticParams() {
-  const products = translations.es?.productsList || [];
+  const products = getContent("es")?.productsList || [];
   return products.map((product) => ({
     id: product.id,
   }));
@@ -15,7 +15,7 @@ export function generateStaticParams() {
 
 export default async function ProductDetail({ params }) {
   const { id } = await params;
-  const products = translations.es?.productsList || [];
+  const products = getContent("es")?.productsList || [];
   const product = products.find((p) => p.id === id);
 
   if (!product) {

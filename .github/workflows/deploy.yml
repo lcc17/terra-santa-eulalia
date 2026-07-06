@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  # Publicación manual tras editar contenido en /admin:
+  # Actions → Deploy to IONOS → Run workflow
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -26,6 +29,10 @@ jobs:
 
       - name: Build project
         run: npm run build
+        env:
+          # Si faltan estos secrets, el prebuild usa el fallback translations.js
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
 
       - name: Verify build output
         run: |

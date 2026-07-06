@@ -20,3 +20,10 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Inputs del panel de administración */
+@layer components {
+  .admin-input {
+    @apply w-full border border-sand-light bg-white px-4 py-2.5 text-sm text-earth-brown focus:outline-none focus:border-olive-green disabled:opacity-50;
+  }
+}

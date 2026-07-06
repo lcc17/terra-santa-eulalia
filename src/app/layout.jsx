@@ -3,6 +3,7 @@ import { AppProvider } from "@/lib/context";
 import Navbar from "@/components/ui/Navbar";
 import Footer from "@/components/ui/Footer";
 import CookiesBanner from "@/components/ui/CookiesBanner";
+import SiteChrome from "@/components/ui/SiteChrome";
 
 export const metadata = {
   title: "Terra Santa Eulalia | Terapia Capilar Avanzada y Bienestar Orgánico",
@@ -19,10 +20,14 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className="bg-cream text-earth-brown antialiased scroll-smooth" suppressHydrationWarning={true}>
         <AppProvider>
-          <Navbar />
+          <SiteChrome>
+            <Navbar />
+          </SiteChrome>
           <main className="min-h-screen">{children}</main>
-          <Footer />
-          <CookiesBanner />
+          <SiteChrome>
+            <Footer />
+            <CookiesBanner />
+          </SiteChrome>
         </AppProvider>
       </body>
     </html>
