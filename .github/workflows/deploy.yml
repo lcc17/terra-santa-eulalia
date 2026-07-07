@@ -50,8 +50,10 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           # "sftp" no es un valor válido para esta action (rompía todos los
-          # deploys); IONOS soporta FTPS explícito en el puerto 21
-          protocol: ftps
+          # deploys). El host de IONOS respondió "500 AUTH unrecognized" a
+          # FTPS explícito → FTP plano. REVISAR: buscar en el panel de IONOS
+          # un host con FTPS/SFTP para no enviar credenciales en claro.
+          protocol: ftp
           port: 21
           local-dir: ./out/
           server-dir: ./
