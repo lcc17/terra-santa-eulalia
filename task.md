@@ -48,7 +48,16 @@ Detalle en `skills/roadmap-fases.md`. **Código completado y build verificado (4
 - [x] Formulario de producto del admin: botón "Subir imagen a Storage"
 - [x] Build verde: el snapshot horneado ya usa las URLs de Storage
 
+### Hosting y deploys (descubierto 2026-07-07)
+
+- El sitio corre en DOS lados: **Netlify** (terrasantaeulalia.netlify.app, auto-deploy desde GitHub, al día) e **IONOS** (terrasantaeulalia.com, subido a mano, congelado — el workflow FTP nunca funcionó: los 17 runs fallaron).
+- [x] Causa raíz del deploy IONOS: `protocol: sftp` no es válido en SamKirkland/FTP-Deploy-Action → cambiado a `ftps` puerto 21 (commit 511c5a9)
+- [x] Netlify sin env de Supabase (por eso /admin decía "sin configurar") → `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_ANON_KEY` (publishable, pública por diseño) añadidas a `netlify.toml`
+- [x] Fase 1B commiteada (511c5a9) + merge a `main` + push → deploys en marcha
+
 ### Pendiente
 
-- [ ] Commit de la Fase 1B en `backend` (migración 003, script de subida, form del admin, docs) y merge a `main` para verla en producción
+- [ ] Verificar resultado del run #18 de IONOS (si FTPS falla, revisar FTP_SERVER/credenciales en el panel de IONOS)
+- [ ] Verificar /admin en Netlify tras el rebuild
+- [ ] Decidir hosting canónico: dominio terrasantaeulalia.com apunta a IONOS (contenido viejo); considerar apuntarlo a Netlify o arreglar definitivamente el FTP
 - [ ] EmailJS: decidir si se activa envío por email en /contact (hoy va por WhatsApp; no hay credenciales EmailJS en el código)

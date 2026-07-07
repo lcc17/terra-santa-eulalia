@@ -43,19 +43,16 @@ jobs:
           echo "Build output verified"
           ls -la ./out
 
-      - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      # El host de IONOS solo acepta SFTP ("421 FTP has been disabled");
+      # FTP-Deploy-Action no soporta SFTP, por eso fallaban los 19 runs.
+      # sftp_only: IONOS webspace no permite shell SSH, solo el subsistema SFTP.
+      - name: Deploy via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          # "sftp" no es un valor válido para esta action (rompía todos los
-          # deploys). El host de IONOS respondió "500 AUTH unrecognized" a
-          # FTPS explícito → FTP plano. REVISAR: buscar en el panel de IONOS
-          # un host con FTPS/SFTP para no enviar credenciales en claro.
-          protocol: ftp
-          port: 21
-          local-dir: ./out/
-          server-dir: ./
-          log-level: verbose
-          dangerous-clean-slate: false
+          port: 22
+          sftp_only: true
+          local_path: './out/*'
+          remote_path: './'
