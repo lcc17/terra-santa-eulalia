@@ -4,3 +4,9 @@
 [build]
   command = "npm run build"
   publish = ".next"
+
+# La publishable key de Supabase es pública por diseño (viaja en el bundle
+# del cliente; la autorización real es RLS). La service_role NUNCA va aquí.
+[build.environment]
+  NEXT_PUBLIC_SUPABASE_URL = "https://pvvpfxjeupvvexdnpycj.supabase.co"
+  NEXT_PUBLIC_SUPABASE_ANON_KEY = "sb_publishable_aXjIh1NRc9ZMMDUcWp7HOw_XnWu6ziG"

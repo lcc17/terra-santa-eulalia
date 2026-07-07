@@ -80,11 +80,13 @@ Si Supabase no responde o no está configurado, el build usa el fallback
 
 ---
 
-## Fase 1B — Storage de imágenes (FUTURA)
+## Fase 1B — Storage de imágenes (COMPLETADA 2026-07-07)
 
-- Migrar imágenes de `/public` a **Supabase Storage** (bucket público de solo lectura; subida/borrado restringidos a admins por política sobre `storage.objects`).
-- Subida múltiple desde el panel admin con URL pública + registro en DB (`product_images` con imagen principal y orden).
-- Mantener `unoptimized: true`; las URLs de Storage funcionan con `<Image>` sin dominios extra al ser `unoptimized`.
+- `003_storage.sql`: bucket `product-images` público de solo lectura; subida/borrado restringidos a admins por políticas sobre `storage.objects` (usa `is_admin()`).
+- `scripts/upload-images.mjs`: migró las 20 imágenes de `/public/images/products` al bucket (`<slug>.png`) y actualizó `products.img` con las URLs públicas. Idempotente.
+- Formulario de producto del admin: botón "Subir imagen a Storage" (upload + URL pública automática en el campo img).
+- `unoptimized: true` confirmado: las URLs remotas de Storage funcionan con `<Image>` sin configurar dominios.
+- Las imágenes originales siguen en `/public` como respaldo; el sitio las consume desde Storage vía el snapshot horneado.
 
 ---
 

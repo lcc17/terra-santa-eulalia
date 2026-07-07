@@ -1,4 +1,4 @@
-# Fase 1A — Checklist de ejecución
+# Fases 1A y 1B — Checklist de ejecución
 
 Plan aprobado: build-time content, placeholders Supabase, arranque autorizado (2026-07-06).
 Detalle en `skills/roadmap-fases.md`. **Código completado y build verificado (44 rutas).**
@@ -36,8 +36,19 @@ Detalle en `skills/roadmap-fases.md`. **Código completado y build verificado (4
 - [x] Test de seguridad RLS: INSERT anónimo denegado (42501), catálogo público legible, admin_logs filtrado
 - [x] Proyecto confirmado por el usuario: "tokshopy" / org "Projects TokToks"
 
+### Cierre Fase 1A (2026-07-07)
+
+- [x] Login en `/admin` probado por el usuario: funciona
+- [x] Merge `backend` → `main` (fast-forward a f0f3efd) + push → deploy a IONOS disparado
+
+## Fase 1B — Storage de imágenes (2026-07-07)
+
+- [x] `supabase/migrations/003_storage.sql` — bucket `product-images` público + políticas admin (ejecutada en SQL Editor)
+- [x] `scripts/upload-images.mjs` — 20 imágenes migradas de `/public` a Storage, `products.img` actualizado a URLs públicas (HTTP 200 verificado)
+- [x] Formulario de producto del admin: botón "Subir imagen a Storage"
+- [x] Build verde: el snapshot horneado ya usa las URLs de Storage
+
 ### Pendiente
 
-- [ ] Probar login real en `/admin` (npm run dev → localhost:3000/admin/login)
-- [ ] Commit + push a main para desplegar la Fase 1A a producción (el CI horneará la DB con los secrets)
+- [ ] Commit de la Fase 1B en `backend` (migración 003, script de subida, form del admin, docs) y merge a `main` para verla en producción
 - [ ] EmailJS: decidir si se activa envío por email en /contact (hoy va por WhatsApp; no hay credenciales EmailJS en el código)

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T20:31:58.195Z",
+  "generatedAt": "2026-07-07T06:22:31.281Z",
   "ca": {
     "productsList": [
       {
         "id": "planta-fortalecedora",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_fortalecedora_brillante.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-fortalecedora.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Coneguda com a 'Henna Neutra'. No tenyeix, però aporta brillantor i ajuda a enfortir la fibra capil·lar.",
@@ -19,7 +19,7 @@
       {
         "id": "planta-rubio-luminoso",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_rubio_luminoso.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-rubio-luminoso.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Barreja de plantes per activar reflexos daurats en cabells clars i aportar tractament.",
@@ -33,7 +33,7 @@
       {
         "id": "planta-rubio-miel",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_rubio_miel.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-rubio-miel.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Matís càlid i dolç per a cabells rossos o castanys clars que busquen calidesa.",
@@ -47,7 +47,7 @@
       {
         "id": "planta-puro-cobre",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_puro_cobre.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-puro-cobre.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Henna pura d'alta qualitat. Aporta un color rogenc intens, força i una brillantor espectacular.",
@@ -61,7 +61,7 @@
       {
         "id": "planta-marron-dorado",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_marron_dorado.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-marron-dorado.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Barreja vegetal per aconseguir tons marró daurat càlids i naturals. Aporta matisos de color, brillantor i cos al cabell.",
@@ -75,7 +75,7 @@
       {
         "id": "planta-castana",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_castanya.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-castana.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "To marró mitjà natural. Ideal per unificar tons i cobrir primeres canes amb efecte vernís.",
@@ -89,7 +89,7 @@
       {
         "id": "planta-castana-oscuro",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_castaña_oscuro.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-castana-oscuro.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Profunditat i cobertura per a cabells castanys. Aporta cos i enfosqueix tons clars.",
@@ -103,7 +103,7 @@
       {
         "id": "planta-indigo",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_indigo.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-indigo.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Pigment pur vegetal per aconseguir tons foscos profunds i negres blavosos en combinació amb altres plantes.",
@@ -117,7 +117,7 @@
       {
         "id": "green-detox",
         "price": 29.5,
-        "img": "/images/products/terra_santa_tratamiento_capilar_green_detox.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/green-detox.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Tractament capil·lar natural i orgànic a base de plantes per purificar i cuidar el cabell i cuir cabellut.",
@@ -131,7 +131,7 @@
       {
         "id": "green-vitality",
         "price": 29.5,
-        "img": "/images/products/terra_santa_tratamiento_capilar_green_vitality.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/green-vitality.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Tractament capil·lar natural i orgànic per revitalitzar el cabell, aportant nutrició, brillantor i vitalitat.",
@@ -145,7 +145,7 @@
       {
         "id": "green-curly",
         "price": 29.5,
-        "img": "/images/products/terra_santa_tratamiento_capilar_green_curly.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/green-curly.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Tractament capil·lar natural i orgànic per cuidar i definir els rissos, aportant hidratació, suavitat i vitalitat al cabell.",
@@ -159,7 +159,7 @@
       {
         "id": "magical-green-curly",
         "price": 28,
-        "img": "/images/products/terra_santa_tratamiento_capilar_magical_green_curly.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/magical-green-curly.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Tractament capil·lar natural i orgànic per definir i cuidar els rissos, aportant hidratació i una textura més manejable.",
@@ -173,7 +173,7 @@
       {
         "id": "shampoo-gratitud",
         "price": 33.5,
-        "img": "/images/products/terra_santa_shampo_gratitud_cabello_todo_tipo.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/shampoo-gratitud.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Xampú natural i orgànic per a tot tipus de cabell. Neteja suaument mentre hidrata i ajuda a equilibrar el cuir cabellut.",
@@ -187,7 +187,7 @@
       {
         "id": "shampoo-abundancia",
         "price": 33.5,
-        "img": "/images/products/terra_santa_shampoo_abundancia_todo_tipo_cabello.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/shampoo-abundancia.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Xampú natural i orgànic per enfortir i cuidar el cabell. Aporta força, nutrició i ajuda a millorar l'aparença de densitat capil·lar.",
@@ -201,7 +201,7 @@
       {
         "id": "shampoo-fidelis",
         "price": 15,
-        "img": "/images/products/terra_santa_shampoo_fidelis.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/shampoo-fidelis.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Xampú natural per a tot tipus de cabells que busquen una neteja respectuosa. Ajuda a purificar i aportar equilibri al cabell i cuir cabellut.",
@@ -215,7 +215,7 @@
       {
         "id": "acondicionador-sin-aclarado",
         "price": 34.5,
-        "img": "/images/products/terra_santa_acondicionador_sin_aclarado.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/acondicionador-sin-aclarado.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Condicionador natural i orgànic sense esbandir que hidrata, facilita la pentinada i ajuda a minimitzar l'encrespament.",
@@ -229,7 +229,7 @@
       {
         "id": "serum-en-aceite",
         "price": 35.5,
-        "img": "/images/products/terra_santa_serum_en_aceite.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/serum-en-aceite.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Barreja d'olis vegetals verges i orgànics que nodreix, aporta brillantor i ajuda a enfortir el cabell des de l'arrel fins a les puntes. Ideal per a cabells secs, encrespats i rissos.",
@@ -243,7 +243,7 @@
       {
         "id": "locion-capilar-aloe",
         "price": 23.5,
-        "img": "/images/products/terra_santa_locion_capilar_aloe.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/locion-capilar-aloe.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Loció capil·lar per a tot tipus de cabells. Enforteix, hidrata i ajuda a eliminar impureses del cabell i cuir cabellut.",
@@ -257,7 +257,7 @@
       {
         "id": "locion-gel-aloe-vera-puro",
         "price": 16.5,
-        "img": "/images/products/terra_santa_locion_aloe_vera_puro.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/locion-gel-aloe-vera-puro.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Loció d'Aloe Vera elaborada amb fulles fresques d'Aloe d'Almeria. Hidratant i regeneradora, ajuda a augmentar l'elasticitat i fermesa de la pell.",
@@ -271,7 +271,7 @@
       {
         "id": "leche-corporal",
         "price": 27.87,
-        "img": "/images/products/terra_santa_leche_corporal_regeneradora.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/leche-corporal.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Llet corporal regeneradora amb Aloe d'Almeria, Rosa Mosqueta i olis vegetals ecològics. Hidrata, nodreix i ajuda a cuidar les zones danyades de la pell.",
@@ -675,7 +675,7 @@
       {
         "id": "planta-fortalecedora",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_fortalecedora_brillante.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-fortalecedora.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Conocida como 'Henna Neutra'. No tiñe, pero aporta brillo y ayuda a fortalecer la fibra capilar.",
@@ -689,7 +689,7 @@
       {
         "id": "planta-rubio-luminoso",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_rubio_luminoso.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-rubio-luminoso.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Mezcla de plantas para avivar reflejos dorados en cabellos claros y aportar tratamiento.",
@@ -703,7 +703,7 @@
       {
         "id": "planta-rubio-miel",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_rubio_miel.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-rubio-miel.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Matiz cálido y dulce para cabellos rubios o castaños claros que buscan calidez.",
@@ -717,7 +717,7 @@
       {
         "id": "planta-puro-cobre",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_puro_cobre.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-puro-cobre.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Henna pura de alta calidad. Aporta un color cobrizo intenso, fuerza y un brillo espectacular.",
@@ -731,7 +731,7 @@
       {
         "id": "planta-marron-dorado",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_marron_dorado.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-marron-dorado.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Mezcla vegetal para conseguir tonos marrón dorado cálidos y naturales. Aporta matices de color, brillo y cuerpo al cabello.",
@@ -745,7 +745,7 @@
       {
         "id": "planta-castana",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_castanya.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-castana.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Tono marrón medio natural. Ideal para unificar tonos y cubrir primeras canas con efecto barniz.",
@@ -759,7 +759,7 @@
       {
         "id": "planta-castana-oscuro",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_castaña_oscuro.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-castana-oscuro.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Profundidad y cobertura para cabellos castaños. Aporta cuerpo y oscurece tonos claros.",
@@ -773,7 +773,7 @@
       {
         "id": "planta-indigo",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_indigo.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-indigo.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Pigmento puro vegetal para conseguir tonos oscuros profundos y negros azulados en combinación con otras plantas.",
@@ -787,7 +787,7 @@
       {
         "id": "green-detox",
         "price": 29.5,
-        "img": "/images/products/terra_santa_tratamiento_capilar_green_detox.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/green-detox.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Tratamiento capilar natural y orgánico a base de plantas para purificar y cuidar el cabello y cuero cabelludo.",
@@ -801,7 +801,7 @@
       {
         "id": "green-vitality",
         "price": 29.5,
-        "img": "/images/products/terra_santa_tratamiento_capilar_green_vitality.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/green-vitality.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Tratamiento capilar natural y orgánico para revitalizar el cabello, aportando nutrición, brillo y vitalidad.",
@@ -815,7 +815,7 @@
       {
         "id": "green-curly",
         "price": 29.5,
-        "img": "/images/products/terra_santa_tratamiento_capilar_green_curly.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/green-curly.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Tratamiento capilar natural y orgánico para cuidar y definir los rizos, aportando hidratación, suavidad y vitalidad al cabello.",
@@ -829,7 +829,7 @@
       {
         "id": "magical-green-curly",
         "price": 28,
-        "img": "/images/products/terra_santa_tratamiento_capilar_magical_green_curly.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/magical-green-curly.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Tratamiento capilar natural y orgánico para definir y cuidar los rizos, aportando hidratación y una textura más manejable.",
@@ -843,7 +843,7 @@
       {
         "id": "shampoo-gratitud",
         "price": 33.5,
-        "img": "/images/products/terra_santa_shampo_gratitud_cabello_todo_tipo.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/shampoo-gratitud.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Champú natural y orgánico para todo tipo de cabello. Limpia suavemente mientras hidrata y ayuda a equilibrar el cuero cabelludo.",
@@ -857,7 +857,7 @@
       {
         "id": "shampoo-abundancia",
         "price": 33.5,
-        "img": "/images/products/terra_santa_shampoo_abundancia_todo_tipo_cabello.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/shampoo-abundancia.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Champú natural y orgánico para fortalecer y cuidar el cabello. Aporta fuerza, nutrición y ayuda a mejorar la apariencia de densidad capilar.",
@@ -871,7 +871,7 @@
       {
         "id": "shampoo-fidelis",
         "price": 15,
-        "img": "/images/products/terra_santa_shampoo_fidelis.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/shampoo-fidelis.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Champú natural para todo tipo de cabellos que buscan una limpieza respetuosa. Ayuda a purificar y aportar equilibrio al cabello y cuero cabelludo.",
@@ -885,7 +885,7 @@
       {
         "id": "acondicionador-sin-aclarado",
         "price": 34.5,
-        "img": "/images/products/terra_santa_acondicionador_sin_aclarado.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/acondicionador-sin-aclarado.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Acondicionador natural y orgánico sin aclarado que hidrata, facilita el peinado y ayuda a minimizar el encrespamiento.",
@@ -899,7 +899,7 @@
       {
         "id": "serum-en-aceite",
         "price": 35.5,
-        "img": "/images/products/terra_santa_serum_en_aceite.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/serum-en-aceite.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Mezcla de aceites vegetales vírgenes y orgánicos que nutre, aporta brillo y ayuda a fortalecer el cabello desde la raíz hasta las puntas. Ideal para cabellos secos, encrespados y rizos.",
@@ -913,7 +913,7 @@
       {
         "id": "locion-capilar-aloe",
         "price": 23.5,
-        "img": "/images/products/terra_santa_locion_capilar_aloe.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/locion-capilar-aloe.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Loción capilar para todo tipo de cabellos. Fortalece, hidrata y ayuda a eliminar impurezas del cabello y cuero cabelludo.",
@@ -927,7 +927,7 @@
       {
         "id": "locion-gel-aloe-vera-puro",
         "price": 16.5,
-        "img": "/images/products/terra_santa_locion_aloe_vera_puro.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/locion-gel-aloe-vera-puro.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Loción de Aloe Vera elaborada con hojas frescas de Aloe de Almería. Hidratante y regeneradora, ayuda a aumentar la elasticidad y firmeza de la piel.",
@@ -941,7 +941,7 @@
       {
         "id": "leche-corporal",
         "price": 27.87,
-        "img": "/images/products/terra_santa_leche_corporal_regeneradora.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/leche-corporal.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Leche corporal regeneradora con Aloe de Almería, Rosa Mosqueta y aceites vegetales ecológicos. Hidrata, nutre y ayuda a cuidar las zonas dañadas de la piel.",
@@ -1260,7 +1260,7 @@
       {
         "id": "planta-fortalecedora",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_fortalecedora_brillante.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-fortalecedora.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Known as 'Neutral Henna'. It does not dye the hair, but helps provide shine and strengthen the hair fiber.",
@@ -1274,7 +1274,7 @@
       {
         "id": "planta-rubio-luminoso",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_rubio_luminoso.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-rubio-luminoso.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Plant-based blend to enhance golden reflections in light hair while providing a natural treatment.",
@@ -1288,7 +1288,7 @@
       {
         "id": "planta-rubio-miel",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_rubio_miel.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-rubio-miel.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Warm and sweet shade for blonde or light brown hair looking for natural golden tones.",
@@ -1302,7 +1302,7 @@
       {
         "id": "planta-puro-cobre",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_puro_cobre.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-puro-cobre.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "High-quality pure henna that provides an intense copper tone, strength, and spectacular shine.",
@@ -1316,7 +1316,7 @@
       {
         "id": "planta-marron-dorado",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_marron_dorado.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-marron-dorado.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Plant-based blend to achieve warm and natural golden brown tones. Provides color nuances, shine, and body to the hair.",
@@ -1330,7 +1330,7 @@
       {
         "id": "planta-castana",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_castanya.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-castana.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Natural medium brown shade. Ideal for blending tones and covering first grey hairs with a glossy effect.",
@@ -1344,7 +1344,7 @@
       {
         "id": "planta-castana-oscuro",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_castaña_oscuro.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-castana-oscuro.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Depth and coverage for brown hair. Adds body and darkens lighter shades.",
@@ -1358,7 +1358,7 @@
       {
         "id": "planta-indigo",
         "price": 28,
-        "img": "/images/products/terra_santa_planta_indigo.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/planta-indigo.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Pure plant pigment to achieve deep dark shades and blue-black tones when combined with other plants.",
@@ -1372,7 +1372,7 @@
       {
         "id": "green-detox",
         "price": 29.5,
-        "img": "/images/products/terra_santa_tratamiento_capilar_green_detox.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/green-detox.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Natural and organic hair treatment based on plants to purify and care for the hair and scalp.",
@@ -1386,7 +1386,7 @@
       {
         "id": "green-vitality",
         "price": 29.5,
-        "img": "/images/products/terra_santa_tratamiento_capilar_green_vitality.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/green-vitality.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Natural and organic hair treatment to revitalize the hair, providing nourishment, shine, and vitality.",
@@ -1400,7 +1400,7 @@
       {
         "id": "green-curly",
         "price": 29.5,
-        "img": "/images/products/terra_santa_tratamiento_capilar_green_curly.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/green-curly.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Natural and organic hair treatment designed to care for and define curls, providing hydration, softness, and vitality.",
@@ -1414,7 +1414,7 @@
       {
         "id": "magical-green-curly",
         "price": 28,
-        "img": "/images/products/terra_santa_tratamiento_capilar_magical_green_curly.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/magical-green-curly.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Natural and organic hair treatment to define and care for curls, providing hydration and a more manageable texture.",
@@ -1428,7 +1428,7 @@
       {
         "id": "shampoo-gratitud",
         "price": 33.5,
-        "img": "/images/products/terra_santa_shampo_gratitud_cabello_todo_tipo.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/shampoo-gratitud.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Natural and organic shampoo for all hair types. Gently cleanses while hydrating and helping to balance the scalp.",
@@ -1442,7 +1442,7 @@
       {
         "id": "shampoo-abundancia",
         "price": 33.5,
-        "img": "/images/products/terra_santa_shampoo_abundancia_todo_tipo_cabello.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/shampoo-abundancia.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Natural and organic shampoo to strengthen and care for the hair. Provides strength, nourishment, and helps improve the appearance of hair density.",
@@ -1456,7 +1456,7 @@
       {
         "id": "shampoo-fidelis",
         "price": 15,
-        "img": "/images/products/terra_santa_shampoo_fidelis.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/shampoo-fidelis.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Natural shampoo for all hair types seeking a respectful cleansing experience. Helps purify and promote balance in the hair and scalp.",
@@ -1470,7 +1470,7 @@
       {
         "id": "acondicionador-sin-aclarado",
         "price": 34.5,
-        "img": "/images/products/terra_santa_acondicionador_sin_aclarado.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/acondicionador-sin-aclarado.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Natural and organic leave-in conditioner that hydrates, makes combing easier, and helps minimize frizz.",
@@ -1484,7 +1484,7 @@
       {
         "id": "serum-en-aceite",
         "price": 35.5,
-        "img": "/images/products/terra_santa_serum_en_aceite.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/serum-en-aceite.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Blend of virgin and organic vegetable oils that nourishes, adds shine, and helps strengthen the hair from roots to ends. Ideal for dry, frizzy hair, and curls.",
@@ -1498,7 +1498,7 @@
       {
         "id": "locion-capilar-aloe",
         "price": 23.5,
-        "img": "/images/products/terra_santa_locion_capilar_aloe.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/locion-capilar-aloe.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Hair lotion for all hair types. Strengthens, hydrates, and helps eliminate impurities from the hair and scalp.",
@@ -1512,7 +1512,7 @@
       {
         "id": "locion-gel-aloe-vera-puro",
         "price": 16.5,
-        "img": "/images/products/terra_santa_locion_aloe_vera_puro.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/locion-gel-aloe-vera-puro.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Aloe Vera lotion made with fresh Aloe leaves from Almería. Hydrating and regenerating, it helps increase skin elasticity and firmness.",
@@ -1526,7 +1526,7 @@
       {
         "id": "leche-corporal",
         "price": 27.87,
-        "img": "/images/products/terra_santa_leche_corporal_regeneradora.PNG",
+        "img": "https://pvvpfxjeupvvexdnpycj.supabase.co/storage/v1/object/public/product-images/leche-corporal.png",
         "video": "https://www.youtube.com/watch?v=casXEgFpFRQ",
         "featured": false,
         "desc": "Regenerating body milk with Aloe from Almería, Rosehip, and organic vegetable oils. Hydrates, nourishes, and helps care for damaged areas of the skin.",

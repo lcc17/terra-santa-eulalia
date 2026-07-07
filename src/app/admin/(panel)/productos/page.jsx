@@ -269,8 +269,33 @@ function ProductForm({ product, onSave, onClose }) {
   });
   const [tab, setTab] = useState("ca");
   const [saving, setSaving] = useState(false);
+  const [uploading, setUploading] = useState(false);
 
   const setField = (key, value) => setForm((f) => ({ ...f, [key]: value }));
+
+  const uploadImage = async (file) => {
+    if (!file) return;
+    setUploading(true);
+    try {
+      const ext = (file.name.split(".").pop() || "png").toLowerCase();
+      const base = (form.slug || `producto-${Date.now()}`)
+        .toLowerCase()
+        .replace(/[^a-z0-9-]/g, "-");
+      const key = `${base}.${ext}`;
+      const { error } = await supabase.storage
+        .from("product-images")
+        .upload(key, file, { upsert: true, contentType: file.type || "image/png" });
+      if (error) {
+        toast.error(`No se pudo subir: ${error.message}`);
+        return;
+      }
+      const { data } = supabase.storage.from("product-images").getPublicUrl(key);
+      setField("img", data.publicUrl);
+      toast.success("Imagen subida a Storage");
+    } finally {
+      setUploading(false);
+    }
+  };
   const setI18nField = (key, value) =>
     setForm((f) => ({
       ...f,
@@ -314,13 +339,34 @@ function ProductForm({ product, onSave, onClose }) {
               className="admin-input"
             />
           </Field>
-          <Field label="Imagen (ruta en /public)">
-            <input
-              value={form.img || ""}
-              onChange={(e) => setField("img", e.target.value)}
-              className="admin-input"
-              placeholder="/images/products/…"
-            />
+          <Field label="Imagen (subir archivo o pegar URL)">
+            <div className="flex items-center gap-3">
+              {form.img && (
+                <Image
+                  src={form.img}
+                  alt=""
+                  width={40}
+                  height={40}
+                  className="object-cover border border-sand-light shrink-0"
+                />
+              )}
+              <input
+                value={form.img || ""}
+                onChange={(e) => setField("img", e.target.value)}
+                className="admin-input"
+                placeholder="https://… o /images/products/…"
+              />
+            </div>
+            <label className="inline-block mt-2 text-xs uppercase tracking-widest text-olive-green hover:text-earth-brown transition-colors cursor-pointer">
+              {uploading ? "Subiendo…" : "↑ Subir imagen a Storage"}
+              <input
+                type="file"
+                accept="image/*"
+                className="hidden"
+                disabled={uploading}
+                onChange={(e) => uploadImage(e.target.files?.[0])}
+              />
+            </label>
           </Field>
           <Field label="Vídeo (URL YouTube)">
             <input

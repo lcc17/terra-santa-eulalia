@@ -12,8 +12,10 @@ En el **SQL Editor** del dashboard, ejecutar en orden:
 
 1. `migrations/001_schema.sql` — tablas, triggers e índices.
 2. `migrations/002_rls.sql` — función `is_admin()` y políticas RLS.
+3. `migrations/003_storage.sql` — bucket `product-images` (lectura pública,
+   escritura solo admins) — Fase 1B.
 
-Ambos scripts son idempotentes: se pueden re-ejecutar sin error.
+Los tres scripts son idempotentes: se pueden re-ejecutar sin error.
 
 ## 3. Credenciales
 
@@ -50,6 +52,18 @@ npm run seed
 
 Vuelca `src/lib/translations.js` a las tablas: productos, FAQs y secciones de texto
 en los tres idiomas (ca/es/en). Es idempotente (upsert por slug/key/sección).
+
+## 5b. Migrar imágenes de producto a Storage (Fase 1B)
+
+```bash
+node scripts/upload-images.mjs
+```
+
+Sube las imágenes de `/public/images/products` al bucket `product-images`
+(como `<slug>.png`) y actualiza `products.img` con la URL pública. Idempotente:
+los productos cuyo `img` ya es una URL `http` se saltan. Desde el panel admin
+también se pueden subir imágenes nuevas (botón "Subir imagen a Storage" en el
+formulario de producto).
 
 ## 6. Flujo de publicación (estrategia build-time)
 

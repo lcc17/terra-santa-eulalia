@@ -49,8 +49,10 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: sftp
-          port: 22
+          # "sftp" no es un valor válido para esta action (rompía todos los
+          # deploys); IONOS soporta FTPS explícito en el puerto 21
+          protocol: ftps
+          port: 21
           local-dir: ./out/
           server-dir: ./
           log-level: verbose
