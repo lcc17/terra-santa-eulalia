@@ -55,9 +55,17 @@ Detalle en `skills/roadmap-fases.md`. **Código completado y build verificado (4
 - [x] Netlify sin env de Supabase (por eso /admin decía "sin configurar") → `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_ANON_KEY` (publishable, pública por diseño) añadidas a `netlify.toml`
 - [x] Fase 1B commiteada (511c5a9) + merge a `main` + push → deploys en marcha
 
+### Resolución deploys (2026-07-07)
+
+- [x] Netlify: /admin funciona y el catálogo sirve las 20 imágenes desde Storage
+- [x] IONOS: causa raíz final = el host exige SFTP y FTP-Deploy-Action no lo soporta.
+      Cadena de errores: `protocol: sftp` inválido → FTPS `500 AUTH unrecognized` →
+      FTP plano `421 FTP has been disabled` → **cambio a wlixcc/SFTP-Deploy-Action
+      (puerto 22, sftp_only) → run #20 SUCCESS** (primer deploy exitoso en 20 runs)
+- [x] terrasantaeulalia.com actualizado: contenido nuevo + admin + imágenes Storage (verificado por HTTP)
+
 ### Pendiente
 
-- [ ] Verificar resultado del run #18 de IONOS (si FTPS falla, revisar FTP_SERVER/credenciales en el panel de IONOS)
-- [ ] Verificar /admin en Netlify tras el rebuild
-- [ ] Decidir hosting canónico: dominio terrasantaeulalia.com apunta a IONOS (contenido viejo); considerar apuntarlo a Netlify o arreglar definitivamente el FTP
+- [ ] **HTTPS roto en terrasantaeulalia.com** (`tlsv1 alert internal error`, pre-existente):
+      activar/renovar el certificado SSL en el panel de IONOS — el sitio solo responde por HTTP
 - [ ] EmailJS: decidir si se activa envío por email en /contact (hoy va por WhatsApp; no hay credenciales EmailJS en el código)
